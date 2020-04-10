@@ -1,0 +1,35 @@
+#storepoint-container #storepoint-search #storepoint-searchbar {
+  padding: 10px 21px 10px 10px !important;
+}
+
+#storepoint-container #storepoint-search-bar-container #storepoint-clear-search {
+  right: 0 !important;
+}
+
+#storepoint-container #storepoint-search #storepoint-tag-dropdown {
+  width: 130px;
+  word-wrap: normal;
+}
+
+#storepoint-container .storepoint-location .storepoint-contact a.storepoint-sidebar-phone {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block !important;
+}
+
+@media (max-width: 600px) {
+  #storepoint-search-bar-container {
+    width: 100% !important;
+  }
+
+  #storepoint-container #storepoint-search #storepoint-radius-dropdown {
+    width: auto !important;
+    float: none !important;
+    margin: 10px 0 0 !important;
+  }
+
+  #storepoint-container #storepoint-search #storepoint-tag-dropdown {
+    margin: 10px 0 0 10px !important;
+  }
+}
