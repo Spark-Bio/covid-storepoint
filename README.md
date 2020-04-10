@@ -8,7 +8,7 @@ Utilities for generating a CSV file of Covid-19 testing sites in the format requ
 * Install the specified ruby version: ``rbenv install `cat .ruby-version` ``
 * Install `bundler`: `gem install bundler`
 * Install dependencies `bundle install`
-* Obtain Google API key and set in your environment as GOOGLE_API_KEY_COVID
+* Obtain Google API key and set in your environment as `GOOGLE_API_KEY_COVID`
 
 ## Update `data/store_point.csv`
 
