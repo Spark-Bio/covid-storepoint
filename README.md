@@ -16,6 +16,16 @@ Utilities for generating a CSV file of Covid-19 testing sites in the format requ
 
 `bundle exec rake update_storepoint`
 
+### Running locally in irb
+
+```
+12:00:00 (master)$ irb
+irb(main):001:0> load 'lib/test_sites.rb'
+=> true
+irb(main):002:0> TestSites::Listings.new.listings.size
+=> 954
+```
+
 ## Overview
 
 ### Data sources
