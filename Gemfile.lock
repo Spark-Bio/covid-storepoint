@@ -24,7 +24,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multi_json (1.14.1)
-    nokogiri (1.10.8)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.1)
     parser (2.7.1.0)
@@ -43,7 +43,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
     ruby-progressbar (1.10.1)
-    rubyzip (2.2.0)
+    rubyzip (2.3.0)
     simple_xlsx_reader (1.0.4)
       nokogiri
       rubyzip
