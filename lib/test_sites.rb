@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'test_sites/data_file.rb'
-require 'test_sites/geocoder_client.rb'
-require 'test_sites/geocoder_result.rb'
-require 'test_sites/hour_specifier.rb'
-require 'test_sites/hour_parser.rb'
-require 'test_sites/listings.rb'
-require 'test_sites/listing.rb'
-require 'test_sites/store_point.rb'
-require 'test_sites/geocoder_results.rb'
-require 'test_sites/geocoder.rb'
+require 'test_sites/data_file'
+require 'test_sites/geocoder_client'
+require 'test_sites/geocoder_result'
+require 'test_sites/hour_specifier'
+require 'test_sites/hour_parser'
+require 'test_sites/listings'
+require 'test_sites/listing'
+require 'test_sites/store_point'
+require 'test_sites/geocoder_results'
+require 'test_sites/geocoder'
 
 module TestSites
   VERSION = '0.1.0'
