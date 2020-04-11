@@ -36,5 +36,9 @@ module TestSites
     def hours
       raw_data[HOURS_KEY]
     end
+
+    def state_and_name_match?(other)
+      state == other.state && name == other.name
+    end
   end
 end
