@@ -13,6 +13,7 @@ require 'test_sites/listing'
 require 'test_sites/store_point'
 require 'test_sites/geocoder_results'
 require 'test_sites/geocoder'
+require 'test_sites/source_diff'
 
 module TestSites
   VERSION = '0.1.0'

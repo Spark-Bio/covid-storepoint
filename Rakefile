@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+task :diff_sources do
+  load 'lib/test_sites.rb' unless defined?(TestSites)
+  puts "any differences? #{TestSites::SourceDiff.new.list}"
+end
+
 task :geocode do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::Geocoder.new.process

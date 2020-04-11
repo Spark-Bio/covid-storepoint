@@ -17,6 +17,10 @@ module TestSites
       @raw_data = raw_data
     end
 
+    def primary_key
+      [state, name, address].join('|')
+    end
+
     def state
       raw_data[STATE_KEY]
     end
