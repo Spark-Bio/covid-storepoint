@@ -2,6 +2,10 @@
 
 module TestSites
   class DataFile
+    def self.path(data_dir_relative_path)
+      DataFile.new(data_dir_relative_path).to_s
+    end
+
     def initialize(filename)
       @data_file = File.join(data_dir, filename)
     end

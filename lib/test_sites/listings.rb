@@ -6,7 +6,7 @@ require 'json'
 
 module TestSites
   class Listings
-    SOURCE_FILE = DataFile.new('current_source.csv').to_s
+    SOURCE_FILE = DataFile.path('current_source.csv')
     ADDRESS_KEY = 'Testing Site Address'
 
     def listings
@@ -47,7 +47,7 @@ module TestSites
     end
 
     def all_hours
-      source.map {|row| row['Testing Site Hours']}.compact.sort.uniq
+      source.map { |row| row['Testing Site Hours'] }.compact.sort.uniq
     end
   end
 end

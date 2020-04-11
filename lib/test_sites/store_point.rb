@@ -5,7 +5,7 @@ require 'csv'
 module TestSites
   class StorePoint
     HEADERS = 'name,description,address,city,state,postcode,country,phone,website,email,monday,tuesday,wednesday,thursday,friday,saturday,sunday,tags,extra,lat,lng,hours'
-    OUTPUT_FILE = DataFile.new('store_point.csv').to_s
+    OUTPUT_FILE = DataFile.path('store_point.csv')
 
     attr_reader :debug
 

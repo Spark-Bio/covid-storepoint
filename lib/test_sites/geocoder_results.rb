@@ -6,7 +6,7 @@ require 'json'
 
 module TestSites
   class GeocoderResults
-    GEOCODER_RESULTS_FILE = DataFile.new('geocoder_results.json').to_s
+    GEOCODER_RESULTS_FILE = DataFile.path('geocoder_results.json')
 
     def update(new_results)
       updated = raw_results
