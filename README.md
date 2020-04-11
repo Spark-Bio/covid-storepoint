@@ -16,6 +16,10 @@ Utilities for generating a CSV file of Covid-19 testing sites in the format requ
 
 `bundle exec rake update_storepoint`
 
+### Updating dependencies
+
+When pulling the latest from github, if `Gemfile.lock` has been updated, run `bundle update`.
+
 ### Running locally in irb
 
 ```
