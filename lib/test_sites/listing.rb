@@ -9,8 +9,8 @@ module TestSites
 
     EMPTY_HOURS = ((0..6).map { '' }).to_a.freeze
 
-    def initialize(raw, geocoder_result)
-      @raw = Hashie::Mash.new(raw)
+    def initialize(source_entry, geocoder_result)
+      @raw = Hashie::Mash.new(source_entry.raw_data)
       @geocoder_result = geocoder_result
     end
 

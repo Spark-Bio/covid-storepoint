@@ -12,34 +12,28 @@ module TestSites
     end
 
     def geocode
-      puts "*** Geocoding #{non_empty_raw_listings.size} listings"
+      puts "*** Geocoding #{source.size} listings"
 
-      counters = { skipped: 0, successes: 0, exceptions: 0 }
-      non_empty_raw_listings.each_with_object({ successes: {}, exceptions: {} }) do |raw_listing, acc|
-        address = raw_listing['Testing Site Address']
-        next unless address
-
-        if geocoder_results.already_geocoded?(address)
-          counters[:skipped] += 1
+      counters = Struct.new(:skipped, :successes, :exceptions).new(0, 0, 0)
+      source.each_with_object({ successes: {}, exceptions: {} }) do |source_entry, acc|
+        if source_entry.address.nil? ||
+           geocoder_results.already_geocoded?(source_entry.address)
           next
         end
 
         begin
-          puts "geocoding #{address}"
-          acc[:successes][address] = geocode_address(address)
-          counters[:successes] += 1
+          puts "geocoding #{source_entry.address}"
+          acc[:successes][address] = geocode_address(source_entry.address)
+          counters.successes += 1
         rescue StandardError => e
-          puts "*** EXCEPTION for #{address}"
+          puts "*** EXCEPTION for #{source_entry.address}"
           acc[:exceptions][address] = { class: e.class.to_s, message: e.message }
-          counters[:exceptions] += 1
+          counters.excpetions += 1
         end
-
-        puts "*** Successes: #{counters[:successes]}, Exceptions: #{counters[:exceptions]}, Skipped: #{counters[:exceptions]}"
+      end.tap do
+        puts '*** Gecoder Results'
+        puts "    Successes: #{counters.successes}, Exceptions: #{counters.exceptions}, Skipped: #{counters.skipped}"
       end
-    end
-
-    def non_empty_raw_listings
-      listings.source.filter(&:any?)
     end
 
     def geocoder
@@ -50,8 +44,8 @@ module TestSites
       geocoder.search(address)
     end
 
-    def listings
-      @listings ||= TestSites::Listings.new
+    def source
+      @source ||= TestSites::Source.new
     end
 
     def geocoder_results

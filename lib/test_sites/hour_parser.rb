@@ -235,11 +235,11 @@ module TestSites
         puts "Hour specifiers that couldn't be parsed:"
         puts (all_hours - found).map { |spec| "* #{spec}" }.join("\n")
       end
-      puts "parsed #{found.size} out of #{all_hours.size}"
+      puts "Hour specifiers: parsed #{found.size} out of #{all_hours.size}"
     end
 
     def all_hours
-      @all_hourse ||= TestSites::Listings.new.all_hours
+      @all_hours ||= TestSites::Source.new.all_hours
     end
   end
 end
