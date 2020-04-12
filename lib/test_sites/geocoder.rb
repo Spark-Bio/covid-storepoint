@@ -23,11 +23,11 @@ module TestSites
 
         begin
           puts "geocoding #{source_entry.address}"
-          acc[:successes][address] = geocode_address(source_entry.address)
+          acc[:successes][source_entry.address] = geocode_address(source_entry.address)
           counters.successes += 1
         rescue StandardError => e
           puts "*** EXCEPTION for #{source_entry.address}"
-          acc[:exceptions][address] = { class: e.class.to_s, message: e.message }
+          acc[:exceptions][source_entry.address] = { class: e.class.to_s, message: e.message }
           counters.excpetions += 1
         end
       end.tap do
