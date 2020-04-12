@@ -13,11 +13,12 @@ module TestSites
     CURRENT_SOURCE_FILE = DataFile.path('current_source.csv')
     CSV_OPTIONS = { headers: true, skip_blanks: true }.freeze
 
-    attr_reader :source_file
+    attr_reader :source_file, :exclude_ignored
     delegate :each, :size, to: :entries
 
-    def initialize(source_file: CURRENT_SOURCE_FILE)
+    def initialize(source_file: CURRENT_SOURCE_FILE, exclude_ignored: true)
       @source_file = source_file
+      @exclude_ignored = exclude_ignored
     end
 
     def entries_with_geocoding
@@ -58,14 +59,16 @@ module TestSites
 
     def csv
       source_file_ext = File.extname(source_file)
-      case source_file_ext
-      when '.csv'
-        csv_from_csv_file(source_file)
-      when '.xlsx'
-        csv_from_excel_file(source_file)
-      else
-        raise "Unknown file extension #{source_file_ext}"
-      end
+      csv =
+        case source_file_ext
+        when '.csv'
+          csv_from_csv_file(source_file)
+        when '.xlsx'
+          csv_from_excel_file(source_file)
+        else
+          raise "Unknown file extension #{source_file_ext}"
+        end
+      exclude_ignored ? csv.filter { |row| row['Ignore'].blank? } : csv
     end
 
     def csv_from_csv_file(source_file)

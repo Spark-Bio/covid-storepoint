@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'active_support'
+require 'active_support/core_ext/object/blank'
 require 'csv'
 require 'hashie'
 require 'json'
@@ -14,6 +16,7 @@ module TestSites
     HOURS_HEADER = 'Testing Site Hours'
     KEY_ADDRESS_HEADER = 'Key Address'
     KEY_NAME_HEADER = 'Key Name'
+    IGNORED_HEADER = 'Exclude Entry?'
 
     def initialize(raw_data, source)
       @raw_data = raw_data
@@ -38,6 +41,10 @@ module TestSites
 
     def hours
       raw_value(HOURS_HEADER)
+    end
+
+    def exclude?
+      raw_value(HOURS_HEADER).present?
     end
 
     def key_name

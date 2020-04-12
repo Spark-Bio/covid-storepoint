@@ -32,7 +32,7 @@ module TestSites
     end
 
     def source
-      @source ||= Source.new
+      @source ||= Source.new(exclude_ignored: false)
     end
 
     def latest_raw_source
@@ -53,7 +53,7 @@ module TestSites
         puts group.size
         puts group.map { |diff_entry| diff_entry.source_entry.primary_key }.join("\n")
       else
-        puts 'group'
+        puts 'none'
       end
     end
 

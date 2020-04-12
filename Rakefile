@@ -2,7 +2,7 @@
 
 task :diff_sources do
   load 'lib/test_sites.rb' unless defined?(TestSites)
-  puts "any differences? #{TestSites::SourceDiff.new.list}"
+  TestSites::SourceDiff.new.list
 end
 
 task :geocode do
