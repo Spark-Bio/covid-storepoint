@@ -31,3 +31,8 @@ task :update_storepoint do
   TestSites::StorePoint.new.update
   puts "*** Updated #{TestSites::StorePoint::OUTPUT_FILE}"
 end
+
+task :dump_additions do
+  load 'lib/test_sites.rb' unless defined?(TestSites)
+  TestSites::SourceDiff.new.dump_additions
+end

@@ -62,12 +62,14 @@ module TestSites
         csv << ['State', 'Name', 'Current Address', 'Possible Source Address']
         added.map do |added|
           source_entry = added.source_entry
-          source_fields = [source_entry.state, source_entry.name, source_entry.address]
+          source_fields = [source_entry.state, source_entry.name, source_entry.key_address]
+          puts "** SOURCE: #{source_entry.primary_key}"
           if added.possible_matches.empty?
             csv << [*source_fields, '']
           else
             added.possible_matches.each do |possible_match|
-              csv << [*source_fields, possible_match.address]
+              puts "...SOURCE: #{possible_match.primary_key}"
+              csv << [*source_fields, possible_match.key_address]
             end
           end
         end

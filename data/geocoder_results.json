@@ -93306,6 +93306,187 @@
           "street_address"
         ]
       }
+    ],
+    "801 W Maple St, Farmington, NM 8740": [
+      {
+        "address_components": [
+          {
+            "long_name": "801",
+            "short_name": "801",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "West Maple Street",
+            "short_name": "W Maple St",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Farmington",
+            "short_name": "Farmington",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Juan County",
+            "short_name": "San Juan County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "New Mexico",
+            "short_name": "NM",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "87401",
+            "short_name": "87401",
+            "types": [
+              "postal_code"
+            ]
+          },
+          {
+            "long_name": "5630",
+            "short_name": "5630",
+            "types": [
+              "postal_code_suffix"
+            ]
+          }
+        ],
+        "formatted_address": "801 W Maple St, Farmington, NM 87401, USA",
+        "geometry": {
+          "location": {
+            "lat": 36.723828,
+            "lng": -108.2168008
+          },
+          "location_type": "ROOFTOP",
+          "viewport": {
+            "northeast": {
+              "lat": 36.72517698029149,
+              "lng": -108.2154518197085
+            },
+            "southwest": {
+              "lat": 36.72247901970849,
+              "lng": -108.2181497802915
+            }
+          }
+        },
+        "place_id": "ChIJE8pnr1-FO4cRebybXPFoNBw",
+        "plus_code": {
+          "compound_code": "PQFM+G7 Farmington, New Mexico, United States",
+          "global_code": "858HPQFM+G7"
+        },
+        "types": [
+          "establishment",
+          "health",
+          "hospital",
+          "point_of_interest"
+        ]
+      }
+    ],
+    "Harrison, AR": [
+      {
+        "address_components": [
+          {
+            "long_name": "Harrison",
+            "short_name": "Harrison",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "North Harrison Township",
+            "short_name": "North Harrison Township",
+            "types": [
+              "administrative_area_level_3",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Boone County",
+            "short_name": "Boone County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Arkansas",
+            "short_name": "AR",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "72601",
+            "short_name": "72601",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "formatted_address": "Harrison, AR 72601, USA",
+        "geometry": {
+          "bounds": {
+            "northeast": {
+              "lat": 36.277876,
+              "lng": -93.065304
+            },
+            "southwest": {
+              "lat": 36.205615,
+              "lng": -93.159356
+            }
+          },
+          "location": {
+            "lat": 36.2297936,
+            "lng": -93.1076765
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "northeast": {
+              "lat": 36.277876,
+              "lng": -93.065304
+            },
+            "southwest": {
+              "lat": 36.205615,
+              "lng": -93.159356
+            }
+          }
+        },
+        "place_id": "ChIJ09u_w-AqzIcRYmF1Mel1If0",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
     ]
   },
   "exceptions": {

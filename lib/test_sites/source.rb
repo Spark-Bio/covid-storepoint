@@ -5,7 +5,7 @@ require 'active_support/core_ext/object/blank'
 require 'csv'
 require 'hashie'
 require 'json'
-require 'simple_xlsx_reader'
+require 'xsv'
 
 module TestSites
   class Source
@@ -52,7 +52,7 @@ module TestSites
     def entries
       @entries ||=
         csv.map do |csv_row|
-          SourceEntry.new(csv_row)
+          SourceEntry.new(csv_row, self)
         end.reject { |se| se.raw_data.blank? }
     end
 
@@ -77,7 +77,7 @@ module TestSites
     end
 
     def excel_to_csv_string(source_file)
-      SimpleXlsxReader::Document.new(source_file).sheets.last.rows.map(&:to_csv).join
+      Xsv::Workbook.open(source_file).sheets.last.to_a.map(&:to_csv).join
     end
 
     def all_hours

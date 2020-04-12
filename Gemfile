@@ -12,8 +12,8 @@ gem 'hashie', '~> 3.4', '>= 3.4.4'
 gem 'json', '~> 2.3'
 gem 'rake', '~> 13.0', '>= 13.0.1'
 gem 'redis', '~> 4.1', '>= 4.1.3'
-gem 'simple_xlsx_reader', '~> 1.0', '>= 1.0.2'
 gem 'StreetAddress', '~> 1.0', '>= 1.0.6', require: 'street_address'
+gem 'xsv', '~> 0.3.11'
 
 group :development do
   gem 'rubocop'
