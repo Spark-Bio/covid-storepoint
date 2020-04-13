@@ -40,7 +40,7 @@ irb(main):002:0> TestSites::Listings.new.listings.size
 
 The source data comes from [evive](https://www.evive.care/) and a [crowdsourced document](https://docs.google.com/spreadsheets/d/1svnaZ2UG_ryFr8jjqVx7ZVZksBue4EQUJ4dolMDJx70/edit#gid=0) in addition to in-house / manual updates.
 
-`data/current_source.csv` is currently maintained manually, and updated periodically from the two sources above. Data including addresses is manually adjusted so there's currently not a reliable way to map entries in this file back to the source data.
+[`data/current_source.csv`](data/current_source.csv) is currently maintained manually, and updated periodically from the two sources above. Data including addresses is manually adjusted so there's currently not a reliable way to map entries in this file back to the source data.
 
 ### Data Quality Issues
 
