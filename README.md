@@ -12,6 +12,10 @@ Utilities for generating a CSV file of Covid-19 testing sites in the format requ
 * Install dependencies `bundle install`
 * Obtain Google API key and set in your environment as GOOGLE_API_KEY_COVID
 
+### Running tests
+
+`bundle exec rake test`
+
 ### Updating `data/store_point.csv`
 
 `bundle exec rake update_storepoint`
