@@ -36,3 +36,16 @@ task :dump_additions do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::SourceDiff.new.dump_additions
 end
+
+require 'rake/testtask'
+Rake::TestTask.new(:test) do |test|
+  test.libs << 'lib' << 'test'
+  test.pattern = 'test/unit/**/*_test.rb'
+  test.warning = false
+end
+
+Rake::TestTask.new(:integration) do |test|
+  test.libs << 'lib' << 'test'
+  test.pattern = 'test/integration/*_test.rb'
+  test.warning = false
+end
