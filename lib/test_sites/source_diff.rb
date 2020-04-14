@@ -9,11 +9,11 @@ module TestSites
     end
 
     def added
-      available_only_in_first(source, latest_raw_source)
+      available_only_in_first(latest_raw_source, source)
     end
 
     def deleted
-      available_only_in_first(latest_raw_source, source)
+      available_only_in_first(source, latest_raw_source)
     end
 
     DiffEntry = Struct.new(:source_entry, :possible_matches)
