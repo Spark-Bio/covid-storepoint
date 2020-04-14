@@ -2,8 +2,6 @@
 
 module TestSites
   class SourceDiff
-    LATEST_RAW_SOURCE = DataFile.path('raw_sources/COVID 19 Updated.xlsx')
-
     def initialize; end
 
     def differences?
@@ -36,7 +34,14 @@ module TestSites
     end
 
     def latest_raw_source
-      @latest_raw_source ||= Source.new(source_file: LATEST_RAW_SOURCE)
+      @latest_raw_source ||= Source.new(source_file: latest_raw_source_file)
+    end
+
+    # Assume latest source file is the xlsx file in `data/raw_sources` with the largest
+    # number of worksheets
+    def latest_raw_source_file
+      @latest_raw_source_file ||=
+        Dir.glob(DataFile.path('raw_sources/*xlsx')).max_by { |f| Xsv::Workbook.open(f).sheets.size }
     end
 
     def list
