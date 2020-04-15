@@ -54,7 +54,7 @@ module TestSites
       @entries ||=
         csv.map do |csv_row|
           SourceEntry.new(csv_row, self)
-        end.reject { |se| se.raw_data.blank? }
+        end.reject(&:empty?)
     end
 
     def csv

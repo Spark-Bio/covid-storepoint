@@ -5,25 +5,24 @@ require 'street_address'
 
 module TestSites
   class Listing
-    attr_accessor :raw
+    attr_accessor :source_entry
+    attr_reader :geocoder_result
 
     EMPTY_HOURS = ((0..6).map { '' }).to_a.freeze
 
     def initialize(source_entry, geocoder_result)
-      @raw = Hashie::Mash.new(source_entry.raw_data)
+      @source_entry = source_entry
       @geocoder_result = geocoder_result
     end
 
-    def name
-      raw['Testing Site Name']
-    end
+    delegate :name, :phone, :hours, to: :source_entry
 
     def raw_address
-      raw['Testing Site Address']
+      source_entry.address
     end
 
     def description
-      s = raw['Instructions']
+      s = source_entry.instructions
       s&.downcase == 'undefined' ? '' : s
     end
 
@@ -50,12 +49,8 @@ module TestSites
       ''
     end
 
-    def phone
-      raw['Testing Site Phone Number']
-    end
-
     def website
-      raw['URL Source']
+      source_entry.url_source
     end
 
     def email
@@ -91,18 +86,14 @@ module TestSites
     end
 
     def tags
-      raw['Facility Type']&.split('/')&.join(', ')
+      source_entry.facility_type&.split('/')&.join(', ')
     end
 
     def extra
       ''
     end
 
-    attr_reader :geocoder_result
-
-    def hours
-      raw['Testing Site Hours']
-    end
+    private
 
     def hours_array
       @hours_array ||=
@@ -110,10 +101,6 @@ module TestSites
         spec = hour_parser.parse(hours)
         spec&.to_array || EMPTY_HOURS
       end
-    end
-
-    def hour_parser
-      @hour_parser ||= HourParser.new
     end
 
     def street_address_fallback

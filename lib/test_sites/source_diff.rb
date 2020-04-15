@@ -19,6 +19,9 @@ module TestSites
     DiffEntry = Struct.new(:source_entry, :possible_matches)
     def available_only_in_first(first, second)
       first.reject do |first_entry|
+        # Eliminate any entries from the first list for which
+        # there's a corresponding entry with the same key
+        # in the second.
         second.primary_keys.include?(first_entry.primary_key)
       end.map do |source_entry|
         possible_matches =
