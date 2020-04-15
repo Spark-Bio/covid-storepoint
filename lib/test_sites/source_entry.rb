@@ -102,8 +102,8 @@ module TestSites
     end
 
     def key_field(header, field)
-      if raw_data.header?(header)
-        normalize_whitespace(raw_data[header])
+      if @raw_data.header?(header)
+        normalize_whitespace(@raw_data[header])
       else
         field
       end
