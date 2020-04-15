@@ -36,6 +36,11 @@ task :dump_additions do
   TestSites::SourceDiff.new.dump_additions
 end
 
+task :compare_cac do
+  load 'lib/test_sites.rb' unless defined?(TestSites)
+  TestSites::CAC.new.dump_matches
+end
+
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'

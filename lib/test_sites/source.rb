@@ -53,7 +53,7 @@ module TestSites
     def entries
       @entries ||=
         csv.map do |csv_row|
-          SourceEntry.new(csv_row, self)
+          SourceEntry.new(csv_row)
         end.reject(&:empty?)
     end
 
