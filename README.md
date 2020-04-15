@@ -6,11 +6,12 @@ Utilities for generating a CSV file of COVID-19 testing sites in the format requ
 
 ### Setup
 
-* [Install `rbenv`](https://github.com/rbenv/rbenv#installation)
-* Install the specified ruby version: ``rbenv install `cat .ruby-version` ``
-* Install `bundler`: `gem install bundler`
-* Install dependencies `bundle install`
-* Obtain Google API key and set in your environment as GOOGLE_API_KEY_COVID
+1. [Install `rbenv`](https://github.com/rbenv/rbenv#installation)
+2. Upgrade supported ruby versions: `brew upgrade rbenv ruby-build`
+3. Install the specified ruby version: ``rbenv install `cat .ruby-version` ``
+4. Install `bundler`: `gem install bundler`
+5. Install dependencies `bundle install`
+6. Obtain Google API key and set in your environment as GOOGLE_API_KEY_COVID
 
 ### Running tests
 
