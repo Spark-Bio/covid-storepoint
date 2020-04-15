@@ -7,6 +7,8 @@ require 'hashie'
 require 'json'
 
 module TestSites
+  attr_reader :raw_data
+
   class SourceEntry
     STATE_HEADER = 'State'
     NAME_HEADER = 'Testing Site Name'
@@ -21,9 +23,8 @@ module TestSites
     KEY_NAME_HEADER = 'Key Name'
     IGNORED_HEADER = 'Exclude Entry?'
 
-    def initialize(raw_data, source)
+    def initialize(raw_data)
       @raw_data = raw_data
-      @source = source
     end
 
     def primary_key
@@ -91,8 +92,6 @@ module TestSites
     end
 
     private
-
-    attr_reader :raw_data
 
     def raw_value(field)
       normalize_whitespace(raw_data[field])

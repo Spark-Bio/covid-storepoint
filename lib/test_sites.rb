@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
+require 'test_sites/cac'
 require 'test_sites/data_file'
 require 'test_sites/geocoder_client'
 require 'test_sites/geocoder_result'
