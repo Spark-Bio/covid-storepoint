@@ -27,7 +27,6 @@ task :update_storepoint do
   Rake::Task['list_dups'].execute
   Rake::Task['check_hours'].execute
   Rake::Task['geocode'].execute
-  puts "*** Updating #{TestSites::StorePoint::OUTPUT_FILE}..."
   TestSites::StorePoint.new.update
   puts "*** Updated #{TestSites::StorePoint::OUTPUT_FILE}"
 end
