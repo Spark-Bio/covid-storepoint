@@ -42,10 +42,10 @@ module TestSites
 
     BY_APPT_ONLY = /(?<phrase>(;|,|:)?\s*by appointment(\s*only)?\.?(\s*open daily)?(\.|:)?)/i.freeze
 
-    HS_CHECK_WEBSITE = HourSpecifier.new(Array.new(7,  'check website'))
-    HS_CALL = HourSpecifier.new(Array.new(7, 'call for hours'))
-    HS_24_7 = HourSpecifier.new(Array.new(7, '24 hours'))
-    HS_NOT_YET_AVAILABLE = HourSpecifier.new(Array.new(7, 'not yet available'))
+    HS_CHECK_WEBSITE = HourSpecifier.new(*Array.new(7,  'check website'))
+    HS_CALL = HourSpecifier.new(*Array.new(7, 'call for hours'))
+    HS_24_7 = HourSpecifier.new(*Array.new(7, '24 hours'))
+    HS_NOT_YET_AVAILABLE = HourSpecifier.new(*Array.new(7, 'not yet available'))
     HS_BY_APPT_ONLY = HourSpecifier.new(by_appt_only: true)
 
     WHILE_SUPPLIES_LAST = /(?<phrase>\s*(as|while|until)(\s+that site's)?\s+(supplies|(test\s*)?kits|(daily\s*)?limits)\s+(last|run out|have been reached))/i.freeze
@@ -216,7 +216,7 @@ module TestSites
     end
 
     def every_day_specifier(s)
-      HourSpecifier.new(Array.new(7, s))
+      HourSpecifier.new(*Array.new(7, s))
     end
 
     def handle_by_appt_only(s, by_appt_only)
