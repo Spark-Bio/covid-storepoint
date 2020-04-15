@@ -15,7 +15,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: Set up Ruby 2.7.1
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.1
       - name: Bundle install
