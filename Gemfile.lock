@@ -25,7 +25,7 @@ GEM
     multi_json (1.14.1)
     ox (2.13.2)
     parallel (1.19.1)
-    parser (2.7.1.0)
+    parser (2.7.1.1)
       ast (~> 2.4.0)
     power_assert (1.1.7)
     rainbow (3.0.0)
