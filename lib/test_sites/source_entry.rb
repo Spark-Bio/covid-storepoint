@@ -51,7 +51,7 @@ module TestSites
     end
 
     def hours
-      raw_data[HOURS_HEADER]
+      raw_value(HOURS_HEADER)
     end
 
     def instructions
