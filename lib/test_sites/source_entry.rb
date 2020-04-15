@@ -88,13 +88,13 @@ module TestSites
     end
 
     def empty?
-      raw_data.empty?
+      @raw_data.empty?
     end
 
     private
 
     def raw_value(field)
-      normalize_whitespace(raw_data[field])
+      normalize_whitespace(@raw_data[field])
     end
 
     def normalize_whitespace(s)
