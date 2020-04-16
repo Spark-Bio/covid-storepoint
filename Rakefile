@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+task default: :test
+
 task :diff_sources do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::SourceDiff.new.list
