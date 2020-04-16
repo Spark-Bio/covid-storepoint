@@ -34,7 +34,7 @@ module TestSites
     end
 
     def local_data
-      @local_data ||= CSV.read(DataFile.path('store_point.csv'), headers: true)
+      @local_data ||= CSV.read('test/fixtures/store_point.csv', headers: true)
     end
 
     def cac_by_address
