@@ -44,12 +44,6 @@ end
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
-  test.pattern = 'test/unit/**/*_test.rb'
-  test.warning = false
-end
-
-Rake::TestTask.new(:integration) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/integration/*_test.rb'
+  test.pattern = 'test/**/*_test.rb'
   test.warning = false
 end
