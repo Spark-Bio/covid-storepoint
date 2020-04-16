@@ -25,6 +25,7 @@ task :list_dups do
   puts "Duplicate addresses:\n" + (dups.empty? ? 'None' : dups.join("\n"))
 end
 
+desc 'Export source file as Storepoint CSV'
 task :update_storepoint do
   Rake::Task['list_dups'].execute
   Rake::Task['check_hours'].execute
