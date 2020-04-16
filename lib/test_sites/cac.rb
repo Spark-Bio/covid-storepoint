@@ -11,6 +11,20 @@ module TestSites
 
   class CAC
     SEPARATOR = ' - '
+
+    def dump_matches
+      CSV.open(DataFile.path('cac_comparison.csv'),
+               'w',
+               write_headers: true,
+               headers: ['Jaro-Winkler distance', 'ours', 'closest CAC match']) do |csv|
+        closest_matches.each do |match|
+          csv << match
+        end
+      end
+    end
+
+    private
+
     def cac_data
       @cac_data ||= Hashie::Array.new(JSON.parse(cac_raw_data))
     end
@@ -60,17 +74,6 @@ module TestSites
             end
           [JaroWinkler.distance(local_addr, closest), local_addr, closest]
         end.sort_by { |e| -e.first }
-    end
-
-    def dump_matches
-      CSV.open(DataFile.path('cac_comparison.csv'),
-               'w',
-               write_headers: true,
-               headers: ['Jaro-Winkler distance', 'ours', 'closest CAC match']) do |csv|
-        closest_matches.each do |match|
-          csv << match
-        end
-      end
     end
   end
 end
