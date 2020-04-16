@@ -1,10 +1,13 @@
 # frozen_string_literal: true
 
-require 'hashie'
 require 'faraday'
+require 'geodesics'
+require 'hashie'
 require 'jaro_winkler'
 
 module TestSites
+  MILES_PER_METER = (1 / 1609.344)
+
   class NoWarningMash < Hashie::Mash
     disable_warnings
   end
@@ -16,14 +19,12 @@ module TestSites
       CSV.open(DataFile.path('cac_comparison.csv'),
                'w',
                write_headers: true,
-               headers: ['Jaro-Winkler distance', 'ours', 'closest CAC match']) do |csv|
+               headers: ['Jaro-Winkler', 'Geo Distance', 'Ours', 'Closest CAC Match']) do |csv|
         closest_matches.each do |match|
           csv << match
         end
       end
     end
-
-    private
 
     def cac_data
       @cac_data ||= Hashie::Array.new(JSON.parse(cac_raw_data))
@@ -67,13 +68,37 @@ module TestSites
 
     def closest_matches
       closest_matches =
-        local_by_address.keys.map do |local_addr|
-          closest =
-            cac_by_address.keys.max_by do |cac_addr|
-              JaroWinkler.distance local_addr, cac_addr
-            end
-          [JaroWinkler.distance(local_addr, closest), local_addr, closest]
-        end.sort_by { |e| -e.first }
+        local_by_address.map do |local_addr, local_value|
+          cac_same_state = cac_for_state(local_value.state)
+          closest_add_match_cac = cac_same_state.max_by do |cac_addr, _|
+            JaroWinkler.distance local_addr, cac_addr
+          end
+          closet_cac_addr, closest_cac_value = closest_add_match_cac
+          if closet_cac_addr
+            dist = distance_miles(local_value, closest_cac_value)
+            [JaroWinkler.distance(local_addr, closet_cac_addr), dist, local_addr, closet_cac_addr]
+          else
+            ['-', '-', local_addr, '-']
+          end
+        end.sort_by { |e| e.first.is_a?(Float) ? -e.first : 999_999 }
+    end
+
+    def cac_for_state(state)
+      cac_by_address.filter { |_, cac_value| cac_value.location_address_region == state }.to_h
+    end
+
+    def distance_miles(local_value, cac_value)
+      unless cac_value&.location_latitude && cac_value&.location_longitude
+        return 'unknown'
+      end
+
+      distance =
+        Geodesics.distance(
+          local_value.lat.to_f, local_value.lng.to_f,
+          cac_value.location_latitude.to_f, cac_value.location_longitude.to_f
+        ) * MILES_PER_METER
+
+      distance.round(1)
     end
   end
 end
