@@ -6,8 +6,10 @@ class RakeTest < TestSitesTestCase
   Rake.application.load_rakefile
 
   def test_compare_cac
-    Rake.application.invoke_task 'compare_cac'
-    assert_true FileUtils.compare_file('data/cac_comparison.csv', 'test/fixtures/cac_comparison.csv')
+    unless ENV['GITHUB_RUN_ID'] # skip integration test if running on github
+      Rake.application.invoke_task 'compare_cac'
+      assert_true FileUtils.compare_file('data/cac_comparison.csv', 'test/fixtures/cac_comparison.csv')
+    end
   end
 
   def test_update_storepoint
