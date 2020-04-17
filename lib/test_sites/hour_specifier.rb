@@ -4,14 +4,19 @@ require 'active_support'
 require 'active_support/core_ext/object/blank'
 
 module TestSites
+  # Utility class for formatting hours.
   class HourSpecifier
-    attr_accessor :monday, :tuesday, :wednesday, :thursday, :friday, :saturday, :sunday
+    attr_accessor :monday, :tuesday, :wednesday, :thursday, :friday, :saturday,
+                  :sunday
     attr_accessor :while_supplies_last
     attr_accessor :by_appt_only
 
-    DAYS_OF_THE_WEEK = %w[monday tuesday wednesday thursday friday saturday sunday].freeze
+    DAYS_OF_THE_WEEK = %w[monday tuesday wednesday thursday friday saturday
+                          sunday].freeze
 
-    def initialize(monday = '', tuesday = '', wednesday = '', thursday = '', friday = '', saturday = '', sunday = '', by_appt_only: false)
+    # rubocop:disable Metrics/ParameterLists
+    def initialize(monday = '', tuesday = '', wednesday = '', thursday = '',
+                   friday = '', saturday = '', sunday = '', by_appt_only: false)
       @monday = monday
       @tuesday = tuesday
       @wednesday = wednesday
@@ -22,6 +27,7 @@ module TestSites
       @while_supplies_last = false
       @by_appt_only = by_appt_only
     end
+    # rubocop:enable Metrics/ParameterLists
 
     def merge(other_specifier)
       %i[monday tuesday wednesday thursday friday saturday sunday].each do |day|

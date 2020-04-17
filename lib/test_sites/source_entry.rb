@@ -6,9 +6,11 @@ require 'csv'
 require 'hashie'
 require 'json'
 
+# Wrapper for testing-location sites.
 module TestSites
   attr_reader :raw_data
 
+  # Wrapper for a testing-location entry.
   class SourceEntry
     STATE_HEADER = 'State'
     NAME_HEADER = 'Testing Site Name'
@@ -76,7 +78,8 @@ module TestSites
     end
 
     def hash
-      %w[state name facility_type address zip phone hours url_source].map { |method_name| send(method_name) }.hash
+      %w[state name facility_type address zip phone hours url_source]
+        .map { |method_name| send(method_name) }.hash
     end
 
     def ==(other)
@@ -97,8 +100,8 @@ module TestSites
       normalize_whitespace(@raw_data[field])
     end
 
-    def normalize_whitespace(s)
-      s&.strip&.gsub(/\s+/, ' ')
+    def normalize_whitespace(string)
+      string&.strip&.gsub(/\s+/, ' ')
     end
 
     def key_field(header, field)

@@ -3,25 +3,23 @@
 require 'csv'
 
 module TestSites
+  # Utility for formatting location data for Storepoint.
   class StorePoint
-    HEADERS = 'name,description,address,city,state,postcode,country,phone,website,email,monday,tuesday,wednesday,thursday,friday,saturday,sunday,tags,extra,lat,lng,hours'
+    HEADERS = %w[name description address city state postcode country phone
+                 website email monday tuesday wednesday thursday friday saturday
+                 sunday tags extra lat lng hours].freeze
     OUTPUT_FILE = DataFile.path('store_point.csv')
 
     attr_reader :debug
 
-    def update(debug: false)
-      @debug = debug
+    def update
       seen = Set.new
-      CSV.open(OUTPUT_FILE,
-               'w',
-               write_headers: true,
-               headers: HEADERS) do |csv|
+      CSV.open(OUTPUT_FILE, 'w', write_headers: true,
+                                 headers: HEADERS.join(',')) do |csv|
         listings.each do |listing|
           next if seen.member?(listing.raw_address)
 
           seen << listing.raw_address
-          puts "processing #{listing.raw_address}" if debug
-
           csv << headers.map { |header| listing.send(header) }
         end
       end
@@ -30,7 +28,7 @@ module TestSites
     end
 
     def headers
-      @headers ||= HEADERS.split(',')
+      @headers ||= HEADERS
     end
 
     def listings
