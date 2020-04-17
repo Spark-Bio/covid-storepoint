@@ -5,6 +5,7 @@ require 'hashie'
 require 'json'
 
 module TestSites
+  # Wrapper for results from geocoder API.
   class GeocoderResults
     GEOCODER_RESULTS_FILE = DataFile.path('geocoder_results.json')
 
@@ -21,12 +22,14 @@ module TestSites
 
     def dump_error_results
       puts "\n*** Error results: #{error_results.size}\n"
-      puts error_results.sort_by { |_k, v| v.size }.map { |(k, v)| "#{k} - (#{v.size})" }.join("\n")
+      puts error_results.sort_by { |_k, v| v.size }
+                        .map { |(k, v)| "#{k} - (#{v.size})" }.join("\n")
       true
     end
 
     def already_geocoded
-      @already_geocoded = raw_results.successes.keys + raw_results.exceptions.keys
+      @already_geocoded = raw_results.successes.keys +
+                          raw_results.exceptions.keys
     end
 
     # Filter out geocoder results
@@ -44,8 +47,8 @@ module TestSites
     def all_results
       @all_results ||=
         begin
-          raw_results[:successes].each_with_object({}) do |(address, raw_result), acc|
-            acc[address] = raw_result.map { |single_result| GeocoderResult.new(single_result) }
+          raw_results[:successes].each_with_object({}) do |(address, result), h|
+            h[address] = result.map { |a_result| GeocoderResult.new(a_result) }
           end
         end
     end
@@ -71,8 +74,8 @@ module TestSites
       Hashie::Mash.new(JSON.parse(File.read(path)))
     end
 
-    def save_json(f, obj)
-      File.open(f, 'w') do |f|
+    def save_json(file, obj)
+      File.open(file, 'w') do |f|
         f.write(JSON.pretty_generate(obj))
       end
     end

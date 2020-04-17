@@ -5,6 +5,7 @@ require 'geocoder'
 require 'redis'
 
 module TestSites
+  # Wrapper for geocoder API.
   class GeocoderClient
     GOOGLE_API_KEY_COVID = ENV['GOOGLE_API_KEY_COVID']
 
@@ -13,7 +14,7 @@ module TestSites
     end
 
     def gmaps
-      @gmaps ||= gmaps = GoogleMapsService::Client.new(key: GOOGLE_API_KEY_COVID)
+      @gmaps ||= GoogleMapsService::Client.new(key: GOOGLE_API_KEY_COVID)
     end
   end
 end

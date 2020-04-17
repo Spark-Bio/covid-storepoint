@@ -4,6 +4,7 @@ require 'hashie'
 require 'street_address'
 
 module TestSites
+  # Wrapper class for test site locations.
   class Listing
     attr_accessor :source_entry
     attr_reader :geocoder_result
@@ -43,7 +44,8 @@ module TestSites
     end
 
     delegate :street_number, :route, :intersection, :premise, :subpremise,
-             :city, :postcode, :state, :lat, :lng, :formatted_address, to: :geocoder_result
+             :city, :postcode, :state, :lat, :lng, :formatted_address,
+             to: :geocoder_result
 
     def country
       ''
@@ -104,16 +106,13 @@ module TestSites
     end
 
     def street_address_fallback
-      @address_fallback ||=
-        begin
-          if formatted_address
-            implicit_us_address = formatted_address.gsub(/, USA?/, '')
-            address = StreetAddress::US.parse(implicit_us_address)
-            if address&.number && address&.street && address&.street_type
-              "#{address.number} #{address.street} #{address.street_type}"
-            end
-          end || nil
+      if formatted_address
+        implicit_us_address = formatted_address.gsub(/, USA?/, '')
+        address = StreetAddress::US.parse(implicit_us_address)
+        if address&.number && address&.street && address&.street_type
+          "#{address.number} #{address.street} #{address.street_type}"
         end
+      end || nil
     end
 
     def hour_parser

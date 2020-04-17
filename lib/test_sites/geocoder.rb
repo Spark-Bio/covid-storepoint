@@ -5,36 +5,43 @@ require 'hashie'
 require 'json'
 
 module TestSites
+  # Utility class for geocoding location data.
   class Geocoder
     def process
       results = geocode
       geocoder_results.update(results)
     end
 
+    # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     def geocode
       puts "*** Geocoding #{source.size} listings"
 
       counters = Struct.new(:skipped, :successes, :exceptions).new(0, 0, 0)
-      source.each_with_object({ successes: {}, exceptions: {} }) do |source_entry, acc|
-        if source_entry.address.nil? ||
-           geocoder_results.already_geocoded?(source_entry.address)
+      # rubocop:disable Style/MultilineBlockChain
+      source.each_with_object({ successes: {}, exceptions: {} }) do |entry, acc|
+        if entry.address.nil? ||
+           geocoder_results.already_geocoded?(entry.address)
           next
         end
 
         begin
-          puts "geocoding #{source_entry.address}"
-          acc[:successes][source_entry.address] = geocode_address(source_entry.address)
+          puts "geocoding #{entry.address}"
+          acc[:successes][entry.address] = geocode_address(entry.address)
           counters.successes += 1
         rescue StandardError => e
-          puts "*** EXCEPTION for #{source_entry.address}"
-          acc[:exceptions][source_entry.address] = { class: e.class.to_s, message: e.message }
+          puts "*** EXCEPTION for #{entry.address}"
+          acc[:exceptions][entry.address] = { class: e.class.to_s,
+                                              message: e.message }
           counters.excpetions += 1
         end
       end.tap do
         puts '*** Gecoder Results'
-        puts "    Successes: #{counters.successes}, Exceptions: #{counters.exceptions}, Skipped: #{counters.skipped}"
+        puts "    Successes: #{counters.successes}, Exceptions: "\
+             "#{counters.exceptions}, Skipped: #{counters.skipped}"
       end
+      # rubocop:enable Style/MultilineBlockChain
     end
+    # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
     def geocoder
       @geocoder ||= GeocoderClient.new

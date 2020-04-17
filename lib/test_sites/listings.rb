@@ -5,10 +5,12 @@ require 'hashie'
 require 'json'
 
 module TestSites
+  # Wrapper class for a test site location.
   class Listings
     def listings
       source.entries_with_geocoding.map do |source_entry|
-        Listing.new(source_entry, source.geocoder_result_for_source_entry(source_entry))
+        Listing.new(source_entry,
+                    source.geocoder_result_for_source_entry(source_entry))
       end
     end
 
