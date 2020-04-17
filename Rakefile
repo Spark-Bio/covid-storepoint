@@ -12,10 +12,18 @@ task :geocode do
   TestSites::Geocoder.new.process
 end
 
-desc 'Check with the hour listings in the source file all parse crrectly'
+desc 'Check that the hour listings in the source file all parse correctly'
 task :check_hours do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::HourParser.new.check_all
+end
+
+desc 'Check how many of the hour listings obtained from CAC parse correctly'
+task :check_cac_hours do
+  load 'lib/test_sites.rb' unless defined?(TestSites)
+  TestSites::HourParser.new.check_all(
+    hours_to_check: TestSites::CAC.new.all_hours
+  )
 end
 
 desc 'List duplicate addresses in source file'
