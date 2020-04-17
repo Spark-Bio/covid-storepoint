@@ -16,5 +16,9 @@ module TestSites
     def gmaps
       @gmaps ||= GoogleMapsService::Client.new(key: GOOGLE_API_KEY_COVID)
     end
+
+    def gmaps
+      @gmaps ||= GoogleMapsService::Client.new(key: GOOGLE_API_KEY_COVID)
+    end
   end
 end
