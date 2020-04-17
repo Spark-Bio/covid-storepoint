@@ -1,5 +1,7 @@
 # StorePoint COVID-19 Testing Sites
 
+[![Code Climate](https://codeclimate.com/github/Spark-Bio/covid-storepoint.png)](https://codeclimate.com/github/Spark-Bio/covid-storepoint)
+
 Utilities for generating a CSV file of COVID-19 testing sites in the format required by [StorePoint](https://storepoint.co/dashboard/help).
 
 ## Developer Instructions
