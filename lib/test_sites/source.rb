@@ -8,6 +8,7 @@ require 'json'
 require 'xsv'
 
 module TestSites
+  # Wrapper class for Evite locations file.
   class Source
     include Enumerable
     CURRENT_SOURCE_FILE = DataFile.path('current_source.csv')
@@ -51,23 +52,21 @@ module TestSites
     end
 
     def entries
-      @entries ||=
-        csv.map do |csv_row|
-          SourceEntry.new(csv_row)
-        end.reject(&:empty?)
+      @entries ||= csv.map do |csv_row|
+        SourceEntry.new(csv_row)
+      end.reject(&:empty?)
     end
 
     def csv
       source_file_ext = File.extname(source_file)
-      csv =
-        case source_file_ext
-        when '.csv'
-          csv_from_csv_file(source_file)
-        when '.xlsx'
-          csv_from_excel_file(source_file)
-        else
-          raise "Unknown file extension #{source_file_ext}"
-        end
+      csv = case source_file_ext
+            when '.csv'
+              csv_from_csv_file(source_file)
+            when '.xlsx'
+              csv_from_excel_file(source_file)
+            else
+              raise "Unknown file extension #{source_file_ext}"
+            end
       exclude_ignored ? csv.filter { |row| row['Ignore'].blank? } : csv
     end
 
@@ -92,9 +91,9 @@ module TestSites
     end
 
     def check_dup_primary_keys
-      if dup_primary_keys.any?
-        raise "Duplicate primary keys found: #{dup_primary_keys.join("\n")}"
-       end
+      return unless dup_primary_keys.any?
+
+      raise "Duplicate primary keys found: #{dup_primary_keys.join("\n")}"
     end
 
     def geocoder_results

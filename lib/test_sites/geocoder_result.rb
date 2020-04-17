@@ -3,6 +3,7 @@
 require 'json'
 
 module TestSites
+  # Wrapper for results from geocoder API.
   class GeocoderResult
     attr_reader :raw
 
@@ -12,14 +13,15 @@ module TestSites
 
     # test if two GeocoderResults are equal on the fields we care about
     def equal?(other)
-      %i[street_number route intersection premise subpremise city postcode state].each_with_object(true) do |type, acc|
-        acc &&= (send(type) == other.send(type))
+      %i[street_number route intersection premise subpremise city postcode
+         state].each_with_object({}) do |type, acc|
+        acc && (send(type) == other.send(type))
       end
     end
 
     def all_equal?(others)
-      others.each_with_object(true) do |other, acc|
-        acc &&= equal?(other)
+      others.each_with_object({}) do |other, acc|
+        acc && equal?(other)
       end
     end
 
@@ -58,7 +60,8 @@ module TestSites
     def component(type)
       value = address_components[type] || []
       if value.size > 1
-        raise "Multiple #{type} components for #{display_address}: #{value.join(', ')}"
+        raise "Multiple #{type} components for #{display_address}: "\
+              "#{value.join(', ')}"
       end
 
       value.first
