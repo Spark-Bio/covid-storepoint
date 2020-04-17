@@ -29,6 +29,10 @@ module TestSites
       end
     end
 
+    def all_hours
+      cac_data.map { |cac_entry| cac_entry['location_hours_of_operation'] }
+    end
+
     def cac_data
       @cac_data ||= Hashie::Array.new(JSON.parse(cac_raw_data))
     end
@@ -67,24 +71,44 @@ module TestSites
         end
     end
 
-    # rubocop:disable Metrics/MethodLength, Style/MultilineBlockChain
     def closest_matches
-      local_by_address.map do |local_addr, local_value|
-        cac_same_state = cac_for_state(local_value.state)
-        closest_add_match_cac = cac_same_state.max_by do |cac_addr, _|
-          JaroWinkler.distance local_addr, cac_addr
+      matches =
+        local_by_address.map do |local_addr, local_value|
+          closest_match(local_addr, local_value)
         end
-        closet_cac_addr, closest_cac_value = closest_add_match_cac
-        if closet_cac_addr
-          dist = distance_miles(local_value, closest_cac_value)
-          [JaroWinkler.distance(local_addr, closet_cac_addr), dist, local_addr,
-           closet_cac_addr]
-        else
-          ['-', '-', local_addr, '-']
-        end
-      end.sort_by { |e| e.first.is_a?(Float) ? -e.first : 999_999 }
+      matches.sort_by { |e| e.first.is_a?(Float) ? -e.first : 999_999 }
     end
-    # rubocop:enable Metrics/MethodLength, Style/MultilineBlockChain
+
+    # Returns the closest match for a given test site entry, where closeness is
+    # defined in terms of Jaro-Winkler distance between the address strings.
+    def closest_match(local_addr, local_value)
+      closet_cac_addr, closest_cac_value =
+        closest_addr_match_cac(local_value, local_addr)
+      if closet_cac_addr
+        cac_match_summary(
+          local_addr, local_value, closet_cac_addr, closest_cac_value
+        )
+      else
+        ['-', '-', local_addr, '-']
+      end
+    end
+
+    def cac_match_summary(
+      local_addr, local_value, closet_cac_addr, closest_cac_value
+    )
+      [
+        JaroWinkler.distance(local_addr, closet_cac_addr),
+        distance_miles(local_value, closest_cac_value),
+        local_addr,
+        closet_cac_addr
+      ]
+    end
+
+    def closest_addr_match_cac(local_value, local_addr)
+      cac_for_state(local_value.state).max_by do |cac_addr, _|
+        JaroWinkler.distance local_addr, cac_addr
+      end
+    end
 
     def cac_for_state(state)
       cac_by_address.filter do |_, cac_value|
