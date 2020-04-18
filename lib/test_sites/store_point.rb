@@ -12,6 +12,10 @@ module TestSites
 
     attr_reader :debug
 
+    def self.local_data
+      CSV.read('test/fixtures/store_point.csv', headers: true)
+    end
+
     def update
       seen = Set.new
       CSV.open(OUTPUT_FILE, 'w', write_headers: true,
