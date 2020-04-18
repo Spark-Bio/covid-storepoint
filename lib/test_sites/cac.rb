@@ -17,6 +17,14 @@ module TestSites
   class CAC
     SEPARATOR = ' - '
 
+    def self.all_hours
+      CAC.cac_data.map { |cac_entry| cac_entry['location_hours_of_operation'] }
+    end
+
+    def self.cac_data
+      Hashie::Array.new(JSON.parse(CAC.cac_raw_data))
+    end
+
     def self.cac_raw_data
       Faraday.get('https://api.findcovidtesting.com/api/v1/location').body
     end
@@ -33,19 +41,11 @@ module TestSites
       end
     end
 
-    def all_hours
-      cac_data.map { |cac_entry| cac_entry['location_hours_of_operation'] }
-    end
-
     private
-
-    def cac_data
-      @cac_data ||= Hashie::Array.new(JSON.parse(CAC.cac_raw_data))
-    end
 
     def cac_by_address
       @cac_by_address ||=
-        cac_data.each_with_object({}) do |entry_raw, acc|
+        CAC.cac_data.each_with_object({}) do |entry_raw, acc|
           entry = NoWarningMash.new(entry_raw)
           address = [entry.location_address_street,
                      entry.location_address_locality,
