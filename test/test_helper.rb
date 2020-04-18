@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
-require 'test/unit'
-require 'test_sites'
+# Include our application
+$LOAD_PATH.unshift '../lib'
+load 'test_sites.rb' unless defined?(TestSites)
 
-class TestSitesTestCase < Test::Unit::TestCase
+require 'minitest/autorun'
+
+class TestSitesTestCase < Minitest::Test
 end

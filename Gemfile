@@ -23,6 +23,6 @@ group :development do
 end
 
 group :development, :test do
+  gem 'minitest', '~> 5.14'
   gem 'rake', '~> 13.0', '>= 13.0.1'
-  gem 'test-unit', '~> 3.3', '>= 3.3.5'
 end
