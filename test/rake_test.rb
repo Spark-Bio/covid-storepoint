@@ -5,6 +5,12 @@ require 'test_helper'
 class RakeTest < TestSitesTestCase
   Rake.application.load_rakefile
 
+  def test_check_cac_hours
+    return if ENV['GITHUB_RUN_ID'] # skip integration test if running on github
+
+    Rake.application.invoke_task 'check_cac_hours'
+  end
+
   def test_compare_cac
     return if ENV['GITHUB_RUN_ID'] # skip integration test if running on github
 
