@@ -36,6 +36,14 @@ class CACLocation
        location_place_of_service_type location_specific_testing_criteria
        location_status raw_data record_id reference_publisher_of_criteria
        updated_on].freeze
+  CAC_TO_STOREPOINT_MAPPING = {
+    location_name: :name, nil => :extra, location_address_street: :address,
+    location_address_locality: :city, location_address_region: :state,
+    location_address_postal_code: :postcode,
+    location_contact_phone_covid: :phone, location_contact_url_main: :website,
+    location_latitude: :lat, location_longitude: :lng,
+    location_hours_of_operation: :hours
+  }.freeze
 
   attr_accessor(*ATTRIBUTES)
 
@@ -45,8 +53,10 @@ class CACLocation
     end
   end
 
-
   def to_storepoint
-    { address: location_address_street, name: location_name }
+    CAC_TO_STOREPOINT_MAPPING.each_with_object({}) do |fields, h|
+      next if fields[0].nil?
+      h[fields[1]] = send(fields[0])
+    end
   end
 end
