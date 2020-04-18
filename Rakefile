@@ -22,7 +22,7 @@ desc 'Check how many of the hour listings obtained from CAC parse correctly'
 task :check_cac_hours do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::HourParser.new.check_all(
-    hours_to_check: TestSites::CAC.new.all_hours
+    hours_to_check: TestSites::CAC.all_hours
   )
 end
 
