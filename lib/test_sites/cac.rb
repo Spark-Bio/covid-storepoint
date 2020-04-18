@@ -22,11 +22,12 @@ module TestSites
     end
 
     def self.cac_data
-      Hashie::Array.new(JSON.parse(CAC.cac_raw_data))
-    end
-
-    def self.cac_raw_data
-      Faraday.get('https://api.findcovidtesting.com/api/v1/location').body
+      Hashie::Array.new(
+        JSON.parse(
+          Faraday.get('https://api.findcovidtesting.com/api/v1/location')
+            .body
+        )
+      )
     end
 
     def dump_matches
