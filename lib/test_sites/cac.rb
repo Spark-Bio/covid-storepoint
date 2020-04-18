@@ -39,10 +39,6 @@ module TestSites
 
     private
 
-    def local_data
-      @local_data ||= CSV.read('test/fixtures/store_point.csv', headers: true)
-    end
-
     def cac_data
       @cac_data ||= Hashie::Array.new(JSON.parse(CAC.cac_raw_data))
     end
@@ -61,7 +57,7 @@ module TestSites
 
     def local_by_address
       @local_by_address ||=
-        local_data.each_with_object({}) do |entry_raw, acc|
+        StorePoint.local_data.each_with_object({}) do |entry_raw, acc|
           entry = NoWarningMash.new(entry_raw.to_h)
           address = [entry.address,
                      entry.city,
