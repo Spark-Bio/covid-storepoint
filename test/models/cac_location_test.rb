@@ -4,7 +4,7 @@ require 'models'
 require 'test_helper'
 
 class CACLocationTest < TestSitesTestCase
-  CAC_LOCATION_ATTRIBUTES = {
+  ATTRIBUTES = {
     'additional_information_for_patients': '',
     'created_on': 'Fri, 03 Apr 2020 00:17:24 GMT',
     'data_source': 'crowdsource',
@@ -43,7 +43,8 @@ class CACLocationTest < TestSitesTestCase
     'location_longitude': -73.9739642,
     'location_name': 'Tisch Hospital',
     'location_place_of_service_type': 'Hospital',
-    'location_specific_testing_criteria': 'https://coronavirus.health.ny.gov/covid-19-testing#overview',
+    'location_specific_testing_criteria':
+      'https://coronavirus.health.ny.gov/covid-19-testing#overview',
     'location_status': '',
     'raw_data': nil,
     'record_id': 3082,
@@ -76,6 +77,6 @@ class CACLocationTest < TestSitesTestCase
   private
 
   def storepoint_attr
-    @storepoint_attr ||= CACLocation.new(CAC_LOCATION_ATTRIBUTES).to_storepoint
+    @storepoint_attr ||= CACLocation.new(ATTRIBUTES).to_storepoint
   end
 end
