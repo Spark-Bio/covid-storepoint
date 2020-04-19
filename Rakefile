@@ -1,5 +1,13 @@
 # frozen_string_literal: true
 
+require 'logger'
+
+def self.logger
+  @logger = Logger.new(STDOUT)
+  @logger.level = ENV['LOG_LEVEL'].blank? ? Logger::ERROR : ENV['LOG_LEVEL']
+  @logger
+end
+
 task default: :test
 
 task :diff_sources do
@@ -30,7 +38,7 @@ desc 'List duplicate addresses in source file'
 task :list_dups do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   dups = TestSites::Source.new.dup_addresses
-  puts "Duplicate addresses:\n" + (dups.empty? ? 'None' : dups.join("\n"))
+  logger.info dups.join("\n") unless dups.blank?
 end
 
 desc 'Export source file as Storepoint CSV'
@@ -39,7 +47,7 @@ task :update_storepoint do
   Rake::Task['check_hours'].execute
   Rake::Task['geocode'].execute
   TestSites::StorePoint.new.update
-  puts "*** Updated #{TestSites::StorePoint::OUTPUT_FILE}"
+  logger.info "*** Updated #{TestSites::StorePoint::OUTPUT_FILE}"
 end
 
 task :dump_additions do
