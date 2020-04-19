@@ -259,10 +259,12 @@ module TestSites
       found = unique_hours.filter { |d| parse(d) }.compact
       hours_left = unique_hours - found
       if hours_left.any?
-        puts "Hour specifiers that couldn't be parsed:"
-        puts hours_left.map { |spec| "* #{spec}" }.join("\n")
+        TestSites.logger.debug "Hour specifiers that couldn't be parsed:"
+        TestSites.logger.debug hours_left.map { |spec| "* #{spec}" }.join("\n")
       end
-      puts "Hour specifiers: parsed #{found.size} out of #{unique_hours.size}"
+      TestSites.logger
+               .debug
+      "Hour specifiers: parsed #{found.size} out of #{unique_hours.size}"
     end
     # rubocop:enable Metrics/AbcSize
 

@@ -21,9 +21,10 @@ module TestSites
     end
 
     def dump_error_results
-      puts "\n*** Error results: #{error_results.size}\n"
-      puts error_results.sort_by { |_k, v| v.size }
-                        .map { |(k, v)| "#{k} - (#{v.size})" }.join("\n")
+      TestSites.logger.debug "\n*** Error results: #{error_results.size}\n"
+      TestSites.logger.debug error_results.sort_by { |_k, v| v.size }
+                                          .map { |(k, v)| "#{k} - (#{v.size})" }
+                                          .join("\n")
       true
     end
 
