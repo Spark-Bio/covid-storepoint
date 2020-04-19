@@ -9,7 +9,7 @@ require 'test_sites'
 #   location = CACLocation.new(location_name: 'Tisch Hospital',
 #                              location_address_street: '550 First Avenue')
 #   location.to_storepoint
-#     => { address: '550 First Avenue', name: 'Tisch Hospital'}
+#     => { address: '550 First Avenue', name: 'Tisch Hospital'... }
 class CACLocation
   include ActiveModel::Model
 
@@ -45,12 +45,19 @@ class CACLocation
 
   attr_accessor(*ATTRIBUTES)
 
+  # Stub for importing CACLocations from Coders Against Covid's API.
+  # TODO: Refactor when persistence is implemented.
   def self.dump
     TestSites::CAC.cac_data.each_with_object([]) do |json, locations|
       locations << CACLocation.new(json)
     end
   end
 
+  # Returns a hash of attributes suitable for initializing a StorepointLocation.
+  #
+  # @example
+  #   location.to_storepoint
+  #     => { address: '550 First Avenue', name: 'Tisch Hospital'... }
   def to_storepoint
     CAC_TO_STOREPOINT_MAPPING.each_with_object({}) do |fields, h|
       next if fields[0].nil?
