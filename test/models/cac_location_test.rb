@@ -68,7 +68,7 @@ class CACLocationTest < TestSitesTestCase
     CACLocation::CAC_TO_STOREPOINT_MAPPING.each do |key, _value|
       next unless key.nil?
 
-      skip 'Skipping CACLocation# because mapping is pending'
+      skip "Skipping CACLocation##{key} because mapping is pending"
     end
   end
   # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
