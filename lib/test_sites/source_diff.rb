@@ -55,18 +55,19 @@ module TestSites
       print '*** Added: '
       list_group(added)
 
-      puts ''
+      TestSites.logger.debug ''
       print '*** Deleted: '
       list_group(deleted)
     end
 
     def list_group(group)
       if group.any?
-        puts group.size
-        puts group.map { |diff_entry| diff_entry.source_entry.primary_key }
-                  .join("\n")
+        TestSites.logger.debug group.size
+        TestSites.logger.debug group
+          .map { |diff_entry| diff_entry.source_entry.primary_key }
+          .join("\n")
       else
-        puts 'none'
+        TestSites.logger.debug 'none'
       end
     end
 
@@ -78,12 +79,12 @@ module TestSites
           source_entry = added.source_entry
           source_fields = [source_entry.state, source_entry.name,
                            source_entry.key_address]
-          puts "** SOURCE: #{source_entry.primary_key}"
+          TestSites.logger.debug "** SOURCE: #{source_entry.primary_key}"
           if added.possible_matches.empty?
             csv << [*source_fields, '']
           else
             added.possible_matches.each do |possible_match|
-              puts "...SOURCE: #{possible_match.primary_key}"
+              TestSites.logger.debug "...SOURCE: #{possible_match.primary_key}"
               csv << [*source_fields, possible_match.key_address]
             end
           end

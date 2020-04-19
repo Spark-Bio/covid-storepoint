@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
+require 'logger'
 require 'test_sites/cac'
 require 'test_sites/data_file'
 require 'test_sites/geocoder_client'
@@ -16,6 +17,13 @@ require 'test_sites/geocoder_results'
 require 'test_sites/geocoder'
 require 'test_sites/source_diff'
 
+# Namespace for Spark Bio's test sites.
 module TestSites
-  VERSION = '0.1.0'
+  VERSION ||= '0.1.0'
+
+  def self.logger
+    @logger ||= Logger.new(STDOUT)
+    @logger.level = ENV['LOG_LEVEL'].blank? ? Logger::ERROR : ENV['LOG_LEVEL']
+    @logger
+  end
 end
