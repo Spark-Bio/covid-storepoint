@@ -53,6 +53,15 @@ class CACLocation
     end
   end
 
+  # Converts the specified array of CACLocations to an array of
+  # StorepointLocations.
+  #
+  # @param locations [Array] the CACLocations to convert
+  # @return [Array] StorepointLocations
+  def self.to_storepoint(locations)
+    locations.map(&:to_storepoint)
+  end
+
   # Returns a hash of attributes suitable for initializing a StorepointLocation.
   #
   # @return [Hash] this location's attributes in Storepoint format
