@@ -12,8 +12,6 @@ require 'test_sites'
 #     => { address: '550 First Avenue', name: 'Tisch Hospital'}
 class CACLocation
   include ActiveModel::Model
-  include ActiveModel::Serializers::JSON
-  include ActiveModel::Conversion
 
   ATTRIBUTES =
     %i[additional_information_for_patients created_on
