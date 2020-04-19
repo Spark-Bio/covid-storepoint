@@ -56,6 +56,7 @@ class CACLocation
   def to_storepoint
     CAC_TO_STOREPOINT_MAPPING.each_with_object({}) do |fields, h|
       next if fields[0].nil?
+
       h[fields[1]] = send(fields[0])
     end
   end
