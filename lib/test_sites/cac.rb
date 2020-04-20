@@ -29,8 +29,9 @@ module TestSites
       CSV.open(DataFile.path('cac_comparison.csv'),
                'w',
                write_headers: true,
-               headers: ['Jaro-Winkler', 'Geo Distance', 'Ours',
-                         'Closest CAC Match']) do |csv|
+               headers: ['Jaro-Winkler (address)', 'Geo Distance', 'SB - Addr',
+                         'SB - Name', 'Closest CAC Match - Addr',
+                         'Closest CAC Match - Name']) do |csv|
         closest_matches.each do |match|
           csv << match
         end
@@ -56,23 +57,29 @@ module TestSites
         end
     end
 
+    # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     def local_by_address
       @local_by_address ||=
         StorePoint.local_data.each_with_object({}) do |entry_raw, acc|
           entry = NoWarningMash.new(entry_raw.to_h)
+          unless entry.address && entry.city && entry.state && entry.postcode
+            next
+          end
+
           address = [entry.address,
                      entry.city,
                      [entry.state, entry.postcode].join(' ')].join(SEPARATOR)
           acc[address] = entry
         end
     end
+    # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
     def closest_matches
       matches =
         local_by_address.map do |local_addr, local_value|
           closest_match(local_addr, local_value)
-        end
-      matches.sort_by { |e| e.first.is_a?(Float) ? -e.first : 999_999 }
+        end.compact
+      matches.sort_by { |e| e.first.is_a?(Float) ? e.first : -1 }
     end
 
     # Returns the closest match for a given test site entry, where closeness is
@@ -80,13 +87,11 @@ module TestSites
     def closest_match(local_addr, local_value)
       closet_cac_addr, closest_cac_value =
         closest_addr_match_cac(local_value, local_addr)
-      if closet_cac_addr
-        cac_match_summary(
-          local_addr, local_value, closet_cac_addr, closest_cac_value
-        )
-      else
-        ['-', '-', local_addr, '-']
-      end
+      return unless closet_cac_addr
+
+      cac_match_summary(
+        local_addr, local_value, closet_cac_addr, closest_cac_value
+      )
     end
 
     def cac_match_summary(
@@ -96,7 +101,9 @@ module TestSites
         JaroWinkler.distance(local_addr, closet_cac_addr),
         distance_miles(local_value, closest_cac_value),
         local_addr,
-        closet_cac_addr
+        local_value.name,
+        closet_cac_addr,
+        closest_cac_value.location_name
       ]
     end
 
