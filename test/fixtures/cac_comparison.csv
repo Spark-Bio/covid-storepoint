@@ -1,946 +1,946 @@
 Jaro-Winkler,Geo Distance,Ours,Closest CAC Match
-1.0,0.1,2669 N Scenic Dr - Alamogordo - NM - 88310,2669 N Scenic Dr - Alamogordo - NM - 88310
-1.0,0.0,4602 Eastpark Blvd - Madison - WI - 53718,4602 Eastpark Blvd - Madison - WI - 53718
-1.0,0.0,3075 N Reserve St Suite Q - Missoula - MT - 59808,3075 N Reserve St Suite Q - Missoula - MT - 59808
-1.0,0.2,840 Cherokee Trail - Copperhill - TN - 37317,840 Cherokee Trail - Copperhill - TN - 37317
-1.0,0.0,147 Lake St - Newburgh - NY - 12550,147 Lake St - Newburgh - NY - 12550
-1.0,0.0,232 S Woods Mill Rd - Chesterfield - MO - 63017,232 S Woods Mill Rd - Chesterfield - MO - 63017
-1.0,0.0,2500 Hospital Dr - Martinsburg - WV - 25401,2500 Hospital Dr - Martinsburg - WV - 25401
-1.0,0.0,1860 N Church Rd - Liberty - MO - 64068,1860 N Church Rd - Liberty - MO - 64068
-1.0,0.1,444 Cajundome Blvd - Lafayette - LA - 70506,444 Cajundome Blvd - Lafayette - LA - 70506
-1.0,0.1,100 Hospital Dr - Ketchum - ID - 83340,100 Hospital Dr - Ketchum - ID - 83340
-1.0,0.0,2122 N Scottsdale Rd - Scottsdale - AZ - 85257,2122 N Scottsdale Rd - Scottsdale - AZ - 85257
-1.0,0.0,1701 E Thomas Rd - Phoenix - AZ - 85016,1701 E Thomas Rd - Phoenix - AZ - 85016
-1.0,0.0,5920 W McDowell Rd - Phoenix - AZ - 85035,5920 W McDowell Rd - Phoenix - AZ - 85035
-1.0,0.1,3900 Broadway - Everett - WA - 98201,3900 Broadway - Everett - WA - 98201
-1.0,0.0,15 Metropolitan Grove Rd - Gaithersburg - MD - 20878,15 Metropolitan Grove Rd - Gaithersburg - MD - 20878
-1.0,0.0,16520 S Westland Dr - Gaithersburg - MD - 20877,16520 S Westland Dr - Gaithersburg - MD - 20877
-1.0,0.0,2121 Industrial Pkwy - Silver Spring - MD - 20904,2121 Industrial Pkwy - Silver Spring - MD - 20904
-1.0,0.1,12335 Georgia Ave - Silver Spring - MD - 20906,12335 Georgia Ave - Silver Spring - MD - 20906
-1.0,0.1,2131 Industrial Pkwy - Silver Spring - MD - 20904,2131 Industrial Pkwy - Silver Spring - MD - 20904
-1.0,0.0,18589 N 59th Ave - Glendale - AZ - 85308,18589 N 59th Ave - Glendale - AZ - 85308
-1.0,0.0,600 S Dobson Rd - Chandler - AZ - 85224,600 S Dobson Rd - Chandler - AZ - 85224
-1.0,0.0,4150 N 1st St - San Jose - CA - 95134,4150 N 1st St - San Jose - CA - 95134
-1.0,0.0,935 N 1000 W - Tremonton - UT - 84337,935 N 1000 W - Tremonton - UT - 84337
-1.0,0.1,165 N University Ave - Farmington - UT - 84025,165 N University Ave - Farmington - UT - 84025
-1.0,0.0,962 Sage Dr - Cedar City - UT - 84720,962 Sage Dr - Cedar City - UT - 84720
-1.0,0.0,389 S 900 E - Salt Lake City - UT - 84102,389 S 900 E - Salt Lake City - UT - 84102
-1.0,0.0,3845 W 4700 S - Taylorsville - UT - 84129,3845 W 4700 S - Taylorsville - UT - 84129
-1.0,0.1,4300 Rose Dr - Yorba Linda - CA - 92886,4300 Rose Dr - Yorba Linda - CA - 92886
-1.0,0.1,1525 2100 S - Salt Lake City - UT - 84119,1525 2100 S - Salt Lake City - UT - 84119
-1.0,0.0,1280 E Stringham Ave - Salt Lake City - UT - 84106,1280 E Stringham Ave - Salt Lake City - UT - 84106
-1.0,0.1,5126 W Daybreak Pkwy - South Jordan - UT - 84009,5126 W Daybreak Pkwy - South Jordan - UT - 84009
-1.0,0.0,411 Grand Ave - Oakland - CA - 94610,411 Grand Ave - Oakland - CA - 94610
-1.0,0.1,600 Gillmor Way - Park City - UT - 84060,600 Gillmor Way - Park City - UT - 84060
-1.0,0.0,1743 Redstone Center Dr - Park City - UT - 84098,1743 Redstone Center Dr - Park City - UT - 84098
-1.0,0.0,2920 Telegraph Ave - Berkeley - CA - 94705,2920 Telegraph Ave - Berkeley - CA - 94705
-1.0,0.1,762 W 400 S - Springville - UT - 84663,762 W 400 S - Springville - UT - 84663
-1.0,0.0,28270 Huntwood Ave - Hayward - CA - 94544,28270 Huntwood Ave - Hayward - CA - 94544
-1.0,0.0,7495 W 29th Ave - Wheat Ridge - CO - 80033,7495 W 29th Ave - Wheat Ridge - CO - 80033
-1.0,0.0,777 Bannock St - Denver - CO - 80204,777 Bannock St - Denver - CO - 80204
-1.0,0.0,2400 N Washington Blvd - North Ogden - UT - 84414,2400 N Washington Blvd - North Ogden - UT - 84414
-1.0,0.0,8431 Fredericksburg Rd - San Antonio - TX - 78229,8431 Fredericksburg Rd - San Antonio - TX - 78229
-1.0,0.0,10680 Del Mar Pkwy - Aurora - CO - 80010,10680 Del Mar Pkwy - Aurora - CO - 80010
-1.0,0.0,2500 Victory Ave - Dallas - TX - 75219,2500 Victory Ave - Dallas - TX - 75219
-1.0,0.0,1415 California St - Houston - TX - 77006,1415 California St - Houston - TX - 77006
-1.0,0.0,3811 Lyons Ave - Houston - TX - 77020,3811 Lyons Ave - Houston - TX - 77020
-1.0,0.0,6441 High Star Dr - Houston - TX - 77074,6441 High Star Dr - Houston - TX - 77074
-1.0,0.0,450 N 11th St - Beaumont - TX - 77702,450 N 11th St - Beaumont - TX - 77702
-1.0,0.0,1601 Trinity St - Austin - TX - 78701,1601 Trinity St - Austin - TX - 78701
-1.0,0.0,425 University Blvd - Round Rock - TX - 78665,425 University Blvd - Round Rock - TX - 78665
-1.0,0.1,266 Joule St - Alcoa - TN - 37701,266 Joule St - Alcoa - TN - 37701
-1.0,0.1,342 Frey St - Ashland City - TN - 37015,342 Frey St - Ashland City - TN - 37015
-1.0,0.1,951 N Broad St - Tazewell - TN - 37879,951 N Broad St - Tazewell - TN - 37879
-1.0,0.0,169 Westmoreland St - Harrogate - TN - 37752,169 Westmoreland St - Harrogate - TN - 37752
-1.0,0.7,9800 International Dr - Orlando - FL - 32819,9800 International Dr - Orlando - FL - 32819
-1.0,0.1,347 Don Shula Dr - Miami Gardens - FL - 33056,347 Don Shula Dr - Miami Gardens - FL - 33056
-1.0,0.0,2104 Dayton Ave - Nashville - TN - 37210,2104 Dayton Ave - Nashville - TN - 37210
-1.0,0.1,1420 Tusculum Blvd - Greeneville - TN - 37745,1420 Tusculum Blvd - Greeneville - TN - 37745
-1.0,0.0,501 Marlins Way - Miami - FL - 33125,501 Marlins Way - Miami - FL - 33125
-1.0,0.1,851 Locust St - Rogersville - TN - 37857,851 Locust St - Rogersville - TN - 37857
-1.0,0.0,2478 Nashville Hwy Suite A - Columbia - TN - 38401,2478 Nashville Hwy Suite A - Columbia - TN - 38401
-1.0,0.0,200 SE Hospital Ave - Stuart - FL - 34994,200 SE Hospital Ave - Stuart - FL - 34994
-1.0,0.0,1940 N Monroe St - Tallahassee - FL - 32303,1940 N Monroe St - Tallahassee - FL - 32303
-1.0,0.0,969 Frayser Blvd - Memphis - TN - 38127,969 Frayser Blvd - Memphis - TN - 38127
-1.0,0.0,2569 Douglass Ave - Memphis - TN - 38114,2569 Douglass Ave - Memphis - TN - 38114
-1.0,0.0,3481 Austin Peay Hwy - Memphis - TN - 38128,3481 Austin Peay Hwy - Memphis - TN - 38128
-1.0,0.0,5366 Mendenhall Mall - Memphis - TN - 38115,5366 Mendenhall Mall - Memphis - TN - 38115
-1.0,0.0,364 S Front St - Memphis - TN - 38103,364 S Front St - Memphis - TN - 38103
-1.0,0.0,2000 Brookside Dr - Kingsport - TN - 37660,2000 Brookside Dr - Kingsport - TN - 37660
-1.0,0.1,2442 Bloomingdale Ave - Valrico - FL - 33596,2442 Bloomingdale Ave - Valrico - FL - 33596
-1.0,0.2,2030 Temple Hill Rd - Erwin - TN - 37650,2030 Temple Hill Rd - Erwin - TN - 37650
-1.0,0.0,2975 Maynardville Hwy - Maynardville - TN - 37807,2975 Maynardville Hwy - Maynardville - TN - 37807
-1.0,0.1,300 Med Tech Pkwy - Johnson City - TN - 37604,300 Med Tech Pkwy - Johnson City - TN - 37604
-1.0,0.0,3200 W De Soto St - Pensacola - FL - 32505,3200 W De Soto St - Pensacola - FL - 32505
-1.0,0.1,2060 Sam Rittenberg Blvd - Charleston - SC - 29407,2060 Sam Rittenberg Blvd - Charleston - SC - 29407
-1.0,0.0,800 W Meeting St - Lancaster - SC - 29720,800 W Meeting St - Lancaster - SC - 29720
-1.0,0.1,1000 Water St - Jacksonville - FL - 32204,1000 Water St - Jacksonville - FL - 32204
-1.0,0.0,597 W 11th St - Panama City - FL - 32401,597 W 11th St - Panama City - FL - 32401
-1.0,0.2,550 Peachtree St NE - Atlanta - GA - 30308,550 Peachtree St NE - Atlanta - GA - 30308
-1.0,0.0,3702 2nd Ave - Columbus - GA - 31904,3702 2nd Ave - Columbus - GA - 31904
-1.0,0.0,7545 Main St - Woodstock - GA - 30188,7545 Main St - Woodstock - GA - 30188
-1.0,4.5,91-2141 Fort Weaver Rd - Ewa Beach - HI - 96706,91-2141 Fort Weaver Rd - Ewa Beach - HI - 96706
-1.0,0.1,1301 Punchbowl St - Honolulu - HI - 96813,1301 Punchbowl St - Honolulu - HI - 96813
-1.0,0.0,1 Jarrett White Rd - Medical Center - HI - 96859,1 Jarrett White Rd - Medical Center - HI - 96859
-1.0,0.0,695 W Boughton Rd - Bolingbrook - IL - 60440,695 W Boughton Rd - Bolingbrook - IL - 60440
-1.0,0.0,259 E Erie St - Chicago - IL - 60611,259 E Erie St - Chicago - IL - 60611
-1.0,1.7,137 W North Ave - Northlake - IL - 60164,137 W North Ave - Northlake - IL - 60164
-1.0,0.1,1775 Dempster Street - Park Ridge - IL - 60068,1775 Dempster Street - Park Ridge - IL - 60068
-1.0,0.1,893 Delaware St - Indianapolis - IN - 46225,893 Delaware St - Indianapolis - IN - 46225
-1.0,0.1,8135 Calumet Ave - Munster - IN - 46321,8135 Calumet Ave - Munster - IN - 46321
-1.0,0.1,340 Southwest Blvd - Kansas City - KS - 66103,340 Southwest Blvd - Kansas City - KS - 66103
-1.0,0.0,528 Delaware Ave - Palmerton - PA - 18071,528 Delaware Ave - Palmerton - PA - 18071
-1.0,0.0,3855 West Chester Pike - Newtown Square - PA - 19073,3855 West Chester Pike - Newtown Square - PA - 19073
-1.0,0.0,124 Daniel Dr - Danville - KY - 40422,124 Daniel Dr - Danville - KY - 40422
-1.0,0.1,3600 Florida Blvd - Baton Rouge - LA - 70806,3600 Florida Blvd - Baton Rouge - LA - 70806
-1.0,0.1,850 Greenfield Rd - Lancaster - PA - 17601,850 Greenfield Rd - Lancaster - PA - 17601
-1.0,0.0,2105 Airline Dr - Bossier City - LA - 71111,2105 Airline Dr - Bossier City - LA - 71111
-1.0,0.0,200 Kennedy Memorial Dr - Waterville - ME - 04901,200 Kennedy Memorial Dr - Waterville - ME - 04901
-1.0,0.0,50 Union St - Ellsworth - ME - 04605,50 Union St - Ellsworth - ME - 04605
-1.0,0.0,200 Memorial Ave - Westminster - MD - 21157,200 Memorial Ave - Westminster - MD - 21157
-1.0,0.0,1200 Old York Rd - Abington - PA - 19001,1200 Old York Rd - Abington - PA - 19001
-1.0,0.1,1800 Orleans St - Baltimore - MD - 21287,1800 Orleans St - Baltimore - MD - 21287
-1.0,0.1,720 Boston Turnpike - Shrewsbury - MA - 01545,720 Boston Turnpike - Shrewsbury - MA - 01545
-1.0,0.1,863 Nazareth Pike - Nazareth - PA - 18064,863 Nazareth Pike - Nazareth - PA - 18064
-1.0,0.2,1 Citizens Bank Way - Philadelphia - PA - 19148,1 Citizens Bank Way - Philadelphia - PA - 19148
-1.0,0.0,4122 Market St - Philadelphia - PA - 19104,4122 Market St - Philadelphia - PA - 19104
-1.0,0.1,147 S Main St - Middleton - MA - 01949,147 S Main St - Middleton - MA - 01949
-1.0,0.1,334 Carlisle Ave - York - PA - 17404,334 Carlisle Ave - York - PA - 17404
-1.0,0.2,100 Ter Heun Dr - Falmouth - MA - 02540,100 Ter Heun Dr - Falmouth - MA - 02540
-1.0,0.0,18101 Oakwood Blvd - Dearborn - MI - 48124,18101 Oakwood Blvd - Dearborn - MI - 48124
-1.0,0.1,380 Parkland Plaza - Ann Arbor - MI - 48103,380 Parkland Plaza - Ann Arbor - MI - 48103
-1.0,0.1,4805 NE Glisan St - Portland - OR - 97213,4805 NE Glisan St - Portland - OR - 97213
-1.0,0.1,1099 S Beacon Blvd - Grand Haven - MI - 49417,1099 S Beacon Blvd - Grand Haven - MI - 49417
-1.0,0.1,3601 W 13 Mile Rd - Royal Oak - MI - 48073,3601 W 13 Mile Rd - Royal Oak - MI - 48073
-1.0,0.2,28050 Grand River Ave - Farmington Hills - MI - 48336,28050 Grand River Ave - Farmington Hills - MI - 48336
-1.0,0.1,44201 Dequindre Rd - Troy - MI - 48085,44201 Dequindre Rd - Troy - MI - 48085
-1.0,0.0,1000 Harrington St - Mt Clemens - MI - 48043,1000 Harrington St - Mt Clemens - MI - 48043
-1.0,0.0,874 Barnes Crossing Rd - Tupelo - MS - 38804,874 Barnes Crossing Rd - Tupelo - MS - 38804
-1.0,0.0,630 W 3rd St - Milan - MO - 63556,630 W 3rd St - Milan - MO - 63556
-1.0,0.1,10010 Kennerly Rd - St. Louis - MO - 63128,10010 Kennerly Rd - St. Louis - MO - 63128
-1.0,0.1,1926 Oak St - Unionville - MO - 63565,1926 Oak St - Unionville - MO - 63565
-1.0,0.1,3801 S National Ave - Springfield - MO - 65807,3801 S National Ave - Springfield - MO - 65807
-1.0,0.6,1600 E Evergreen St - Cameron - MO - 64429,1600 E Evergreen St - Cameron - MO - 64429
-1.0,0.0,5850 Landerbrook Dr - Mayfield Heights - OH - 44124,5850 Landerbrook Dr - Mayfield Heights - OH - 44124
-1.0,1.4,2384 N Memorial Dr - Lancaster - OH - 43130,2384 N Memorial Dr - Lancaster - OH - 43130
-1.0,0.0,1125 Shadow Ln - Las Vegas - NV - 89102,1125 Shadow Ln - Las Vegas - NV - 89102
-1.0,0.0,214 Washington St - Claremont - NH - 03743,214 Washington St - Claremont - NH - 03743
-1.0,0.0,1059 Canal St - Manchester - NH - 03101,1059 Canal St - Manchester - NH - 03101
-1.0,0.2,1 Medical Center Dr - Lebanon - NH - 03766,1 Medical Center Dr - Lebanon - NH - 03766
-1.0,0.0,35 Clayton Rd - Arden - NC - 28704,35 Clayton Rd - Arden - NC - 28704
-1.0,0.6,1000 Morris Ave - Union - NJ - 07083,1000 Morris Ave - Union - NJ - 07083
-1.0,0.0,903 Randolph St - Thomasville - NC - 27360,903 Randolph St - Thomasville - NC - 27360
-1.0,0.0,901 Long Beach Blvd - Ship Bottom - NJ - 08008,901 Long Beach Blvd - Ship Bottom - NJ - 08008
-1.0,0.0,315 Mocksville Ave - Salisbury - NC - 28144,315 Mocksville Ave - Salisbury - NC - 28144
-1.0,0.1,214 Center Grove Rd - Randolph - NJ - 07869,214 Center Grove Rd - Randolph - NJ - 07869
-1.0,0.0,1 Riverview Plaza - Red Bank - NJ - 07701,1 Riverview Plaza - Red Bank - NJ - 07701
-1.0,0.0,116 Garden State Pkwy - Holmdel - NJ - 07733,116 Garden State Pkwy - Holmdel - NJ - 07733
-1.0,0.2,1945 NJ-33 - Neptune City - NJ - 07753,1945 NJ-33 - Neptune City - NJ - 07753
-1.0,2.0,1 Ocean Pkwy - Wantagh - NY - 11793,1 Ocean Pkwy - Wantagh - NY - 11793
-1.0,0.4,530 New Brunswick Ave - Perth Amboy - NJ - 08861,530 New Brunswick Ave - Perth Amboy - NJ - 08861
-1.0,0.2,7600 River Rd - North Bergen - NJ - 07047,7600 River Rd - North Bergen - NJ - 07047
-1.0,0.1,55 Meadowlands Pkwy - Secaucus - NJ - 07094,55 Meadowlands Pkwy - Secaucus - NJ - 07094
-1.0,0.0,556 Passaic Ave - West Caldwell - NJ - 07006,556 Passaic Ave - West Caldwell - NJ - 07006
-1.0,0.2,1 Bay St - Montclair - NJ - 07042,1 Bay St - Montclair - NJ - 07042
-1.0,0.1,250 Old Hook Rd - Westwood - NJ - 07675,250 Old Hook Rd - Westwood - NJ - 07675
-1.0,0.1,30 Prospect Ave - Hackensack - NJ - 07601,30 Prospect Ave - Hackensack - NJ - 07601
-1.0,0.0,300 Wilson St - Clayton - NM - 88415,300 Wilson St - Clayton - NM - 88415
-1.0,0.0,1397 Weimer Rd - Taos - NM - 87571,1397 Weimer Rd - Taos - NM - 87571
-1.0,0.1,4801 Beckner Rd - Santa Fe - NM - 87507,4801 Beckner Rd - Santa Fe - NM - 87507
-1.0,0.0,356 9th St - Cimarron - NM - 87714,356 9th St - Cimarron - NM - 87714
-1.0,0.0,11 Elliott Barker Ln - Angel Fire - NM - 87710,11 Elliott Barker Ln - Angel Fire - NM - 87710
-1.0,0.0,2450 S Telshor Blvd - Las Cruces - NM - 88011,2450 S Telshor Blvd - Las Cruces - NM - 88011
-1.0,0.0,104 Legion Dr - Las Vegas - NM - 87701,104 Legion Dr - Las Vegas - NM - 87701
-0.9961538461538462,0.0,2110 Sunset Blvd Suite M - Los Angeles - CA - 90026,"2110 Sunset Blvd, Suite M - Los Angeles - CA - 90026"
-0.996,0.0,1721 Rio Rancho Blvd SE - Rio Rancho - NM - 87124,1721 Rio Rancho Blvd. SE - Rio Rancho - NM - 87124
-0.996,0.1,1320 Travis Blvd Suite C - Fairfield - CA - 94533,"1320 Travis Blvd, Suite C - Fairfield - CA - 94533"
-0.9959183673469388,0.0,13701 Encantado Rd NE - Albuquerque - NM - 87123,13701 Encantado Rd. NE - Albuquerque - NM - 87123
-0.9958333333333332,0.0,9494 W Northern Ave 101 - Glendale - AZ - 85305,9494 W Northern Ave #101 - Glendale - AZ - 85305
-0.9957446808510638,0.0,5521 Lincoln Hwy 1a - Crown Point - IN - 46307,5521 Lincoln Hwy #1a - Crown Point - IN - 46307
-0.9956521739130435,0.0,6125 W Sahara Ave 1B - Las Vegas - NV - 89146,6125 W Sahara Ave #1B - Las Vegas - NV - 89146
-0.9955555555555555,0.0,449 Kapahulu Ave 104 - Honolulu - HI - 96815,449 Kapahulu Ave #104 - Honolulu - HI - 96815
-0.9953488372093023,0.0,2400 Poplar Ave 501 - Memphis - TN - 38112,2400 Poplar Ave #501 - Memphis - TN - 38112
-0.9952380952380953,0.0,1 Medical Park Blvd - Bristol - TN - 37620,1 Medical Park Blvd - Bristol - TN - 37260
-0.9951219512195122,0.0,1675 Highland Ave - Madison - WI - 53792,1675 Highland Ave. - Madison - WI - 53792
-0.9951219512195122,0.0,400 Keawe St 100 - Honolulu - HI - 96813,400 Keawe St #100 - Honolulu - HI - 96813
-0.995,0.0,600 Highland Ave - Madison - WI - 53792,600 Highland Ave. - Madison - WI - 53792
-0.995,0.1,3249 N 1200 W Ste. A - Lehi - UT - 84043,3249 N 1200 W Ste A - Lehi - UT - 84043
-0.9948717948717949,0.1,520 S Eagle Rd - Meridian - ID - 83642,520 S. Eagle Rd - Meridian - ID - 83642
-0.9946969696969697,0.0,46-021 Kamehameha Hwy - Kaneohe - HI - 96744,46-21 Kamehameha Hwy - Kaneohe - HI - 96744
-0.9945945945945945,0.0,2401 S 31st St - Temple - TX - 76508,2401 S 31st St. - Temple - TX - 76508
-0.9936170212765958,1.4,100 Michigan St NE - Grand Rapids - MI - 49503,1300 Michigan St NE - Grand Rapids - MI - 49503
-0.9925925925925926,0.0,325 N State of Franklin Rd - Johnson City - TN - 37604,325 N State of Franklin Rd - Johnson City - TN - 37614
-0.9916666666666666,0.0,4220 William Penn Hwy - Monroeville - PA - 15146,4220 William Penn way - Monroeville - PA - 15146
-0.9904761904761905,0.0,5 Perryridge Rd - Greenwich - CT - 06830,5 Perryridge Road - Greenwich - CT - 06830
-0.99,0.1,701 Grove Rd - Greenville - SC - 29605,701 Grove Road - Greenville - SC - 29605
-0.99,0.0,1100 N 4th St - Leavenworth - KS - 66048,1100 N 4th St - Leavenworth - KS - 66042
-0.9897435897435898,0.0,215 E Hawaii Ave - Nampa - ID - 83686,215 E. Hawaii Ave. - Nampa - ID - 83686
-0.9891891891891892,0.1,1 Hospital Dr - Columbia - MO - 65201,1 Hospital Dr - Columbia - MO - 65212
-0.988679245283019,0.2,15740 S Outer Forty Rd - Chesterfield - MO - 63017,15740 S. Outer Forty Road - Chesterfield - MO - 63017
-0.9863636363636363,0.0,2400 N Ashland Ave - Chicago - IL - 60614,2400 N Ashland Avenue - Chicago - IL - 60614
-0.9860465116279069,0.2,3250 Meridian Pkwy - Weston - FL - 33331,3250 Meridian Parkway - Weston - FL - 33331
-0.9857142857142858,0.0,1500 Lansdowne Ave - Darby - PA - 19023,1500 Lansdowne Avenue - Darby - PA - 19023
-0.985,0.0,5 Garrett Ave - La Plata - MD - 20646,5 Garrett Avenue - La Plata - MD - 20646
-0.9847435897435898,0.0,577 S River Rd - St. George - UT - 84790,577 S River Rd St - George - UT - 84790
-0.9844804318488528,0.0,1010 Spruce St - Española - NM - 87532,1010 Spruce St - Espa√±ola - NM - 87532
-0.9839181286549707,0.0,10300 SW 216th St - Miami - FL - 33190,10300 SW 216 St - Miami - FL - 33190
-0.9833333333333333,0.1,5140 N California Ave - Chicago - IL - 60625,5140 N. California Avenue - Chicago - IL - 60625
-0.9822222222222222,3.2,700 Halia Nakoa St - Wailuku - HI - 96793,700 Halia Nakoa Street - Wailuku - HI - 96793
-0.9822222222222222,0.1,757 Westwood Plaza - Los Angeles - CA - 90024,757 Westwood Plaza - Los Angeles - CA - 90095
-0.9809523809523809,0.0,12311 Perry Hwy - Wexford - PA - 15090,12311 Perry Highway - Wexford - PA - 15090
-0.9804878048780488,0.0,2805 Overseas Hwy - Marathon - FL - 33050,2805 Overseas HWY - Marathon - FL - 33050
-0.9804878048780488,0.1,6430 Hillcroft Ave - Houston - TX - 77074,6430 Hillcroft Ave - Houston - TX - 77081
-0.9794871794871794,0.0,510 W Tidwell Rd - Houston - TX - 77076,510 W Tidwell Rd - Houston - TX - 77091
-0.9783783783783784,0.2,65 James St - Edison - NJ - 08820,65 James Street - Edison - NJ - 08820
-0.9783783783783784,0.0,16045 1st Ave S - Burien - WA - 98166,16045 1st Ave S - Burien - WA - 98148
-0.9781560283687943,0.0,209 Irish Cemetery Rd - Tazewell - TN - 37879,209 Irish Cemetery Road - Tazewell - TN - 37879
-0.9780998389694041,0.8,289 McClellandtown Rd - Uniontown - PA - 15401,86 McClellandtown Rd - Uniontown - PA - 15401
-0.9773076923076923,0.4,10 Sunnybrook Rd - Raleigh - NC - 27610,111 Sunnybrook Rd - Raleigh - NC - 27610
-0.9771576227390181,3.1,201 King of Prussia Rd - Wayne - PA - 19087,201 King of Prussia Road - Wayne - PA - 19087
-0.9771576227390181,0.1,4201 Winfield Rd - Warrenville - IL - 60555,4201 Winfield Road - Warrenville - IL - 60555
-0.976940133037694,0.5,700 Children's Dr - Columbus - OH - 43205,700 Children's Drive - Columbus - OH - 43215
-0.9766075388026607,0.2,300 Enterprise Dr - Kingston - NY - 12401,300 Enterprise Drive - Kingston - NY - 12401
-0.9766075388026607,0.0,1325 Jefferson Ave - Memphis - TN - 38104,1325 Jefferson Avenue - Memphis - TN - 38104
-0.976046511627907,0.3,2 Essex Center Dr - Peabody - MA - 01960,2 Essex Center Drive - Peabody - MA - 01960
-0.9758241758241758,0.0,31 Physicians Dr - Jackson - TN - 38305,31 Physicians Drive - Jackson - TN - 38351
-0.9740898345153665,0.0,3730 W 4700 S - West Valley City - UT - 84118,3730 W. 4700 S. - West Valley City - UT - 84129
-0.9734299516908212,0.1,4771 S Cleveland Ave - Fort Myers - FL - 33907,4771 S Cleveland Av - Fort Myers - FL - 33907
-0.9733333333333334,0.1,9850 W St Lukes Dr - Nampa - ID - 83687,9850 W. St. Luke’s Drive - Nampa - ID - 83687
-0.972781954887218,0.0,200 Hygeia Dr - Newark - DE - 19713,200 Hygeia Drive - Newark - DE - 19713
-0.9722727272727273,0.2,263 Farmington Ave - Farmington - CT - 06032,263 Farmington Ave - Farmington - CT -  
-0.9720463320463321,0.4,300 Pompton Rd - Wayne - NJ - 07470,300 Pompton Road - Wayne - NJ - 07470
-0.9720463320463321,0.1,9 Mule Rd - Toms River - NJ - 08755,9 Mule Road - Toms River - NJ - 08755
-0.971138938580799,0.1,53 Academy Dr - Westampton - NJ - 08060,53 Academy Drive - Westhampton - NJ - 08060
-0.9703296703296703,0.1,115 Porter Dr - Middlebury - VT - 05753,115 Porter Drive - Middlebury - VT - 05753
-0.9700000000000001,0.0,254-61 Nassau Blvd -  - NY - 11362,254-61 Nassau Blvd - Queens - NY - 11362
-0.9686446886446887,0.1,5917 Belt Line Rd - Dallas - TX - 75254,5917 Belt Line Rd - Dallas - TX -  
-0.9681219681219682,0.1,400 Paramus Rd - Paramus - NJ - 07652,400 Paramus Road - Paramus - NJ - 07652
-0.9676190476190477,0.1,2 Jan Sebastian Dr - Sandwich - MA - 02563,2 Jan Sebastian Drive - Sandwich - MA - 02563
-0.9670995670995671,0.4,3109 Wrightsboro Rd - Augusta - GA - 30909,3109 Wrightsboro Road - Augusta - GA - 30909
-0.9669123669123669,0.0,214 E 23rd St - Cheyenne - WY - 82001,214 E 23rd St - Cheyenne - WY -  
-0.9668514412416851,0.0,1010 Higbee Dr - Bethel Park - PA - 15102,1010 Higbee Drive - Bethel Park - PA - 15102
-0.9666666666666667,0.5,400 W Maple St - Farmington - NM - 87401,801 W Maple St - Farmington - NM - 87401
-0.9666666666666666,0.2,775 Norman Dr - Lebanon - PA - 17042,720 Norman Dr - Lebanon - PA - 17042
-0.966046511627907,0.0,3330 Siskey Pkwy - Matthews - NC - 28105,3330 Siskey Parkway - Matthews - NC - 28105
-0.9659722222222222,0.1,130 Division St - Derby - CT - 06418,130 Division St - Derby - CT -  
-0.9657029478458051,4.2,520 Montgomery Hwy - Vestavia Hills - AL - 35216,1680 Montgomery Hwy - Vestavia Hills - AL - 35216
-0.9652131782945736,0.0,2116 Jackson Blvd - Rapid City - SD - 57702,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.9652014652014652,0.0,525 Long Pond Dr - Harwich - MA - 02645,525 Long Pond Drive - Harwich - MA - 02645
-0.9648148148148148,0.2,1 University Heights - Asheville - NC - 28804,3300 University Heights - Asheville - NC - 28804
-0.9646028767979987,0.0,6451 Village Ln - Macungie - PA - 18062,6451 Village Lane - Macungie - PA - 18062
-0.9640316205533597,0.0,3250 Alpine Rd - Portola Valley - CA - 94028,3250 Alpine Road - Portola Valley - CA - 94028
-0.9639717425431711,0.2,111 Gateway Center Dr - Kernersville - NC - 27284,111 Gateway Center Drive - Kernersville - NC - 27284
-0.963700707785642,0.0,7401 Ogontz Ave - Philadelphia - PA - 19138,7401 Ogontz Avenue - Philadelphia - PA - 19138
-0.9623443223443223,0.0,1030 Main St - Waltham - MA - 02451,1030 Main Street - Waltham - MA - 02451
-0.9621621621621622,0.0,82-68 164th St -  - NY - 11432,82-68 164th St - Jamaica - NY - 11432
-0.9614293817356778,0.0,1080 Stelton Rd - Piscataway - NJ - 08854,1080 Stelton Road - Piscataway - NJ - 08854
-0.961046511627907,0.1,111 Grossman Dr - Braintree - MA - 02184,111 Grossman Drive - Braintree - MA - 02184
-0.9603085261621847,0.1,111 S 11th St - Philadelphia - PA - 19107,115 S 10th St - Philadelphia - PA - 19107
-0.95997425997426,0.0,315 W Main St - Freehold - NJ - 07728,315 W. Main Street - Freehold - NJ - 07728
-0.9598901098901098,0.0,600 Highland Oaks Dr - Winston-Salem - NC - 27103,600 Highland Oaks Drive - Winston-Salem - NC - 27103
-0.9590686274509804,0.1,1 TIAA Bank Field Dr - Jacksonville - FL - 32202,1 TIAA Bank Field Drive - Jacksonville - FL - 32202
-0.9590495449949443,0.0,10 Montgomery Dr - Arkadelphia - AR - 71923,10 Montgomery Drive - Arkadelphia - AR - 71923
-0.9588661832564273,0.0,1400 Jackson St - Denver - CO - 80206,1400 Jackson Street - Denver - CO - 80206
-0.9588661832564273,0.0,933 W Race St - Kingston - TN - 37763,933 W Race Street - Kingston - TN - 37763
-0.9578947368421054,0.1,79-01 Broadway -  - NY - 11373,79-01 Broadway - Elmhurst - NY - 11373
-0.9578319783197832,0.0,800 Spruce St - Philadelphia - PA - 19107,800 Spruce Street - Philadelphia - PA - 19107
-0.9577777777777777,2.2,3635 Market St - Hoover - AL - 35226,3635 Market Street - Hoover - AL - 35226
-0.9577777777777777,0.1,435 Lewis Ave - Meriden - CT - 06451,435 Lewis Avenue - Meridien - CT - 06451
-0.9576719576719576,0.1,4911 Sandhill Dr - Sugar Land - TX - 77479,4907 Sandhill Drive - Sugar Land - TX - 77479
-0.9576326530612245,0.3,1630 Rio Rancho Blvd SE - Rio Rancho - NM - 87124,1721 Rio Rancho Blvd. SE - Rio Rancho - NM - 87124
-0.9570953436807095,0.0,365 Montauk Ave - New London - CT - 06320,365 Montauk Avenue - New London - CT - 06320
-0.9557543231961837,0.0,1300 Crane St - Menlo Park - CA - 94025,1300 Crane Street - Menlo Park - CA - 94025
-0.9557543231961837,0.0,56 Franklin St - Waterbury - CT - 06706,56 Franklin Street - Waterbury - CT - 06706
-0.955448717948718,0.1,1218 Trotwood Ave Bldg C - Columbia - TN - 38401,"1218 Trotwood Avenue, Bldg C - Columbia - TN - 38401"
-0.9554158607350097,0.0,50 Hospital Dr - Hendersonville - NC - 28792,50 Hospital Drive - Hendersonville - NC - 28792
-0.9550613048726257,0.0,5150 Journal Center Blvd NE - Albuquerque - NM - 87109,5150 Journal Center Blvd. SE - Albuquerque - NM - 87109
-0.9546365914786968,0.1,68 Robbins St - Waterbury - CT - 06708,68 Robbins Street - Waterbury - CT - 06708
-0.9527777777777777,0.0,51 N 39th St - Philadelphia - PA - 19104,51 N. 39th Street - Philadelphia - PA - 19104
-0.952562358276644,0.2,50 N Medical Dr - Salt Lake City - UT - 84132,50 N. Medical Drive - Salt Lake City - UT - 84132
-0.9518181818181819,0.1,2804 Birch St - Parkersburg - WV - 26101,2804 Birch Street - Parkersburg - WV - 26101
-0.9515227021040975,0.2,2245 Callaway Rd SW - Marietta - GA - 30008,2245 Callaway Road - Marietta - GA - 30008
-0.9504201680672268,0.5,1 Hospital Plaza - Old Bridge Township - NJ - 08857,1 Hospital Plaza - Old Bridge - NJ - 08857
-0.95,0.0,2741 MacArthur Rd -  - PA - 18052,2741 MacArthur Road - Whitehall - PA - 18052
-0.9497021276595745,0.0,5133 Rivers Ave - North Charleston - SC - 29406,5133 Rivers Avenue - North Charleston - SC - 29406
-0.9496200394033212,0.0,34 Maple St - Norwalk - CT - 06850,34 Maple Street - Norwalk - CT - 06856
-0.9495083863504917,0.0,5501 Herrera Drive - Santa Fe - NM - 87505,5501 Herrera Dr - Santa Fe - NM - 87507
-0.9493734335839599,0.0,2979 Main St - Bridgeport - CT - 06606,2979 Main Street - Bridgeport - CT - 06606
-0.9491087209008736,0.0,3400 Spruce St - Philadelphia - PA - 19103,3400 Spruce Street - Philadelphia - PA - 19104
-0.9488888888888889,0.0,701 E Marshall St - West Chester - PA - 19380,701 E. Marshall Street - West Chester - PA - 19380
-0.9484116658535263,0.3,1120 W State Fair Ave - Detroit - MI - 48203,1120 W State Fair Avenue - Detroit - MI -  
-0.9477939477939478,0.1,800 Hospital Dr - Columbia - MO - 65201,1 Hospital Dr - Columbia - MO - 65212
-0.9473684210526315,0.3,2040 NJ-33 - Neptune City - NJ - 07753,1945 NJ-33 - Neptune City - NJ - 07753
-0.9463937621832358,0.1,800 E Park Blvd - Boise - ID - 83712,720 E. Park Blvd. - Boise - ID - 83712
-0.9463205660208377,0.1,919 Murfreesboro Rd - Franklin - TN - 37064,919 Murfreesboro Road - Franklin - TN -  
-0.9455555555555556,0.0,2400 Unser Blvd SE - Rio Rancho - NM - 87124,2400 Unser Blvd  SE - Rio Rancho - NM - 87124
-0.9453001914446223,0.1,30 Locust St - Northampton - MA - 01060,30 Locust Street - Northampton - MA - 01061
-0.9441860465116279,0.0,1 Plainsboro Rd -  - NJ - 08536,1 Plainsboro Road - Plainsboro - NJ - 08536
-0.9437286655552909,0.0,1127 Bruce B Downs Blvd - Wesley Chapel - FL - 33544,1127 Bruce B Downs Boulevard - Wesley Chapel - FL - 33543
-0.9427922145508795,0.0,1 College Dr - Toms River - NJ - 08753,1 College Drive - Toms River - NJ - 08754
-0.9416017316017317,0.0,714 10th St - Secaucus - NJ - 07094,714 Tenth St - Secaucus - NJ - 07094
-0.9406827880512092,0.1,16942 GA-67 - Statesboro - GA - 30458,16942 GA-67  - Statesboro - GA - 30458
-0.9389610389610389,0.2,105 Pearl St - Essex - VT - 05452,105 Pearl St - Essex Junction - VT - 05452
-0.9389070389070389,0.0,1000 Asylum Ave - Hartford - CT - 06105,1000 Asylum Street - Hartford - CT - 06105
-0.9383526383526384,0.1,727 N Beers St - Holmdel - NJ - 07733,727 North Beers St. - Holmdel - NJ - 07733
-0.9364705882352942,0.0,117 N Chalkville Rd - Trussville - AL - 35173,117 North Chalkville Road - Trussville - AL - 35173
-0.9361739130434783,0.0,19600 Vallco Pkwy 170 - Cupertino - CA - 95014,19600 Vallco Pkwy Ste 170 - Cupertino - CA - 95014
-0.932808005003127,0.1,273 Teaticket Hwy - Falmouth - MA - 02536,273 Teaticket Highway - Falmouth - MA - 02540
-0.9327248140635565,0.0,1679 E Monte Vista Ave 104 - Vacaville - CA - 95688,"1679 E Monte Vista Ave, Suite 104 - Vacaville - CA - 95688"
-0.9326792452830188,0.0,1150 W El Camino Real - Mountain View - CA - 94040,1150 West El Camino Real - Mountain View - CA - 94040
-0.9320325203252032,0.5,125 Michigan Ave NE - Washington - DC - 20017,111 Michigan Ave NW - Washington - DC - 20010
-0.9313159373745483,0.0,989 Governors Ln UNIT 180 - Lexington - KY - 40513,989 Governor's Lane Unit 180 - Lexington - KY - 40513
-0.9311447811447812,0.3,201 Chestnut Hill Rd - Stafford - CT - 06076,201 Chestnut Hill Road - Stafford Springs - CT - 06076
-0.9302277432712216,0.1,3723 W 12600 S 150 - Riverton - UT - 84065,3723 W 12600 S Ste 150 - Riverton - UT - 84065
-0.9300872093023256,0.1,451 Clarkson Ave -  - NY - 11203,451 Clarkson Avenue - New York - NY - 11203
-0.9292857142857143,0.1,4247 W Ridge Rd - Erie - PA - 16506,4247 West Ridge Road - Erie - PA - 16506
-0.9292057535959976,0.2,2424 W Jefferson St - Joliet - IL - 60435,2424 West Jefferson - Joliet - IL - 60435
-0.9288497800125708,0.1,1475 W 49th Pl - Hialeah - FL - 33012,1475 West 49th Place - Hialeah - FL - 33012
-0.928177426438296,0.0,4700 Rice Mine Rd NE - Tuscaloosa - AL - 35406,4700 Rice Mine Road Northeast - Tuscaloosa - AL - 35406
-0.9281560781560781,0.0,15910 Chieftain Ave - Rockville - MD - 20855,15910 Chieftain Ave - Derwood - MD - 20855
-0.9280808080808081,0.0,17512 Dona Michelle Dr 5 - Tampa - FL - 33647,"17512 Dona Michelle Drive, Suite 5 - Tampa - FL - 33647"
-0.9271725826193391,0.1,67-1125 Mamalahoa Hwy - Waimea - HI - 96743,67-1125 Mamalahoa Highway - Waimea - HI -  
-0.9271725826193391,2.7,540 Litchfield St - Torrington - CT - 06790,540 Litchfield Street - Torrington - CT -  
-0.9267886178861788,0.0,98-199 Kamehameha Hwy Bldg F - Aiea - HI - 96701,98-199 Kamehameha hwy - Aiea - HI - 96701
-0.9266618778246685,0.0,1220 Iyannough Rd - Barnstable - MA - 02601,1220 Iyannough Road - Hyannis - MA - 02601
-0.9266153846153846,0.0,16525 Holly Crest Ln 120 - Huntersville - NC - 28078,16525 Holly Crest Lane - Huntersville - NC - 28078
-0.9262187088274044,4.3,757 Boston Post Rd E - Marlboro - MA - 01752,38 Boston Post Rd W - Marlborough - MA - 01752
-0.9260061919504644,0.0,1071 MD-3 101 - Gambrills - MD - 21054,1071 MD-3 - Gambrills - MD - 21054
-0.9259158009841444,0.1,1400 E Bert Kouns Industrial Loop - Shreveport - LA - 71105,1400 East Bert Kouns Industrial Loop - Shreveport - LA - 71105
-0.9243695652173913,1.7,215 Applegarth Rd - Monroe Township - NJ - 08831,298 Applegarth Road - Monroe Township - NJ - 08831
-0.9239987751615659,0.5,55 Lake Ave N. - Worcester - MA - 01604,55 Lake Ave. North - Worcester - MA - 01655
-0.9238945780741447,0.1,150 Sargent Dr - New Haven - CT - 06511,150 Sargent Drive - New Haven - CT -  
-0.9238372093023256,0.0,55 Pacific Ave - SF - CA - 94111,55 Pacific Ave - San Francisco - CA - 94111
-0.9238372093023256,0.0,1998 Market St - SF - CA - 94102,1998 Market St - San Francisco - CA - 94102
-0.923611111111111,0.0,800 Weatherly Dr 201B - Clarksville - TN - 37043,800 Weatherly Dr Suite 201B - Clarksville - TN - 37043
-0.9226190476190477,0.1,4280 N Valdosta Rd - Valdosta - GA - 31602,4280 North Valdosta Road - Valdosta - GA - 31602
-0.9224806201550387,0.2,5201 Harry Hines Blvd - Dallas - TX - 75390,4811 Harry Hines Blvd - Dallas - TX - 75235
-0.9222845804988662,0.0,960 N San Antonio Rd 101 - Los Altos - CA - 94022,960 N. San Antonio Road - Los Altos - CA - 94022
-0.9222764227642276,0.0,280 Home Olu Pl - Kaunakakai - HI - 96748,280 Home Olu Place - Kaunakakai - HI -  
-0.9217595586016639,24.6,555 N Broadway - Jericho - NY - 11753,555 N Broadway - New York - NY - 11753
-0.9215542521994134,0.1,777 Seaview Ave -  - NY - 10305,777 Seaview Ave - Staten Island - NY - 10305
-0.9212037357315808,0.0,500 Cahaba Park Cir 100 - Birmingham - AL - 35242,"500 Cahaba Park Circle, Suite 100 - Birmingham - AL - 35242"
-0.9211284513805521,0.1,1400 Pelham Pkwy S -  - NY - 10461,1400 Pelham Parkway South - New York - NY - 10461
-0.9202014652014652,0.1,940 Oldham Dr - Nolensville - TN - 37135,940 Oldham Drive - Nolensville - TN -  
-0.9198926654740608,0.1,8144 NW Prairie View Rd - KCMO - MO - 64152,8144 NW Prairie View Road - Kansas City - MO - 64151
-0.9194733194733195,0.0,1730 W Chew St - Allentown - PA - 18104,1730 Chew St - Allentown - PA - 18104
-0.9190476190476191,0.0,330 N Eisenhower Dr - Beckley - WV - 25801,330 North Eisenhower Drive - Beckley - WV - 25801
-0.9187549251379038,0.0,254 Ren Mar Dr 100 - Pleasant View - TN - 37146,"254 Ren Mar Dr, Suite 100 - Pleasant View - TN - 37146"
-0.9186813186813187,0.0,4910 Fairfield Rd - Fairfield - PA - 17320,"4910 Fairfield Rd., Suite A - Fairfield - PA - 17320"
-0.918608527131783,0.0,7305 N Military Trl - Riviera Beach - FL - 33410,7305 N Military Trl - West Palm Beach - FL - 33410
-0.9182773109243698,0.1,2518 Mission College Blvd 101 - Santa Clara - CA - 95054,"2518 Mission College Boulevard, Suite 101 - Santa Clara - CA - 95054"
-0.9182405725883988,0.0,321 Middlefield Rd - Menlo Park - CA - 94025,321 Middlefield Rd - Redwood City - CA - 94025
-0.9178269178269178,3.9,2300 S 16th St - Lincoln - NE - 68502,7501 S 27th St - Lincoln - NE - 68512
-0.9157957957957957,0.0,3120 Burnet Ave 406 - Cincinnati - OH - 45229,3120 Burnet Ave - Cincinnati - OH -  
-0.9152409900130265,0.0,2075 University Park Blvd - Layton - UT - 84041,2075 N University Park Blvd - Layton - UT - 84041
-0.915219512195122,0.1,915 N Grand Blvd - St. Louis - MO - 63106,915 North Grand Boulevard - St. Louis - MO - 63106
-0.9147186147186147,0.1,181 Medical Tower Dr - Murray - UT - 84107,181 E Medical Tower Dr - Murray - UT - 84107
-0.9146959459459459,0.1,1000 Main St - Stratford - CT - 06615,1000 Main Street - Stratford - CT -  
-0.9128333333333333,0.4,703 Buena Vista Blvd - The Villages - FL - 32162,703 N Buena Vista Blvd - The Villages - FL - 32162
-0.9124575979001925,0.0,2350 Schillinger Rd S Suite A - Mobile - AL - 36695,2350 Schillinger Road - Mobile - AL - 36695
-0.9110047846889953,0.0,267 Grant St - Bridgeport - CT - 06610,267 Grant Street - Bridgeport - CT -  
-0.9109649122807016,0.0,6030 S 66th E Ave - Tulsa - OK - 74145,6030 South 66th East Avenue - Tulsa - OK - 74145
-0.9103996486605183,0.0,64 Belinda Pkwy 200A - Mt. Juliet - TN - 37122,"64 Belinda Pkwy, Suite 200A - Mount Juliet - TN - 37122"
-0.909974358974359,0.0,2950 S 6th St - Springfield - IL - 62703,2950 South Sixth Street - Springfield - IL - 62703
-0.9095049330514446,0.0,450 Northcrest Dr - Springfield - TN - 37172,450 North Crest Drive - Springfield - TN - 37172
-0.9091575091575091,0.0,211 Quarry Rd 102 - Palo Alto - CA - 94304,"211 Quarry Road,  Suite 102 - Palo Alto - CA - 94304"
-0.908445945945946,0.1,33 Tower St - Somerville - MA - 02143,33 Tower Street - Somerville - MA -  
-0.9082539682539682,0.0,3025 W Cherry Ln B - Meridian - ID - 83642,3025 West Cherry Lane - Meridian - ID - 83642
-0.9080357142857142,0.1,760 Broadway -  - NY - 11206,760 Broadway - Brooklyn - NY -  
-0.9069468267581475,0.1,292 Frantz Rd 102 - Stroudsburg - PA - 18360,"292 Frantz Road, Suite 102 - Stroudsburg - PA - 18360"
-0.9056454289032686,0.5,25 Jack Martin Blvd - Brick Township - NJ - 08724,425 Jack Martin Blvd - Brick - NJ - 08724
-0.9047447447447448,0.0,230 E 10th St - Anniston - AL - 36207,230 East Tenth Street - Anniston - AL - 36207
-0.9026422203841559,0.1,27 S Cooks Bridge Rd Suite 1-5 - Jackson Township - NJ - 08527,27 S Cooksbridge Road Suite 1-5 - Jackson - NJ - 08527
-0.9020965309200604,0.1,10524 Euclid Ave C Building - Cleveland - OH - 44195,10524 Euclid Ave. (W.O. Walker Building) - Cleveland - OH - 44195
-0.9017710309930423,0.0,900 Carillon Pkwy 106 - St. Petersburg - FL - 33716,"900 Carillon Parkway, Suite. 106 - St. Petersburg - FL - 33716"
-0.9012280701754386,0.4,701 U.S. 9 - Lacey Township - NJ - 08731,701 U.S. 9 - Forked River - NJ - 08731
-0.900007265329846,5.5,3362 S 3rd St - Memphis - TN - 38109,364 S Front St - Memphis - TN - 38103
-0.89925108395743,0.0,2360 Hospital Dr 1 - Aliquippa - PA - 15001,"2360 Hospital Drive, Upper Suite 1 - Aliquippa - PA - 15001"
-0.8991043566362715,0.0,5251 W. U.S. Hwy 290 Ste 200 - Austin - TX - 78735,"5251 West, US-290 Ste 200 - Austin - TX - 78735"
-0.8987435328898744,1.1,3301 N Ashland Ave - Chicago - IL - 60657,2400 N Ashland Avenue - Chicago - IL - 60614
-0.8975355054302423,0.1,3098 Campbell Station Pkwy 100 - Spring Hill - TN - 37174,"3098 Campbell Station Parkway, Suite 100 - Spring Hill - TN -  "
-0.8972681704260651,0.2,35 S Sillyman St - Cressona - PA - 17929,35 Sillyman Street - Cressona - PA - 17929
-0.8958333333333333,0.0,13 Medical Campus Dr -  - NC - 28462,13 Medical Campus Drive - Supply (Brunswick County) - NC - 28462
-0.8943452380952381,2.5,3401 SE 10th Ave - Amarillo - TX - 79104,400 SW 14th Ave - Amarillo - TX -  
-0.8936309523809524,0.1,4534 Harding Pike - Nashville - TN - 37205,4534 Harding Pike - Belle Meade - TN -  
-0.8894736842105264,15.9,264 W 118th St - New York - NY - 10026,2925 W 19th St - New York - NY - 11224
-0.8887781954887218,0.1,4088 US-91 - Hyde Park - UT - 84318,4088 N Hwy 91 - Hyde Park - UT - 84318
-0.8887781954887218,0.2,450 IL-22 - Barrington - IL - 60010,450 W Hwy 22 - Barrington - IL - 60010
-0.8862433862433862,1.0,352 Peachtree Pl NW - Atlanta - GA - 30318,550 Peachtree St NE - Atlanta - GA - 30308
-0.8853866467053417,0.1,300 Steam Plant Rd 430 - Gallatin - TN - 37066,"300 Steam Plant Road, Suite 430 - Gallatin - TN -  "
-0.8825396825396825,0.0,2608 8th Ave S 102A - Berry Hill - TN - 37204,"2608 8th Ave S, Suite 102A - Melrose - TN -  "
-0.8784003897355517,0.0,493 Doctor M.L.K. Jr Ave - Memphis - TN - 38126,493 Dr. M L King Jr Avenue - Memphis - TN - 38126
-0.8768624708624709,0.0,1834 W McEwen Dr 110 - Franklin - TN - 37067,"1834 W McEwen Drive, Suite 110 - Franklin - TN -  "
-0.8722222222222221,0.0,8490 Hwy 72 W - Madison - AL - 35758,"8490 Highway 72 West, Suite 100 - Madison - AL - 35758"
-0.8708976833976834,0.0,134 Pewitt Dr 200 - Brentwood - TN - 37027,"134 Pewitt Drive, Suite 200 - Brentwood - TN -  "
-0.8688130686517783,0.0,2125 NJ-88 - Brick Township - NJ - 08724,2125 Route 88 East - Brick - NJ - 08724
-0.868552036199095,0.1,7370 Baker St - Pittsburgh - PA - 15206,7370 Baker St (Pittsburgh Zoo Parking Lot) - Pittsburgh - PA - 15206
-0.8679092567259461,0.0,2536 TN-49 110 - Pleasant View - TN - 37146,"2536 Hwy 49, Suite 110 - Pleasant View - TN - 37146"
-0.8677248677248676,12.7,2451 Grant Ave - Philadelphia - PA - 19114,4122 Market St - Philadelphia - PA - 19104
-0.8663723723723724,0.1,479 County Rd 520 - Marlboro Township - NJ - 07746,479 Route 520 - Marlboro - NJ - 07746
-0.8662093332721515,0.1,7069 Hwy 70 S - Nashville - TN - 37221,7069 Highway 70 S - Bellevue - TN -  
-0.8648286237571952,0.0,127 Anderson St STE 101 - Pittsburgh - PA - 15212,"127 Anderson Street, Suite 101 Timber Court Building - Pittsburgh - PA - 15212"
-0.864577424844016,0.8,2055 Oakdale Rd - Coralville - IA - 52241,2591 Holiday Road - Coralville - IA - 52241
-0.8638461538461538,43.0,500 Lincoln St - Worcester - MA - 01605,500 Lynnfield Street - Lynn - MA - 01904
-0.8636776661884266,1.6,1306 W Stevens St - Carlsbad - NM - 88220,2430 W Pierce St - Carlsbad - NM - 88220
-0.8621826509258893,0.0,1125 Louisiana 30 W - Gonzales - LA - 70737,1125 Hwy. 30 W - Gonzales - LA - 70808
-0.86,17.9,1201 NW 16th St - Miami - FL - 33125,10300 SW 216 St - Miami - FL - 33190
-0.8598617756512493,3.9,1805 27th St - Portsmouth - OH - 45662,18th St - Portsmouth - OH - 45662
-0.8584962406015038,5.4,3905 OK-97 - Sand Springs - OK - 74063,3905 South Highway 97 - Sand Springs - OK - 74063
-0.856791754756871,0.1,1140 NJ-72 - Stafford Township - NJ - 08050,1140 Route 72 West - Manahawkin - NJ - 08050
-0.855391927692068,78.3,1600 Divisadero St - SF - CA - 94115,1600 Exposition Blvd - Sacramento - CA - 95815
-0.8545572074983839,0.2,10101 S 27th St - Franklin - WI - 53132,9969 South 27th St - Franklin - WI - 53132
-0.8530075187969924,0.0,750 Broadway 250 - Fort Wayne - IN - 46802,700 Broadway - Fort Wayne - IN - 46802
-0.8522843726578871,0.1,24 Hospital Ave - Danbury - CT - 06810,"95 Locust Ave, - Danbury - CT - 06810"
-0.8459477124183007,199.2,300 8th St - Estancia - NM - 87016,300 Wilson St - Clayton - NM - 88415
-0.845477774258262,0.4,102 Mason Farm Rd - Chapel Hill - NC - 27514,101 Manning Dr - Chapel Hill - NC - 27514
-0.8444887031474467,2.0,1 Elliot Way - Manchester - NH - 03103,1059 Canal St - Manchester - NH - 03101
-0.8442522389890811,0.2,564 South Ave - New Canaan - CT - 06840,468 South Avenue - New Canaan - CT -  
-0.8439931350114417,0.1,1004 N 14th St - Leesburg - FL - 34748,1103 North 14th Street - Leesburg - FL - 34748
-0.8436423222583177,4.5,1710 S Slappey Blvd - Albany - GA - 31701,1711 E Broad Ave - Albany - GA - 31705-2311
-0.8391210538269362,1.2,2 Dunning St - Claremont - NH - 03743,214 Washington St - Claremont - NH - 03743
-0.838498987756676,50.3,145 W University Pkwy - Orem - UT - 84058,165 N University Ave - Farmington - UT - 84025
-0.836955636955637,6.5,1830 Katyland Dr - Katy - TX - 77493,18500 Katy Frwy. - Houston - TX - 77094
-0.8356259968102074,5.2,800 Carter St - Rochester - NY - 14621,150 Crittenden Blvd - Rochester - NY - 14642
-0.8352092352092352,0.2,100 Dutton St - Bangor - ME - 04401,515 Main St - Bangor - ME - 04401
-0.8348098929494278,2.9,1968 Peachtree Rd NW - Atlanta - GA - 30309,550 Peachtree St NE - Atlanta - GA - 30308
-0.8346265664160402,76.9,2100 Comer Ave - Columbus - GA - 31904,2100 Palmyra Rd - Albany - GA - 31701-1320
-0.8317121789158091,1.8,1 Shircliff Way - Jacksonville - FL - 32204,1000 Water St - Jacksonville - FL - 32204
-0.8312401883830455,2.0,4201 N Dale Mabry Hwy - Tampa - FL - 33607,301 North Dale Mabry Highway - Tampa - FL - 33609
-0.8296476485330974,3.6,4280 N Oracle Rd - Tucson - AZ - 85705,265 W Ina Rd - Tucson - AZ - 85704
-0.8290598290598291,23.7,3322 College Dr - Vineland - NJ - 08360,200 College Dr - Blackwood - NJ - 08012
-0.8288497453310696,33.7,118 Northport Ave - Belfast - ME - 04915,149 North St - Waterville - ME - 04901
-0.8288335847159377,2.5,900 23rd St NW - Washington - DC - 20037,700 2nd St NE - Washington - DC - 20002
-0.8288057040998218,1.9,1400 Teche St - New Orleans - LA - 70114,1419 Basin Street - New Orleans - LA - 70116
-0.8286303544924234,1.3,710 Center St - Columbus - GA - 31901,3702 2nd Ave - Columbus - GA - 31904
-0.8279491255961845,0.8,136 Lake St - Ephrata - PA - 17522,169 Martin Ave - Ephrata - PA - 17522
-0.8279146141215107,9.8,300 Central Ave - East Orange - NJ - 07018,300 North Avenue East - Westfield - NJ -  
-0.8276574931524717,0.5,12 St Paul Dr - Chambersburg - PA - 17201,1000 Norland Ave - Chambersburg - PA - 17201
-0.8275974025974026,0.9,1900 Gravier St - New Orleans - LA - 70112,1419 Basin Street - New Orleans - LA - 70116
-0.8275248083729615,1.8,2240 Iyannough Rd - Barnstable - MA - 02668,1220 Iyannough Road - Hyannis - MA - 02601
-0.8272351380870651,74.8,42 Washington St - Norwell - MA - 02061,40 Wright St - Palmer - MA - 01069
-0.8266769865841074,0.2,462 1st Avenue - New York - NY - 10016,550 First Avenue - New York - NY - 10016
-0.8263775971093044,179.5,200 Ocean 36th St - Marathon - FL - 33050,200 SE Hospital Ave - Stuart - FL - 34994
-0.8261624960405448,3.5,200 N Michigan Ave - Chicago - IL - 60601,2400 N Ashland Avenue - Chicago - IL - 60614
-0.8255823203321152,255.5,1111 S Irving Heights Dr - Irving - TX - 75060,1111 Southeast Military Dr - San Antonio - TX - 78214
-0.8235957284515637,0.1,3401 Civic Center Blvd - Philadelphia - PA - 19104,3400 Spruce Street - Philadelphia - PA - 19104
-0.8233333333333333,148.0,1412 Milstead Ave - Conyers - GA - 30012,1412 W Oakridge Dr - Albany - GA - 31707-5307
-0.823032252300545,169.6,1900 Washington St - Grafton - WI - 53024,1900 South Ave - La Crosse - WI - 54601
-0.8226044055312347,60.9,2102 E Archer Rd - Baytown - TX - 77521,210 Lake Road - Lake Jackson - TX - 77566
-0.8220117155799507,31.6,13755 S Main St - Houston - TX - 77035,136 E Hospital Dr - Angleton - TX - 77515
-0.8217341482047364,0.3,9400 Universal Blvd - Orlando - FL - 32819,9800 International Dr - Orlando - FL - 32819
-0.8196248774837388,46.2,2001 Medical Pkwy - Annapolis - MD - 21401,200 Memorial Ave - Westminster - MD - 21157
-0.8186904761904762,3.9,3280 E Lanark St - Meridian - ID - 83642,3025 West Cherry Lane - Meridian - ID - 83642
-0.8181818181818182,96.2,45 W 111th St - Chicago - IL - 60628,403 E 1st St - Dixon - IL - 61021
-0.8170902734129478,1.1,16251 Sylvester Rd SW - Burien - WA - 98166,140 SW 146th St - Burien - WA - 98166
-0.8163054695562435,0.2,602 Indiana Ave - Lubbock - TX - 79415,4321 4th St - Lubbock - TX - 79415
-0.8161094158674804,2.7,2861 Broad Ave - Memphis - TN - 38112,2569 Douglass Ave - Memphis - TN - 38114
-0.814397103870788,14.6,3258 W 111th St - Chicago - IL - 60655,259 E Erie St - Chicago - IL - 60611
-0.8133333333333334,0.8,1 Medical Center Dr - Morgantown - WV - 26505,1200 JD Anderson Dr - Morgantown - WV - 26505
-0.8112092585776797,21.2,55 Fruit St - Boston - MA - 02114,110 Liberty St - Brockton - MA - 02301
-0.8106204906204906,85.2,300 Main St - Lewiston - ME - 04240,515 Main St - Bangor - ME - 04401
-0.8096320346320347,0.8,355 S Miller Ave - Farmington - NM - 87401,801 W Maple St - Farmington - NM - 87401
-0.8092607196055472,148.4,4014 S Lamar Blvd - Austin - TX - 78704,401 Branard St - Houston - TX - 77006
-0.8089702720735414,7.0,3000 N Fourth St - Flagstaff - AZ - 86004,2446 Fort Tuthill Loop - Flagstaff - AZ - 86004
-0.8079744983277592,2.9,201 E University Pkwy - Baltimore - MD - 21218,22 S Greene St - Baltimore - MD - 21201
-0.8078297595841456,9.5,9709 Bruton Rd - Dallas - TX - 75217,2500 Victory Ave - Dallas - TX - 75219
-0.8077432467873066,1.1,100 E Michigan Ave - Jackson - MI - 49201,110 N Elm Ave - Jackson - MI - 49202
-0.8068421052631579,123.2,1000 State St - McCall - ID - 83638,100 Hospital Dr - Ketchum - ID - 83340
-0.8055435639154418,15.3,11833 Wilmington Ave - Los Angeles - CA - 90059,11301 Wilshire Blvd - Los Angeles - CA - 90073
-0.8044736842105262,17.0,234 E 149th St -  - NY - 10451,2925 W 19th St - Brooklyn - NY - 11224
-0.8042328042328042,6.2,6238 E Pima St - Tucson - AZ - 85712,2800 E Ajo Way - Tucson - AZ - 85713
-0.8035480023852116,29.7,106 Bow St - Elkton - MD - 21921,100 Brown Street - Chestertown - MD - 21620
-0.8033982683982683,1.5,241 N Figueroa St - Los Angeles - CA - 90012,2110 W Sunset Blvd - Los Angeles - CA - 90026
-0.8028315674095725,21.5,34515 9th Ave S - Federal Way - WA - 98003,"325 9th Ave., 2nd Floor - Seattle - WA - 98104"
-0.8027777777777778,210.7,10058 Long Point Rd - Houston - TX - 77055,1000 E Danieldale Rd - Desoto - TX - 75115
-0.8011521554169031,10.2,6812 Harrisburg Blvd - Houston - TX - 77011,6602 Mapleridge St - Houston - TX - 77081
-0.8006012506012506,4.0,5369 S Calle Santa Cruz - Tucson - AZ - 85706,3950 S Country Club Rd - Tucson - AZ - 85714
-0.7995243864136042,2.4,2601 W Ave N - San Angelo - TX - 76909,120 E Beauregard Ave - San Angelo - TX - 76903
-0.7994755244755245,3.3,1901 1st Avenue - New York - NY - 10029,550 First Avenue - New York - NY - 10016
-0.7992417976288944,72.9,302 College St - Lafayette - TN - 37083,300 Pageant Lane - Clarksville - TN - 37040-3854
-0.7984485499698483,104.9,303 S Main St - Bluffton - IN - 46714,703 N Main St - Kouts - IN - 46347
-0.7980364656381487,0.2, - Memphis - TN - 38104,Tiger Ln - Memphis - TN - 38104
-0.7978866567101861,13.0,3201 E Houston St - San Antonio - TX - 78219,323 North Loop 1604 West - San Antonio - TX - 78232
-0.7974450386215092,164.7,1266 GA-515 - Jasper - GA - 30143,126 US-280 - Americus - GA - 31719
-0.7970940170940172,87.1,18 E Laurel Rd - Stratford - NJ - 08084,18 Clark Street - Paterson - NJ -  
-0.7965217391304349,4.9,11890 Healing Way - Silver Spring - MD - 20904,12335 Georgia Ave - Silver Spring - MD - 20906
-0.7963075880758808,121.1,2801 FL-7 - Margate - FL - 33063,2805 Overseas HWY - Marathon - FL - 33050
-0.7961430926948169,1.1,1600 E Broadway - Columbia - MO - 65201,1 Hospital Dr - Columbia - MO - 65212
-0.7956837606837607,113.5,1016 Roosevelt Ave - Grants - NM - 87020,1010 Spruce St - Espa√±ola - NM - 87532
-0.7955828639699607,46.2,120 Craig Rd - Freehold Township - NJ - 07728,1210 Brace Road - Cherry Hill - NJ - 08034
-0.7955828639699607,96.3,101 Chestnut St - Jefferson City - MO - 65101,10010 Kennerly Rd - St. Louis - MO - 63128
-0.7953808555942702,116.1,9205 SW Barnes Rd - Portland - OR - 97225,865 SW Veterans Way - Redmond - OR - 97756
-0.7947262575745548,6.8,7525 Tidwell Rd - Houston - TX - 77016,510 W Tidwell Rd - Houston - TX - 77091
-0.7937973137973138,17.6,27 Park St -  - MA - 02601,273 Teaticket Highway - Falmouth - MA - 02540
-0.7932926829268293,45.1,465 Marin Blvd - Jersey City - NJ - 07302,425 Jack Martin Blvd - Brick - NJ - 08724
-0.7927682074023537,0.0,22 Jefferson St - Hartford - CT - 06106,560 Hudson Street - Hartford - CT - 06105
-0.7926943367786391,189.1,1235 E Cherokee St - Springfield - MO - 65804,12303 DePaul Drive - Bridgeton - MO - 63044
-0.7925925925925926,6.9,2211 Lomas Blvd NE - Albuquerque - NM - 87106,13701 Encantado Rd. NE - Albuquerque - NM - 87123
-0.7924313911611155,118.1,1717 S Calhoun St - Fort Wayne - IN - 46802,1201 South Main Street - Crown Point - IN - 46307
-0.7920814479638009,14.1,2520 Cherry Ave - Bremerton - WA - 98310,325 9th Ave - Seattle - WA - 98104
-0.7911278195488722,144.4,1 Medical Park - Wheeling - WV - 26003,176 Medical Center - Rainelle - WV - 25962
-0.7910774410774412,4.7,7401 Jefferson Ave - Hyattsville - MD - 20785,6401 America Blvd - Hyattsville - MD - 20782
-0.7909281894576011,0.4,Princeton Hightstown Rd & NJ-64 - West Windsor Township - NJ - 08550,64 Princeton-Hightstown Road - West Windsor - NJ - 08550
-0.7905661696178938,224.9,636 Raymond Dr - Naperville - IL - 60563,6 Memorial Drive - Alton - IL - 62002
-0.7899230399230399,0.3,230 E Ridgewood Ave - Paramus - NJ - 07652,327 East Ridgewood Avenue - Paramus - NJ -  
-0.78969133192389,83.4,275 Pine Rd - Newnan - GA - 30263,2395 Thompson Rd - Dawsonville - GA - 30534
-0.7887182382834557,4.2,5504 Menaul Blvd NE - Albuquerque - NM - 87110,5150 Journal Center Blvd. SE - Albuquerque - NM - 87109
-0.7882432432432432,35.3,140 N Sherman Ct - Hazleton - PA - 18201,1730 Chew St - Allentown - PA - 18104
-0.7881288587321964,197.0,1001 W Memorial Dr - Artesia - NM - 88210,104 Legion Dr - Las Vegas - NM - 87701
-0.7846354758119465,0.5,1800 NW Myhre Rd - Silverdale - WA - 98383,10452 Silverdale Way N.W. - Silverdale - WA - 98383
-0.7836766858043455,39.7,100 Hospital Rd - Prince Frederick - MD - 20678,301 Hospital Drive - Glen Burnie - MD - 21061
-0.7835968379446641,2.9,2315 Stockton Blvd - Sacramento - CA - 95817,1600 Exposition Blvd - Sacramento - CA - 95815
-0.783459595959596,71.8,1 Medical Center Dr - Biddeford - ME - 04005,35 Medical Center Parkway - Augusta - ME - 04330
-0.7833204633204632,44.4,825 S 169th St - Omaha - NE - 68118,7501 S 27th St - Lincoln - NE - 68512
-0.7833092833092833,62.6,70 Main St - Norwich - CT - 06360,2979 Main Street - Bridgeport - CT - 06606
-0.7830357142857144,13.8,5841 S Maryland Ave - Chicago - IL - 60637,5140 N. California Avenue - Chicago - IL - 60625
-0.7828658183921341,22.0,2108 E Hill Ave - Valdosta - GA - 31601,260 MJ Taylor Road - Adel - GA - 31620
-0.7826713648108996,165.9,2900 Foxfield Dr - St. Charles - IL - 60174,2950 South Sixth Street - Springfield - IL - 62703
-0.782166782166782,151.9,1901 Redrock Dr - Gallup - NM - 87301,1010 Spruce St - Espa√±ola - NM - 87532
-0.7821516606123509,0.0,2604 Schoenersville Rd - Bethlehem - PA - 18017,2175 Westgate Dr - Bethlehem - PA - 18017
-0.7811593932031274,104.1,1125 Madison St - Jefferson City - MO - 65101,114 North Taylor - St. Louis - MO - 63108
-0.7810371342835709,4.1,1401 Jefferson Hwy - Jefferson - LA - 70121,1541 Kings Hwy - Shreveport - LA - 70112
-0.7806818181818183,100.9,2950 Cleveland Clinic Blvd - Weston - FL - 33331,2776 Cleveland Ave - Fort Myers - FL - 33901
-0.7801529452076129,42.4,1 Cooper Plaza - Camden - NJ - 08103,215 Applegarth Road - Monroe - NJ - 08831
-0.7793416850896585,0.9,18111 Lexington Blvd - Sugar Land - TX - 77479,18717 S. University Blvd. Ste 105 - Sugar Land - TX - 77479
-0.7787899968934452,325.2,1513 W Fir St - Portales - NM - 88130,801 W Maple St - Farmington - NM - 87401
-0.7786828181565024,0.5,22 Bramhall St - Portland - ME - 04102,144 State St - Portland - ME - 04101
-0.7782757892513988,0.6,95 Leonard Ave 203 - Washington - PA - 15301,37 Highland Ave - Washington - PA - 15301
-0.7781554580896687,0.7,99 Matthew Dr - Uniontown - PA - 15401,86 McClellandtown Rd - Uniontown - PA - 15401
-0.7781112817410457,37.3,1210 Provident Dr - Warsaw - IN - 46580,700 Broadway - Fort Wayne - IN - 46802
-0.776984126984127,16.5,215 Lancaster Ave - Malvern - PA - 19355,1500 Lansdowne Avenue - Darby - PA - 19023
-0.7766587782545229,27.5,10251 Central Ave - Upper Marlboro - MD - 20772,15 Metropolitan Grove Rd - Gaithersburg - MD - 20878
-0.7763543003851092,65.6,589 Bedford St - Stamford - CT - 06901,560 Hudson Street - Hartford - CT - 06105
-0.7763532763532762,8.0,501 N Park Ave - Tucson - AZ - 85719,7901 E 22nd St - Tucson - AZ - 85710
-0.7757792207792208,114.0,146 Passion Play Rd - Eureka Springs - AR - 72632,1800 By Pass Rd - Heber Springs - AR - 72543
-0.7757142857142857,14.0,145 Queen St - Bristol - CT - 06010,1000 Asylum Street - Hartford - CT - 06105
-0.7752297752297753,0.3,1812 S J St - Tacoma - WA - 98405,2141 South J Street - Tacoma - WA -  
-0.7751539855072465,16.6,123 W Manchester Blvd - Inglewood - CA - 90301,100 W California Blvd - Pasadena - CA - 91105
-0.7749878028947796,0.7,1650 Cowles St - Fairbanks - AK - 99701,1025 W Barnette St - Fairbanks - AK - 99701
-0.774253169997851,27.1,11567 Canterwood Blvd - Gig Harbor - WA - 98332,11011 Meridian Ave N. - Seattle - WA - 98133
-0.7740845467777199,4.7,401 N Ewing St - Lancaster - OH - 43130,2384 N Memorial Dr - Lancaster - OH - 43130
-0.773968253968254,33.2,601 Concord Ave - Cambridge - MA - 02138,60 Hospital Road - Leominster - MA - 01453
-0.7739156268568034,249.3,11190 Health Park Blvd - Naples - FL - 34110,400 Health Park Blvd - Saint Augustine - FL - 32086
-0.7728034188034187,0.1,1729 Benson Ave - Evanston - IL - 60201,"1704 Maple Ave., Suite 100 - Evanston - IL - 60201"
-0.7725274725274726,7.7,1400 Cambridge St - Cambridge - MA - 02138,1030 Main Street - Waltham - MA - 02451
-0.7719780219780219,2.0,13155 Noel Rd 2000 - Dallas - TX - 75240,5917 Belt Line Rd - Dallas - TX -  
-0.7718083003952568,35.7,19801 Observation Dr - Germantown - MD - 20876,1800 Orleans St - Baltimore - MD - 21287
-0.7717704517704518,185.5,725 S Wahanna Rd - Seaside - OR - 97138,2500 NE Neff Rd - Bend - OR - 97701
-0.7714137214137214,43.6,11111 S 84th St - Papillion - NE - 68046,7501 S 27th St - Lincoln - NE - 68512
-0.7708754208754209,6.3,11760 Baltimore Ave - Beltsville - MD - 20705,6401 America Blvd - Hyattsville - MD - 20782
-0.7707872340425532,82.8,3318 N Northhills Blvd - Fayetteville - AR - 72703,358 East Valley Street - Yellville - AR - 72687
-0.7702900838331754,47.5,100 N Portland Ave -  - NY - 11205,101 Nicolls Road - Stony Brook - NY - 11794
-0.7702380952380953,22.0,9191 S Polk St - Dallas - TX - 75232,5917 Belt Line Rd - Dallas - TX -  
-0.7700080095831473,2.3,1625 N Campbell Ave - Tucson - AZ - 85719,"3838 N Campbell Ave, 3rd Floor, Clinic G - Tucson - AZ - 85719"
-0.7693682124012394,3.6,9601 Baptist Health Dr - Little Rock - AR - 72205,3915 West 8th Street - Little Rock - AR -  
-0.7685485246460856,0.0,E 42nd Ave & Lake Otis Pkwy - Anchorage - AK - 99508,4115 Lake Otis Pkwy - Anchorage - AK - 99508
-0.7683760683760684,87.6,9449 Friars Rd - San Diego - CA - 92108,4300 Rose Dr - Yorba Linda - CA - 92886
-0.768,186.4,1007 Goodyear Ave - Gadsden - AL - 35903,102 Wild Avenue - Evergreen - AL - 36401
-0.7675374497625136,7.8,4900 Frankford Ave - Philadelphia - PA - 19124,4122 Market St - Philadelphia - PA - 19104
-0.7674985145573381,283.7,3122 E Meridian Park Loop - Wasilla - AK - 99654,316 Mission Rd Ste 207 - Kodiak - AK - 99615
-0.7674116424116424,112.7,643 5th St - Fort Sumner - NM - 88119,614 N 13th St - Cloudcroft - NM - 88210
-0.7672619047619047,90.9,251 N 4th St - Oakland - MD - 21550,24 N Walnut St - Hagerstown - MD - 21740
-0.7670370370370371,10.0,2330 S Congress Ave - West Palm Beach - FL - 33406,7305 N Military Trl - West Palm Beach - FL - 33410
-0.7669219367588934,8.2,101 E Olney Ave C5 - Philadelphia - PA - 19120,1930 S. Broad Street - Philadelphia - PA - 19145
-0.7667440002556483,197.6,3440 W Dr Martin Luther King Jr Blvd 100 - Tampa - FL - 33607,347 Don Shula Dr - Miami Gardens - FL - 33056
-0.7665223665223665,87.0,110 E Ridgewood Ave - Paramus - NJ - 07652,1140 Route 72 West - Manahawkin - NJ - 08050
-0.7664214046822743,2.5,300 Pasteur Dr - Palo Alto - CA - 94304,3250 Alpine Road - Portola Valley - CA - 94028
-0.7661704766967925,2.6,3001 General Pershing Blvd - Oklahoma City - OK - 73107,1000 N. Lee Ave. - Oklahoma City - OK - 73102
-0.7659987131170145,0.0,S Oakes St & E Beauregard Ave - San Angelo - TX - 76903,120 E Beauregard Ave - San Angelo - TX - 76903
-0.7658633633633634,53.6,5755 Cedar Ln - Columbia - MD - 21044,535 Summit Ave - Hagerstown - MD - 21740
-0.7652511244377811,116.8,12500 Willowbrook Rd - Cumberland - MD - 21502,1800 Orleans St - Baltimore - MD - 21287
-0.7647153226100595,115.5,810 12th St - Hood River - OR - 97031,815 SW Bond Street - Bend - OR - 97702
-0.7643023255813953,48.2,190 Blue Devil Ln - Gainesboro - TN - 38562,1503 S Main St - Crossville - TN - 38555
-0.7642416966786714,13.4,1800 Unser Blvd NW - Albuquerque - NM - 87120,13701 Encantado Rd. NE - Albuquerque - NM - 87123
-0.7641308555942702,1.3,202 E Nifong Blvd - Columbia - MO - 65203,600 E Stadium Blvd - Columbia - MO - 65211
-0.7636887477313974,13.4,58 Bedford St - Lexington - MA - 02421,500 Lynnfield Street - Lynn - MA - 01904
-0.7633335389550305,134.9,1801 N Temple Ave - Starke - FL - 32091,1940 N Monroe St - Tallahassee - FL - 32303
-0.763003663003663,79.3,186 Paradise Blvd - Athens - GA - 30607,104 N Belair Rd - Evans - GA - 30809
-0.7626262626262627,4.0,5131 O'Donovan Dr - Baton Rouge - LA - 70808,3600 Florida Blvd - Baton Rouge - LA - 70806
-0.7624469361387965,13.0,18101 Preston Rd 201 - Dallas - TX - 75252,4811 Harry Hines Blvd - Dallas - TX - 75235
-0.7623976982097187,31.1,3021 Griffin Ave - Enumclaw - WA - 98022,325 9th Ave - Seattle - WA - 98104
-0.7622670807453417,19.3,30809 1st Ave S - Federal Way - WA - 98003,"325 9th Ave., 2nd Floor - Seattle - WA - 98104"
-0.762171240065977,46.2,123 Summer St - Worcester - MA - 01604,12 College Highway - Southampton - MA - 01073
-0.7619174942704355,64.8,4 Jersey St - Boston - MA - 02215,40 Wright St - Palmer - MA - 01069
-0.761797537619699,40.5,7201 N University Dr - Tamarac - FL - 33321,7305 N Military Trl - West Palm Beach - FL - 33410
-0.7614545454545454,1.1,1631 Elysian Fields Ave - New Orleans - LA - 70117,1419 Basin Street - New Orleans - LA - 70116
-0.7611788082155674,0.5,229 Andover St - Peabody - MA - 01960,2 Essex Center Drive - Peabody - MA - 01960
-0.7608333333333334,89.9,111 Maltese Dr - Middletown - NY - 10940,1 Atwell Road - Cooperstown - NY -  
-0.7605306458247635,251.3,165 Vanderbilt Ave -  - NY - 10304,150 Crittenden Blvd - Rochester - NY - 14642
-0.7601023391812866,66.3,200 E Chisum St - Roswell - NM - 88203,2430 W Pierce St - Carlsbad - NM - 88220
-0.7599378881987577,88.5,17960 S Halsted St - Homewood - IL - 60430,1401 East State Street - Rockford - IL - 61104
-0.7597710492447334,35.3,575 NJ-440 - Jersey City - NJ - 07305,1945 NJ-33 - Neptune City - NJ - 07753
-0.7590408343125735,3.3,1500 Forest Glen Rd - Silver Spring - MD - 20910,12335 Georgia Ave - Silver Spring - MD - 20906
-0.759010395010395,152.0,1919 College Dr - Gallup - NM - 87301,1010 Spruce St - Espa√±ola - NM - 87532
-0.7588744588744589,2.8,1170 N Solano Dr - Las Cruces - NM - 88001,2450 S Telshor Blvd - Las Cruces - NM - 88011
-0.75838166101324,203.2,914 Shorter Ave NW - Rome - GA - 30165,9 W Main St - Alamo - GA - 30411-3516
-0.7583333333333333,14.3,10050 Roosevelt Blvd - Philadelphia - PA - 19116,1930 S. Broad Street - Philadelphia - PA - 19145
-0.7578787878787879,257.9,10256 Old Green Bay Rd - Pleasant Prairie - WI - 53158,129 Old Abe Rd - Lac du Flambeau - WI - 54538
-0.7577935616909154,4.1,505 Parnassus Ave - SF - CA - 94143,55 Pacific Ave - San Francisco - CA - 94111
-0.7573697431326474,4.5,15214 Canyon Rd E - Puyallup - WA - 98375,1007 39th Ave. S.E. - Puyallup - WA - 98374
-0.756580547112462,5.6,3580 W 9000 S - West Jordan - UT - 84088,3730 W. 4700 S. - West Valley City - UT - 84129
-0.756557101566176,31.1,327 Medical Park Dr - Bridgeport - WV - 26330,207 S Price St - Kingwood - WV - 26537
-0.7564214046822743,325.1,330 W Maple Ave - Monrovia - CA - 91016,3250 Alpine Road - Portola Valley - CA - 94028
-0.7564214046822743,184.5,10180 Washington Ave - Sturtevant - WI - 53177,1900 South Ave - La Crosse - WI - 54601
-0.7562271062271063,25.9,235 S Gary Ave - Bloomingdale - IL - 60108,259 E Erie St - Chicago - IL - 60611
-0.7558230157464974,49.3,50 Worcester Rd - Framingham - MA - 01702,40 Wright St - Palmer - MA - 01069
-0.7557142857142858,89.1,745 Poplar Rd - Newnan - GA - 30265,73 Maxwell Ln - Lumpkin - GA - 30533
-0.7545255150202675,10.3,6959 Forest Preserve Dr - Chicago - IL - 60634,259 E Erie St - Chicago - IL - 60611
-0.7544191919191919,49.3,31 Union St - Vernon - CT - 06066,130 Division St - Derby - CT -  
-0.7543023255813953,9.4,468 Cadieux Rd - Grosse Pointe - MI - 48230,45 W. Grand River - Detroit - MI - 48226
-0.7541835357624831,164.7,1233 W Poplar St - Rogers - AR - 72756,1310 N Central St - Lonoke - AR - 72086
-0.7536326252867088,21.6,520 S Maple Ave - Oak Park - IL - 60304,777 Park Ave. West - Highland Park - IL - 60035
-0.7535035035035035,379.8,608 Winifred St - Bayard - NM - 88023,300 Wilson St - Clayton - NM - 88415
-0.7532874097213877,259.1,201 N Mayfair Rd - Wauwatosa - WI - 53226,13380 W Trepania Rd - Hayward - WI - 54843
-0.7529529855868223,97.5,1105 E Kennedy Blvd - Tampa - FL - 33602,1360 Saxon Boulevard - Orange City - FL - 32763
-0.7529529855868223,184.7,16700 Jog Rd - Delray Beach - FL - 33446,1360 Saxon Boulevard - Orange City - FL - 32763
-0.7527568922305763,2.1,227 Madison St - New York - NY - 10002,550 First Avenue - New York - NY - 10016
-0.7525791704336339,35.3,500 Diamond Dr - Lake Elsinore - CA - 92530,4300 Rose Dr - Yorba Linda - CA - 92886
-0.7525465838509316,134.3,1000 N Main St Ste. A - Richfield - UT - 84701,1280 E Stringham Ave - Salt Lake City - UT - 84106
-0.7524754183198207,124.9,1225 Gerard Ave -  - NY - 10452,175 Green Street - Albany - NY -  
-0.7523212574276404,2.5,910 Old Camp Rd 130 - The Villages - FL - 32162,703 N Buena Vista Blvd - The Villages - FL - 32162
-0.7522702104097453,148.1,1801 E 51st St Bldg H - Austin - TX - 78723,"5616 Lawndale St., Ste A108 - Houston - TX - 77023"
-0.7521437511174682,176.0,900 N Flamingo Rd - Pembroke Pines - FL - 33028,9637 Lake Nona Village Place - Orlando - FL - 32827
-0.7520711237553344,38.3,7 Blanchard Cir - Wheaton - IL - 60189,7900 Rollins Rd - Gurnee - IL - 60031
-0.751887214287593,71.5,2302 College Ave - Conway - AR - 72034,10 Montgomery Drive - Arkadelphia - AR - 71923
-0.7517566974088714,21.2,100 Medical Plaza - Lake St Louis - MO - 63367,3015 N. Ballas Road - St. Louis - MO - 63131
-0.7516988416988417,6.4,545 E 142nd St -  - NY - 10454,56-45 Main St - Flushing - NY - 11355
-0.7512715898272814,7.2,3201 W Saner Ave - Dallas - TX - 75233,4811 Harry Hines Blvd - Dallas - TX - 75235
-0.7505251129128803,236.3,2500 Allen Creek Rd - Gainesville - GA - 30507,2705 E Pinetree Blvd - Thomasville - GA - 31792
-0.7504071139736154,1.5,1621 W 10th St - Little Rock - AR - 72202,3915 West 8th Street - Little Rock - AR -  
-0.7500342794460441,1.3,1570 E Tucson Marketplace Blvd - Tucson - AZ - 85713,3950 S Country Club Rd - Tucson - AZ - 85714
-0.7498132278620084,82.0,1501 Hiland Ave - Burley - ID - 83318,100 Hospital Drive - Ketchum - ID - 83340
-0.7498132278620084,37.2,348 Greenwood St - Worcester - MA - 01607,33 Tower Street - Somerville - MA -  
-0.7497713414634146,118.9,1001 Providence Dr - Newberg - OR - 97132,1501 NE Medical Center Drive - Bend - OR - 97701
-0.7497354497354497,3.0,800 E Carpenter St - Springfield - IL - 62769,2950 South Sixth Street - Springfield - IL - 62703
-0.7496977277465082,127.3,801 S 70th St - West Allis - WI - 53214,855 S Main St - Oconto Falls - WI - 54154
-0.7492031596452328,12.5,10800 Knights Rd - Philadelphia - PA - 19114,115 S 10th St - Philadelphia - PA - 19107
-0.748912511162965,25.4,510 Boston Rd - Billerica - MA - 01821,60 Hospital Road - Leominster - MA - 01453
-0.7488954171562867,50.7,131 McMillen Dr - Newark - OH - 43055,1000 McKinley Park Drive - Marion - OH - 43302
-0.7482381959126144,38.1,54 Seven Lakes Dr - Sloatsburg - NY - 10974,3 Delaware Drive - Lake Success - NY - 11042
-0.7479938977879481,5.9,800 Clematis St - West Palm Beach - FL - 33401,7305 N Military Trl - West Palm Beach - FL - 33410
-0.7479348811130452,30.5,1485 US-40 Ste. G - Heber City - UT - 84032,389 S 900 E - Salt Lake City - UT - 84102
-0.7470894428152491,254.6,1440 E Butler Pike - Ambler - PA - 19002,1010 Higbee Drive - Bethel Park - PA - 15102
-0.7468350363087205,12.5,801 Delaware Ave - Camden - NJ - 08102,200 College Dr - Blackwood - NJ - 08012
-0.7466898954703832,73.3,85 Godwin Ave - Midland Park - NJ - 07432,6 Earlin Ave - Browns Mills - NJ - 08015
-0.74625,38.9,2570 Riverside Pkwy - Lawrenceville - GA - 30046,220 Research Drive - Athens - GA - 30605
-0.7462222377183503,2.0,1825 4th St - SF - CA - 94158,1998 Market St - San Francisco - CA - 94102
-0.7459397346097827,0.4,9621 Ridgetop Blvd NW - Silverdale - WA - 98383,10452 Silverdale Way N.W. - Silverdale - WA - 98383
-0.7454703832752614,210.5,224 SE 24th St - Gainesville - FL - 32641,200 SE Hospital Ave - Stuart - FL - 34994
-0.745103785103785,247.8,75 Park St - Elizabethtown - NY - 12932,150 55th St - Brooklyn - NY - 11215
-0.7445614692653674,156.3,298 W Mariposa Rd - Nogales - AZ - 85621,2122 N Scottsdale Rd - Scottsdale - AZ - 85257
-0.7442057442057441,268.6,2747 4th St - Brunswick - GA - 31520,7545 Main St - Woodstock - GA - 30188
-0.7435880398671096,49.5,4700 Highlands Way - Irondale - AL - 35210,4100 McClellan Blvd - Anniston - AL - 36201
-0.7435107376283847,276.0,501 N Glendale Ave - Glendale - CA - 91206,550 South Green Valley Road - Watsonville - CA - 95076
-0.7433862433862434,8.3,750 S Park Ave - Pomona - CA - 91766,2295 S Vineyard Ave - Ontario - CA - 91761
-0.7433204633204632,677.5,800 Noble St - Fairbanks - AK - 99701,210 Moller Ave - Sitka - AK - 99835
-0.7431378242353852,21.0,401 NW 42nd Ave - Plantation - FL - 33317,5361 NW 22 AVE - Miami - FL - 33142
-0.7430950386019509,26.5,155 Crystal Run Rd - Middletown - NY - 10941,1980 Crompond Road - Cortlandt Manor - NY - 10567
-0.7424242424242424,57.4,100 W 7th St - Okmulgee - OK - 74447,1102 W. MacArthur St. - Shawnee - OK - 74804
-0.7422579575596817,14.5,2201 Mt Zion Pkwy - Morrow - GA - 30260,2801 Dekalb Medical Pkwy - Lithonia - GA - 30058
-0.7422213362430754,6.4,7131 Frankford Ave 2nd Floor - Philadelphia - PA - 19135,7401 Ogontz Avenue - Philadelphia - PA - 19138
-0.7420634920634921,0.4, - New Rochelle - NY - 10805,Glen Island Approach - New Rochelle - NY - 10805
-0.7420177530471648,14.8,1133 Eagles Landing Pkwy - Stockbridge - GA - 30281,2801 Dekalb Medical Pkwy - Lithonia - GA - 30058
-0.7414285714285714,3.8,121 Dekalb Ave -  - NY - 11201,150 55th St - Brooklyn - NY - 11215
-0.7412587412587412,41.9,580 Court St - Keene - NH - 03431,1059 Canal St - Manchester - NH - 03101
-0.741063122923588,147.7,480 W Lowder St - Macclenny - FL - 32063,4660 13th Street - Saint Cloud - FL - 34769
-0.7410553410553411,183.5,5450 Fort St - Trenton - MI - 48183,400 Hobart St - Cadillac - MI - 49601
-0.7407993966817497,21.0,615 Prospect Ave - Springer - NM - 87747,356 9th St - Cimarron - NM - 87714
-0.7404867598666048,1.1, - Stony Brook - NY - 11790,101 Nicolls Road - Stony Brook - NY - 11794
-0.7402252252252253,22.6,400 W 7th St - Frederick - MD - 21701,24 N Walnut St - Hagerstown - MD - 21740
-0.7398481815148482,273.2,310 S 2nd St - Tucumcari - NM - 88401,801 W Maple St - Farmington - NM - 87401
-0.7392909379968204,12.2,13435 US-183 - Austin - TX - 78750,1601 Trinity St - Austin - TX - 78701
-0.7392162743039936,20.4,10350 Haligus Rd - Huntley - IL - 60142,300 Randall Road - Geneva - IL - 60134
-0.7388297164159233,4.3,506 Malcolm X Blvd - New York - NY - 10037,5141 Broadway - New York - NY - 10034
-0.7378593969144459,76.1,3351 McMullen Booth Rd - Clearwater - FL - 33761,3005 Daniels Road - Winter Garden - FL - 34787
-0.7378147526414537,26.2,21 Romance Hill Rd - Belfair - WA - 98528,2555 Marvin Rd NE - Lacey - WA - 98516
-0.7371331511327935,43.5,809 University Blvd E - Tuscaloosa - AL - 35401,1680 Montgomery Hwy - Vestavia Hills - AL - 35216
-0.7370372655055895,4.8,9991 Marsh Ln 100 - Dallas - TX - 75220,4811 Harry Hines Blvd - Dallas - TX - 75235
-0.7369899311075782,4.9,33 Kilmer Rd - Edison - NJ - 08817,65 James Street - Edison - NJ - 08820
-0.7365678057167419,134.8,801 Viney Grove Rd - Prairie Grove - AR - 72753,1800 By Pass Rd - Heber Springs - AR - 72543
-0.7362342638204707,99.0,350 S Waukegan Rd - Deerfield - IL - 60015,15 W 3RD ST - Sterling - IL - 61081
-0.7360195360195361,20.2,135 Maple St - Decatur - GA - 30030,2245 Callaway Road - Marietta - GA - 30008
-0.7360180142438206,10.1,2201 Chapel Ave W - Cherry Hill - NJ - 08002,210 College Dr - Turnersville - NJ - 08012
-0.7359411717040758,291.2,1500 Division St - Oregon City - OR - 97045,1108 SW 4th Street - Ontario - OR - 97914
-0.7358738595092568,0.1,University Blvd & 22nd St S - Birmingham - AL - 35205,Corner of University Blvd. and 22nd St. South - Birmingham - AL - 35233
-0.7351610734152455,13.0,2507 N Richmond Rd - McHenry - IL - 60050,450 W Hwy 22 - Barrington - IL - 60010
-0.7349302744039585,53.9,26 S Main St - Centerville - UT - 84014,762 W 400 S - Springville - UT - 84663
-0.7348625629113434,176.2,1500 N Oakland Ave - Bolivar - MO - 65613,10010 Kennerly Rd - St. Louis - MO - 63128
-0.7347851335656213,77.0,3 Truman Parkway - Annapolis - MD - 21401,535 Summit Ave - Hagerstown - MD - 21740
-0.7347249670619235,8.4,9525 E Old Spanish Trail - Tucson - AZ - 85748,3950 S Country Club Rd - Tucson - AZ - 85714
-0.7337720419115769,2.9,5205 Melrose Ave - Los Angeles - CA - 90038,"2110 Sunset Blvd, Suite M - Los Angeles - CA - 90026"
-0.7336265144454799,46.0,1199 Prince Ave - Athens - GA - 30606,135-136 Prominence Ct - Dawsonville - GA - 30534
-0.7335899492114407,387.2,155 Glasson Way - Grass Valley - CA - 95945,100 W California Blvd - Pasadena - CA - 91105
-0.7332851359167148,80.4,1500 Idalia Rd B - Bernalillo - NM - 87004,104 Legion Dr - Las Vegas - NM - 87701
-0.7331932773109244,17.3,2 Renshaw Rd - Darien - CT - 06820,2979 Main Street - Bridgeport - CT - 06606
-0.7329787234042554,106.1,211 St Francis Dr - Cape Girardeau - MO - 63703,232 S Woods Mill Rd - Chesterfield - MO - 63017
-0.7329059829059829,17.1,345 Main St - Tewksbury - MA - 01876,1030 Main Street - Waltham - MA - 02451
-0.732867132867133,64.4,35 Miles St - Damariscotta - ME - 04543,515 Main St - Bangor - ME - 04401
-0.732799301764819,36.4,885 Roosevelt Rd - Glen Ellyn - IL - 60137,7900 Rollins Rd - Gurnee - IL - 60031
-0.7326015811730097,7.5,8201 Golf Course Rd NW - Albuquerque - NM - 87120,7440 Jim McDowell Rd NW - Albuquerque - NM - 87114
-0.7324299407012203,28.1,3900 Aviation Cir NW - Atlanta - GA - 30336,5665 Peachtree Dunwoody Rd - Atlanta - GA - 30342
-0.7324279711884754,25.4,1305 Jennings Mill Rd - Watkinsville - GA - 30677,1255 Friendship Rd #130 - Braselton - GA - 30517
-0.732228987787774,5.7,333 SW Cutoff - Northborough - MA - 01532,38 Boston Post Rd W - Marlborough - MA - 01752
-0.7321367521367521,111.2,200 W Arbor Dr - San Diego - CA - 92103,2110 W Sunset Blvd - Los Angeles - CA - 90026
-0.7318166219504587,5.1,1101 Medical Center Blvd - Marrero - LA - 70072,1419 Basin Street - New Orleans - LA - 70116
-0.7315546772068512,182.2,130 E Lockling Ave - Brookfield - MO - 64628,3801 S National Ave - Springfield - MO - 65807
-0.7314554305858654,157.7,20 Hartford St - Houlton - ME - 04730,221 State St - Augusta - ME - 04333
-0.731331396386064,218.5,2500 Metrohealth Dr - Cleveland - OH - 44109,3120 Burnet Avenue - Clifton - OH - 45219
-0.7313240418118467,15.3,125 Sunrise Hwy - West Islip - NY - 11795,1 Ocean Pkwy - Wantagh - NY - 11793
-0.7311969361387965,259.8,360 Station Dr - Crystal Lake - IL - 60014,1003 E. McCord St. - Centralia - IL - 62801
-0.7310122501611863,28.5,380 N Oxford Valley Rd - Langhorne - PA - 19047,201 King of Prussia Road - Wayne - PA - 19087
-0.7308955412403688,264.4,3807 McNutt Rd - Sunland Park - NM - 88063,4801 Beckner Rd - Santa Fe - NM - 87507
-0.730369807497467,1.2,3rd Ave SW & 4th St SW - Rochester - MN - 55902,1407 3rd Ave SE - Rochester - MN - 55904
-0.7302027027027027,351.3,270 E Court Ave - Selmer - TN - 38375,2030 Temple Hill Rd - Erwin - TN - 37650
-0.7301587301587302,16.5,1501 W Elk Ave - Elizabethton - TN - 37643,1 Medical Park Blvd - Bristol - TN - 37260
-0.7300695912614517,148.3,5126 Hospital Dr NE - Covington - GA - 30014,2225 Highway 41 North - Tifton - GA - 31794
-0.7289496392944669,125.0,1106 Interstate Dr - Bloomington - IL - 61705,6 Memorial Drive - Alton - IL - 62002
-0.7289496392944669,50.3,3563 Far W Blvd - Austin - TX - 78731,1751 Medical Way - New Braunfels - TX - 78132
-0.7277614858260021,11.2,97 Progress Blvd - Shippensburg - PA - 17257,1000 Norland Ave - Chambersburg - PA - 17201
-0.7277147140715358,231.8,501 Santiago Park Ln - Kingsville - TX - 78363,102 E Young St - Llano - TX - 78643
-0.727644603458557,7.7, - Fort Wayne - IN - 46845,2200 Randallia Dr - Fort Wayne - IN - 46805
-0.7274410774410774,4.4,2400 Wellesley Ave NE - Albuquerque - NM - 87107,5150 Journal Center Blvd. SE - Albuquerque - NM - 87109
-0.7267867201274526,12.3,580 W Germantown Pike - Plymouth Meeting - PA - 19462,3855 West Chester Pike - Newton Square - PA - 19073
-0.7264421215640727,313.4,9311 SW State Rd 200 - Ocala - FL - 34481,3200 W De Soto St - Pensacola - FL - 32505
-0.7263135228251508,44.1,820 Illinois Rte 59 - Bartlett - IL - 60103,900 N 2nd St - Rochelle - IL - 61068
-0.7259430946291561,308.0,211 FM 544 - Murphy - TX - 75094,4321 4th St - Lubbock - TX - 79415
-0.7258417508417508,3.4,701 S Stemmons Fwy - Lewisville - TX - 75067,2901 Denton Tap Rd - Irving - TX - 75067
-0.7257314524555903,257.2,3201 S 16th St 1000 - Milwaukee - WI - 53215,1700 W Stout St - Rice Lake - WI - 54868
-0.7253857253857254,33.1,1455 Battersby Ave - Enumclaw - WA - 98022,401 5th Avenue - Seattle - WA -  
-0.7244152046783626,120.5,660 Firetower Rd - Dublin - GA - 31021,3702 2nd Ave - Columbus - GA - 31904
-0.7244152046783626,54.7,525 N Main St - Ephraim - UT - 84627,762 W 400 S - Springville - UT - 84663
-0.724342410388922,120.7,7221 Sallie Mood Dr - Savannah - GA - 31406,104 N Belair Rd - Evans - GA - 30809
-0.7241847826086957,4.9,227 E Chestnut Expy - Springfield - MO - 65802,3801 S National Ave - Springfield - MO - 65807
-0.7230122748078323,54.2,201 Morningside Dr - Sandersville - GA - 31082,123 Gordon Street - Washington - GA - 30909
-0.722910052910053,141.1,1216 Cameo St - Clovis - NM - 88101,300 Wilson St - Clayton - NM - 88415
-0.7227327578204772,53.3,71 Haynes St - Manchester - CT - 06040,2979 Main Street - Bridgeport - CT - 06606
-0.7225654225654226,81.6,777 N Main St - Tooele - UT - 84074,935 N 1000 W - Tremonton - UT - 84337
-0.7225185055662412,2.1,1 Robert Wood Johnson Place - New Brunswick - NJ - 08901,841 Georges Road - North Brunswick - NJ -  
-0.7215035713110168,71.3,2070 IL-50 500 - Bourbonnais - IL - 60914,450 W Hwy 22 - Barrington - IL - 60010
-0.7211382113821138,1.0,4821 US-19 - New Port Richey - FL - 34652,5355 School Rd - Port Richey - FL - 34652
-0.7209649122807017,286.0,335 E Ave K 6 B - Lancaster - CA - 93535,4150 N 1st St  - San Jose - CA - 95134
-0.7209112400601763,31.0,9901 Medical Center Dr - Rockville - MD - 20850,301 Hospital Drive - Glen Burnie - MD - 21061
-0.7207802694721299,2.3,1481 W 10th St - Indianapolis - IN - 46202,893 Delaware St - Indianapolis - IN - 46225
-0.7204301075268816,137.1,2094 Pitkin Ave -  - NY - 11207,1 Norton Ave - Oneonta - NY -  
-0.7201316701316701,272.6,255 Lafayette Ave - Suffern - NY - 10901,95 Franklin Street - Buffalo - NY -  
-0.7198879551820728,135.8,617 Becker Ave - Belen - NM - 87002,1397 Weimer Rd - Taos - NM - 87571
-0.7195231668915879,166.2,1933 Edwin Dr - Chesapeake - VA - 23322,8008 Westpark Dr - McLean - VA - 22102
-0.7188183347350714,515.2,7643 Painter Ave - Whittier - CA - 90602,1035 Placer Street - Redding - CA - 96001
-0.7187146660830872,212.9,128 W 14th St - Hazleton - PA - 18201,2310 Jane St - Pittsburgh - PA - 15200
-0.718246005202527,32.9,8600 Old Georgetown Rd - Bethesda - MD - 20814,22 S Greene St - Baltimore - MD - 21201
-0.7172515351059987,23.2,18101 Prince Philip Dr - Olney - MD - 20832,301 Hospital Drive - Glen Burnie - MD - 21061
-0.7171171171171172,221.3,2285 Sequoia Dr - Aurora - IL - 60506,6 Memorial Drive - Alton - IL - 62002
-0.7171171171171172,276.9,7943 Moffett Rd - Semmes - AL - 36575,0 Seeley Road - Marshall - AL - 35747
-0.7166598833265501,46.5,1212 Liggett Ave - Reading - PA - 19611,4122 Market St - Philadelphia - PA - 19104
-0.7166537966537966,23.3,40 75th St - Willowbrook - IL - 60527,9977 Woods Dr - Skokie - IL - 60077
-0.7161171333935562,72.2,1100 E 3rd St - Chattanooga - TN - 37403,933 W Race Street - Kingston - TN - 37763
-0.7156556180946425,202.0,200 N 400 E St - Panguitch - UT - 84759,1525 2100 S - Salt Lake City - UT - 84119
-0.7156135596443683,62.1,364 Pritham Ave - Greenville - ME - 04442,149 North St - Waterville - ME - 04901
-0.7149107760825735,73.8,2555 Judge Fran Jamieson Way - Melbourne - FL - 32940,1245 West Granada Boulevard - Ormond Beach - FL - 32174
-0.7145249162793021,346.9,6255 Sharlands Ave - Reno - NV - 89523,1125 Shadow Ln - Las Vegas - NV - 89102
-0.7139676113360324,14.1,46 Fairview Ave - Skowhegan - ME - 04976,149 North St - Waterville - ME - 04901
-0.7138888888888889,491.4,7800 Preston Rd 300 - Plano - TX - 75024,1000 Sports Park Blvd - Brownsville - TX - 78526
-0.7138126361655774,85.1,6570 Bruton Smith Blvd - Concord - NC - 28027,1713 South Church Street - Burlington - NC - 27215
-0.7132867132867133,27.0,5 Alumni Dr - Exeter - NH - 03833,1059 Canal St - Manchester - NH - 03101
-0.7118233618233619,33.3,789 Central Ave - Dover - NH - 03820,1059 Canal St - Manchester - NH - 03101
-0.7116718450867778,113.0,100 Sentara Cir - Williamsburg - VA - 23188,8008 Westpark Dr - McLean - VA - 22102
-0.7102839164550244,118.3,601 Dr Martin Luther King Jr Ave NE - Albuquerque - NM - 87102,11 Elliott Barker Ln - Angel Fire - NM - 87710
-0.7098124098124098,195.5,4200 South Fwy 106 - Fort Worth - TX - 76115,1400 Farm to Market 20 - Lockhart - TX -  
-0.7089133382537204,55.7,25500 Point Lookout Rd - Leonardtown - MD - 20650,7300 Van Dusen Road - Laurel - MD - 20707
-0.7085335163578129,7.9,870 N Milwaukee Ave - Vernon Hills - IL - 60061,777 Park Ave. West - Highland Park - IL - 60035
-0.7082521117608837,24.0,1037 NY-109 - Farmingdale - NY - 11735,79-01 Broadway - Elmhurst - NY - 11373
-0.707936507936508,2.5, - Melrose Park - IL - 60160,137 W North Ave - Northlake - IL - 60164
-0.7078521785618818,46.9,2 Centerock Rd - West Nyack - NY - 10994,101 Nicolls Road - Stony Brook - NY - 11794
-0.7075523017870307,136.1,9230 Sky Island Dr E - Bonney Lake - WA - 98391,1038 W. Ivy Suite 1 - Moses Lake - WA - 98837
-0.7073240818615082,186.6,7001 Gulf Hwy - Lake Charles - LA - 70607,4100 Canal St - New Orleans - LA - 70119
-0.7073211875843454,19.6,1850 Gateway Dr - Sycamore - IL - 60178,300 Randall Road - Geneva - IL - 60134
-0.7073103982271349,66.3,One Hospital Plaza - Stamford - CT - 06902,560 Hudson Street - Hartford - CT - 06105
-0.7071348940914159,5.4,1691 Galisteo St Ste D - Santa Fe - NM - 87505,5501 Herrera Dr - Santa Fe - NM - 87507
-0.7067026540710751,279.6,36245 US-27 - Haines City - FL - 33844,2230 15th St - Panama City - FL - 32405
-0.7065580618212196,116.8,10150 SE 32nd Ave - Milwaukie - OR - 97222,815 SW Bond Street - Bend - OR - 97702
-0.7061557605035866,137.6,509 W 18th St - Hermann - MO - 65041,630 W 3rd St - Milan - MO - 63556
-0.7059314954051796,3.2,555 N Duke St - Lancaster - PA - 17602,850 Greenfield Rd - Lancaster - PA - 17601
-0.7054916985951469,166.2,400 W Mineral King Ave - Visalia - CA - 93291,2110 W Sunset Blvd - Los Angeles - CA - 90026
-0.7051282051282052,10.5,9450 1300 E - Sandy - UT - 84094,3249 N 1200 W Ste A - Lehi - UT - 84043
-0.7050537538342416,223.6,1600 E 32nd St - Silver City - NM - 88061,614 N 13th St - Cloudcroft - NM - 88210
-0.7045203097834677,249.6,600 Mary St - Evansville - IN - 47710,700 Broadway - Fort Wayne - IN - 46802
-0.7031941488463227,65.2,950 E Washington St - Baton Rouge - LA - 70802,"1111 Greengate Dr., Suite B - Covington - LA - 70433"
-0.702991452991453,259.3,7495 State St - Midvale - UT - 84047,577 S River Rd St - George - UT - 84790
-0.7028351052741296,103.6,1655 W Main St - Stroudsburg - PA - 18360,3065 Windsor Rd - Red Lion - PA - 17356
-0.7027360589625923,18.0,930 W St Rd - Feasterville-Trevose - PA - 19053,1930 S. Broad Street - Philadelphia - PA - 19145
-0.7027292630740906,36.9,2 North Rd Unit E & F - Chester - NJ - 07930,727 North Beers St. - Holmdel - NJ - 07733
-0.7026455026455026,304.3,3501 Johnson St - Hollywood - FL - 33021,4201 Belfort Road - Jacksonville - FL - 32216
-0.7026069008839234,224.4,516 Nizhoni Blvd - Gallup - NM - 87301,356 9th St - Cimarron - NM - 87714
-0.7024859663191659,58.9,800 Professional Blvd - Dalton - GA - 30720,2395 Thompson Rd - Dawsonville - GA - 30534
-0.7021919879062736,10.2, - Albuquerque - NM - 87121,13701 Encantado Rd. NE - Albuquerque - NM - 87123
-0.702008547008547,350.3,280 Vista Knoll Pkwy - Reno - NV - 89506,1125 Shadow Ln - Las Vegas - NV - 89102
-0.7013311388311388,29.0,3320 Brunswick Pike - Lawrence Township - NJ - 08648,530 New Brunswick Ave - Perth Amboy - NJ - 08861
-0.7011396011396012,26.1,320 W Pumping Station Rd 3 - Quakertown - PA - 18951,201 King of Prussia Road - Wayne - PA - 19087
-0.7002195871761089,223.4,2741 NE McBaine Dr - Lee's Summit - MO - 64064,1465 S. Grand Blvd. - St. Louis - MO - 63104
-0.6999364052368905,661.5,5115 El Paso Dr - El Paso - TX - 79905,2255 East Mossy Oaks Road - Spring - TX - 77389
-0.6999309868875087,92.8,433 Fairview Ave - Ponca City - OK - 74601,3200 Medical Park Drive - Shawnee - OK - 74804
-0.6997300944669366,13.6,4440 W 95th St - Oak Lawn - IL - 60453,9200 W 191st St. - Mokena - IL - 60448
-0.6993308156098853,91.9,380 John Fitch Hwy - Fitchburg - MA - 01420,100 Ter Heun Dr - Falmouth - MA - 02540
-0.6992063492063493,207.6,809 Jackson St - Burke - SD - 57523,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.6991971207087486,4.1,52 Tech Dr - Tifton - GA - 31794,2225 Highway 41 North - Tifton - GA - 31794
-0.698851332266265,141.1,1111 Crater Lake Ave - Medford - OR - 97504,815 SW Bond Street - Bend - OR - 97702
-0.698851332266265,51.6,740 US-1 - Woodbridge Township - NJ - 08830,701 U.S. 9 - Forked River - NJ - 08731
-0.6988400488400487,68.6,1923 N Dal Paso St - Hobbs - NM - 88240,2430 W Pierce St - Carlsbad - NM - 88220
-0.6985216509026033,60.6,3000 Triumph Blvd - Lehi - UT - 84043,2400 N Washington Blvd - North Ogden - UT - 84414
-0.6984859072909387,228.8,7211 N Interstate 35 Frontage Rd - Austin - TX - 78752,504 East Hospital Street - San Augustine - TX - 75972
-0.6983590733590734,77.4,1101 Ocilla Rd - Douglas - GA - 31533,2100 Palmyra Rd - Albany - GA - 31701-1320
-0.6981741972151179,2.7,3500 Knoxville Zoo Dr - Knoxville - TN - 37914,140 Dameron Avenue - Knoxville - TN - 37917-6413
-0.698136645962733,157.9,901 E Fifth St - Washington - MO - 63090,3801 S National Ave - Springfield - MO - 65807
-0.6968486377653744,262.3,4000 N Illinois Ln - Swansea - IL - 62226,2400 N Ashland Avenue - Chicago - IL - 60614
-0.6967236467236467,60.0,922 Highland Ave - Needham - MA - 02494,273 Teaticket Highway - Falmouth - MA - 02540
-0.6966666666666667,271.0,407 Interchange Dr - Fulton - MS - 38843,4333 15th Street - Gulfport - MS - 39501
-0.6966374269005847,241.1,126 Tatum Hwy - Lovington - NM - 88260,300 Wilson St - Clayton - NM - 88415
-0.6965305226174792,84.2,420 IL-173 - Antioch - IL - 60002,403 E 1st St - Dixon - IL - 61021
-0.6964264662540525,77.3,1315 Burro Ave - Cloudcroft - NM - 88317,614 N 13th St - Cloudcroft - NM - 88210
-0.6961152882205514,94.8,2151 W Spring St - Monroe - GA - 30655,104 N Belair Rd - Evans - GA - 30809
-0.6960317460317461,29.2,2635 Church Rd - Aurora - IL - 60502,6450 Touhy Ave - Niles - IL - 60714
-0.6958689458689459,164.6,2650 Executive Park Dr NW 5 - Cleveland - TN - 37312,800 Weatherly Dr Suite 201B - Clarksville - TN - 37043
-0.6958625456699911,11.9,8200 LA-23 - Belle Chasse - LA - 70037,5620 Read Blvd - New Orleans - LA - 70127
-0.694415949919777,8.7,1600 Antelope Dr - Layton - UT - 84041,165 N University Ave - Farmington - UT - 84025
-0.6938095238095238,157.1,2310 Hempstead Turnpike - East Meadow - NY - 11554,4417 Vestal Pkwy E - Vestal - NY - 13850
-0.6937623381000529,73.5,1400 E College Ave - McAlester - OK - 74501,3200 Medical Park Drive - Shawnee - OK - 74804
-0.6935669685030299,325.4,865 Anthony Dr - Anthony - NM - 88021,356 9th St - Cimarron - NM - 87714
-0.6930735930735931,236.1,1403 Grand Blvd - KCMO - MO - 64106,1465 S. Grand Blvd. - St. Louis - MO - 63104
-0.6929824561403509,6.5, - San Jose - CA - ,4150 N 1st St  - San Jose - CA - 95134
-0.6916666666666668,106.5,2925 River Rd S 110 - Salem - OR - 97302,1501 NE Medical Center Drive - Bend - OR - 97701
-0.6915992504227799,71.4,1700 Alber St 100 - Wabash - IN - 46992,703 N Main St - Kouts - IN - 46347
-0.6913984360792872,30.3,1683 E Florence Blvd - Casa Grande - AZ - 85122,600 S Dobson Rd - Chandler - AZ - 85224
-0.6912107500342795,232.1,1050 E Philadelphia Ave - Gilbertsville - PA - 19525,1010 Higbee Drive - Bethel Park - PA - 15102
-0.6911536972512581,77.7,100 Hospital Dr - Bennington - VT - 05201,115 Porter Drive - Middlebury - VT - 05753
-0.6903850535429483,142.2,4455 US-36 East - Decatur - IL - 62521,15 W 3RD ST - Sterling - IL - 61081
-0.6902653474075299,56.9,1801 S Edwin C Moses Blvd - Dayton - OH - 45417,100 Colemans Crossing Blvd. - Marysville - OH - 43040
-0.6901568234901568,15.4,450 S Kitsap Blvd - Port Orchard - WA - 98366,140 SW 146th St - Burien - WA - 98166
-0.6900145924536168,106.3,6150 E Broad St - Columbus - OH - 43213,3120 Burnet Avenue - Clifton - OH - 45219
-0.6900145924536168,103.2,2818 Neuse Blvd - New Bern - NC - 28562,2801 Blue Ridge Rd - Raleigh - NC - 27607
-0.6883720930232559,15.3, - San Mateo - CA - ,1998 Market St - San Francisco - CA - 94102
-0.6881141472607349,150.2,5450 GA-20 - Cartersville - GA - 30121,126 US-280 - Americus - GA - 31719
-0.6880341880341879,8.6,55 Hazel Ruby Ln - Mt Hope - WV - 25880,1602 Harper Road - Beckley - WV - 25801
-0.687961064859362,63.4,17609 Old Jefferson Hwy B - Prairieville - LA - 70769,5620 Read Blvd - New Orleans - LA - 70127
-0.6876141876141877,73.0,7018 S Utica Ave - Tulsa - OK - 74136,1102 W. MacArthur St. - Shawnee - OK - 74804
-0.6870255348516218,379.0,901 Adams Blvd - Boulder City - NV - 89005,51 E. Haskell Street - Winnemucca - NV - 89445
-0.6869851365975398,13.1,9005 US-64 101 - Arlington - TN - 38002,2400 Poplar Ave #501 - Memphis - TN - 38112
-0.6863846455150803,31.0,334 12th Ave SE - Norman - OK - 73071,3200 Medical Park Drive - Shawnee - OK - 74804
-0.6860410830999067,41.2,8 Pikes Hill - Norway - ME - 04268,144 State St - Portland - ME - 04101
-0.6858220211161387,85.3, - Huntington - IN - 46750,703 N Main St - Kouts - IN - 46347
-0.6852773013150372,8.0,2624 County Rd 516 - Old Bridge Township - NJ - 08857,561 US Highway 1 South - Edison - NJ - 08817
-0.6852052649016596,112.8,3181 SW Sam Jackson Park Rd - Portland - OR - 97239,865 SW Veterans Way - Redmond - OR - 97756
-0.6849881796690308,68.6,1923 N Dal Paso St Suite B - Hobbs - NM - 88240,2430 W Pierce St - Carlsbad - NM - 88220
-0.6848188848188849,47.5,1520 W 53rd St - Davenport - IA - 52806,1632 Sycamore Street - Iowa City - IA - 52240
-0.6845649477228425,133.4,700 Caldwell Blvd - Nampa - ID - 83651,611 Clinic Rd - Challis - ID - 83226
-0.6845649477228425,30.8,6 Glen Cove Dr - Rockport - ME - 04856,57 Water St - Blue Hill - ME - 04614
-0.6845622182549406,206.5,4741 S Arrowhead Dr B - Independence - MO - 64055,15740 S. Outer Forty Road - Chesterfield - MO - 63017
-0.68427145051569,135.6,3700 4th St SW - Mason City - IA - 50401,201 South Clinton Street - Iowa City - IA - 52240
-0.6836214401193881,206.9,420 N West End St Suite B - Springdale - AR - 72764,402 South Lee Street - Hampton - AR - 71744
-0.6836013645224172,330.5,20 S Plum St - Vermillion - SD - 57069,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.6830673758865249,32.3,11315 Bridgeport Way SW - Lakewood - WA - 98499,"401 Broadway, Suite 2075 - Seattle - WA - 98104"
-0.6822263993316625,24.4, - Bellwood - IL - 60104,300 Randall Road - Geneva - IL - 60134
-0.6820530890298332,64.0,300 S Byron Blvd - Chamberlain - SD - 57325,1900 Grassland Drive - Mitchell - SD - 57301
-0.6816919191919192,9.7,1344 Wintergreen Ln NE - Bainbridge Island - WA - 98110,11011 Meridian Ave N #201 - Seattle - WA - 98133
-0.6814501288185499,80.6,2929 S Garnett Rd - Tulsa - OK - 74129,1102 W. MacArthur St. - Shawnee - OK - 74804
-0.6814319667260844,204.6,1202 US-60 - Socorro - NM - 87801,356 9th St - Cimarron - NM - 87714
-0.6813375350140056,80.0,500 S Mt Olive St 200 - Siloam Springs - AR - 72761,1002 North Spring Street - Harrison - AR - 72601
-0.6805555555555555,295.0,1401 1st St W - Webster - SD - 57274,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.6793780573025856,65.8,5 Richland Medical Park Dr - Columbia - SC - 29203,"1656 Riverchase Blvd., #2400 - Rock Hill - SC - 29732"
-0.6793650793650793,119.5,4412 Kell W Blvd - Wichita Falls - TX - 76309,5917 Belt Line Rd - Dallas - TX -  
-0.6787802840434418,385.2, - Sacramento - CA - ,9961 Sierra Ave - Fontana - CA - 92335
-0.678233574131407,16.3, - Harrison - AR - 72601,609 Clark St - Jasper - AR - 72641
-0.6780279341254952,80.3,111 Kansas City Rd - Ruidoso - NM - 88345,614 N 13th St - Cloudcroft - NM - 88210
-0.6778591778591778,31.7,1500 NY-9D - Wappingers Falls - NY - 12590,100 Woods Rd - Valhalla - NY - 10595
-0.6778587266392145,66.3,1600 W 22nd St - Sioux Falls - SD - 57105,1900 Grassland Drive - Mitchell - SD - 57301
-0.6775793650793651,164.5, - Davis - CA - ,1555 Shaw Ave - Clovis - CA - 93611
-0.6773504273504273,336.6,18653 Wedge Pkwy - Reno - NV - 89511,1125 Shadow Ln - Las Vegas - NV - 89102
-0.6771303631768748,80.3,333 Borthwick Ave - Portsmouth - NH - 03801,214 Washington St - Claremont - NH - 03743
-0.676939726939727,46.3,435 Hurffville - Cross Keys Rd - Washington Township - NJ - 08080,64 Princeton-Hightstown Road - West Windsor - NJ - 08550
-0.676398979997181,4.9,5601 W Chinden Blvd - Garden City - ID - 83714,520 S. Eagle Rd - Meridian - ID - 83642
-0.6762137049941929,20.1,1429 N Quincy St - Arlington - VA - 22207,14139 Potomac Mills Road - Woodbridge - VA - 22192
-0.6756313131313131,5.1,3617 Northwest Expy - Oklahoma City - OK - 73112,1000 N. Lee Ave. - Oklahoma City - OK - 73102
-0.6747314310339521,103.6,2025 Glenn Mitchell Dr - Virginia Beach - VA - 23456,4687 Pouncey Tract Road - Glen Allen - VA - 23059
-0.674141576580601,48.7,12000 MS-15 1 - Philadelphia - MS - 39350,106 Strange Road - Starkville - MS - 39759
-0.6736979013866886,17.0,686 NJ-70 - Brick Township - NJ - 08723,701 U.S. 9 - Forked River - NJ - 08731
-0.6733500417710944,35.5,349 Broadway - Somerville - MA - 02145,60 Hospital Road - Leominster - MA - 01453
-0.673015873015873,153.9, - Lake Elsinore - CA - ,212 Coffee Rd - Bakersfield - CA - 93309
-0.67294061302682,16.3,13616 E 103rd St N - Owasso - OK - 74055,6030 South 66th East Avenue - Tulsa - OK - 74145
-0.6717171717171717,122.1,401 W Blue Starr Dr - Claremore - OK - 74017,1000 N. Lee Ave. - Oklahoma City - OK - 73102
-0.6715170278637771,96.4,1255 GA-54 - Fayetteville - GA - 30214,126 US-280 - Americus - GA - 31719
-0.6710358580488863,105.5,111 Franklin health commons - Farmington - ME - 04938,3 Loving Kindness Way - York - ME - 03909
-0.6709861775651249,24.5, - Homewood - IL - 60430,695 W Boughton Rd - Bolingbrook - IL - 60440
-0.6703474372205022,8.6,7213 Old Alexandria Ferry Rd - Clinton - MD - 20735,1600 Fedex Way - Landover - MD - 20785
-0.6691106183789111,119.8,700 UT-99 - Fillmore - UT - 84631,3845 W 4700 S - Taylorsville - UT - 84129
-0.6676291793313069,40.0,100 New Hampshire Ave - Portsmouth - NH - 03801,8 prospect St - Nashua - NH - 03060
-0.6674267761224283,107.1,117 Camino De Vida - Santa Rosa - NM - 88435,11 Elliott Barker Ln - Angel Fire - NM - 87710
-0.6672707137823418,326.2,755 N Roop St 101 - Carson City - NV - 89701,5580 W Flamingo Rd - Las Vegas - NV - 89103
-0.6663390526958742,74.9,54 Hospital Dr 111 - Osage Beach - MO - 65065,3801 S National Ave - Springfield - MO - 65807
-0.6650197628458497,163.5,1600 Medical Pkwy - Carson City - NV - 89703,51 E. Haskell Street - Winnemucca - NV - 89445
-0.6649350649350649,15.1, -  - CA - ,1555 Shaw Ave - Clovis - CA - 93611
-0.6647241647241647,82.1,300 Wendover Ave E - Greensboro - NC - 27401,1000 W Hamlet Ave - Hamlet - NC - 28345
-0.6642442148678392,0.5,Shuffield Dr & Jack Stephens Dr - Little Rock - AR - 72205,4815 West Markham Street - Little Rock - AR -  
-0.6634615384615384,254.9,2905 3rd Ave SE - Aberdeen - SD - 57401,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.6625569090685369,64.4,700 Roosevelt Ave 100 - Grants - NM - 87020,2400 Unser Blvd  SE - Rio Rancho - NM - 87124
-0.6624097007223942,38.3, - Warsaw - IN - ,700 Broadway - Fort Wayne - IN - 46802
-0.661976911976912,66.6, - Stamford - CT - 06902,1000 Asylum Street - Hartford - CT - 06105
-0.6619232869232868,43.6,16901 Lakeside Hills Ct - Omaha - NE - 68130,7501 S 27th St - Lincoln - NE - 68512
-0.6608069966209501,41.4,625 W 12th St - Wilmington - DE - 19801,640 South State Street - Dover - DE - 19901
-0.6592968221771468,80.8, - Columbia City - IN - 46725,703 N Main St - Kouts - IN - 46347
-0.6592051477635001,5.3,1500 US-41 - Schererville - IN - 46375,8135 Calumet Ave - Munster - IN - 46321
-0.6591880341880342,339.2,440 N Hiawatha Dr - Canton - SD - 57013,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.6571067821067821,173.3, - Pompano Beach - FL - ,2442 Bloomingdale Ave - Valrico - FL - 33596
-0.6568143231980245,36.2,193 NY-59 - Nanuet - NY - 10954,2925 W 19th St - New York - NY - 11224
-0.6561594202898551,54.9,2500 Jacksboro Pike 6 - Jacksboro - TN - 37757,1503 S Main St - Crossville - TN - 38555
-0.6555677468119865,86.9,525 William F McClellan Hwy - Boston - MA - 02128,12 College Highway - Southampton - MA - 01073
-0.6555068836045056,42.7,1301 Grundman Blvd - Nebraska City - NE - 68410,325 N 72nd Street - Omaha - NE -  
-0.6552579365079365,8.2,484 MA-134 - Dennis - MA - 02660,1220 Iyannough Road - Hyannis - MA - 02601
-0.6522357723577236,25.6,Meeker Ave & Elizabeth Ave - Newark - NJ - 07112,1 Riverview Plaza - Red Bank - NJ - 07701
-0.6510572629366956,150.6,132 5th Ave W Suite 1 & 2 - Jerome - ID - 83338,1210 NW 16th St - Fruitland - ID - 83619
-0.6508611955420466,107.5,98 Cohen Walker Dr - Warner Robins - GA - 31088,212 Partnership Drive - Grovetown - GA -  
-0.650575798341777,7.6,25327 US-27 SUITE 204-205 - Leesburg - FL - 34748,1103 North 14th Street - Leesburg - FL - 34748
-0.6492869875222816,102.2, - Auburn - IN - 46706,703 N Main St - Kouts - IN - 46347
-0.6475420875420875,133.2,575 Pole Line Rd W - Twin Falls - ID - 83301,611 Clinic Rd - Challis - ID - 83226
-0.6453667105841019,338.7,5070 Ion Dr - Sparks - NV - 89436,4090 W Craig Rd - North Las Vegas - NV - 89032
-0.6445686096848887,125.6, - Kendallville - IN - 46755,893 Delaware St - Indianapolis - IN - 46225
-0.6419926822403603,40.1, - Wabash - IN - 46992,700 Broadway - Fort Wayne - IN - 46802
-0.6411913250148545,177.1,745 E 8th St - Winner - SD - 57580,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.640491452991453,328.0,701 3rd Ave S - Clear Lake - SD - 57226,2116 Jackson Boulevard - Rapid City - SD - 57702
-0.639121041560066,66.4,1305 W 18th St - Sioux Falls - SD - 57105,1900 Grassland Drive - Mitchell - SD - 57301
-0.639121041560066,66.5,1301 W 18th St - Sioux Falls - SD - 57104,1900 Grassland Drive - Mitchell - SD - 57301
-0.6390577507598784,24.2,4700 Point Fosdick Dr - Gig Harbor - WA - 98335,"325 9th Ave., Ground Floor - Seattle - WA - 98104"
-0.6374149659863945,116.8,5950 University Ave - West Des Moines - IA - 50266,201 South Clinton Street - Iowa City - IA - 52240
-0.6342385285762435,42.5,2280 E Calvada Blvd 301 - Pahrump - NV - 89048,5580 W Flamingo Rd - Las Vegas - NV - 89103
-0.630275624461671,136.1, - LaGrange - IN - 46761,893 Delaware St - Indianapolis - IN - 46225
-0.6221797810033104,2.4,4350 Dewey Ave - Omaha - NE - 68105,325 N 72nd Street - Omaha - NE -  
-0.6153198653198654,118.9, -  - AZ - ,2800 E Ajo Way - Tucson - AZ - 85713
-0.5969381969381969,47.5,2500 Bellevue Medical Center Dr - Bellevue - NE - 68123,7501 S 27th St - Lincoln - NE - 68512
-0.5898704789833823,360.5, -  - TN - 37870,Tiger Ln - Memphis - TN - 38104
--,-,400 E Burdick Expy - Minot - ND - 58701,-
--,-,16 Calle Gándara - Corozal - Corozal - 00783,-
--,-, -  -  - ,-
--,-, - Añasco - Añasco - 00610,-
--,-,48 Cll 65 De Infanteria - Añasco - Añasco - 00610,-
--,-,993 Av. San Luis - Arecibo - Arecibo - 00612,-
--,-, - Arecibo - Arecibo - 00612,-
--,-, -  - Aguadilla - 00603,-
--,-, - Aguada - Aguada - ,-
--,-, - South Kingstown - RI - 02881,-
--,-,600 Rhode Island Ave - Providence - RI - 02908,-
--,-,400 Putnam Pike - Smithfield - RI - 02917,-
--,-,535 Centerville Rd - Warwick - RI - 02886,-
--,-,2140 Mendon Rd - Cumberland - RI - 02864,-
--,-,594 Great Rd 102A - North Smithfield - RI - 02896,-
--,-,2 Wake Robin Rd - Lincoln - RI - 02865,-
--,-,67 Valley Rd - Middletown - RI - 02842,-
--,-,1131 Warwick Ave - Warwick - RI - 02888,-
--,-,400 East Ave - Warwick - RI - 02886,-
--,-,#12 Calle Santiago Riera Palmer - Salinas - Salinas - 00751,-
--,-, - San Juan - San Juan - 00925,-
--,-,10 Calle Casia - San Juan - San Juan - 00921,-
--,-, - Ponce - Ponce - 00728,-
--,-,43 Calle Juan R. Garzot - Naguabo - Naguabo - 00718,-
--,-, -  - Luquillo - 00773,-
--,-,109 Cll Fernández Garcia - Luquillo - Luquillo - 00773,-
--,-,100 Twin River Rd - Lincoln - RI - 02865,-
--,-,1720 S University Dr - Fargo - ND - 58103,-
--,-, - San Juan - Guaynabo - 00920,-
--,-, -  - Corozal - ,-
+1.0,0.0,"11111 S 84th St, Papillion, NE 68046","11111 S 84th St, Papillion, NE 68046"
+1.0,0.0,"5140 N California Ave, Chicago, IL 60625","5140 N California Ave, Chicago, IL 60625"
+1.0,0.1,"300 Med Tech Pkwy, Johnson City, TN 37604","300 Med Tech Pkwy, Johnson City, TN 37604"
+1.0,0.2,"2030 Temple Hill Rd, Erwin, TN 37650","2030 Temple Hill Rd, Erwin, TN 37650"
+1.0,0.0,"2000 Brookside Dr, Kingsport, TN 37660","2000 Brookside Dr, Kingsport, TN 37660"
+1.0,0.0,"356 9th St, Cimarron, NM 87714","356 9th St, Cimarron, NM 87714"
+1.0,0.0,"1400 E College Ave, McAlester, OK 74501","1400 E College Ave, McAlester, OK 74501"
+1.0,0.0,"232 S Woods Mill Rd, Chesterfield, MO 63017","232 S Woods Mill Rd, Chesterfield, MO 63017"
+1.0,0.1,"1099 S Beacon Blvd, Grand Haven, MI 49417","1099 S Beacon Blvd, Grand Haven, MI 49417"
+1.0,0.0,"8431 Fredericksburg Rd, San Antonio, TX 78229","8431 Fredericksburg Rd, San Antonio, TX 78229"
+1.0,0.0,"1000 Harrington St, Mt Clemens, MI 48043","1000 Harrington St, Mt Clemens, MI 48043"
+1.0,0.0,"364 S Front St, Memphis, TN 38103","364 S Front St, Memphis, TN 38103"
+1.0,0.0,"501 Marlins Way, Miami, FL 33125","501 Marlins Way, Miami, FL 33125"
+1.0,0.0,"2500 Victory Ave, Dallas, TX 75219","2500 Victory Ave, Dallas, TX 75219"
+1.0,0.0,"9191 S Polk St, Dallas, TX 75232","9191 S Polk St, Dallas, TX 75232"
+1.0,0.0,"3481 Austin Peay Hwy, Memphis, TN 38128","3481 Austin Peay Hwy, Memphis, TN 38128"
+1.0,0.0,"1111 S Irving Heights Dr, Irving, TX 75060","1111 S Irving Heights Dr, Irving, TX 75060"
+1.0,0.0,"2569 Douglass Ave, Memphis, TN 38114","2569 Douglass Ave, Memphis, TN 38114"
+1.0,0.0,"969 Frayser Blvd, Memphis, TN 38127","969 Frayser Blvd, Memphis, TN 38127"
+1.0,0.0,"10058 Long Point Rd, Houston, TX 77055","10058 Long Point Rd, Houston, TX 77055"
+1.0,0.0,"597 W 11th St, Panama City, FL 32401","597 W 11th St, Panama City, FL 32401"
+1.0,0.0,"11 Elliott Barker Ln, Angel Fire, NM 87710","11 Elliott Barker Ln, Angel Fire, NM 87710"
+1.0,0.1,"1000 Water St, Jacksonville, FL 32204","1000 Water St, Jacksonville, FL 32204"
+1.0,0.0,"2478 Nashville Hwy Suite A, Columbia, TN 38401","2478 Nashville Hwy Suite A, Columbia, TN 38401"
+1.0,0.0,"3200 W De Soto St, Pensacola, FL 32505","3200 W De Soto St, Pensacola, FL 32505"
+1.0,0.1,"2669 N Scenic Dr, Alamogordo, NM 88310","2669 N Scenic Dr, Alamogordo, NM 88310"
+1.0,0.0,"425 University Blvd, Round Rock, TX 78665","425 University Blvd, Round Rock, TX 78665"
+1.0,0.1,"266 Joule St, Alcoa, TN 37701","266 Joule St, Alcoa, TN 37701"
+1.0,0.1,"16901 Lakeside Hills Ct, Omaha, NE 68130","16901 Lakeside Hills Ct, Omaha, NE 68130"
+1.0,0.1,"342 Frey St, Ashland City, TN 37015","342 Frey St, Ashland City, TN 37015"
+1.0,0.1,"951 N Broad St, Tazewell, TN 37879","951 N Broad St, Tazewell, TN 37879"
+1.0,0.1,"851 Locust St, Rogersville, TN 37857","851 Locust St, Rogersville, TN 37857"
+1.0,0.1,"1420 Tusculum Blvd, Greeneville, TN 37745","1420 Tusculum Blvd, Greeneville, TN 37745"
+1.0,0.0,"2104 Dayton Ave, Nashville, TN 37210","2104 Dayton Ave, Nashville, TN 37210"
+1.0,0.1,"2500 Bellevue Medical Center Dr, Bellevue, NE 68123","2500 Bellevue Medical Center Dr, Bellevue, NE 68123"
+1.0,0.1,"1301 Grundman Blvd, Nebraska City, NE 68410","1301 Grundman Blvd, Nebraska City, NE 68410"
+1.0,1.7,"137 W North Ave, Northlake, IL 60164","137 W North Ave, Northlake, IL 60164"
+1.0,0.1,"893 Delaware St, Indianapolis, IN 46225","893 Delaware St, Indianapolis, IN 46225"
+1.0,0.0,"259 E Erie St, Chicago, IL 60611","259 E Erie St, Chicago, IL 60611"
+1.0,0.1,"2601 W Ave N, San Angelo, TX 76909","2601 W Ave N, San Angelo, TX 76909"
+1.0,0.0,"3855 West Chester Pike, Newtown Square, PA 19073","3855 West Chester Pike, Newtown Square, PA 19073"
+1.0,0.0,"1500 NY-9D, Wappingers Falls, NY 12590","1500 NY-9D, Wappingers Falls, NY 12590"
+1.0,0.1,"555 N Duke St, Lancaster, PA 17602","555 N Duke St, Lancaster, PA 17602"
+1.0,0.1,"850 Greenfield Rd, Lancaster, PA 17601","850 Greenfield Rd, Lancaster, PA 17601"
+1.0,0.0,"1212 Liggett Ave, Reading, PA 19611","1212 Liggett Ave, Reading, PA 19611"
+1.0,0.0,"315 Mocksville Ave, Salisbury, NC 28144","315 Mocksville Ave, Salisbury, NC 28144"
+1.0,0.0,"1200 Old York Rd, Abington, PA 19001","1200 Old York Rd, Abington, PA 19001"
+1.0,0.1,"46 Fairview Ave, Skowhegan, ME 04976","46 Fairview Ave, Skowhegan, ME 04976"
+1.0,0.1,"863 Nazareth Pike, Nazareth, PA 18064","863 Nazareth Pike, Nazareth, PA 18064"
+1.0,0.0,"35 Miles St, Damariscotta, ME 04543","35 Miles St, Damariscotta, ME 04543"
+1.0,0.1,"16700 Jog Rd, Delray Beach, FL 33446","16700 Jog Rd, Delray Beach, FL 33446"
+1.0,0.0,"200 Kennedy Memorial Dr, Waterville, ME 04901","200 Kennedy Memorial Dr, Waterville, ME 04901"
+1.0,0.0,"50 Union St, Ellsworth, ME 04605","50 Union St, Ellsworth, ME 04605"
+1.0,0.1,"111 Franklin health commons, Farmington, ME 04938","111 Franklin health commons, Farmington, ME 04938"
+1.0,0.1,"300 Main St, Lewiston, ME 04240","300 Main St, Lewiston, ME 04240"
+1.0,0.2,"840 Cherokee Trail, Copperhill, TN 37317","840 Cherokee Trail, Copperhill, TN 37317"
+1.0,1.9,"25500 Point Lookout Rd, Leonardtown, MD 20650","25500 Point Lookout Rd, Leonardtown, MD 20650"
+1.0,0.1,"1 Citizens Bank Way, Philadelphia, PA 19148","1 Citizens Bank Way, Philadelphia, PA 19148"
+1.0,0.0,"1 Jarrett White Rd, Medical Center, HI 96859","1 Jarrett White Rd, Medical Center, HI 96859"
+1.0,0.1,"1301 Punchbowl St, Honolulu, HI 96813","1301 Punchbowl St, Honolulu, HI 96813"
+1.0,4.5,"91-2141 Fort Weaver Rd, Ewa Beach, HI 96706","91-2141 Fort Weaver Rd, Ewa Beach, HI 96706"
+1.0,0.1,"3900 Broadway, Everett, WA 98201","3900 Broadway, Everett, WA 98201"
+1.0,6.9,"1429 N Quincy St, Arlington, VA 22207","1429 N Quincy St, Arlington, VA 22207"
+1.0,0.1,"1800 Orleans St, Baltimore, MD 21287","1800 Orleans St, Baltimore, MD 21287"
+1.0,0.0,"10680 Del Mar Pkwy, Aurora, CO 80010","10680 Del Mar Pkwy, Aurora, CO 80010"
+1.0,0.1,"16942 GA-67, Statesboro, GA 30458","16942 GA-67, Statesboro, GA 30458"
+1.0,29.9,"11760 Baltimore Ave, Beltsville, MD 20705","11760 Baltimore Ave, Beltsville, MD 20705"
+1.0,0.0,"7221 Sallie Mood Dr, Savannah, GA 31406","7221 Sallie Mood Dr, Savannah, GA 31406"
+1.0,0.0,"28270 Huntwood Ave, Hayward, CA 94544","28270 Huntwood Ave, Hayward, CA 94544"
+1.0,0.0,"903 Randolph St, Thomasville, NC 27360","903 Randolph St, Thomasville, NC 27360"
+1.0,0.0,"922 Highland Ave, Needham, MA 02494","922 Highland Ave, Needham, MA 02494"
+1.0,0.1,"2818 Neuse Blvd, New Bern, NC 28562","2818 Neuse Blvd, New Bern, NC 28562"
+1.0,0.0,"1199 Prince Ave, Athens, GA 30606","1199 Prince Ave, Athens, GA 30606"
+1.0,0.1,"6570 Bruton Smith Blvd, Concord, NC 28027","6570 Bruton Smith Blvd, Concord, NC 28027"
+1.0,0.0,"100 Hospital Dr, Bennington, VT 05201","100 Hospital Dr, Bennington, VT 05201"
+1.0,0.0,"600 Rhode Island Ave, Providence, RI 02908","600 Rhode Island Ave, Providence, RI 02908"
+1.0,0.0,"3702 2nd Ave, Columbus, GA 31904","3702 2nd Ave, Columbus, GA 31904"
+1.0,0.7,"935 N 1000 W, Tremonton, UT 84337","935 N 1000 W, Tremonton, UT 84337"
+1.0,0.6,"1000 Morris Ave, Union, NJ 07083","1000 Morris Ave, Union, NJ 07083"
+1.0,0.0,"500 Diamond Dr, Lake Elsinore, CA 92530","500 Diamond Dr, Lake Elsinore, CA 92530"
+1.0,0.2,"1 Medical Center Dr, Lebanon, NH 03766","1 Medical Center Dr, Lebanon, NH 03766"
+1.0,0.0,"147 Lake St, Newburgh, NY 12550","147 Lake St, Newburgh, NY 12550"
+1.0,0.1,"165 N University Ave, Farmington, UT 84025","165 N University Ave, Farmington, UT 84025"
+1.0,0.1,"4300 Rose Dr, Yorba Linda, CA 92886","4300 Rose Dr, Yorba Linda, CA 92886"
+1.0,0.1,"400 East Ave, Warwick, RI 02886","400 East Ave, Warwick, RI 02886"
+1.0,0.0,"1059 Canal St, Manchester, NH 03101","1059 Canal St, Manchester, NH 03101"
+1.0,0.0,"155 Glasson Way, Grass Valley, CA 95945","155 Glasson Way, Grass Valley, CA 95945"
+1.0,0.0,"800 W Meeting St, Lancaster, SC 29720","800 W Meeting St, Lancaster, SC 29720"
+1.0,1.4,"2384 N Memorial Dr, Lancaster, OH 43130","2384 N Memorial Dr, Lancaster, OH 43130"
+1.0,0.1,"2060 Sam Rittenberg Blvd, Charleston, SC 29407","2060 Sam Rittenberg Blvd, Charleston, SC 29407"
+1.0,0.1,"334 Carlisle Ave, York, PA 17404","334 Carlisle Ave, York, PA 17404"
+1.0,0.1,"1525 2100 S, Salt Lake City, UT 84119","1525 2100 S, Salt Lake City, UT 84119"
+1.0,0.0,"1280 E Stringham Ave, Salt Lake City, UT 84106","1280 E Stringham Ave, Salt Lake City, UT 84106"
+1.0,0.0,"4150 N 1st St, San Jose, CA 95134","4150 N 1st St, San Jose, CA 95134"
+1.0,0.1,"5126 W Daybreak Pkwy, South Jordan, UT 84009","5126 W Daybreak Pkwy, South Jordan, UT 84009"
+1.0,0.2,"100 Ter Heun Dr, Falmouth, MA 02540","100 Ter Heun Dr, Falmouth, MA 02540"
+1.0,0.1,"4801 Beckner Rd, Santa Fe, NM 87507","4801 Beckner Rd, Santa Fe, NM 87507"
+1.0,0.1,"1775 Dempster Street, Park Ridge, IL 60068","1775 Dempster Street, Park Ridge, IL 60068"
+1.0,0.0,"1743 Redstone Center Dr, Park City, UT 84098","1743 Redstone Center Dr, Park City, UT 84098"
+0.9958333333333332,0.0,"5850 Landerbrook Dr, Mayfield Heights, OH 44124","5850 Landerbrook Dr., Mayfield Heights, OH 44124"
+0.9958333333333332,0.0,"500 S Mt Olive St 200, Siloam Springs, AR 72761","500 S Mt Olive St #200, Siloam Springs, AR 72761"
+0.9952380952380953,0.1,"347 Don Shula Dr, Miami Gardens, FL 33056","347 Don Shula Dr., Miami Gardens, FL 33056"
+0.9952380952380953,0.0,"6125 W Sahara Ave 1B, Las Vegas, NV 89146","6125 W Sahara Ave #1B, Las Vegas, NV 89146"
+0.9951219512195122,0.0,"449 Kapahulu Ave 104, Honolulu, HI 96815","449 Kapahulu Ave #104, Honolulu, HI 96815"
+0.995,0.0,"2500 Hospital Dr, Martinsburg, WV 25401","2500 Hospital Dr., Martinsburg, WV 25401"
+0.9948717948717949,0.1,"1501 W Elk Ave, Elizabethton, TN 37643","1501 W. Elk Ave, Elizabethton, TN 37643"
+0.9948717948717949,0.2,"4201 N Dale Mabry Hwy, Tampa, FL 33607","4201 N Dale Mabry Hwy., Tampa, FL 33607"
+0.9948717948717949,0.0,"2400 Poplar Ave 501, Memphis, TN 38112","2400 Poplar Ave #501, Memphis, TN 38112"
+0.9948717948717949,0.0,"7495 W 29th Ave, Wheat Ridge, CO 80033","7495 W 29th Ave, Wheat Ridge, CO  80033"
+0.9947368421052633,0.0,"1 Medical Park Blvd, Bristol, TN 37620","1 Medical Park Blvd, Bristol, TN 37260"
+0.9947368421052633,0.0,"1415 California St, Houston, TX 77006","1415 California St., Houston, TX 77006"
+0.9947368421052633,0.0,"528 Delaware Ave, Palmerton, PA 18071","528 Delaware Ave., Palmerton, PA 18071"
+0.9945945945945945,0.0,"400 Keawe St 100, Honolulu, HI 96813","400 Keawe St #100, Honolulu, HI 96813"
+0.9945945945945945,0.0,"6441 High Star Dr, Houston, TX 77074","6441 High Star Dr, Houston, TX, 77074"
+0.9944444444444445,0.0,"1125 Shadow Ln, Las Vegas, NV 89102","1125 Shadow Ln, Las Vegas, NV, 89102"
+0.9942857142857143,0.1,"520 S Eagle Rd, Meridian, ID 83642","520 S. Eagle Rd, Meridian, ID 83642"
+0.9941666666666666,0.0,"46-021 Kamehameha Hwy, Kaneohe, HI 96744","46-21 Kamehameha Hwy, Kaneohe, HI 96744"
+0.9941176470588236,0.0,"3811 Lyons Ave, Houston, TX 77020","3811 Lyons Ave., Houston, TX 77020"
+0.9941176470588236,0.0,"450 N 11th St, Beaumont, TX 77702","450 N 11th St, Beaumont, TX, 77702"
+0.993939393939394,0.0,"7545 Main St, Woodstock, GA 30188","7545 Main St, Woodstock GA 30188"
+0.993939393939394,0.0,"9709 Bruton Rd, Dallas, TX 75217","9709 Bruton Rd., Dallas, TX 75217"
+0.9930232558139535,1.4,"100 Michigan St NE, Grand Rapids, MI 49503","1300 Michigan St NE, Grand Rapids, MI 49503"
+0.992,0.2,"325 N State of Franklin Rd, Johnson City, TN 37604","325 N State of Franklin Rd, Johnson City, TN 37614"
+0.9904761904761905,0.2,"4200 South Fwy 106, Fort Worth, TX 76115","4200 South Fwy. #106, Fort Worth, TX 76115"
+0.9897435897435898,0.0,"1655 W Main St, Stroudsburg, PA 18360","1655 W. Main St., Stroudsburg, PA 18360"
+0.9894736842105263,0.0,"7800 Preston Rd 300, Plano, TX 75024","7800 Preston Rd. #300, Plano, TX 75024"
+0.9891891891891892,0.0,"9991 Marsh Ln 100, Dallas, TX 75220","9991 Marsh Ln. #100, Dallas, TX 75220"
+0.9888888888888889,0.0,"3201 W Saner Ave, Dallas, TX 75233","3201 W. Saner Ave., Dallas, TX 75233"
+0.9888888888888889,0.1,"701 Grove Rd, Greenville, SC 29605","701 Grove Road, Greenville, SC 29605"
+0.9882352941176471,0.0,"123 Summer St, Worcester, MA 01604","123 Summer St, Worcester, MA 01608"
+0.9882352941176471,0.1,"800 E Park Blvd, Boise, ID 83712","800 E. Park Blvd., Boise, ID 83712"
+0.9860465116279069,0.1,"575 Pole Line Rd W, Twin Falls, ID 83301","575 Pole Line Rd. W., Twin Falls, ID, 83301"
+0.985,0.0,"2400 N Ashland Ave, Chicago, IL 60614","2400 N Ashland Avenue, Chicago, IL 60614"
+0.9842105263157895,0.0,"1500 Lansdowne Ave, Darby, PA 19023","1500 Lansdowne Avenue, Darby, PA 19023"
+0.9809415768576291,0.0,"209 Irish Cemetery Rd, Tazewell, TN 37879","209 Irish Cemetery Road, Tazewell, TN 37879"
+0.9804878048780488,0.1,"757 Westwood Plaza, Los Angeles, CA 90024","757 Westwood Plaza, Los Angeles, CA 90095"
+0.9799874921826142,0.1,"4201 Winfield Rd, Warrenville, IL 60555","4201 Winfield Road, Warrenville, IL 60555"
+0.9783533765032377,0.0,"7213 Old Alexandria Ferry Rd, Clinton, MD 20735","7213 Old Alexandria Ferry Rd Clinton, MD 20735"
+0.9780780780780781,0.1,"400 Putnam Pike, Smithfield, RI 02917","400 Putnam Pike  Smithfield, RI 02917"
+0.9778658536585366,0.7,"9800 International Dr, Orlando, FL 32819","9400 International Dr, Orlando, FL, 32819"
+0.9761029411764706,0.0,"10300 SW 216th St, Miami, FL 33190","10300 SW 216 ST, Miami, FL 33190"
+0.9759969028261711,0.8,"289 McClellandtown Rd, Uniontown, PA 15401","86 McClellandtown Rd, Uniontown, PA 15401"
+0.9757575757575758,0.0,"16045 1st Ave S, Burien, WA 98166","16045 1st Ave S, Burien, WA 98148"
+0.9754990925589837,0.0,"601 Dr Martin Luther King Jr Ave NE, Albuquerque, NM 87102","601 Dr Martin Luther King Jr Ave NE Albuquerque, NM 87102"
+0.9747619047619047,0.4,"10 Sunnybrook Rd, Raleigh, NC 27610","111 Sunnybrook Rd, Raleigh, NC 27610"
+0.9741891891891892,0.0,"1325 Jefferson Ave, Memphis, TN 38104","1325 Jefferson Avenue, Memphis, TN 38104"
+0.9738191632928476,0.0,"5366 Mendenhall Mall, Memphis, TN 38115","5366 Mendenhall Mall Memphis, TN 38115"
+0.9735483870967742,0.0,"777 N Main St, Tooele, UT 84074","777 N Main St Tooele, UT 84074"
+0.9735042735042735,0.0,"1440 E Butler Pike, Ambler, PA 19002","1440 East Butler Pike, Ambler, PA 19002"
+0.9733997155049786,0.1,"6430 Hillcroft Ave, Houston, TX 77074","6430 Hillcroft Ave, Houston, TX, 77081"
+0.9732330827067669,0.0,"31 Physicians Dr, Jackson, TN 38305","31 Physicians Drive, Jackson, TN 38351"
+0.9726436781609196,0.0,"1397 Weimer Rd, Taos, NM 87571","1397 Weimer Rd Taos, NM 87571"
+0.9723723723723724,0.0,"100 E Michigan Ave, Jackson, MI 49201","100 E Michigan Ave Jackson, MI 49201"
+0.9721227621483376,0.0,"2330 S Congress Ave, West Palm Beach, FL 33406","2330 S Congress Ave, West Palm Beach, Florida 33406"
+0.9720190779014308,0.0,"100 Hospital Dr, Ketchum, ID 83340","100 Hospital Drive, Ketchum, ID 83340"
+0.9719047619047619,0.0,"510 W Tidwell Rd, Houston, TX 77076","510 W Tidwell Rd, Houston, TX, 77091"
+0.9715873015873016,0.0,"118 Northport Ave, Belfast, ME 04915","118 Northport Ave Belfast, ME 04915"
+0.9714098972922501,0.0,"1131 Warwick Ave, Warwick, RI 02888","1131 Warwick Ave.  Warwick, RI 02888"
+0.9712418300653595,0.1,"3249 N 1200 W Ste. A, Lehi, UT 84043","3249 N 1200 W Ste A Lehi, UT 84043"
+0.9708478513356562,0.1,"4771 S Cleveland Ave, Fort Myers, FL 33907","4771 S Cleveland Av, Fort Myers, FL 33907"
+0.97056786350904,0.0,"67 Valley Rd, Middletown, RI 02842","67 Valley Rd.  Middletown, RI 02842"
+0.9702439024390244,0.1,"400 W Mineral King Ave, Visalia, CA 93291","400 W Mineral King Ave. Visalia, CA 93291"
+0.9700534759358289,0.1,"914 Shorter Ave NW, Rome, GA 30165","914 Shorter Ave NW; Rome, GA 30165"
+0.9700000000000001,0.2,"263 Farmington Ave, Farmington, CT 06032","263 Farmington Ave, Farmington, CT"
+0.969676994067238,0.2,"300 Enterprise Dr, Kingston, NY 12401","300 Enterprise Drive, Kingston, NY, 12401"
+0.969449715370019,0.0,"200 Hygeia Dr, Newark, DE 19713","200 Hygeia Drive, Newark, DE 19713"
+0.9693589743589744,0.0,"169 Westmoreland St, Harrogate, TN 37752","169 Westmoreland St Harrogate, TN 37752"
+0.9689393939393939,0.1,"1501 Hiland Ave, Burley, ID 83318","1501 Hiland Ave Burley, ID 83318"
+0.9686909581646423,0.0,"6812 Harrisburg Blvd, Houston, TX 77011","6812 Harrisburg Blvd. Houston, TX 77011"
+0.9685560053981107,0.1,"55 Meadowlands Pkwy, Secaucus, NJ 07094","55 Meadowlands Pkwy Secaucus, NJ 07094"
+0.9682828282828283,0.0,"2400 N Washington Blvd, North Ogden, UT 84414","2400 N Washington Blvd North Ogden, UT 84414"
+0.9682828282828283,0.0,"2975 Maynardville Hwy, Maynardville, TN 37807","2975 Maynardville Hwy Maynardville, TN 37807"
+0.9679435483870968,0.0,"525 N Main St, Ephraim, UT 84627","525 N Main St Ephraim, UT 84627"
+0.9679435483870968,0.0,"300 Wilson St, Clayton, NM 88415","300 Wilson St Clayton, NM 88415"
+0.9671826625386997,0.2,"602 Indiana Ave, Lubbock, TX 79415","602 Indiana Avenue, Lubbock, TX, 79415"
+0.967016317016317,0.0,"2116 Jackson Blvd, Rapid City, SD 57702","2116 Jackson Boulevard, Rapid City, SD 57702"
+0.9667774086378738,0.0,"9621 Ridgetop Blvd NW, Silverdale, WA 98383","9621 Ridgetop Blvd NW Silverdale, WA 98383"
+0.9658730158730159,0.1,"600 Gillmor Way, Park City, UT 84060","600 Gillmor Way Park City, UT 84060"
+0.9654761904761905,0.1,"1000 N Main St Ste. A, Richfield, UT 84701","1000 N Main St Ste A Richfield, UT 84701"
+0.9652777777777778,0.2,"111 Gateway Center Dr, Kernersville, NC 27284","111 Gateway Center Drive, Kernersville, NC 27284"
+0.9652014652014652,0.0,"7401 Ogontz Ave, Philadelphia, PA 19138","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.9641025641025641,0.2,"5201 Harry Hines Blvd, Dallas, TX 75390","5200 Harry Hines Blvd, Dallas, TX 75235"
+0.964102564102564,0.0,"13 Medical Campus Dr, , NC 28462","13 Medical Campus Dr., Supply, NC 28462"
+0.9638383838383838,0.0,"1721 Rio Rancho Blvd SE, Rio Rancho, NM 87124","1721 Rio Rancho Blvd. SE Rio Rancho, NM 87124"
+0.9638146167557933,0.0,"1010 Spruce St, Española, NM 87532","1010 Spruce St Española, NM 87532"
+0.9638146167557933,0.1,"6 Glen Cove Dr, Rockport, ME 04856","6 Glen Cove Dr Rockport, ME 04856"
+0.9633783783783784,0.0,"15214 Canyon Rd E, Puyallup, WA 98375","15214 Canyon Road E., Puyallup, WA 98375"
+0.9630021141649049,0.0,"13701 Encantado Rd NE, Albuquerque, NM 87123","13701 Encantado Rd. NE Albuquerque, NM 87123"
+0.9629629629629629,0.5,"400 W Maple St, Farmington, NM 87401","801 W Maple St, Farmington, NM 87401"
+0.9628787878787879,0.0,"555 N Broadway, Jericho, NY 11753","555 N. Broadway Jericho, NY 11753"
+0.9625,0.2,"775 Norman Dr, Lebanon, PA 17042","720 Norman Dr, Lebanon, PA 17042"
+0.9625,0.1,"130 Division St, Derby, CT 06418","130 Division St, Derby, CT"
+0.9623044096728307,0.0,"433 Fairview Ave, Ponca City, OK 74601","433 Fairview Ave Ponca City, OK 74601"
+0.9620364550597109,0.0,"200 SE Hospital Ave, Stuart, FL 34994","200 SE Hospital Ave., Stuart, Florida 34994"
+0.9612612612612612,0.0,"3845 W 4700 S, Taylorsville, UT 84129","3845 W 4700 S Taylorsville, UT 84129"
+0.9610483870967742,0.4,"300 Pompton Rd, Wayne, NJ 07470","300 Pompton Road Wayne, NJ 07470"
+0.9606177606177606,0.0,"6451 Village Ln, Macungie, PA 18062","6451 Village Lane, Macungie, PA 18062"
+0.9604761904761904,0.0,"3250 Alpine Rd, Portola Valley, CA 94028","3250 Alpine Road, Portola Valley, CA 94028"
+0.9601587301587302,0.0,"577 S River Rd, St. George, UT 84790","577 S River Rd St. George, UT 84790"
+0.9601219512195123,0.3,"300 Wendover Ave E, Greensboro, NC 27401","300 E. Wendover Ave, Greensboro, NC 27401"
+0.96,0.1,"5917 Belt Line Rd, Dallas, TX 75254","5917 Belt Line Rd, Dallas TX"
+0.9599613152804642,0.1,"1 TIAA Bank Field Dr, Jacksonville, FL 32202","1 TIAA Bank Field Drive, Jacksonville, FL 32202"
+0.9592171717171717,0.0,"933 W Race St, Kingston, TN 37763","933 W Race Street Kingston, TN 37763"
+0.9591025641025642,0.0,"556 Passaic Ave, West Caldwell, NJ 07006","556 Passaic Ave West Caldwell, NJ 07006"
+0.9580808080808082,0.1,"615 Prospect Ave, Springer, NM 87747","615 Prospect Ave, Springer, New Mexico 87747"
+0.9579322638146167,0.0,"104 Legion Dr, Las Vegas, NM 87701","104 Legion Dr. Las Vegas, NM 87701"
+0.9577540106951872,0.1,"5450 GA-20, Cartersville, GA 30121","5450 GA-20 Cartersville, GA 30121"
+0.9577540106951872,0.1,"762 W 400 S, Springville, UT 84663","762 W 400 S Springville, UT 84663"
+0.9575757575757576,0.0,"82-68 164th St, , NY 11432","82-68 164th St, Jamaica, NY 11432"
+0.956987756987757,0.0,"1010 Higbee Dr, Bethel Park, PA 15102","1010 Higbee Drive Bethel Park, PA 15102"
+0.9567251461988304,0.4,"3109 Wrightsboro Rd, Augusta, GA 30909",3109 Wrightsboro Road Augusta GA 30909
+0.9564393939393939,0.0,"962 Sage Dr, Cedar City, UT 84720","962 Sage Dr Cedar City, UT 84720"
+0.9563888888888888,0.1,"600 Highland Oaks Dr, Winston-Salem, NC 27103","600 Highland Oaks Drive, Winston-Salem, NC 27103"
+0.9563888888888888,0.0,"2121 Industrial Pkwy, Silver Spring, MD 20904","2121 Industrial Parkway, Silver Spring, MD 20904"
+0.956060606060606,0.0,"4220 William Penn Hwy, Monroeville, PA 15146","4220 William Penn Highway, Monroeville, PA 15146"
+0.9548333333333333,0.0,"5150 Journal Center Blvd NE, Albuquerque, NM 87109","5150 Journal Center Blvd. SE Albuquerque, NM 87109"
+0.9535353535353536,0.2,"3250 Meridian Pkwy, Weston, FL 33331","3250 Meridian Parkway, Weston, Florida 33331"
+0.9529411764705882,0.1,"79-01 Broadway, , NY 11373","79-01 Broadway, Elmhurst, NY 11373"
+0.9525675675675677,1.5,"365 Montauk Ave, New London, CT 06320","365 Montauk Avenue, New London, CT 06320"
+0.9523861236802413,0.0,"1344 Wintergreen Ln NE, Bainbridge Island, WA 98110","1344 Wintergreen Lane NE Bainbridge Island, WA 98110"
+0.9522222222222222,239.2,"140 N Sherman Ct, Hazleton, PA 18201","140 N. Sherman Court, Hazleton, PA 18201"
+0.951207729468599,0.1,"1320 Travis Blvd Suite C, Fairfield, CA 94533","1320 Travis Blvd, Suite C, Fairfield, CA 94533"
+0.9501501501501503,0.0,"389 S 900 E, Salt Lake City, UT 84102","389 S 900 E Salt Lake City, UT 84102"
+0.9500189753320682,0.0,"1030 Main St, Waltham, MA 02451","1030 Main Street, Waltham MA 02451"
+0.9499511241446726,0.0,"1601 Trinity St, Austin, TX 78701","1601 Trinity St. Austin, Tx 78701"
+0.9486587011619104,0.0,"10 Montgomery Dr, Arkadelphia, AR 71923","10 Montgomery Drive, Arkadelphia AR 71923"
+0.9482536011947776,0.0,"12311 Perry Hwy, Wexford, PA 15090","12311 Perry Highway Wexford, PA 15090"
+0.9476623376623377,0.0,"3280 E Lanark St, Meridian, ID 83642","3280 E Lanark Dr Meridian, ID 83642"
+0.9475478927203065,0.0,"254-61 Nassau Blvd, , NY 11362","254-61 Nassau Blvd. Queens, NY 11362"
+0.9471198471198472,0.0,"3122 E Meridian Park Loop, Wasilla, AK 99654","3122 E Meridian Park Lp.  Wasilla, AK"
+0.9470449172576832,0.0,"146 Passion Play Rd, Eureka Springs, AR 72632","146 Passion Play Rd b, Eureka Springs, AR 72632"
+0.9464285714285714,0.0,"625 W 12th St, Wilmington, DE 19801","625 W. 12th Street, Wilmington, DE 19801"
+0.9456535644030364,0.0,"132 5th Ave W Suite 1 & 2, Jerome, ID 83338","132 5th Ave. W. Suites 1 and 2 Jerome, ID 83338"
+0.9453510436432637,0.0,"700 Caldwell Blvd, Nampa, ID 83651","700 Caldwell Blvd. Nampa, ID 83686"
+0.9452017648680945,0.1,"2570 Riverside Pkwy, Lawrenceville, GA 30046","2570 Riverside Parkway Lawrenceville, GA 30046"
+0.945,0.0,"2741 MacArthur Rd, , PA 18052","2741 MacArthur Road, Whitehall, PA 18052"
+0.9447104247104247,0.2,"700 Halia Nakoa St, Wailuku, HI 96793","700 Halia Nakoa Street, Wailuku, HI"
+0.9446241995281429,0.0,"5133 Rivers Ave, North Charleston, SC 29406","5133 Rivers Avenue North Charleston, SC  29406"
+0.9441145281018027,0.1,"701 E Marshall St, West Chester, PA 19380","701 E. Marshall Street, West Chester, PA 19380"
+0.943939393939394,0.0,"1919 College Dr, Gallup, NM 87301","1919 College Drive, Gallup, New Mexico 87301"
+0.9432609079667903,0.0,"2805 Overseas Hwy, Marathon, FL 33050","2805 Overseas HWY Marathon, FL 33050"
+0.9428571428571428,0.1,"1400 Pelham Pkwy S, , NY 10461","1400 Pelham Parkway South, Bronx, NY 10461"
+0.9420190779014309,0.3,"1120 W State Fair Ave, Detroit, MI 48203","1120 W State Fair Avenue, Detroit, MI"
+0.9418103448275862,0.4,"1830 Katyland Dr, Katy, TX 77493","1830 Katyland Drive, Katy, TX"
+0.9397515527950311,0.0,"19600 Vallco Pkwy 170, Cupertino, CA 95014","19600 Vallco Pkwy Ste 170, Cupertino, CA 95014"
+0.9396203796203796,0.1,"919 Murfreesboro Rd, Franklin, TN 37064","919 Murfreesboro Road, Franklin, TN"
+0.9393892339544514,0.0,"2122 N Scottsdale Rd, Scottsdale, AZ 85257","2122 N Scottsdale Rd Scottsdale, Arizona 85257"
+0.9392329239388063,0.1,"115 Porter Dr, Middlebury, VT 05753","115 Porter Drive  Middlebury, VT  05753"
+0.9392329239388063,0.1,"30 Locust St, Northampton, MA 01060","30 Locust Street, Northampton, MA 01061"
+0.9388384754990925,0.2,"105 Pearl St, Essex, VT 05452","105 Pearl St, Essex Junction, VT 05452"
+0.9376847745750185,0.0,"98-199 Kamehameha Hwy Bldg F, Aiea, HI 96701","98-199 Kamehameha hwy building f, Aiea, HI 96701"
+0.9373868091454741,0.1,"3723 W 12600 S 150, Riverton, UT 84065","3723 W 12600 S Ste 150 Riverton, UT 84065"
+0.937140763849499,0.0,"9494 W Northern Ave 101, Glendale, AZ 85305","9494 W Northern Ave #101 Glendale, Arizona 85305"
+0.9370637536491194,0.0,"5920 W McDowell Rd, Phoenix, AZ 85035","5920 W McDowell Rd Phoenix, Arizona 85035"
+0.9369953543152523,0.0,"1000 State St, McCall, ID 83638","1000 State St. McCall, Idaho 83638"
+0.9363924963924964,0.3,"215 Applegarth Rd, Monroe Township, NJ 08831","215 Applegarth Road Monroe, NJ 08831"
+0.9356623669123669,0.0,"315 W Main St, Freehold, NJ 07728","315 W. Main Street Freehold, NJ 07728"
+0.9346195949644225,0.0,"9450 1300 E, Sandy, UT 84094","9450 S 1300 E Sandy, UT 84094"
+0.9333553065260383,0.5,"125 Michigan Ave NE, Washington, DC 20017","111 Michigan Ave NW, Washington, DC 20010"
+0.9326640926640927,0.2,"2424 W Jefferson St, Joliet, IL 60435","2424 West Jefferson, Joliet, IL 60435"
+0.9319815668202764,0.2,"200 N 400 E St, Panguitch, UT 84759","200 N 400 E Panguitch, UT 84759"
+0.9317307692307691,0.1,"201 King of Prussia Rd, Wayne, PA 19087","250 King of Prussia Rd, Radnor, PA 19087"
+0.9315208825847123,0.0,"1679 E Monte Vista Ave 104, Vacaville, CA 95688","1679 E Monte Vista Ave, Suite 104, Vacaville, CA 95688"
+0.9304263777947989,0.1,"181 Medical Tower Dr, Murray, UT 84107","181 E Medical Tower Dr Murray, UT 84107"
+0.9298654244306418,0.0,"2025 Glenn Mitchell Dr, Virginia Beach, VA 23456","2025 Glenn Mitchell Drive Virginia Beach, Virginia 23456"
+0.9294771241830065,0.0,"18589 N 59th Ave, Glendale, AZ 85308","18589 N 59th Ave Glendale, Arizona 85308"
+0.9294276094276094,0.1,"2131 Industrial Pkwy, Silver Spring, MD 20904","2121 Industrial Parkway, Silver Spring, MD 20904"
+0.9293290043290043,0.0,"1701 E Thomas Rd, Phoenix, AZ 85016","1701 E Thomas Rd. Phoenix, Arizona 85016"
+0.9293290043290043,0.0,"1860 N Church Rd, Liberty, MO 64068","1860 N Church Rd Liberty, Missouri 64068"
+0.9291150709755361,0.0,"2075 University Park Blvd, Layton, UT 84041","2075 N University Park Blvd Layton, UT 84041"
+0.9286763686763687,0.2,"2245 Callaway Rd SW, Marietta, GA 30008","2245 Callaway Road Marietta, GA 30008"
+0.9280172413793103,0.0,"320 W Pumping Station Rd 3, Quakertown, PA 18951","320 W. Pumping Station Road, Suite 3, Quakertown, PA 18951"
+0.9274991674991675,0.0,"600 S Dobson Rd, Chandler, AZ 85224","600 S Dobson Rd Chandler, Arizona 85224"
+0.927433155080214,5.3,"264 W 118th St, New York, NY 10026","216 E 14th St, New York, NY 10003"
+0.9270609318996416,0.1,"4247 W Ridge Rd, Erie, PA 16506","4247 West Ridge Road, Erie, PA 16506"
+0.9268855368234251,0.0,"1150 W El Camino Real, Mountain View, CA 94040","1150 West El Camino Real, Mountain View, CA 94040"
+0.9262539568057058,0.0,"3181 SW Sam Jackson Park Rd, Portland, OR 97239","3181 S.W. Sam Jackson Park Road Portland, Oregon 97239-3098"
+0.9259999999999999,0.0,"800 Weatherly Dr 201B, Clarksville, TN 37043","800 Weatherly Dr Suite 201B, Clarksville, TN 37043"
+0.9247902265118908,0.0,"6030 S 66th E Ave, Tulsa, OK 74145","6030 S 66th East Avenue, Tulsa, Ok, 74145"
+0.9221611721611722,0.0,"1998 Market St, SF, CA 94102","1998 Market St, San Francisco, CA 94102"
+0.9218487394957984,0.0,"1691 Galisteo St Ste D, Santa Fe, NM 87505","1691 Galisteo St, Ste D, Santa Fe, New Mexico 87505"
+0.9208372093023256,0.0,"254 Ren Mar Dr 100, Pleasant View, TN 37146","254 Ren Mar Dr, Suite 100, Pleasant View, TN 37146"
+0.9207459207459208,0.1,"1475 W 49th Pl, Hialeah, FL 33012","1475 West 49th Place, Hialeah, FL 33012"
+0.9201851851851851,0.1,"777 Seaview Ave, , NY 10305","777 Seaview Ave, Staten Island, NY 10305"
+0.9200956937799044,0.0,"3025 W Cherry Ln B, Meridian, ID 83642","3025 West Cherry Lane #B, Meridian, ID 83642"
+0.919751218183469,0.0,"2350 Schillinger Rd S Suite A, Mobile, AL 36695","2350 Schillinger Rd., Mobile, AL 36695"
+0.919675417043838,0.0,"330 N Eisenhower Dr, Beckley, WV 25801","330 North Eisenhower Drive Beckley, WV 25801"
+0.9186679174484051,0.0,"7131 Frankford Ave 2nd Floor, Philadelphia, PA 19135","7131 Frankford Ave Philadelphia, PA 19135"
+0.9177766032417195,0.0,"1400 Jackson St, Denver, CO 80206","1400 Jackson Street, Denver, Colorado 80206"
+0.9176624442279091,0.0,"280 Home Olu Pl, Kaunakakai, HI 96748","280 Home Olu Place, Kaunakakai, HI"
+0.9173061173061173,2.7,"540 Litchfield St, Torrington, CT 06790","540 Litchfield Street, Torrington, CT"
+0.9173061173061173,0.1,"67-1125 Mamalahoa Hwy, Waimea, HI 96743","67-1125 Mamalahoa Highway, Waimea, HI"
+0.9162280701754385,0.0,"4910 Fairfield Rd, Fairfield, PA 17320","4910 Fairfield Rd. , Suite A Fairfield, PA 17320"
+0.9162004662004662,0.0,"1100 N 4th St, Leavenworth, KS 66048","1100 N 4th St Leavenworth, Kansas 66042"
+0.9160687138948009,0.0,"7305 N Military Trl, Riviera Beach, FL 33410","7305 N Military Trl, West Palm Beach, FL 33410"
+0.9160224089635854,0.0,"1730 W Chew St, Allentown, PA 18104","1730 Chew St., Allentown, PA 18104"
+0.9154761904761906,0.0,"4700 Rice Mine Rd NE, Tuscaloosa, AL 35406","4700 Rice Mine Road Northeast Tuscaloosa, AL 35406"
+0.9148325358851676,0.1,"4280 N Valdosta Rd, Valdosta, GA 31602","4280 North Valdosta Road, Valdosta, GA 31602"
+0.9147749042145594,0.1,"5 Perryridge Rd, Greenwich, CT 06830","5 Perryridgy Road, Greenwich, CT"
+0.9147619047619048,0.1,"34 Maple St, Norwalk, CT 06850","34 Maple Street, Norwalk, CT"
+0.9140316205533596,0.4,"703 Buena Vista Blvd, The Villages, FL 32162","703 N Buena Vista Blvd, The Villages, FL 32162"
+0.9129124820659972,0.0,"1233 W Poplar St, Rogers, AR 72756","1233 West Poplar Street, Rogers, AR 72756"
+0.9121510673234811,0.0,"5 Alumni Dr, Exeter, NH 03833","5 Alumni Drive Exeter, New Hampshire 03833"
+0.9110411140583554,0.6,"435 Lewis Ave, Meriden, CT 06451","435 Lewis Avenue, Meriden, CT"
+0.910952380952381,0.0,"5601 W Chinden Blvd, Garden City, ID 83714","5601 W.Chinden Blvd. Garden City, ID 83714"
+0.9107342657342657,0.0,"450 Northcrest Dr, Springfield, TN 37172","450 North Crest Drive, Springfield, TN 37172"
+0.9084848484848485,0.1,"940 Oldham Dr, Nolensville, TN 37135","940 Oldham Drive, Nolensville, TN"
+0.908265306122449,0.1,"292 Frantz Rd 102, Stroudsburg, PA 18360","292 Frantz Road, Suite 102, Stroudsburg, PA 18360"
+0.9072079772079772,0.0,"1225 Gerard Ave, , NY 10452","1225 Gerard Avenue Bronx, New York 10452"
+0.907001223990208,0.0,"5501 Herrera Drive, Santa Fe, NM 87505","5501 Herrera Dr. Santa Fe, New Mexico 87507"
+0.9067498165810711,0.0,"900 Carillon Pkwy 106, St. Petersburg, FL 33716","900 Carillon Parkway, Suite. 106, St. Petersburg, FL 33716"
+0.9060728744939271,0.1,"234 E 149th St, , NY 10451","234 East 149th Street, Bronx, NY 10451"
+0.9051272324956535,0.0,"211 Quarry Rd 102, Palo Alto, CA 94304","211 Quarry Road Suite 102 Palo Alto, CA 94304"
+0.9049308755760368,0.1,"150 Sargent Dr, New Haven, CT 06511","150 Sargent Drive, New Haven CT"
+0.903968105065666,0.0,"450 S Kitsap Blvd, Port Orchard, WA 98366","450 S. Kitsap Blvd. Suite 100 Port Orchard, WA 98366"
+0.9027642276422764,0.3,"1630 Rio Rancho Blvd SE, Rio Rancho, NM 87124","1721 Rio Rancho Blvd. SE Rio Rancho, NM 87124"
+0.900904071773637,0.0,"2950 S 6th St, Springfield, IL 62703","2950 South Sixth Street, Springfield, IL 62703"
+0.9007928749864234,0.1,"1000 Main St, Stratford, CT 06615","1000 Main Street, Stratford, CT"
+0.9007325360751952,0.3,"10251 Central Ave, Upper Marlboro, MD 20772","10251 Central Ave, Largo, MD 20774"
+0.9005478022694666,0.1,"147 S Main St, Middleton, MA 01949","147 South Main Street Middleton, MA 01949"
+0.8998563141929647,0.0,"5251 W. U.S. Hwy 290 Ste 200, Austin, TX 78735","5251 West, US-290 Ste 200, Austin, TX 78735"
+0.8998051948051948,4.0,"201 Chestnut Hill Rd, Stafford, CT 06076","201 Chestnut Hill Road, Stafford Springs, CT"
+0.899553128103277,0.1,"3098 Campbell Station Pkwy 100, Spring Hill, TN 37174","3098 Campbell Station Parkway, Suite 100, Spring Hill, TN"
+0.8977885891198584,0.1,"4534 Harding Pike, Nashville, TN 37205","4534 Harding Pike, Belle Meade, TN"
+0.8972480220158238,0.2,"35 S Sillyman St, Cressona, PA 17929","35 Sillyman Street, Cressona, PA 17929"
+0.8968487394957984,0.5,"2979 Main St, Bridgeport, CT 06606","2979 Main Street, Bridgeport, CT"
+0.8968487394957984,0.0,"267 Grant St, Bridgeport, CT 06610","267 Grant Street, Bridgeport, CT"
+0.8943312321260125,0.1,"27 S Cooks Bridge Rd Suite 1-5, Jackson Township, NJ 08527","27 S Cooksbridge Road Suite 1-5 Jackson, NJ 08527"
+0.8929411764705882,0.0,"4455 US-36 East, Decatur, IL 62521","4455 E. U.S. 36, Decatur, IL 62521"
+0.8924475524475525,0.1,"33 Tower St, Somerville, MA 02143","33 Tower Street, Somerville MA"
+0.891986271986272,0.1,"300 Steam Plant Rd 430, Gallatin, TN 37066","300 Steam Plant Road, Suite 430, Gallatin, TN"
+0.8917396745932415,0.0,"1071 MD-3 101, Gambrills, MD 21054","1071 MD-3 North, Suite 101, Gambrills, MD 21054"
+0.8898039215686275,0.0,"2040 NJ-33, Neptune City, NJ 07753","2040 Route 33 Neptune City, NJ 07753"
+0.889693313222725,0.0,"701 U.S. 9, Lacey Township, NJ 08731","701 U.S. 9, Forked River, NJ 08731"
+0.8891278375149343,0.0,"714 10th St, Secaucus, NJ 07094","714 Tenth St.Secaucus, NJ 07094"
+0.8884615384615385,0.1,"760 Broadway, , NY 11206","760 Broadway, Brooklyn, NY"
+0.888414505587181,1.3,"227 Madison St, New York, NY 10002","24 Broad St, New York, NY 10005"
+0.8882882882882882,1.1,"3301 N Ashland Ave, Chicago, IL 60657","2400 N Ashland Avenue, Chicago, IL 60614"
+0.8881596452328159,0.0,"3120 Burnet Ave 406, Cincinnati, OH 45229","3120 Burnet Ave, Cincinnati, Ohio"
+0.8874684343434343,5.5,"3362 S 3rd St, Memphis, TN 38109","364 S Front St, Memphis, TN 38103"
+0.8859986772486772,3.9,"1000 Asylum Ave, Hartford, CT 06105","1000 Asylum Street, Hartford, CT"
+0.8858730158730159,0.0,"2925 River Rd S 110, Salem, OR 97302","2925 River Road S. Suite 110, Salem, Oregon 97302"
+0.883511586452763,0.1,"36245 US-27, Haines City, FL 33844","36245 U.S. Highway 27, Haines City, FL 33844"
+0.8826623376623377,0.0,"1834 W McEwen Dr 110, Franklin, TN 37067","1834 W McEwen Drive, Suite 110, Franklin, TN"
+0.8811301072152999,0.1,"2102 E Archer Rd, Baytown, TX 77521","2102 East Archer Road, Baytown, TX"
+0.8810653293575496,0.2,"450 IL-22, Barrington, IL 60010","450 W Hwy 22, Barrington, IL 60010"
+0.8785706527642012,0.1,"4088 US-91, Hyde Park, UT 84318","4088 N HWY 91 Hyde Park, UT 84318"
+0.8772351421188631,0.1,"1801 S Edwin C Moses Blvd, Dayton, OH 45417","1801 Edwin C. Moses Blvd, Dayton, OH"
+0.875383718337878,0.2,"400 W 7th St, Frederick, MD 21701","501 W. 7th Street, Frederick, MD 21701"
+0.8717948717948718,0.0,"1485 US-40 Ste. G, Heber City, UT 84032","1485 S Highway 40 Ste G Heber, UT 84032"
+0.8702210070631123,0.0,"134 Pewitt Dr 200, Brentwood, TN 37027","134 Pewitt Drive, Suite 200, Brentwood, TN"
+0.8692161166093835,0.3,"9400 Universal Blvd, Orlando, FL 32819","9400 International Dr, Orlando, FL, 32819"
+0.8690570475436197,0.1,"4911 Sandhill Dr, Sugar Land, TX 77479","4907 Sandhill Drive Sugar Land, Texas 77479"
+0.8689149015235972,0.0,"2536 TN-49 110, Pleasant View, TN 37146","2536 Hwy 49, Suite 110 Pleasant View, TN 37146"
+0.865,2.1,"1201 NW 16th St, Miami, FL 33125","1350 NW 50 ST, Miami, FL 33142"
+0.8626192480359148,3.9,"2300 S 16th St, Lincoln, NE 68502","555 S 70th St, Lincoln, NE 68510"
+0.8605867620751342,0.0,"545 E 142nd St, , NY 10454","545 East 142nd Street Bronx, New York 10454"
+0.8601876172607881,0.0,"2608 8th Ave S 102A, Berry Hill, TN 37204","2608 8th Ave S, Suite 102A, Melrose, TN"
+0.8592709359605911,0.1,"700 UT-99, Fillmore, UT 84631","700 S Highway 99 Fillmore, UT 84631"
+0.8591964285714284,42.1,"1 Medical Center Dr, Biddeford, ME 04005","123 Medical Center Dr, Brunswick, ME 04011"
+0.8591446504159977,0.1,"7069 Hwy 70 S, Nashville, TN 37221","7069 Highway 70 S, Bellevue, TN"
+0.8590959609827534,0.0,"700 Roosevelt Ave 100, Grants, NM 87020","700 E. Roosevelt, Suite 100, Grants, New Mexico 87020"
+0.8590716581584421,0.0,"4700 Point Fosdick Dr, Gig Harbor, WA 98335","4700 Pt. Fosdick Drive N.W., Suite 102, Gig Harbor, WA 98335"
+0.8576190476190476,6.5,"56 Franklin St, Waterbury, CT 06706","56 Franklin Street, Waterbury, Connecticut"
+0.8556390977443609,12.4,"7211 N Interstate 35 Frontage Rd, Austin, TX 78752","7211 N. IH35 Frontage Road, Austin, TX"
+0.8537151702786377,0.0,"750 Broadway 250, Fort Wayne, IN 46802","700 Broadway, Fort Wayne, IN 46802"
+0.8535788923719958,1.8,"2140 Mendon Rd, Cumberland, RI 02864","2 Meehan Ln, Cumberland, RI 02864"
+0.8528769841269841,78.3,"1600 Divisadero St, SF, CA 94115","1600 Exposition Blvd, Sacramento, CA 95815"
+0.851867816091954,0.0,"1812 S J St, Tacoma, WA 98405","1812 South J Street, Suite 120, Tacoma, WA 98405"
+0.8513247592943988,0.6,"462 1st Avenue, New York, NY 10016","561 3rd Ave, New York, NY 10016"
+0.8485380116959065,4.4,"10010 Kennerly Rd, St. Louis, MO 63128","4400 Telegraph Rd, St. Louis, MO 63129"
+0.8380933062880325,0.0,"300 8th St, Estancia, NM 87016","300 South Eighth Street, Estancia, New Mexico 87016"
+0.8377610693400167,0.2,"10101 S 27th St, Franklin, WI 53132","9969 South 27th St, Franklin, WI 53132"
+0.8377142857142857,43.0,"500 Lincoln St, Worcester, MA 01605","500 Lynnfield Street Lynn, MA 01904"
+0.8376310313182623,0.7,"1600 W 22nd St, Sioux Falls, SD 57105","2501 W. 22nd Street Sioux Falls, SD 57105"
+0.8332917156286722,17.6,"401 NW 42nd Ave, Plantation, FL 33317","401 E 65th ST, Hialeah, FL 33013"
+0.8319917582417582,1.6,"1901 1st Avenue, New York, NY 10029","1150 3rd Ave, New York, NY 10065"
+0.8294067093409199,2.8,"915 N Grand Blvd, St. Louis, MO 63106","3114 S Grand Blvd, St. Louis, MO 63118"
+0.8289972899728998,2.3,"4900 Frankford Ave, Philadelphia, PA 19124","7131 Frankford Ave Philadelphia, PA 19135"
+0.8263814616755794,16.5,"128 W 14th St, Hazleton, PA 18201","128 E Main St, Nanticoke, PA 18634"
+0.8257888657888658,26.0,"273 Teaticket Hwy, Falmouth, MA 02536","275 Sandwich Street, Plymouth, MA 02360"
+0.825219421101774,2.0,"1 Elliot Way, Manchester, NH 03103","1059 Canal St, Manchester, NH 03101"
+0.8249019607843138,148.4,"4014 S Lamar Blvd, Austin, TX 78704","401 Branard St., Houston, TX 77006"
+0.8247354497354497,0.8,"411 Grand Ave, Oakland, CA 94610","3850 Grand Avenue  Oakland, CA 94610"
+0.8239018087855298,45.8,"123 W Manchester Blvd, Inglewood, CA 90301","1233 Rancho Vista Blvd., Palmdale, CA 93551"
+0.8215883371055785,50.3,"145 W University Pkwy, Orem, UT 84058","165 N University Ave, Farmington, UT 84025"
+0.8182432432432434,0.5,"12 St Paul Dr, Chambersburg, PA 17201","1000 Norland Ave, Chambersburg, PA 17201"
+0.8177777777777778,1.9,"1400 Teche St, New Orleans, LA 70114","1419 Basin Street, New Orleans, LA 70116"
+0.8169091292430951,108.5,"100 Dutton St, Bangor, ME 04401","10 Hospital Dr, Bridgton, ME 04009"
+0.8161094158674804,3.5,"200 N Michigan Ave, Chicago, IL 60601","2400 N Ashland Avenue, Chicago, IL 60614"
+0.8160067873303167,0.6,"1805 27th St, Portsmouth, OH 45662","1202 18 th Street, Portsmouth, OH 45662"
+0.8123935349741801,1.8,"1 Shircliff Way, Jacksonville, FL 32204","1000 Water St, Jacksonville, FL 32204"
+0.810974025974026,6.3,"710 Center St, Columbus, GA 31901","7901 Veterans Parkway Columbus, GA 31909"
+0.8082565789473684,0.9,"1900 Gravier St, New Orleans, LA 70112","1419 Basin Street, New Orleans, LA 70116"
+0.8067246970472777,0.2,"564 South Ave, New Canaan, CT 06840","468 South Avenue, New Canaan CT"
+0.8058430458430459,27.7,"27 Park St, , MA 02601","275 Sandwich Street, Plymouth, MA 02360"
+0.8052151416122003,1.2,"2100 Comer Ave, Columbus, GA 31904","3702 2nd Ave, Columbus, GA 31904"
+0.8042857142857143,74.8,"42 Washington St, Norwell, MA 02061","40 Wright St, Palmer, MA 01069"
+0.804055944055944,0.8,"136 Lake St, Ephrata, PA 17522","169 Martin Ave, Ephrata, PA 17522"
+0.8037878787878788,2.7,"2861 Broad Ave, Memphis, TN 38112","2569 Douglass Ave, Memphis, TN 38114"
+0.8037380882208468,1.4,"2804 Birch St, Parkersburg, WV 26101","800 Garfield Ave, Parkersburg, WV 26101"
+0.8007612648053246,0.9,"2055 Oakdale Rd, Coralville, IA 52241","2490 Crosspark Road, Coralville, IA 52241"
+0.7999999999999999,0.2,"900 23rd St NW, Washington, DC 20037","800 21st St NW, Washington, DC 20052"
+0.798840579710145,13.0,"3201 E Houston St, San Antonio, TX 78219","323 North Loop 1604 West San Antonio, TX 78232"
+0.7986679986679988,0.4,"16251 Sylvester Rd SW, Burien, WA 98166","16045 1st Ave S, Burien, WA 98148"
+0.7984508899143045,0.8,"1305 W 18th St, Sioux Falls, SD 57105","2501 W. 22nd Street Sioux Falls, SD 57105"
+0.7975314630662679,6.9,"2451 Grant Ave, Philadelphia, PA 19114","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.7955128205128206,163.0,"2108 E Hill Ave, Valdosta, GA 31601","210 Forest Hill Drive Hamilton, GA 31811"
+0.7943965517241379,96.2,"45 W 111th St, Chicago, IL 60628","403 E 1st St, Dixon, IL 61021"
+0.7928704566635602,95.4,"4805 NE Glisan St, Portland, OR 97213","470 NE A St, Madras, OR 97741"
+0.7924731182795699,3.3,"4350 Dewey Ave, Omaha, NE 68105","8303 Dodge St, Omaha, NE 68118"
+0.7923989898989899,0.6,"124 Daniel Dr, Danville, KY 40422","1591 Hustonville Rd., Danville, KY 40422"
+0.7908496732026143,14.6,"3258 W 111th St, Chicago, IL 60655","259 E Erie St, Chicago, IL 60611"
+0.7901400679117148,13.8,"5841 S Maryland Ave, Chicago, IL 60637","5140 N California Ave, Chicago, IL 60625"
+0.7896477272727273,4.8,"2285 Sequoia Dr, Aurora, IL 60506","2853 Kirk Road  Aurora, IL 60502"
+0.7892255892255893,0.1,"1901 Redrock Dr, Gallup, NM 87301","1919 College Drive, Gallup, New Mexico 87301"
+0.788988416988417,4.2,"5504 Menaul Blvd NE, Albuquerque, NM 87110","5150 Journal Center Blvd. SE Albuquerque, NM 87109"
+0.7888975932454194,0.1,"3 Truman Parkway, Annapolis, MD 21401","1 Harry S. Truman Parkway, Annapolis, MD 21401"
+0.7884065610997343,7.0,"3000 N Fourth St, Flagstaff, AZ 86004","2446 Fort Tuthill Loop, Flagstaff, AZ 86004"
+0.7877177700348432,0.8,"1 Medical Center Dr, Morgantown, WV 26505","1200 JD Anderson Dr., Morgantown, WV 26505"
+0.7875,35.4,"111 Grossman Dr, Braintree, MA 02184","1 General St, Lawrence, MA 01841"
+0.7872722995227533,0.8,"355 S Miller Ave, Farmington, NM 87401","801 W Maple St, Farmington, NM 87401"
+0.7864285714285714,2.9,"201 E University Pkwy, Baltimore, MD 21218","22 S Greene St, Baltimore, MD 21201"
+0.7830065359477124,6.8,"7525 Tidwell Rd, Houston, TX 77016","510 W Tidwell Rd, Houston, TX, 77091"
+0.7802894779638967,13.2,"11833 Wilmington Ave, Los Angeles, CA 90059","8730 Alden Drive, Los Angeles, CA 90059"
+0.7779761904761905,0.8,"11890 Healing Way, Silver Spring, MD 20904","2121 Industrial Parkway, Silver Spring, MD 20904"
+0.7765512265512265,2.8,"186 Paradise Blvd, Athens, GA 30607","410 McKinley Dr, Athens, GA 30601"
+0.7736564996368918,47.5,"50 Hospital Dr, Hendersonville, NC 28792","1 Hospital Rd., Cherokee, NC 28719"
+0.7730407523510973,210.5,"1266 GA-515, Jasper, GA 30143","16942 GA-67, Statesboro, GA 30458"
+0.77275,0.5,"2635 Church Rd, Aurora, IL 60502","2853 Kirk Road  Aurora, IL 60502"
+0.7716758111494952,116.1,"9205 SW Barnes Rd, Portland, OR 97225","865 SW Veterans Way, Redmond, OR 97756"
+0.7705637657361795,4.2,"321 Middlefield Rd, Menlo Park, CA 94025","3250 Alpine Road, Portola Valley, CA 94028"
+0.7705471124620061,2.8,"12335 Georgia Ave, Silver Spring, MD 20906","13428 New Hampshire Ave Silver Spring, MD 20904"
+0.770045280390108,0.5,"8 Pikes Hill, Norway, ME 04268","181 Main St, Norway, ME 04268"
+0.7696852689793867,31.6,"13755 S Main St, Houston, TX 77035","136 E Hospital Dr., Angleton TX,  77515"
+0.768918918918919,1.1,"1729 Benson Ave, Evanston, IL 60201","2650 Ridge Avenue, Evanston, IL 60201"
+0.768430369787569,4.7,"7401 Jefferson Ave, Hyattsville, MD 20785","6401 America Blvd, Hyattsville, MD 20782"
+0.7676211926211927,8.5,"30 Prospect Ave, Hackensack, NJ 07601","300 Pompton Road Wayne, NJ 07470"
+0.7654441533698498,144.4,"1 Medical Park, Wheeling, WV 26003","176 Medical Center, Rainelle, WV 25962"
+0.7648412698412699,204.8,"165 Vanderbilt Ave, , NY 10304","160 Genesee St, Auburn, NY 13021"
+0.764494126563092,83.4,"275 Pine Rd, Newnan, GA 30263","2395 Thompson Rd, Dawsonville, GA 30534"
+0.7640568422490946,5.2,"800 Carter St, Rochester, NY 14621","150 Crittenden Blvd., Rochester, NY 14642"
+0.7636579371133145,195.8,"215 Lancaster Ave, Malvern, PA 19355","2128 Oakland Avenue, Indiana, PA 15701"
+0.7627659574468085,249.3,"11190 Health Park Blvd, Naples, FL 34110","400 Health Park Blvd, Saint Augustine, FL 32086"
+0.7613431013431012,25.5,"1300 Crane St, Menlo Park, CA 94025","1998 Market St, San Francisco, CA 94102"
+0.7611179670003199,54.3,"1255 GA-54, Fayetteville, GA 30214","5450 GA-20 Cartersville, GA 30121"
+0.7602182539682539,2.9,"2315 Stockton Blvd, Sacramento, CA 95817","1600 Exposition Blvd, Sacramento, CA 95815"
+0.7597772597772597,41.7,"1412 Milstead Ave, Conyers, GA 30012","410 McKinley Dr, Athens, GA 30601"
+0.7592126623376623,134.3,"214 E 23rd St, Cheyenne, WY 82001","2221 W Elm St, Rawlins, WY 82301"
+0.758751937984496,35.4,"2604 Schoenersville Rd, Bethlehem, PA 18017","2500 Bernville Rd, Reading, PA 19605"
+0.7587352302869544,118.1,"1717 S Calhoun St, Fort Wayne, IN 46802","1201 South Main Street Crown Point, IN 46307"
+0.758617153739105,0.9,"1301 W 18th St, Sioux Falls, SD 57104","2501 W. 22nd Street Sioux Falls, SD 57105"
+0.7582022311212815,0.5,"1800 NW Myhre Rd, Silverdale, WA 98383","10452 Silverdale Way N.W. Silverdale, WA 98383"
+0.7580519480519481,100.9,"2950 Cleveland Clinic Blvd, Weston, FL 33331","2776 Cleveland Ave, Fort Myers, FL 33901"
+0.7572727272727273,2.1,"13435 US-183, Austin, TX 78750","14016 N, US-183, Austin, TX 78717"
+0.7572475226649799,6.6,"510 Boston Rd, Billerica, MA 01821","1 Hospital Dr, Lowell, MA 01852"
+0.7564386256069827,111.5,"55 Fruit St, Boston, MA 02114","725 North St, Pittsfield, MA 01201"
+0.7560115638665764,71.8,"100 Hospital Rd, Prince Frederick, MD 20678","1601 Bowmans Farm Rd, Frederick, MD 21701"
+0.7557060755336618,35.7,"19801 Observation Dr, Germantown, MD 20876","1800 Orleans St, Baltimore, MD 21287"
+0.7553282182438193,63.6,"22 Bramhall St, Portland, ME 04102","420 Franklin St, Rumford, ME 04276"
+0.7550407422827573,3.3,"3401 Civic Center Blvd, Philadelphia, PA 19104","1 Citizens Bank Way, Philadelphia, PA 19148"
+0.7548627058430979,3.5,"348 Greenwood St, Worcester, MA 01607","123 Summer St, Worcester, MA 01608"
+0.7547058823529411,0.0,"3905 OK-97, Sand Springs, OK 74063","3090 State Highway 97, Sand Springs, OK 74063"
+0.7532442216652743,79.6,"725 S Wahanna Rd, Seaside, OR 97138","525 SE Washington St, Dallas, OR 97338"
+0.7521520803443328,0.7,"99 Matthew Dr, Uniontown, PA 15401","86 McClellandtown Rd, Uniontown, PA 15401"
+0.7516769073220685,0.7,"5126 Hospital Dr NE, Covington, GA 30014","8203 Hazelbrand Rd NE, Covington, GA 30014"
+0.7510850439882697,7.1,"825 S 169th St, Omaha, NE 68118","8303 Dodge St, Omaha, NE 68118"
+0.7506734006734007,325.2,"1513 W Fir St, Portales, NM 88130","801 W Maple St, Farmington, NM 87401"
+0.7503232644409116,9.9,"700 Children's Dr, Columbus, OH 43205","4760 Sawmill Rd, Columbus OH 43235"
+0.7502764127764129,52.0,"1900 Washington St, Grafton, WI 53024","10400 75th St., Kenosha, WI 53142"
+0.7492737835875091,0.2,"1945 NJ-33, Neptune City, NJ 07753","2040 Route 33 Neptune City, NJ 07753"
+0.7490970499035016,0.8,"241 N Figueroa St, Los Angeles, CA 90012","1700 Stadium Way, Los Angeles, CA 90012"
+0.7486166007905138,11.1,"15740 S Outer Forty Rd, Chesterfield, MO 63017","12409 St. Charles Rock Rd, Bridgeton, MO 63044"
+0.7483787593984963,23.4,"1400 Cambridge St, Cambridge, MA 02138","1 General St, Lawrence, MA 01841"
+0.7475708502024291,299.1,"1940 N Monroe St, Tallahassee, FL 32303","1410 Sports Blvd, Cape Coral, FL 33991"
+0.7474358974358973,48.2,"190 Blue Devil Ln, Gainesboro, TN 38562","1503 S Main St, Crossville, TN 38555"
+0.7471713471713471,4.7,"401 N Ewing St, Lancaster, OH 43130","2384 N Memorial Dr, Lancaster, OH 43130"
+0.7467082467082468,0.6,"200 Ocean 36th St, Marathon, FL 33050","2805 Overseas HWY Marathon, FL 33050"
+0.7464214046822744,40.5,"7201 N University Dr, Tamarac, FL 33321","7305 N Military Trl, West Palm Beach, FL 33410"
+0.74618312963334,82.8,"3318 N Northhills Blvd, Fayetteville, AR 72703","358 East Valley Street Yellville, AR 72687"
+0.7461538461538462,4.0,"5205 Melrose Ave, Los Angeles, CA 90038","8730 Alden Drive, Los Angeles, CA 90059"
+0.7455706521739132,1.1,"1631 Elysian Fields Ave, New Orleans, LA 70117","1419 Basin Street, New Orleans, LA 70116"
+0.7449199922884132,13.9,"330 W Maple Ave, Monrovia, CA 91016","1101 W. McKinley Ave, Pomona, CA 91768"
+0.7429666119321291,41.9,"580 Court St, Keene, NH 03431","1059 Canal St, Manchester, NH 03101"
+0.7429361179361179,118.9,"1001 Providence Dr, Newberg, OR 97132","1501 NE Medical Center Drive, Bend, OR 97701"
+0.7427751460009525,80.9,"745 Poplar Rd, Newnan, GA 30265","2395 Thompson Rd, Dawsonville, GA 30534"
+0.7423893065998329,14.0,"2094 Pitkin Ave, , NY 11207","2210 Bartow Avenue, Bronx, NY 10475"
+0.7419799498746869,29.7,"193 NY-59, Nanuet, NY 10954","1500 NY-9D, Wappingers Falls, NY 12590"
+0.74160724896019,26.5,"5 Garrett Ave, La Plata, MD 20646","10251 Central Ave, Largo, MD 20774"
+0.741,183.5,"1127 Bruce B Downs Blvd, Wesley Chapel, FL 33544","1425 South Congress Avenue, Delray Beach, FL 33445"
+0.7408708560118753,7.9,"2110 Sunset Blvd Suite M, Los Angeles, CA 90026","2040 Camfield Avenue, Los Angeles, Ca 90040"
+0.7398780487804878,39.4,"15910 Chieftain Ave, Rockville, MD 20855","11760 Baltimore Ave, Beltsville, MD 20705"
+0.7393406593406594,2.6,"300 Pasteur Dr, Palo Alto, CA 94304","3250 Alpine Road, Portola Valley, CA 94028"
+0.7389047619047618,116.8,"12500 Willowbrook Rd, Cumberland, MD 21502","1800 Orleans St, Baltimore, MD 21287"
+0.7388278388278389,87.6,"9449 Friars Rd, San Diego, CA 92108","4300 Rose Dr, Yorba Linda, CA 92886"
+0.7384254443751012,5.7,"506 Malcolm X Blvd, New York, NY 10037","225 W 23rd St, New York, NY 10011"
+0.7383040935672515,2.5,"750 S Park Ave, Pomona, CA 91766","1101 W. McKinley Ave, Pomona, CA 91768"
+0.7378147526414537,63.8,"1125 Madison St, Jefferson City, MO 65101","1717 Madison Ave, Washington, MO 63090"
+0.737718498252014,24.6,"16520 S Westland Dr, Gaithersburg, MD 20877","10251 Central Ave, Largo, MD 20774"
+0.7376518218623482,5.9,"121 Dekalb Ave, , NY 11201","1143 Lexington Ave, New York, NY 10021"
+0.7376232917409388,171.3,"20 Hartford St, Houlton, ME 04730","420 Franklin St, Rumford, ME 04276"
+0.7371040723981899,52.0,"20 S Plum St, Vermillion, SD 57069","2100 S Marion Rd, Sioux Falls, SD 57106"
+0.736842105263158,276.0,"501 N Glendale Ave, Glendale, CA 91206","550 South Green Valley Road, Watsonville, CA 95076"
+0.7368181818181818,190.6,"100 N Portland Ave, , NY 11205","1500 N. James St., Rome, NY 13440"
+0.7366452991452991,40.4,"2900 Foxfield Dr, St. Charles, IL 60174","900 N 2nd St, Rochelle, IL 61068"
+0.7365266106442577,14.8,"6150 E Broad St, Columbus, OH 43213","4760 Sawmill Rd, Columbus OH 43235"
+0.7365266106442577,37.3,"1210 Provident Dr, Warsaw, IN 46580","700 Broadway, Fort Wayne, IN 46802"
+0.7364182364182364,2.2,"5755 Cedar Ln, Columbia, MD 21044","6340 Woodside Ct, Columbia, MD, 21046"
+0.7360269360269361,225.0,"35 Clayton Rd, Arden, NC 28704","111 Sunnybrook Rd, Raleigh, NC 27610"
+0.7358220211161388,0.1,"24 Hospital Ave, Danbury, CT 06810","95 Loucust Ave, Danbury CT"
+0.7354464285714286,89.4,"3635 Market St, Hoover, AL 35226","320 Main St, Roanoke, AL 36274"
+0.7349769585253456,148.8,"251 N 4th St, Oakland, MD 21550","22 S Greene St, Baltimore, MD 21201"
+0.7347347176136557,3.0,"800 E Carpenter St, Springfield, IL 62769","2950 South Sixth Street, Springfield, IL 62703"
+0.7343603766367993,2.9,"120 Craig Rd, Freehold Township, NJ 07728","315 W. Main Street Freehold, NJ 07728"
+0.7342555994729908,145.7,"643 5th St, Fort Sumner, NM 88119","356 9th St, Cimarron, NM 87714"
+0.7341269841269841,1.6,"800 Clematis St, West Palm Beach, FL 33401","2606 S Dixie Hwy., West Palm Beach, FL 33401"
+0.7335880398671096,9.6,"101 E Olney Ave C5, Philadelphia, PA 19120","1 Citizens Bank Way, Philadelphia, PA 19148"
+0.732404181184669,1.6,"2905 3rd Ave SE, Aberdeen, SD 57401","305 South State Street Aberdeen, SD 57401"
+0.7323436797121007,1.3,"333 Borthwick Ave, Portsmouth, NH 03801","599 Lafayette Rd, Portsmouth, NH 03801"
+0.7319613135402608,103.7,"1500 Division St, Oregon City, OR 97045","13000 SW Century Drive, Bend, OR 97702"
+0.7318166219504587,4.6,"1500 Forest Glen Rd, Silver Spring, MD 20910","13428 New Hampshire Ave Silver Spring, MD 20904"
+0.7316299929303641,3.6,"50 N Medical Dr, Salt Lake City, UT 84132","1280 E Stringham Ave, Salt Lake City, UT 84106"
+0.7308287687544652,62.0,"1037 NY-109, Farmingdale, NY 11735","1500 NY-9D, Wappingers Falls, NY 12590"
+0.7307954545454546,22.0,"7495 State St, Midvale, UT 84047","777 N Main St Tooele, UT 84074"
+0.7307797270955166,20.2,"18101 Preston Rd 201, Dallas, TX 75252","3201 W. Saner Ave., Dallas, TX 75233"
+0.7304504504504504,22.5,"1080 Stelton Rd, Piscataway, NJ 08854","2100 Wescott Dr, Flemington, NJ 08822"
+0.7300000000000001,33.0,"2125 NJ-88, Brick Township, NJ 08724","2421 US-1, North Brunswick Township, NJ 08902"
+0.7291412291412293,7.9,"51 N 39th St, Philadelphia, PA 19104","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.7283500717360115,31.1,"327 Medical Park Dr, Bridgeport, WV 26330","207 S Price St, Kingwood, WV 26537"
+0.72819205883722,7.7,"10050 Roosevelt Blvd, Philadelphia, PA 19116","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.7281792281792283,7.2,"3401 SE 10th Ave, Amarillo, TX 79104","7304 SW 34th, Amarillo, TX"
+0.7272676205942131,2.5,"910 Old Camp Rd 130, The Villages, FL 32162","703 N Buena Vista Blvd, The Villages, FL 32162"
+0.7268705952916479,85.6,"468 Cadieux Rd, Grosse Pointe, MI 48230","804 Service Rd, East Lansing, MI 48824"
+0.7267284816373175,2.7,"3330 Siskey Pkwy, Matthews, NC 28105","630 Matthews Township Pkwy, Matthews, NC 28105"
+0.7263427109974425,12.8,"1 College Dr, Toms River, NJ 08753","701 U.S. 9, Forked River, NJ 08731"
+0.7257044419835118,21.4,"520 S Maple Ave, Oak Park, IL 60304","777 Park Ave. West, Highland Park, IL 60035"
+0.7254960317460318,10.3,"6959 Forest Preserve Dr, Chicago, IL 60634","259 E Erie St, Chicago, IL 60611"
+0.7245234708392604,259.1,"201 N Mayfair Rd, Wauwatosa, WI 53226","13380 W Trepania Rd, Hayward, WI 54843"
+0.7244152046783626,18.7,"30809 1st Ave S, Federal Way, WA 98003","720 8th Ave S, Seattle, WA 98104"
+0.7243083003952568,8.3,"1218 Trotwood Ave Bldg C, Columbia, TN 38401","2478 Nashville Hwy Suite A, Columbia, TN 38401"
+0.7240259740259741,5.3,"3563 Far W Blvd, Austin, TX 78731","12319 N Mopac Expy, Austin, TX 78758"
+0.7239626723497691,0.5,"1600 E 32nd St, Silver City, NM 88061","2610 N. Silver, Silver City, New Mexico 88061"
+0.7236323279801541,49.3,"50 Worcester Rd, Framingham, MA 01702","40 Wright St, Palmer, MA 01069"
+0.7236165577342049,5.8,"8201 Golf Course Rd NW, Albuquerque, NM 87120","5150 Journal Center Blvd. SE Albuquerque, NM 87109"
+0.7233733733733733,37.5,"901 E Fifth St, Washington, MO 63090","6900 Chippewa St, St. Louis, MO 63109"
+0.7232804232804232,2.0,"13155 Noel Rd 2000, Dallas, TX 75240","5917 Belt Line Rd, Dallas TX"
+0.7232563115104836,10.1,"4122 Market St, Philadelphia, PA 19104","7131 Frankford Ave Philadelphia, PA 19135"
+0.7230769230769231,148.1,"1801 E 51st St Bldg H, Austin, TX 78723","5616 Lawndale St., Ste A108 Houston, TX 77023"
+0.7226347226347226,8.1,"111 S 11th St, Philadelphia, PA 19107","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.7222222222222222,41.8,"1 Cooper Plaza, Camden, NJ 08103","215 Applegarth Road Monroe, NJ 08831"
+0.7204083115373437,0.6,"95 Leonard Ave 203, Washington, PA 15301","37 Highland Ave, Washington, PA 15301"
+0.7199001339666302,1.8,"55 Lake Ave N., Worcester, MA 01604","123 Summer St, Worcester, MA 01608"
+0.7198912198912198,7.7,", Fort Wayne, IN 46845","2200 Randallia Dr, Fort Wayne, IN 46805"
+0.7196400091136933,21.2,"550 Peachtree St NE, Atlanta, GA 30308",4350 North Point Parkway Alpharetta GA 30022
+0.7190651750148317,11.2,"235 S Gary Ave, Bloomingdale, IL 60108","137 W North Ave, Northlake, IL 60164"
+0.7189959798655451,1.1,", Stony Brook, NY 11790","101 Nicolls Road, Stony Brook, NY 11794"
+0.7175802139037434,225.7,"2747 4th St, Brunswick, GA 31520","727 54th Street Columbus, GA 31904"
+0.7168394471026049,16.6,"229 Andover St, Peabody, MA 01960","1290 Tremont Street ,Roxbury, MA 02120"
+0.7167000381388253,21.0,"34515 9th Ave S, Federal Way, WA 98003","720 8th Ave S, Seattle, WA 98104"
+0.7166537966537966,37.6,"10350 Haligus Rd, Huntley, IL 60142","2650 Ridge Avenue, Evanston, IL 60201"
+0.7163041579315164,0.2,"1016 Roosevelt Ave, Grants, NM 87020","700 E. Roosevelt, Suite 100, Grants, New Mexico 87020"
+0.7162162162162162,373.3,"1306 W Stevens St, Carlsbad, NM 88220","801 W Maple St, Farmington, NM 87401"
+0.715619610741562,6.9,"2211 Lomas Blvd NE, Albuquerque, NM 87106","13701 Encantado Rd. NE Albuquerque, NM 87123"
+0.7153371320037986,27.9,"200 Memorial Ave, Westminster, MD 21157","1800 Orleans St, Baltimore, MD 21287"
+0.7151424963924965,5.7,"5521 Lincoln Hwy 1a, Crown Point, IN 46307","1201 South Main Street Crown Point, IN 46307"
+0.7142235159476539,103.8,"501 Santiago Park Ln, Kingsville, TX 78363","1000 Sports Park Blvd, Brownsville, TX 78526"
+0.7139802191927291,5.9,"809 University Blvd E, Tuscaloosa, AL 35401","9070 Highway 69 South, Tuscaloosa, AL 35405"
+0.7136199528440907,73.5,"100 Sentara Cir, Williamsburg, VA 23188","4600 Spotsylvania Pkwy, Fredericksburg, VA 22408"
+0.7131180297978096,4.0,"1 University Heights, Asheville, NC 28804","711 New Leicester Hwy, Asheville, NC 28806"
+0.7125220458553793,26.5,"100 Medical Plaza, Lake St Louis, MO 63367","3802 S Lindbergh Blvd, St. Louis, MO 63127"
+0.7123642439431913,8.4,"3400 Spruce St, Philadelphia, PA 19103","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.712037037037037,2.0,"2400 Unser Blvd SE, Rio Rancho, NM 87124","1721 Rio Rancho Blvd. SE Rio Rancho, NM 87124"
+0.7118233618233619,26.5,"601 Concord Ave, Cambridge, MA 02138","140 Lincoln Avenue, Haverhill, MA 01830"
+0.711417748917749,3.7,"22 Jefferson St, Hartford, CT 06106","1000 Asylum Street, Hartford, CT"
+0.711417748917749,101.4,"400 E Burdick Expy, Minot, ND 58701","300 N 7th St, Bismarck, ND 58501"
+0.7111207505944348,2.3,"1481 W 10th St, Indianapolis, IN 46202","893 Delaware St, Indianapolis, IN 46225"
+0.7106357694592988,63.8,"2302 College Ave, Conway, AR 72034","309 S Edline, Altheimer, AR 72004"
+0.7106357694592988,113.3,"1926 Oak St, Unionville, MO 63565","601 S US-169, Smithville, MO 64089"
+0.7103918434563595,1.0,"535 Centerville Rd, Warwick, RI 02886","400 East Ave, Warwick, RI 02886"
+0.7092592592592593,11.2,"97 Progress Blvd, Shippensburg, PA 17257","1000 Norland Ave, Chambersburg, PA 17201"
+0.709090909090909,43.9,"230 E 10th St, Anniston, AL 36207","320 Main St, Roanoke, AL 36274"
+0.7086999022482893,183.5,"5450 Fort St, Trenton, MI 48183","400 Hobart St, Cadillac, MI 49601"
+0.7080597221262184,71.3,"2070 IL-50 500, Bourbonnais, IL 60914","450 W Hwy 22, Barrington, IL 60010"
+0.7080597221262184,199.3,"1001 W Memorial Dr, Artesia, NM 88210","215 S Silver Ave, Deming, NM 88030"
+0.7080139372822299,93.5,"7370 Baker St, Pittsburgh, PA 15206","271 Railroad Street Philipsburg, PA 16866"
+0.7078521785618818,27.7,"380 N Oxford Valley Rd, Langhorne, PA 19047","250 King of Prussia Rd, Radnor, PA 19087"
+0.7076315789473684,22.5,"2001 Medical Pkwy, Annapolis, MD 21401","6401 America Blvd, Hyattsville, MD 20782"
+0.707548449612403,101.0,"1401 1st St W, Webster, SD 57274","604 1st St NE, Wessington Springs, SD 57382"
+0.7074686638581161,49.3,"31 Union St, Vernon, CT 06066","130 Division St, Derby, CT"
+0.7072733918128655,63.3,"345 Main St, Tewksbury, MA 01876","40 Wright St, Palmer, MA 01069"
+0.706215905828309,107.3,"480 W Lowder St, Macclenny, FL 32063","1360 Saxon Boulevard, Orange City, FL 32763"
+0.7061557605035866,273.2,"310 S 2nd St, Tucumcari, NM 88401","801 W Maple St, Farmington, NM 87401"
+0.7061557605035866,11.1,"636 Raymond Dr, Naperville, IL 60563","300 Randall Road Geneva, IL 60134"
+0.7056334622823984,22.0,"420 N West End St Suite B, Springdale, AR 72764","500 S Mt Olive St #200, Siloam Springs, AR 72761"
+0.7055976430976432,177.2,"255 Lafayette Ave, Suffern, NY 10901","160 Genesee St, Auburn, NY 13021"
+0.7054838880925837,145.8,"1111 Crater Lake Ave, Medford, OR 97504","435 E Alder Street, Alsea, OR 97324"
+0.7053884711779449,15.8,"451 Clarkson Ave, , NY 11203","2210 Bartow Avenue, Bronx, NY 10475"
+0.7050537538342416,13.0,"17512 Dona Michelle Dr 5, Tampa, FL 33647","4201 N Dale Mabry Hwy., Tampa, FL 33607"
+0.7048229548229549,38.1,"54 Seven Lakes Dr, Sloatsburg, NY 10974","3 Delaware Drive Lake Success, NY 11042"
+0.7046783625730993,0.8,", Memphis, TN 38104","2569 Douglass Ave, Memphis, TN 38114"
+0.7045478279030911,127.1,"4700 Highlands Way, Irondale, AL 35210","1350 Highway 231, Troy, AL 36081"
+0.7045028142589119,304.6,"2518 Mission College Blvd 101, Santa Clara, CA 95054","10250 Santa Monica Blvd #1450, Los Angeles, CA 90067"
+0.7044642857142858,100.5,"75 Park St, Elizabethtown, NY 12932","1001 West St, Carthage, NY 13619"
+0.7044642857142858,33.3,"789 Central Ave, Dover, NH 03820","1059 Canal St, Manchester, NH 03101"
+0.7044171444171444,251.9,"810 12th St, Hood River, OR 97031","1108 SW 4th Street, Ontario, OR 97914"
+0.70379062362758,6.5,"7018 S Utica Ave, Tulsa, OK 74136","315 South Utica, Tulsa, Ok 74104"
+0.7037837837837838,1.0,"4821 US-19, New Port Richey, FL 34652","5355 School Rd. Port Richey, FL 34652"
+0.7036945812807881,125.8,"302 College St, Lafayette, TN 37083","266 Joule St, Alcoa, TN 37701"
+0.7036945812807881,77.9,"4 Jersey St, Boston, MA 02215","230 Maple Street, Holyoke, MA 01040"
+0.7032678806320227,31.1,"720 Boston Turnpike, Shrewsbury, MA 01545","1290 Tremont Street ,Roxbury, MA 02120"
+0.7031529516994633,297.3,"930 W St Rd, Feasterville-Trevose, PA 19053","150 West 3rd St., Erie, PA 16505"
+0.702986633249791,264.4,"3807 McNutt Rd, Sunland Park, NM 88063","4801 Beckner Rd, Santa Fe, NM 87507"
+0.7017104542966611,9.2,"10800 Knights Rd, Philadelphia, PA 19114","7401 Ogontz Avenue, Philadelphia, PA 19138"
+0.7007575757575758,79.1,"3580 W 9000 S, West Jordan, UT 84088","935 N 1000 W, Tremonton, UT 84337"
+0.7006468190678716,106.6,"3351 McMullen Booth Rd, Clearwater, FL 33761","1410 Sports Blvd, Cape Coral, FL 33991"
+0.7006105006105005,80.4,"800 Professional Blvd, Dalton, GA 30720","1000 Rowland St, Clarkston GA 30021"
+0.7004138950480413,9.3,"1800 Unser Blvd NW, Albuquerque, NM 87120","5150 Journal Center Blvd. SE Albuquerque, NM 87109"
+0.7001984126984127,237.2,"580 W Germantown Pike, Plymouth Meeting, PA 19462","4220 William Penn Highway, Monroeville, PA 15146"
+0.7000921375921377,53.9,"8490 Hwy 72 W, Madison, AL 35758","1101 Hwy 72 EAST, Tuscumbia, AL 35674"
+0.6999405822935234,104.9,"303 S Main St, Bluffton, IN 46714","703 N Main St Kouts, Indiana 46347"
+0.6995801469485681,101.0,"1105 E Kennedy Blvd, Tampa, FL 33602","1205 S Woodland Blvd, DeLand, FL 32720"
+0.6993874857443073,170.7,"820 Illinois Rte 59, Bartlett, IL 60103","2950 South Sixth Street, Springfield, IL 62703"
+0.6991830065359478,241.4,"102 Mason Farm Rd, Chapel Hill, NC 27514","1 Hospital Rd., Cherokee, NC 28719"
+0.6987732528909,198.3,"2151 W Spring St, Monroe, GA 30655","7221 Sallie Mood Dr, Savannah, GA 31406"
+0.6987654320987655,8.6,"1 Plainsboro Rd, , NJ 08536","215 Applegarth Road Monroe, NJ 08831"
+0.6986127784447111,73.8,"2555 Judge Fran Jamieson Way, Melbourne, FL 32940","1245 West Granada Boulevard, Ormond Beach, FL 32174"
+0.698571926158133,37.6,"65 James St, Edison, NJ 08820","500 Route 57 Washington, NJ 07882"
+0.6984901648059543,0.7,"2920 Telegraph Ave, Berkeley, CA 94705","2500 Milvia St Berkeley, CA 94704"
+0.6984126984126985,46.0,"106 Bow St, Elkton, MD 21921","1800 Orleans St, Baltimore, MD 21287"
+0.6975524475524475,58.3,"1968 Peachtree Rd NW, Atlanta, GA 30309","1199 Prince Ave, Athens, GA 30606"
+0.6972350230414747,80.5,"745 E 8th St, Winner, SD 57580","513 3rd St SW, Wagner, SD 57380"
+0.696727373332695,272.4,"900 N Flamingo Rd, Pembroke Pines, FL 33028","400 Health Park Blvd, Saint Augustine, FL 32086"
+0.6967067067067066,3.8,"1720 S University Dr, Fargo, ND 58103","2101 Elm Street N.   Fargo, ND 58102"
+0.6962433862433862,253.0,"801 S 70th St, West Allis, WI 53214","1700 W Stout St, Rice Lake, WI 54868"
+0.6960317460317461,308.9,"1801 N Temple Ave, Starke, FL 32091","1350 NW 50 ST, Miami, FL 33142"
+0.6958257513096223,86.3,"2360 Hospital Dr 1, Aliquippa, PA 15001","621 S Main St, DuBois, PA 15801"
+0.6957125981516225,110.3,"3021 Griffin Ave, Enumclaw, WA 98022","2901 Squalicum Pkwy, Bellingham, WA 98225"
+0.6957125981516225,8.8,"3730 W 4700 S, West Valley City, UT 84118","389 S 900 E Salt Lake City, UT 84102"
+0.6956654456654457,24.5,"1050 E Philadelphia Ave, Gilbertsville, PA 19525","1440 East Butler Pike, Ambler, PA 19002"
+0.6954430255161045,186.9,"1216 Cameo St, Clovis, NM 88101","2669 N Scenic Dr, Alamogordo, NM 88310"
+0.6953140096618359,59.5,"10256 Old Green Bay Rd, Pleasant Prairie, WI 53158","3200 Pleasant Valley Road, West Bend, WI 53095"
+0.6947876447876448,675.1,"200 W Arbor Dr, San Diego, CA 92103","2700 Dolbeer Street, Eureka, CA 95501"
+0.6946696567189926,10.3,"9 Mule Rd, Toms River, NJ 08755","701 U.S. 9, Forked River, NJ 08731"
+0.6944444444444443,513.6,"7643 Painter Ave, Whittier, CA 90602","351 Hartnell Ave., Redding, CA 96001"
+0.6942151162790697,2.7,"777 Bannock St, Denver, CO 80204","1400 Jackson Street, Denver, Colorado 80206"
+0.6937224502203981,25.0,"801 Viney Grove Rd, Prairie Grove, AR 72753","601 SW Regional Airport Blvd, Bentonville, AR 72713"
+0.6936494461961354,229.1,"211 FM 544, Murphy, TX 75094","1410 Fry Rd., Houston, TX 77084"
+0.6935669685030299,61.9,"364 Pritham Ave, Greenville, ME 04442","149 North St, Waterville, ME 04901"
+0.693475239558189,59.6,"28050 Grand River Ave, Farmington Hills, MI 48336","3550 Pine Grove Ave., Port Huron, MI 48060"
+0.6931920006516781,0.1,"400 Paramus Rd, Paramus, NJ 07652","Paramus Campus – Lots B & C 400 Paramus Road Paramus, NJ 07652"
+0.6931667403803626,115.4,"52 Tech Dr, Tifton, GA 31794","727 54th Street Columbus, GA 31904"
+0.6931481481481482,257.2,"3201 S 16th St 1000, Milwaukee, WI 53215","1700 W Stout St, Rice Lake, WI 54868"
+0.6931481481481482,90.8,"2442 Bloomingdale Ave, Valrico, FL 33596","1200 Deltona Blvd, Deltona, FL 32725"
+0.6931476931476932,106.5,"334 12th Ave SE, Norman, OK 73071","433 Fairview Ave Ponca City, OK 74601"
+0.6930736404420615,313.4,"9311 SW State Rd 200, Ocala, FL 34481","3200 W De Soto St, Pensacola, FL 32505"
+0.6930571686669248,31.6,"8600 Old Georgetown Rd, Bethesda, MD 20814","1601 Bowmans Farm Rd, Frederick, MD 21701"
+0.6928571428571427,163.0,"2500 Metrohealth Dr, Cleveland, OH 44109","55 Centennial Blvd, Chillicothe OH 45601"
+0.6924963924963925,83.6,"600 Highland Ave, Madison, WI 53792","10400 75th St., Kenosha, WI 53142"
+0.6922799422799423,171.9,"600 Mary St, Evansville, IN 47710","5165 McCarty Ln, Lafayette, IN 47905"
+0.6922337722337722,288.3,"224 SE 24th St, Gainesville, FL 32641","1475 West 49th Place, Hialeah, FL 33012"
+0.6920968587635254,16.0,"21 Romance Hill Rd, Belfair, WA 98528","9621 Ridgetop Blvd NW Silverdale, WA 98383"
+0.6915957605612778,5.2,"1 Bay St, Montclair, NJ 07042","617 Broad Street Newark, NJ 07102"
+0.6912657806618,12.3,"2400 Wellesley Ave NE, Albuquerque, NM 87107","7440 Jim McDowell Rd NW, Albuquerque, NM, 87114"
+0.6912393162393161,192.8,"1100 E 3rd St, Chattanooga, TN 37403","1501 W. Elk Ave, Elizabethton, TN 37643"
+0.6910629514963881,58.3,"214 Washington St, Claremont, NH 03743","240 S Main St, Wolfeboro, NH 03894"
+0.6910602540113366,49.0,"1683 E Florence Blvd, Casa Grande, AZ 85122","13400 E Shea Blvd, Scottsdale, AZ 85259"
+0.6909917134456028,37.0,"9901 Medical Center Dr, Rockville, MD 20850","11 Industrial Park Drive, Waldorf, MD 20602"
+0.6906928480204342,62.5,"70 Main St, Norwich, CT 06360","2979 Main Street, Bridgeport, CT"
+0.6906796906796907,3.2,"100 Twin River Rd, Lincoln, RI 02865","600 Rhode Island Ave, Providence, RI 02908"
+0.6905723905723905,89.9,"111 Maltese Dr, Middletown, NY 10940","1 Atwell Road, Cooperstown, NY"
+0.690446127946128,14.2,"2520 Cherry Ave, Bremerton, WA 98310","720 8th Ave S, Seattle, WA 98104"
+0.6903371320037986,4.4,"1401 Jefferson Hwy, Jefferson, LA 70121","1419 Basin Street, New Orleans, LA 70116"
+0.6903371320037986,44.7,"214 Center Grove Rd, Randolph, NJ 07869","225 N Clinton Ave # 1, Trenton, NJ 08609"
+0.6902162014230978,120.5,"201 Morningside Dr, Sandersville, GA 31082","210 Forest Hill Drive Hamilton, GA 31811"
+0.690079667768455,53.2,"1455 Battersby Ave, Enumclaw, WA 98022","3927 Rucker Avenue Everett, WA 98201"
+0.689882697947214,207.6,"809 Jackson St, Burke, SD 57523","2116 Jackson Boulevard, Rapid City, SD 57702"
+0.6898412698412698,4.8,"26 S Main St, Centerville, UT 84014","165 N University Ave, Farmington, UT 84025"
+0.6897435897435896,51.1,"1140 NJ-72, Stafford Township, NJ 08050","2421 US-1, North Brunswick Township, NJ 08902"
+0.6896974863726782,325.8,"215 E Hawaii Ave, Nampa, ID 83686","520 N 3rd Ave, Sandpoint, ID 83864"
+0.6896135265700484,7.7,"5950 University Ave, West Des Moines, IA 50266","2103 Ingersoll Ave, Des Moines, IA 50312"
+0.6893217893217892,463.4,"8135 Calumet Ave, Munster, IN 46321","2861 Broad Ave, Memphis, IN 38112"
+0.6891133557800225,71.7,"335 E Ave K 6 B, Lancaster, CA 93535","1081 N China Lake Blvd, Ridgecrest, CA 93555"
+0.6890977443609022,373.2,"440 N Hiawatha Dr, Canton, SD 57013","1440 N Main Street Spearfish, SD 57783"
+0.688863287250384,141.1,"701 3rd Ave S, Clear Lake, SD 57226","513 3rd St SW, Wagner, SD 57380"
+0.6888211991078266,68.7,"135 Maple St, Decatur, GA 30030","1514 Vernon Rd, Lagrange, GA 30240"
+0.6888047138047138,487.4,"701 S Stemmons Fwy, Lewisville, TX 75067","1000 Sports Park Blvd, Brownsville, TX 78526"
+0.6887289463376419,39.8,"2507 N Richmond Rd, McHenry, IL 60050","5140 N California Ave, Chicago, IL 60625"
+0.6884259259259259,50.5,"525 William F McClellan Hwy, Boston, MA 02128","450 William S Canning Blvd. Fall River, MA 02721"
+0.6881836945304437,116.8,"10150 SE 32nd Ave, Milwaukie, OR 97222","815 SW Bond Street, Bend, OR 97702"
+0.687966537966538,4.8,"755 N Roop St 101, Carson City, NV 89701","900 E. Long St. Carson City, NV 89706"
+0.6878787878787879,72.7,"520 Montgomery Hwy, Vestavia Hills, AL 35216","350 County Road 4 West, Prattville, AL 36067"
+0.6878443848377103,3.8,"7 Blanchard Cir, Wheaton, IL 60189","4201 Winfield Road, Warrenville, IL 60555"
+0.687825311942959,0.1,"516 Nizhoni Blvd, Gallup, NM 87301","1919 College Drive, Gallup, New Mexico 87301"
+0.6877145308924485,5.3,"300 Central Ave, East Orange, NJ 07018","1000 Morris Ave, Union, NJ 07083"
+0.6875252525252525,23.9,"116 Garden State Pkwy, Holmdel, NJ 07733","617 Broad Street Newark, NJ 07102"
+0.6874736632876167,38.2,"18101 Prince Philip Dr, Olney, MD 20832","11 Industrial Park Drive, Waldorf, MD 20602"
+0.6872951739618407,185.2,"270 E Court Ave, Selmer, TN 38375","701 County Service Drive Cookeville, TN 38501-3338"
+0.6872256872256872,177.3,"1500 N Oakland Ave, Bolivar, MO 65613","10923 Olive Blvd, Creve Coeur, MO 63141"
+0.6871243914722176,60.4,"1700 Alber St 100, Wabash, IN 46992","1701 S Creasy Ln, Lafayette, IN 47905"
+0.6869952659426343,192.3,"55 Pacific Ave, SF, CA 94111","1035 Placer Street, Redding, CA. 96001"
+0.6869095816464238,42.1,"360 Station Dr, Crystal Lake, IL 60014","635 N. Fairbanks Ct, Chicago, IL 60611"
+0.686904761904762,0.4,"1850 Gateway Dr, Sycamore, IL 60178","2496 DeKalb Ave.  Sycamore, IL 60178"
+0.6863067926225822,34.5,"17960 S Halsted St, Homewood, IL 60430","9600 Gross Point Road, Skokie, IL 60076"
+0.6860877684407095,13.4,"58 Bedford St, Lexington, MA 02421","500 Lynnfield Street Lynn, MA 01904"
+0.6857231906320265,25.2,"2500 Allen Creek Rd, Gainesville, GA 30507","2570 Riverside Parkway Lawrenceville, GA 30046"
+0.6856957207834401,7.4,"350 S Waukegan Rd, Deerfield, IL 60015","1775 Dempster Street, Park Ridge, IL 60068"
+0.6854367854367854,216.5,"2201 Mt Zion Pkwy, Morrow, GA 30260","7221 Sallie Mood Dr, Savannah, GA 31406"
+0.685428849902534,2.5,", Melrose Park, IL 60160","137 W North Ave, Northlake, IL 60164"
+0.6852941176470587,114.7,"660 Firetower Rd, Dublin, GA 31021","210 Forest Hill Drive Hamilton, GA 31811"
+0.6852826510721247,15.8,"33 Kilmer Rd, Edison, NJ 08817","215 Applegarth Road Monroe, NJ 08831"
+0.6845234708392604,58.3,"800 Spruce St, Philadelphia, PA 19107","850 Greenfield Rd, Lancaster, PA 17601"
+0.6844834307992204,93.1,"1170 N Solano Dr, Las Cruces, NM 88001","2610 N. Silver, Silver City, New Mexico 88061"
+0.6840601503759399,19.0,"110 E Ridgewood Ave, Paramus, NJ 07652","399 Route 10 East Hanover, NJ 07936"
+0.6840601503759399,18.9,"230 E Ridgewood Ave, Paramus, NJ 07652","399 Route 10 East Hanover, NJ 07936"
+0.6840541495896745,236.4,"4412 Kell W Blvd, Wichita Falls, TX 76309","600 N Bell Blvd, Cedar Park, TX 78613"
+0.684041394335512,100.5,"127 Anderson St STE 101, Pittsburgh, PA 15212","761 Johnsonburg Rd Suite 160, St Marys, PA 15857"
+0.6837320574162679,235.3,"7943 Moffett Rd, Semmes, AL 36575","320 Main St, Roanoke, AL 36274"
+0.6829409578770193,680.8,"5115 El Paso Dr, El Paso, TX 79905","136 E Hospital Dr., Angleton TX,  77515"
+0.682785841609371,166.2,"1933 Edwin Dr, Chesapeake, VA 23322","8008 Westpark Dr, McLean, VA 22102"
+0.6827485380116959,133.7,"1500 Idalia Rd B, Bernalillo, NM 87004","801 W Maple St, Farmington, NM 87401"
+0.6826617826617826,110.0,"1220 Iyannough Rd, Barnstable, MA 02601","40 Wright St, Palmer, MA 01069"
+0.6826516897081413,257.3,"1 Ocean Pkwy, Wantagh, NY 11793","1001 West St, Carthage, NY 13619"
+0.6825396825396824,2.7,"3500 Knoxville Zoo Dr, Knoxville, TN 37914","140 Dameron Avenue   Knoxville, TN 37917-6413"
+0.6818575761952911,110.1,"211 St Francis Dr, Cape Girardeau, MO 63703","12409 St. Charles Rock Rd, Bridgeton, MO 63044"
+0.6812636165577342,311.8,"200 E Chisum St, Roswell, NM 88203","801 W Maple St, Farmington, NM 87401"
+0.6812409812409812,1.3,"2 Renshaw Rd, Darien, CT 06820","80 High School Ln, Darien, CT 06820"
+0.6812159058283088,5.1,"1101 Medical Center Blvd, Marrero, LA 70072","1419 Basin Street, New Orleans, LA 70116"
+0.6811147186147185,71.6,"53 Academy Dr, Westampton, NJ 08060","300 Pompton Road Wayne, NJ 07470"
+0.6810397353875614,40.7,"7600 River Rd, North Bergen, NJ 07047","2040 Route 33 Neptune City, NJ 07753"
+0.6805712669683258,0.0,"S Oakes St & E Beauregard Ave, San Angelo, TX 76903","101-199 S Oakes St San Angelo, TX 76903"
+0.6805555555555555,100.0,"1007 Goodyear Ave, Gadsden, AL 35903","1171 Gatewood Drive Auburn, AL 36830"
+0.6797747055811572,78.4,"617 Becker Ave, Belen, NM 87002","4801 Beckner Rd, Santa Fe, NM 87507"
+0.679622846289513,172.5,"18111 Lexington Blvd, Sugar Land, TX 77479","11811 Blanco Road San Antonio, TX 78216"
+0.6791998850822379,30.9,"2 Wake Robin Rd, Lincoln, RI 02865","Plains Rd & Tootell Rd, Kingston, RI 02881"
+0.6791998850822379,10.9,"10180 Washington Ave, Sturtevant, WI 53177","6308 8th Avenue, Kenosha, WI 53143"
+0.6788710907704042,227.0,"1600 E Evergreen St, Cameron, MO 64429","4400 Telegraph Rd, St. Louis, MO 63129"
+0.6786944752061032,86.7,"11567 Canterwood Blvd, Gig Harbor, WA 98332","1615 Delaware St. Longview, WA 98632"
+0.6786006069094305,204.5,"2401 S 31st St, Temple, TX 76508","450 N 11th St, Beaumont, TX, 77702"
+0.6782142857142857,194.6,"1825 4th St, SF, CA 94158","1441 Liberty St., Redding, CA 96001"
+0.6780264279624894,33.8,"695 W Boughton Rd, Bolingbrook, IL 60440","450 W Hwy 22, Barrington, IL 60010"
+0.6780091253775464,238.4,"64 Belinda Pkwy 200A, Mt. Juliet, TN 37122","1 Medical Park Blvd, Bristol, TN 37260"
+0.67786391042205,7.9,"870 N Milwaukee Ave, Vernon Hills, IL 60061","777 Park Ave. West, Highland Park, IL 60035"
+0.6777804590304589,62.0,"509 W 18th St, Hermann, MO 65041","6900 Chippewa St, St. Louis, MO 63109"
+0.67752849002849,0.1,"8144 NW Prairie View Rd, KCMO, MO 64152","8144 NW PRAIRIE VIEW ROAD, KANSAS CITY, MO 64151"
+0.6773504273504273,8.8,"740 US-1, Woodbridge Township, NJ 08830","1000 Morris Ave, Union, NJ 07083"
+0.6772117993688059,23.4,"1133 Eagles Landing Pkwy, Stockbridge, GA 30281","8203 Hazelbrand Rd NE, Covington, GA 30014"
+0.6771940796331041,185.6,"1235 E Cherokee St, Springfield, MO 65804","10923 Olive Blvd, Creve Coeur, MO 63141"
+0.6771171171171172,24.4,"333 SW Cutoff, Northborough, MA 01532","1 Patriot Place, Foxborough, MA 02035"
+0.676971256971257,186.7,"3801 S National Ave, Springfield, MO 65807","3871 Mexico Rd, St. Charles, MO 63303"
+0.6764957264957264,108.3,"2240 Iyannough Rd, Barnstable, MA 02668","40 Wright St, Palmer, MA 01069"
+0.6764069264069263,83.7,"1675 Highland Ave, Madison, WI 53792","10400 75th St., Kenosha, WI 53142"
+0.6764069264069263,186.7,"3501 Johnson St, Hollywood, FL 33021","4200 Conroy Rd, Orlando, FL 32839"
+0.6758297258297259,177.7,"1101 Ocilla Rd, Douglas, GA 31533","1000 Rowland St, Clarkston GA 30021"
+0.6757703081232492,345.2,"6255 Sharlands Ave, Reno, NV 89523","6125 W Sahara Ave #1B, Las Vegas, NV 89146"
+0.6756829227417462,310.4,"960 N San Antonio Rd 101, Los Altos, CA 94022","10250 Santa Monica Blvd #1450, Los Angeles, CA 90067"
+0.6753418803418804,160.4,"130 E Lockling Ave, Brookfield, MO 64628","10923 Olive Blvd, Creve Coeur, MO 63141"
+0.6753418803418804,279.0,"2105 Airline Dr, Bossier City, LA 71111","1419 Basin Street, New Orleans, LA 70116"
+0.6752270563246173,100.0,"101 Chestnut St, Jefferson City, MO 65101","6900 Chippewa St, St. Louis, MO 63109"
+0.6751727804359383,36.4,"885 Roosevelt Rd, Glen Ellyn, IL 60137","7900 Rollins Rd. Gurnee, IL 60031"
+0.6751349009413525,71.0,"300 S Byron Blvd, Chamberlain, SD 57325","513 3rd St SW, Wagner, SD 57380"
+0.6749158249158249,94.2,"155 Crystal Run Rd, Middletown, NY 10941","4417 Vestal Pkwy E, Vestal, NY 13850"
+0.6746031746031745,350.3,"280 Vista Knoll Pkwy, Reno, NV 89506","1125 Shadow Ln, Las Vegas, NV, 89102"
+0.6745540321391714,197.6,"3440 W Dr Martin Luther King Jr Blvd 100, Tampa, FL 33607","347 Don Shula Dr., Miami Gardens, FL 33056"
+0.6741403299542835,87.9,"9230 Sky Island Dr E, Bonney Lake, WA 98391","2320 Freeway Dr. Mount Vernon, WA 98273"
+0.674089068825911,4.9,"352 Peachtree Pl NW, Atlanta, GA 30318","6 Executive Park Drive NE, Atlanta, GA"
+0.673945373945374,130.4,"9601 Baptist Health Dr, Little Rock, AR 72205","141 Betty Drive Pocahontas, AR, 72455"
+0.6735585585585585,262.3,"4000 N Illinois Ln, Swansea, IL 62226","2400 N Ashland Avenue, Chicago, IL 60614"
+0.6734808401475068,1.2,", South Kingstown, RI 02881","Plains Rd & Tootell Rd, Kingston, RI 02881"
+0.6723443223443223,104.2,"1600 E Broadway, Columbia, MO 65201","600 NE Adams Dairy Pkwy #200, Blue Springs, MO 64014"
+0.6719718190306425,74.1,"801 Delaware Ave, Camden, NJ 08102","617 Broad Street Newark, NJ 07102"
+0.6718233618233619,46.9,"2 Centerock Rd, West Nyack, NY 10994","101 Nicolls Road, Stony Brook, NY 11794"
+0.6717171717171717,25.4,"1305 Jennings Mill Rd, Watkinsville, GA 30677","1255 Friendship Rd #130, Braselton, GA 30517"
+0.6716628652112523,379.8,"608 Winifred St, Bayard, NM 88023","300 Wilson St Clayton, NM 88415"
+0.6714602302837598,37.3,"1 Riverview Plaza, Red Bank, NJ 07701","701 U.S. 9, Forked River, NJ 08731"
+0.6713311740600898,115.2,"2450 S Telshor Blvd, Las Cruces, NM 88011","530 De Moss Street, Lordsburg, New Mexico 88045"
+0.6711516711516712,12.5,"727 N Beers St, Holmdel, NJ 07733","315 W. Main Street Freehold, NJ 07728"
+0.6711171869066606,101.8,"131 McMillen Dr, Newark, OH 43055","7109 Bachman Dr, Sardinia, OH 45171"
+0.6709401709401709,1.7,", Lake Elsinore, CA ","500 Diamond Dr, Lake Elsinore, CA 92530"
+0.6707138590203106,16.1,"3320 Brunswick Pike, Lawrence Township, NJ 08648","2421 US-1, North Brunswick Township, NJ 08902"
+0.6704942983053929,165.8,"630 W 3rd St, Milan, MO 63556","600 Mid Rivers Mall Dr, St. Peters, MO 63376"
+0.6703703703703704,28.0,", Bellwood, IL 60104","2490 Bushwood Drive  Elgin, IL 60124"
+0.6701887151662264,213.6,"2741 NE McBaine Dr, Lee's Summit, MO 64064","12409 St. Charles Rock Rd, Bridgeton, MO 63044"
+0.6701774042950515,8.7,"1600 Antelope Dr, Layton, UT 84041","165 N University Ave, Farmington, UT 84025"
+0.6699999999999999,24.9,"2201 Chapel Ave W, Cherry Hill, NJ 08002","225 N Clinton Ave # 1, Trenton, NJ 08609"
+0.6694134325713273,32.3,"2 Jan Sebastian Dr, Sandwich, MA 02563","106 New State Hwy, Raynham, MA 02767"
+0.668939393939394,275.0,"1400 E Bert Kouns Industrial Loop, Shreveport, LA 71105","1419 Basin Street, New Orleans, LA 70116"
+0.6688994438355053,212.6,"1004 N 14th St, Leesburg, FL 34748","3700 N.W. 11th Place, Lauderhill, FL 33311"
+0.668859649122807,68.2,"18101 Oakwood Blvd, Dearborn, MI 48124","1881 W. Grand River Okemos, MI 48864"
+0.6685435435435436,36.0,"465 Marin Blvd, Jersey City, NJ 07302","315 W. Main Street Freehold, NJ 07728"
+0.6681041181041181,4.8,"1 Robert Wood Johnson Place, New Brunswick, NJ 08901","2421 US-1, North Brunswick Township, NJ 08902"
+0.6680784493284492,107.4,"6238 E Pima St, Tucson, AZ 85712","13400 E Shea Blvd, Scottsdale, AZ 85259"
+0.6680784493284492,105.6,"501 N Park Ave, Tucson, AZ 85719","13400 E Shea Blvd, Scottsdale, AZ 85259"
+0.6673254281949935,10.2,", Albuquerque, NM 87121","13701 Encantado Rd. NE Albuquerque, NM 87123"
+0.6671788166067342,61.6,"525 Long Pond Dr, Harwich, MA 02645","1600 Crown Colony Dr, Quincy, MA 02169"
+0.6671181531646648,33.2,"100 New Hampshire Ave, Portsmouth, NH 03801","24 Homestead Place, Alton, NH 03809"
+0.6670739654610621,24.7,"505 Parnassus Ave, SF, CA 94143","150 Muir Road, Martinez, CA 94553"
+0.6670739654610621,23.3,"40 75th St, Willowbrook, IL 60527","9977 Woods Dr. Skokie, IL 60077"
+0.6670621804107694,20.6,"2310 Hempstead Turnpike, East Meadow, NY 11554","234 East 149th Street, Bronx, NY 10451"
+0.6670175702433768,225.0,"1403 Grand Blvd, KCMO, MO 64106","10923 Olive Blvd, Creve Coeur, MO 63141"
+0.6668650793650794,164.6,"2650 Executive Park Dr NW 5, Cleveland, TN 37312","800 Weatherly Dr Suite 201B, Clarksville, TN 37043"
+0.6666666666666666,32.5,"25 Jack Martin Blvd, Brick Township, NJ 08724","2421 US-1, North Brunswick Township, NJ 08902"
+0.6663780663780664,131.3,", Huntington, IN 46750","601 W 2nd St, Bloomington, IN 47403"
+0.6663390526958742,213.7,"4741 S Arrowhead Dr B, Independence, MO 64055","12409 St. Charles Rock Rd, Bridgeton, MO 63044"
+0.6662267471091,27.3,"15 Metropolitan Grove Rd, Gaithersburg, MD 20878","10251 Central Ave, Largo, MD 20774"
+0.6661730082782714,102.2,"1 Hospital Dr, Columbia, MO 65201","13861 Manchester Rd, Ballwin, MO 63011"
+0.6658730158730158,61.5,"5131 O'Donovan Dr, Baton Rouge, LA 70808","1111 Greengate Dr., Suite B  Covington, LA 70433"
+0.6656926406926407,7.3,"55 Hazel Ruby Ln, Mt Hope, WV 25880","520 Beckley Crossing Shopping Center, Beckley, WV 25801"
+0.6652977652977653,47.3,"18 E Laurel Rd, Stratford, NJ 08084","315 W. Main Street Freehold, NJ 07728"
+0.664983164983165,44.3,"2 Essex Center Dr, Peabody, MA 01960","211 Park Street, Attleboro, MA 02703"
+0.6647620672010915,124.0,"117 N Chalkville Rd, Trussville, AL 35173","101 L.V. Stabler Drive, Greenville, AL 36037"
+0.6646579690057951,16.6,"125 Sunrise Hwy, West Islip, NY 11795","101 Nicolls Road, Stony Brook, NY 11794"
+0.6646579690057951,103.7,"202 E Nifong Blvd, Columbia, MO 65203","10923 Olive Blvd, Creve Coeur, MO 63141"
+0.6645401382243488,39.3,"2 Dunning St, Claremont, NH 03743","75 Laconia Road, Tilton, NH 03276"
+0.6642857142857143,66.5,"3322 College Dr, Vineland, NJ 08360","215 Applegarth Road Monroe, NJ 08831"
+0.6642857142857143,63.1,"686 NJ-70, Brick Township, NJ 08723","562 NJ-23, Pompton Plains, NJ 07444"
+0.6641025641025641,39.0,"2 North Rd Unit E & F, Chester, NJ 07930","225 N Clinton Ave # 1, Trenton, NJ 08609"
+0.6636379236379236,184.1,"227 E Chestnut Expy, Springfield, MO 65802","3871 Mexico Rd, St. Charles, MO 63303"
+0.6636101820884429,54.3,"1125 Louisiana 30 W, Gonzales, LA 70737","1419 Basin Street, New Orleans, LA 70116"
+0.6634644234598409,131.3,"98 Cohen Walker Dr, Warner Robins, GA 31088","960 Joe Frank Harris Pkwy, Cartersville, GA 30120"
+0.6626262626262626,6.6,", San Jose, CA ","4150 N 1st St, San Jose, CA 95134"
+0.66243961352657,65.8,"5 Richland Medical Park Dr, Columbia, SC 29203","1656 Riverchase Blvd., #2400 Rock Hill, SC 29732"
+0.6623283459725354,107.7,"4280 N Oracle Rd, Tucson, AZ 85705","5920 W McDowell Rd Phoenix, Arizona 85035"
+0.6622937785728483,3.7,"493 Doctor M.L.K. Jr Ave, Memphis, TN 38126","2400 Poplar Ave #501, Memphis, TN 38112"
+0.6619699042407661,259.2,"1923 N Dal Paso St Suite B, Hobbs, NM 88240","1691 Galisteo St, Ste D, Santa Fe, New Mexico 87505"
+0.6619291194738766,321.5,"9850 W St Lukes Dr, Nampa, ID 83687","520 N 3rd Ave, Sandpoint, ID 83864"
+0.6611449177372098,90.5,"4440 W 95th St, Oak Lawn, IL 60453","403 E 1st St, Dixon, IL 61021"
+0.6611008039579468,19.7,"2624 County Rd 516, Old Bridge Township, NJ 08857","27 S Cooksbridge Road Suite 1-5 Jackson, NJ 08527"
+0.6602252252252252,7.1,"1600 Medical Pkwy, Carson City, NV 89703","900 E. Long St. Carson City, NV 89706"
+0.6601579691010585,24.2,"340 Southwest Blvd, Kansas City, KS 66103","1100 N 4th St Leavenworth, Kansas 66042"
+0.6599341490982359,11.1,"8200 LA-23, Belle Chasse, LA 70037","2000 Segnette Blvd, Westwego, LA 70094"
+0.6597434390912652,74.6,"3600 Florida Blvd, Baton Rouge, LA 70806","576 North Avenue G, Crowley, LA 70526"
+0.6596864552272522,46.5,"145 Queen St, Bristol, CT 06010","34 Maple Street, Norwalk, CT"
+0.6594776594776596,160.7,"12000 MS-15 1, Philadelphia, MS 39350","11700 Highway 57 Vancleave, MS 39565"
+0.6591251885369532,22.6,"68 Robbins St, Waterbury, CT 06708","95 Loucust Ave, Danbury CT"
+0.6590236748376282,189.4,"7001 Gulf Hwy, Lake Charles, LA 70607","6801 Franklin Avenue, New Orleans, LA 70148"
+0.6588888888888889,82.9,"901 Long Beach Blvd, Ship Bottom, NJ 08008","480 Pompton Avenue, Suite 6, Cedar Grove, NJ 07009"
+0.6580952380952382,55.6,"250 Old Hook Rd, Westwood, NJ 07675","501 Squankum Yellowbrook Rd, Farmingdale, NJ 07727"
+0.6578111444778112,54.9,"85 Godwin Ave, Midland Park, NJ 07432","501 Squankum Yellowbrook Rd, Farmingdale, NJ 07727"
+0.6575854700854701,15.3,", San Mateo, CA ","1998 Market St, San Francisco, CA 94102"
+0.6573363828289936,59.8,"17609 Old Jefferson Hwy B, Prairieville, LA 70769","1419 Basin Street, New Orleans, LA 70116"
+0.6561253561253562,50.1,"380 Parkland Plaza, Ann Arbor, MI 48103","1210 W Saginaw St, Lansing, MI 48915"
+0.6559218559218559,28.0,"1520 W 53rd St, Davenport, IA 52806","841 Springdale Drive, Clinton, IA 52732"
+0.6556482670089858,126.8,"1106 Interstate Dr, Bloomington, IL 61705","2100 Pfingsten Road, Glenview IL 60026"
+0.6551801801801802,197.5,"4602 Eastpark Blvd, Madison, WI 53718","2049 15th Ave, Cameron, WI 54822"
+0.6544117647058824,6.9,"2929 S Garnett Rd, Tulsa, OK 74129","315 South Utica, Tulsa, Ok 74104"
+0.6542950513538749,379.1,"126 Tatum Hwy, Lovington, NM 88260","801 W Maple St, Farmington, NM 87401"
+0.6540517961570593,102.2,"800 Hospital Dr, Columbia, MO 65201","13861 Manchester Rd, Ballwin, MO 63011"
+0.6539554506306424,16.9,"71 Haynes St, Manchester, CT 06040","28 Crescent Street Middletown, CT 06457"
+0.6534090909090909,100.2,"3617 Northwest Expy, Oklahoma City, OK 73112","315 South Utica, Tulsa, Ok 74104"
+0.6527777777777777,182.6,"10524 Euclid Ave C Building, Cleveland, OH 44195","1801 Edwin C. Moses Blvd, Dayton, OH"
+0.6527777777777777,147.6,"1570 E Tucson Marketplace Blvd, Tucson, AZ 85713","3457 W White Mountain Blvd Lakeside, AZ 85929"
+0.6527777777777777,204.8,"1315 Burro Ave, Cloudcroft, NM 88317","1183 Diamond Drive, Los Alamos, New Mexico 87544"
+0.6522357723577236,11.3,"16525 Holly Crest Ln 120, Huntersville, NC 28078","6570 Bruton Smith Blvd, Concord, NC 28027"
+0.6522337722337723,184.0,"1710 S Slappey Blvd, Albany, GA 31701","7221 Sallie Mood Dr, Savannah, GA 31406"
+0.6519465977605513,73.8,"11315 Bridgeport Way SW, Lakewood, WA 98499","1615 Delaware St. Longview, WA 98632"
+0.6516087516087515,34.0,"2801 FL-7, Margate, FL 33063","2515 W Flagler Street Miami, FL 33135"
+0.6510606060606061,32.0,"530 New Brunswick Ave, Perth Amboy, NJ 08861","225 N Clinton Ave # 1, Trenton, NJ 08609"
+0.6502291589248111,80.8,"500 Cahaba Park Cir 100, Birmingham, AL 35242","80 William E. Hill Drive, Carrollton, AL 35447"
+0.6501652153826066,20.0,"444 Cajundome Blvd, Lafayette, LA 70506","576 North Avenue G, Crowley, LA 70526"
+0.6486443381180224,325.4,"865 Anthony Dr, Anthony, NM 88021","356 9th St, Cimarron, NM 87714"
+0.6483870967741935,22.8,"757 Boston Post Rd E, Marlboro, MA 01752","1 Hospital Dr, Lowell, MA 01852"
+0.6480986333927511,0.5,"3000 Triumph Blvd, Lehi, UT 84043","3249 N 1200 W Ste A Lehi, UT 84043"
+0.6479302832244008,210.5,"44201 Dequindre Rd, Troy, MI 48085","224 Park Avenue, Frankfort, MI 49635"
+0.6476190476190476,74.3,"9005 US-64 101, Arlington, TN 38002","6501 Telecom Drive, Milan, TN 38358"
+0.6475128735998301,91.9,"380 John Fitch Hwy, Fitchburg, MA 01420","100 Ter Heun Dr, Falmouth, MA 02540"
+0.647307924984876,84.2,"420 IL-173, Antioch, IL 60002","403 E 1st St, Dixon, IL 61021"
+0.647297772155457,92.4,"3001 General Pershing Blvd, Oklahoma City, OK 73107","3090 State Highway 97, Sand Springs, OK 74063"
+0.6462962962962963,270.3,"874 Barnes Crossing Rd, Tupelo, MS 38804","3882 Bienville Boulevard Ocean Springs, MS  39564-5803"
+0.646295733252255,8.9,"3900 Aviation Cir NW, Atlanta, GA 30336",515 Garson Drive Atlanta GA 30324
+0.6455648926237162,0.8,"349 Broadway, Somerville, MA 02145","33 Tower Street, Somerville MA"
+0.6452380952380952,12.6,"594 Great Rd 102A, North Smithfield, RI 02896","1195 N Main St  Providence, RI 02904"
+0.6447245564892623,3.7,", Sacramento, CA ","1600 Exposition Blvd, Sacramento, CA 95815"
+0.6440170940170941,96.4,"401 W Blue Starr Dr, Claremore, OK 74017","1400 E College Ave, McAlester, OK 74501"
+0.6439665075998586,31.5,"100 W 7th St, Okmulgee, OK 74447","6030 S 66th East Avenue, Tulsa, Ok, 74145"
+0.6435185185185185,336.6,"18653 Wedge Pkwy, Reno, NV 89511","1125 Shadow Ln, Las Vegas, NV, 89102"
+0.6428035178035177,60.8,"1621 W 10th St, Little Rock, AR 72202","110 North Drew Street, Star City, AR 71667"
+0.642063492063492,112.9,"117 Camino De Vida, Santa Rosa, NM 88435","1183 Diamond Drive, Los Alamos, New Mexico 87544"
+0.6404761904761904,73.6,"950 E Washington St, Baton Rouge, LA 70802","1419 Basin Street, New Orleans, LA 70116"
+0.6404083570750237,140.0,"Shuffield Dr & Jack Stephens Dr, Little Rock, AR 72205","2158 Butterfield Coach Rd #100, Springdale, AR 72764"
+0.6393537414965986,114.3,"University Blvd & 22nd St S, Birmingham, AL 35205","674 Hicks Industrial Blvd, Union Springs, AL 36089"
+0.6388888888888888,16.3,", Harrison, AR 72601","609 Clark St, Jasper, AR 72641"
+0.6386128364389233,51.5,"989 Governors Ln UNIT 180, Lexington, KY 40513","1006 New Moody Lane  La Grange, KY 40031"
+0.6376343482005767,264.1,"298 W Mariposa Rd, Nogales, AZ 85621","2446 Fort Tuthill Loop, Flagstaff, AZ 86004"
+0.6368446368446369,20.4,"575 NJ-440, Jersey City, NJ 07305","1376 NJ-36, Hazlet, NJ 07730"
+0.6359477124183006,12.6,"589 Bedford St, Stamford, CT 06901","88 North Ave, Westport CT"
+0.6359141126158233,29.8,"435 Hurffville - Cross Keys Rd, Washington Township, NJ 08080","4403 E Black Horse Pike Mays Landing, NJ 08330"
+0.6356724617594183,104.9,"1625 N Campbell Ave, Tucson, AZ 85719","13400 E Shea Blvd, Scottsdale, AZ 85259"
+0.6354341736694678,259.2,"1923 N Dal Paso St, Hobbs, NM 88240","1691 Galisteo St, Ste D, Santa Fe, New Mexico 87505"
+0.6351760108565916,30.7,"5070 Ion Dr, Sparks, NV 89436","900 E. Long St. Carson City, NV 89706"
+0.6341384863123994,210.3,", Pompano Beach, FL ","960 S Williamson Blvd, Daytona Beach, FL 32114"
+0.6336048967627915,343.9,"901 Adams Blvd, Boulder City, NV 89005","900 E. Long St. Carson City, NV 89706"
+0.6334126984126985,128.5,"9525 E Old Spanish Trail, Tucson, AZ 85748","18589 N 59th Ave Glendale, Arizona 85308"
+0.6326797385620915,26.5,", New Rochelle, NY 10805","777 Seaview Ave, Staten Island, NY 10305"
+0.6319390430098234,95.4,"1202 US-60, Socorro, NM 87801","2669 N Scenic Dr, Alamogordo, NM 88310"
+0.6318388908526766,16.3,"13616 E 103rd St N, Owasso, OK 74055","6030 S 66th East Avenue, Tulsa, Ok, 74145"
+0.6312330623306233,124.6,"5369 S Calle Santa Cruz, Tucson, AZ 85706","18589 N 59th Ave Glendale, Arizona 85308"
+0.6307338335640224,185.1,"111 Kansas City Rd, Ruidoso, NM 88345","2010 Industrial Park Road, Espanola, New Mexico 87532"
+0.6302005012531328,1.6,"One Hospital Plaza, Stamford, CT 06902","460 Shippan Ave, Stamford CT"
+0.6297619047619047,159.8,", ,  ","435 State Rd, , Route 6, North Dartmouth, MA, 02747, USA"
+0.6270630836668573,7.0,"Meeker Ave & Elizabeth Ave, Newark, NJ 07112","464 Eagle Rock Avenue, Suite C, West Orange, NJ 07052"
+0.6250136165577342,10.4,"Princeton Hightstown Rd & NJ-64, West Windsor Township, NJ 08550","2421 US-1, North Brunswick Township, NJ 08902"
+0.6239588871167818,267.4,"407 Interchange Dr, Fulton, MS 38843","2819 Denny Avenue Pascagoula, MS 39581"
+0.6239588871167818,29.3,"3601 W 13 Mile Rd, Royal Oak, MI 48073","5301 McAuley Dr, Ypsilanti, MI 48197"
+0.6231481481481481,112.3,", LaGrange, IN 46761","5165 McCarty Ln, Lafayette, IN 47905"
+0.6221197793538219,10.1,"1 Hospital Plaza, Old Bridge Township, NJ 08857","215 Applegarth Road Monroe, NJ 08831"
+0.62140522875817,245.2,"3075 N Reserve St Suite Q, Missoula, MT 59808","710 11th St N, Columbus, MT, 59019"
+0.6210170176235924,131.1,"54 Hospital Dr 111, Osage Beach, MO 65065","12409 St. Charles Rock Rd, Bridgeton, MO 63044"
+0.6185636856368563,130.7,", Kendallville, IN 46755","1 W Athenian Dr, Crawfordsville, IN 47933"
+0.6177109440267335,93.2,"2500 Jacksboro Pike 6, Jacksboro, TN 37757","2000 Brookside Dr, Kingsport, TN 37660"
+0.6175983436853002,32.9,"479 County Rd 520, Marlboro Township, NJ 07746","399 Route 10 East Hanover, NJ 07936"
+0.6128618693134822,34.8,", Homewood, IL 60430","9977 Woods Dr. Skokie, IL 60077"
+0.6113786443243807,253.0,"3rd Ave SW & 4th St SW, Rochester, MN 55902","1245 Washington Ave, Detroit Lakes, MN 56501"
+0.6052836052836054,36.0,", Warsaw, IN ","301 E Day Rd, Mishawaka, IN 46545"
+0.605079365079365,192.0,", Columbia City, IN 46725","8204 County Rd 311, Sellersburg, IN  47172"
+0.6039377289377289,42.5,"2280 E Calvada Blvd 301, Pahrump, NV 89048","5580 W Flamingo Rd, Las Vegas, NV 89103"
+0.6028231028231028,64.9,", Wabash, IN 46992","301 E Day Rd, Mishawaka, IN 46545"
+0.6018518518518519,110.0,"3700 4th St SW, Mason City, IA 50401","2103 Ingersoll Ave, Des Moines, IA 50312"
+0.6012457912457913,43.0,"25327 US-27 SUITE 204-205, Leesburg, FL 34748","36245 U.S. Highway 27, Haines City, FL 33844"
+0.5944741532976826,8.7,"1500 US-41, Schererville, IN 46375","1201 South Main Street Crown Point, IN 46307"
+0.5867978770455551,18.0,"484 MA-134, Dennis, MA 02660","483 Great Neck Rd S, Mashpee, MA 02649"
+0.5835748792270531,26.0,", Davis, CA ","1320 Travis Blvd, Suite C, Fairfield, CA 94533"
+0.5733199262611027,20.5,", Auburn, IN 46706","700 Broadway, Fort Wayne, IN 46802"
+0.5724526369687659,218.3,", , CA ","1305 CA-1, Long Beach, CA 90806"
+0.5571428571428572,3.9,", Stamford, CT 06902","80 High School Ln, Darien, CT 06820"
+0.5553352265308787,32.4,"E 42nd Ave & Lake Otis Pkwy, Anchorage, AK 99508","3122 E Meridian Park Lp.  Wasilla, AK"
+0.511136346430464,229.7,"1650 Cowles St, Fairbanks, AK 99701","3122 E Meridian Park Lp.  Wasilla, AK"
+0.5018315018315018,25.2,", , AZ ","600 S Dobson Rd Chandler, Arizona 85224"
+0.5,166.9,", , TN 37870","2104 Dayton Ave, Nashville, TN 37210"
+0.4932603057603058,230.5,"800 Noble St, Fairbanks, AK 99701","3122 E Meridian Park Lp.  Wasilla, AK"
+-,-,"993 Av. San Luis, Arecibo, Arecibo 00612",-
+-,-,"10 Calle Casia, San Juan, San Juan 00921",-
+-,-,", San Juan, San Juan 00925",-
+-,-,"#12 Calle Santiago Riera Palmer, Salinas, Salinas 00751",-
+-,-,", Ponce, Ponce 00728",-
+-,-,"43 Calle Juan R. Garzot, Naguabo, Naguabo 00718",-
+-,-,", , Luquillo 00773",-
+-,-,"48 Cll 65 De Infanteria, Añasco, Añasco 00610",-
+-,-,"109 Cll Fernández Garcia, Luquillo, Luquillo 00773",-
+-,-,", San Juan, Guaynabo 00920",-
+-,-,", Añasco, Añasco 00610",-
+-,-,", , Aguadilla 00603",-
+-,-,", , Corozal ",-
+-,-,", Arecibo, Arecibo 00612",-
+-,-,"16 Calle Gándara, Corozal, Corozal 00783",-
+-,-,", Aguada, Aguada ",-

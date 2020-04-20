@@ -7,27 +7,22 @@ require 'jaro_winkler'
 
 module TestSites
   MILES_PER_METER = (1 / 1609.344)
-
-  # Overrides Hashie::Mash to disable warnings.
-  class NoWarningMash < Hashie::Mash
-    disable_warnings
-  end
-
   # Utility class for processing Coders Against Covid location data.
   class CAC
-    SEPARATOR = ' - '
+    SEPARATOR = ', '
 
     def self.all_hours
       CAC.cac_data.map { |cac_entry| cac_entry['location_hours_of_operation'] }
     end
 
     def self.cac_data
-      Hashie::Array.new(
-        JSON.parse(
-          Faraday.get('https://api.findcovidtesting.com/api/v1/location')
-            .body
-        )
-      )
+      TestSites::CACClient.new.locations.map do |location|
+        if location.location_address_region.nil?
+          address = StreetAddress::US.parse(location.location_address_street)
+          location.location_address_region = address&.state
+        end
+        location
+      end
     end
 
     def dump_matches
@@ -48,10 +43,15 @@ module TestSites
       @cac_by_address ||=
         CAC.cac_data.each_with_object({}) do |entry_raw, acc|
           entry = NoWarningMash.new(entry_raw)
-          address = [entry.location_address_street,
-                     entry.location_address_locality,
-                     entry.location_address_region,
-                     entry.location_address_postal_code].join(SEPARATOR)
+          address = entry.location_address_street
+
+          # Seems that CAC is returning null for everything other than
+          # street. Hopefully they'll start providing the structured data
+          # again.
+          # address = [entry.location_address_street,
+          #            entry.location_address_locality,
+          #            entry.location_address_region,
+          #            entry.location_address_postal_code].join(SEPARATOR)
           acc[address] = entry
         end
     end
@@ -62,8 +62,7 @@ module TestSites
           entry = NoWarningMash.new(entry_raw.to_h)
           address = [entry.address,
                      entry.city,
-                     entry.state,
-                     entry.postcode].join(SEPARATOR)
+                     [entry.state, entry.postcode].join(' ')].join(SEPARATOR)
           acc[address] = entry
         end
     end

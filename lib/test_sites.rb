@@ -2,11 +2,14 @@
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'logger'
+require 'test_sites/api_client'
+require 'test_sites/cac_client'
 require 'test_sites/cac'
 require 'test_sites/data_file'
 require 'test_sites/geocoder_client'
 require 'test_sites/geocoder_result'
 require 'test_sites/hour_specifier'
+require 'test_sites/no_warning_mash'
 require 'test_sites/source_entry'
 require 'test_sites/source'
 require 'test_sites/hour_parser'
