@@ -53,6 +53,7 @@ class CACLocationTest < TestSitesTestCase
 
   # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def test_to_storepoint
+    assert storepoint_attr.keys.map(&:to_s) == TestSites::StorePoint::HEADERS
     assert storepoint_attr[:name] == 'Tisch Hospital'
     assert storepoint_attr[:address] == '550 First Avenue'
     assert storepoint_attr[:city] == 'New York'
