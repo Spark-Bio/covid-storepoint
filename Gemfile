@@ -8,7 +8,6 @@ ruby '2.7.1'
 gem 'activemodel', '~> 6.0'
 gem 'activesupport', '~> 6.0', '>= 6.0.2.2'
 gem 'faraday', '~> 1.0', '>= 1.0.1'
-gem 'faraday-detailed_logger', '~> 2.3'
 gem 'faraday_middleware', '~> 1.0'
 gem 'geocoder', '~> 1.3', '>= 1.3.7'
 gem 'geodesics', '~> 1.0'
@@ -25,6 +24,8 @@ group :development do
 end
 
 group :development, :test do
+  gem 'faraday-detailed_logger', '~> 2.3'
+
   gem 'minitest', '~> 5.14'
   gem 'rake', '~> 13.0', '>= 13.0.1'
 end

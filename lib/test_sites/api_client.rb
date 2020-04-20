@@ -8,9 +8,29 @@ module TestSites
   DETAILED_LOGGING = ENV['DETAILED_API_LOGGING'] == 'true'
   DEFAULT_TIMEOUT = 180
 
-  # Generaic API client superclass
+  # Generic API client superclass
   class APIClient
-    def conn(endpoint)
+    def initialize(endpoint)
+      @endpoint = endpoint
+    end
+
+    def get(path, log_action)
+      result = conn.get path
+      check_status(result, log_action)
+      result.body
+    end
+
+    def post(path, data, log_action)
+      result = conn.post path, data
+      check_status(result, log_action)
+      result.body
+    end
+
+    private
+
+    attr_reader :endpoint
+
+    def conn
       @conn ||=
         Faraday.new(url: endpoint) do |conn|
           conn.options[:timeout] = DEFAULT_TIMEOUT
@@ -27,23 +47,11 @@ module TestSites
         end
     end
 
-    def check_status(result, action)
+    def check_status(result, log_action)
       return if result.status == 200
 
-      raise "Error #{action}, status: #{result.status}" \
+      raise "Error #{log_action}, status: #{result.status}" \
       " message: #{result.body}"
-    end
-
-    def get(path, action)
-      result = conn.get path
-      check_status(result, action)
-      result.body
-    end
-
-    def post(path, data, action)
-      result = conn.post path, data
-      check_status(result, action)
-      result.body
     end
   end
 end

@@ -5,7 +5,7 @@ module TestSites
   class CACClient < APIClient
     ENDPOINT = 'https://api.findcovidtesting.com/api/v1'
 
-    def conn
+    def initialize
       super(ENDPOINT)
     end
 
