@@ -57,7 +57,7 @@ class CACLocationTest < TestSitesTestCase
     assert storepoint_attr.keys.map(&:to_s) == TestSites::StorePoint::HEADERS
     assert storepoint_attr[:name] == 'Tisch Hospital'
     assert storepoint_attr[:description] ==
-      'At Tisch Hospital, we have more than 300'
+           'At Tisch Hospital, we have more than 300'
     assert storepoint_attr[:address] == '550 First Avenue'
     assert storepoint_attr[:city] == 'New York'
     assert storepoint_attr[:state] == 'NY'

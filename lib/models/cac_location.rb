@@ -75,32 +75,23 @@ class CACLocation
     additional_information_for_patients
   end
 
-  def storepoint_email
-  end
+  def storepoint_email; end
 
-  def storepoint_extra
-  end
+  def storepoint_extra; end
 
-  def storepoint_fri
-  end
+  def storepoint_fri; end
 
-  def storepoint_mon
-  end
+  def storepoint_mon; end
 
-  def storepoint_sat
-  end
+  def storepoint_sat; end
 
-  def storepoint_sun
-  end
+  def storepoint_sun; end
 
-  def storepoint_thu
-  end
+  def storepoint_thu; end
 
-  def storepoint_tue
-  end
+  def storepoint_tue; end
 
-  def storepoint_wed
-  end
+  def storepoint_wed; end
 
   # Returns a hash of attributes suitable for initializing a StorepointLocation.
   #
