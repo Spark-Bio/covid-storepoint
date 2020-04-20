@@ -1,6 +1,5 @@
 # frozen_string_literal: false
 
-require 'models'
 require 'test_helper'
 
 class CACLocationTest < TestSitesTestCase
