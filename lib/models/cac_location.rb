@@ -34,12 +34,16 @@ class CACLocation
        location_status raw_data record_id reference_publisher_of_criteria
        updated_on].freeze
   CAC_TO_STOREPOINT_MAPPING = {
-    location_name: :name, nil => :extra, location_address_street: :address,
-    location_address_locality: :city, location_address_region: :state,
-    location_address_postal_code: :postcode,
-    location_contact_phone_covid: :phone, location_contact_url_main: :website,
-    location_latitude: :lat, location_longitude: :lng,
-    location_hours_of_operation: :hours
+    location_name: :name, storepoint_description: :description,
+    location_address_street: :address, location_address_locality: :city,
+    location_address_region: :state, location_address_postal_code: :postcode,
+    storepoint_country: :country, location_contact_phone_covid: :phone,
+    location_contact_url_main: :website, storepoint_email: :email,
+    storepoint_mon: :monday, storepoint_tue: :tuesday,
+    storepoint_wed: :wednesday, storepoint_thu: :thursday,
+    storepoint_fri: :friday, storepoint_sat: :saturday, storepoint_sun: :sunday,
+    storepoint_tags: :tags, storepoint_extra: :extra, location_latitude: :lat,
+    location_longitude: :lng, location_hours_of_operation: :hours
   }.freeze
 
   attr_accessor(*ATTRIBUTES)
@@ -62,6 +66,43 @@ class CACLocation
     locations.map(&:to_storepoint)
   end
 
+  def storepoint_country
+    'USA'
+  end
+
+  def storepoint_description
+  end
+
+  def storepoint_email
+  end
+
+  def storepoint_extra
+  end
+
+  def storepoint_fri
+  end
+
+  def storepoint_mon
+  end
+
+  def storepoint_sat
+  end
+
+  def storepoint_sun
+  end
+
+  def storepoint_tags
+  end
+
+  def storepoint_thu
+  end
+
+  def storepoint_tue
+  end
+
+  def storepoint_wed
+  end
+
   # Returns a hash of attributes suitable for initializing a StorepointLocation.
   #
   # @return [Hash] this location's attributes in Storepoint format
@@ -70,8 +111,6 @@ class CACLocation
   #     => { address: '550 First Avenue', name: 'Tisch Hospital'... }
   def to_storepoint
     CAC_TO_STOREPOINT_MAPPING.each_with_object({}) do |fields, h|
-      next if fields[0].nil?
-
       h[fields[1]] = send(fields[0])
     end
   end
