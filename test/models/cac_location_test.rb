@@ -65,7 +65,7 @@ class CACLocationTest < TestSitesTestCase
     assert storepoint_attr[:phone] == '347-377-3708'
     assert storepoint_attr[:website] ==
            'https://nyulangone.org/locations/tisch-hospital'
-    assert_in_delta storepoint_attr[:tags], 'Hospital'
+    assert storepoint_attr[:tags] == 'Hospital'
     assert_in_delta storepoint_attr[:lat], 40.7421225
     assert_in_delta storepoint_attr[:lng], -73.9739642
     assert storepoint_attr[:hours] == '9am - 5pm'

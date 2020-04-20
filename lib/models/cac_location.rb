@@ -42,8 +42,9 @@ class CACLocation
     storepoint_mon: :monday, storepoint_tue: :tuesday,
     storepoint_wed: :wednesday, storepoint_thu: :thursday,
     storepoint_fri: :friday, storepoint_sat: :saturday, storepoint_sun: :sunday,
-    storepoint_tags: :tags, storepoint_extra: :extra, location_latitude: :lat,
-    location_longitude: :lng, location_hours_of_operation: :hours
+    location_place_of_service_type: :tags, storepoint_extra: :extra,
+    location_latitude: :lat, location_longitude: :lng,
+    location_hours_of_operation: :hours
   }.freeze
 
   attr_accessor(*ATTRIBUTES)
@@ -71,6 +72,7 @@ class CACLocation
   end
 
   def storepoint_description
+    additional_information_for_patients
   end
 
   def storepoint_email
@@ -89,9 +91,6 @@ class CACLocation
   end
 
   def storepoint_sun
-  end
-
-  def storepoint_tags
   end
 
   def storepoint_thu
