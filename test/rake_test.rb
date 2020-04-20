@@ -19,10 +19,6 @@ class RakeTest < TestSitesTestCase
                                   'test/fixtures/cac_comparison.csv')
   end
 
-  def test_export_cac_as_storepoint
-    Rake.application.invoke_task 'export_cac_as_storepoint'
-  end
-
   def test_update_storepoint
     Rake.application.invoke_task 'update_storepoint'
     assert FileUtils.compare_file('data/store_point.csv',
