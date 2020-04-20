@@ -67,9 +67,7 @@ class CACLocation
     locations.map(&:to_storepoint)
   end
 
-  def storepoint_country
-    'USA'
-  end
+  def storepoint_country; end
 
   def storepoint_description
     additional_information_for_patients
