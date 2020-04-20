@@ -4,7 +4,8 @@ require 'test_helper'
 
 class CACLocationTest < TestSitesTestCase
   ATTRIBUTES = {
-    'additional_information_for_patients': '',
+    'additional_information_for_patients':
+      'At Tisch Hospital, we have more than 300',
     'created_on': 'Fri, 03 Apr 2020 00:17:24 GMT',
     'data_source': 'crowdsource',
     'deleted_on': nil,
@@ -55,6 +56,8 @@ class CACLocationTest < TestSitesTestCase
   def test_to_storepoint
     assert storepoint_attr.keys.map(&:to_s) == TestSites::StorePoint::HEADERS
     assert storepoint_attr[:name] == 'Tisch Hospital'
+    assert storepoint_attr[:description] ==
+      'At Tisch Hospital, we have more than 300'
     assert storepoint_attr[:address] == '550 First Avenue'
     assert storepoint_attr[:city] == 'New York'
     assert storepoint_attr[:state] == 'NY'
@@ -62,6 +65,7 @@ class CACLocationTest < TestSitesTestCase
     assert storepoint_attr[:phone] == '347-377-3708'
     assert storepoint_attr[:website] ==
            'https://nyulangone.org/locations/tisch-hospital'
+    assert_in_delta storepoint_attr[:tags], 'Hospital'
     assert_in_delta storepoint_attr[:lat], 40.7421225
     assert_in_delta storepoint_attr[:lng], -73.9739642
     assert storepoint_attr[:hours] == '9am - 5pm'
