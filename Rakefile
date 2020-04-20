@@ -15,6 +15,18 @@ task :diff_sources do
   TestSites::SourceDiff.new.list
 end
 
+desc 'Export all CAC locations to Storepoint'
+task :export_cac_as_storepoint do
+  load 'lib/models.rb' unless defined?(CACLocation)
+  sp_locations = CACLocation.to_storepoint(CACLocation.all_from_api)
+
+  CSV.open(TestSites::DataFile.path('cac_as_storepoint.csv'), 'w',
+           write_headers: true,
+           headers: TestSites::StorePoint::HEADERS.join(',')) do |csv|
+    sp_locations.each { |location| csv << location.values }
+  end
+end
+
 task :geocode do
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::Geocoder.new.process
