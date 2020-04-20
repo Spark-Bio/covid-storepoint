@@ -93,7 +93,7 @@ class CACLocation
 
   def storepoint_wed; end
 
-  # Returns a hash of attributes suitable for initializing a StorepointLocation.
+  # Returns a hash of attributes suitable for exporting to Storepoint.
   #
   # @return [Hash] this location's attributes in Storepoint format
   # @example
