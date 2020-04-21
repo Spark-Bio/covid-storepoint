@@ -11,41 +11,34 @@ module TestSites
   # Generic API client superclass
   class APIClient
     def initialize(endpoint)
-      @endpoint = endpoint
+      @connection = Faraday.new(url: endpoint) do |conn|
+        conn.options[:timeout] = DEFAULT_TIMEOUT
+
+        conn.request :json
+
+        conn.response :mashify, mash_class: NoWarningMash
+        conn.response :json, content_type: /\bjson$/
+        conn.response :detailed_logger if DETAILED_LOGGING
+
+        yield(conn) if block_given?
+
+        conn.adapter Faraday.default_adapter
+      end
     end
 
     def get(path, log_action)
-      result = conn.get path
+      result = @connection.get path
       check_status(result, log_action)
       result.body
     end
 
     def post(path, data, log_action)
-      result = conn.post path, data
+      result = @connection.post path, data
       check_status(result, log_action)
       result.body
     end
 
     private
-
-    attr_reader :endpoint
-
-    def conn
-      @conn ||=
-        Faraday.new(url: endpoint) do |conn|
-          conn.options[:timeout] = DEFAULT_TIMEOUT
-
-          conn.request :json
-
-          conn.response :mashify, mash_class: NoWarningMash
-          conn.response :json, content_type: /\bjson$/
-          conn.response :detailed_logger if DETAILED_LOGGING
-
-          yield(conn) if block_given?
-
-          conn.adapter Faraday.default_adapter
-        end
-    end
 
     def check_status(result, log_action)
       return if result.status == 200
