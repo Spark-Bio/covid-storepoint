@@ -27,3 +27,9 @@ jobs:
         run: |
           bundle exec rake test
           bundle exec rubocop
+          coveralls report
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v1.0.1
+        with:
+          github-token: ${{ secrets.github_token }}
+          parallel: false
