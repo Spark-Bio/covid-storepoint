@@ -17,7 +17,7 @@ module TestSites
 
     def self.cac_data
       TestSites::CACClient.new.locations.map do |location|
-        if location.location_address_region.nil?
+        if location.location_address_region.blank?
           address = StreetAddress::US.parse(location.location_address_street)
           location.location_address_region = address&.state
         end
