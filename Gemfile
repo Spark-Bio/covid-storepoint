@@ -26,6 +26,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'coveralls', require: false
   gem 'faraday-detailed_logger', '~> 2.3'
   gem 'minitest', '~> 5.14'
   gem 'rake', '~> 13.0', '>= 13.0.1'
