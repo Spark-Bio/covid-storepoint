@@ -17,6 +17,8 @@ module TestSites
 
     def self.cac_data
       TestSites::CACClient.new.locations.map do |location|
+        next if location.deleted_on.present?
+
         if location.location_address_region.blank?
           address = StreetAddress::US.parse(location.location_address_street)
           location.location_address_region = address&.state
