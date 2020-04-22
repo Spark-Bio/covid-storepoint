@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'geoservices'
 require 'logger'
 require 'test_sites/api_client'
 require 'test_sites/arcgis_client'
