@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'geoservices'
+
 # Client for: https://covidtracking.com/api
 module TestSites
   # Wraps the ArcGIS World Geocoding Service.
