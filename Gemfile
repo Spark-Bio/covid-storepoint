@@ -11,6 +11,8 @@ gem 'faraday', '~> 1.0', '>= 1.0.1'
 gem 'faraday_middleware', '~> 1.0'
 gem 'geocoder', '~> 1.3', '>= 1.3.7'
 gem 'geodesics', '~> 1.0'
+gem 'geoservices', git: 'https://github.com/Spark-Bio/geoservices-ruby.git',
+                   ref: 'fe2d2c', require: 'geoservices'
 gem 'google_maps_service', '~> 0.4.2'
 gem 'hashie', '~> 3.4', '>= 3.4.4'
 gem 'jaro_winkler', '~> 1.4'

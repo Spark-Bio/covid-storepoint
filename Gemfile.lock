@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/Spark-Bio/geoservices-ruby.git
+  revision: fe2d2c12867dbe7b15815020611fd96a808f4729
+  ref: fe2d2c
+  specs:
+    geoservices (0.0.13)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,6 +85,7 @@ DEPENDENCIES
   faraday_middleware (~> 1.0)
   geocoder (~> 1.3, >= 1.3.7)
   geodesics (~> 1.0)
+  geoservices!
   google_maps_service (~> 0.4.2)
   hashie (~> 3.4, >= 3.4.4)
   jaro_winkler (~> 1.4)
