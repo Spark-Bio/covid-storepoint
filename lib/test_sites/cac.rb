@@ -16,7 +16,7 @@ module TestSites
     end
 
     def self.cac_data
-      TestSites::CACClient.new.locations.map do |location|
+      TestSites::CACClient.new.locations.filter_map do |location|
         next if location.deleted_on.present?
 
         if location.location_address_region.blank?
