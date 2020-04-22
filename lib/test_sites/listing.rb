@@ -14,6 +14,7 @@ module TestSites
     def initialize(source_entry, geocoder_result)
       @source_entry = source_entry
       @geocoder_result = geocoder_result
+      @componentized_address = ComponentizedUSAddress.new(@geocoder_result)
     end
 
     delegate :name, :phone, :hours, to: :source_entry
@@ -28,24 +29,20 @@ module TestSites
     end
 
     def address
-      intersection || street_address
+      @componentized_address.street
     end
 
-    def intersection
-      address_components.intersection&.first
+    def city
+      @componentized_address.city
     end
 
-    def street_address
-      if street_number && route
-        [street_number, route, subpremise].compact.join(' ')
-      else
-        street_address_fallback
-      end
+    def state
+      @componentized_address.state
     end
 
-    delegate :street_number, :route, :intersection, :premise, :subpremise,
-             :city, :postcode, :state, :lat, :lng, :formatted_address,
-             to: :geocoder_result
+    def postcode
+      @componentized_address.zip
+    end
 
     def country
       ''
@@ -95,6 +92,14 @@ module TestSites
       ''
     end
 
+    def lat
+      @geocoder_result.lat
+    end
+
+    def lng
+      @geocoder_result.lng
+    end
+
     private
 
     def hours_array
@@ -103,16 +108,6 @@ module TestSites
         spec = hour_parser.parse(hours)
         spec&.to_array || EMPTY_HOURS
       end
-    end
-
-    def street_address_fallback
-      if formatted_address
-        implicit_us_address = formatted_address.gsub(/, USA?/, '')
-        address = StreetAddress::US.parse(implicit_us_address)
-        if address&.number && address&.street && address&.street_type
-          "#{address.number} #{address.street} #{address.street_type}"
-        end
-      end || nil
     end
 
     def hour_parser

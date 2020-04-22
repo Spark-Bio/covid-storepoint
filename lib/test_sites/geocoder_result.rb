@@ -42,7 +42,11 @@ module TestSites
     end
 
     def subpremise
-      component(:subpremise)
+      if component(:subpremise) =~ /^\d+$/
+        "##{component(:subpremise)}"
+      else
+        component(:subpremise)
+      end
     end
 
     def city
