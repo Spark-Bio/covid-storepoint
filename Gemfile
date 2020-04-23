@@ -20,12 +20,12 @@ gem 'StreetAddress', '~> 1.0', '>= 1.0.6', require: 'street_address'
 gem 'xsv', '~> 0.3.11'
 
 group :development do
+  gem 'pry'
   gem 'rubocop'
 end
 
 group :development, :test do
   gem 'faraday-detailed_logger', '~> 2.3'
-
   gem 'minitest', '~> 5.14'
   gem 'rake', '~> 13.0', '>= 13.0.1'
 end
