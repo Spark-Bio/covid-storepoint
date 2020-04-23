@@ -14,7 +14,7 @@ module TestSites
     @@connection = nil
 
     def self.all(properties = {})
-      ArcGISClient.connection.query(0, properties)['features']
+      ArcGISClient.connection.query(0, properties)
     end
 
     def self.connection
