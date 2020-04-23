@@ -13,8 +13,8 @@ module TestSites
     # rubocop:disable Style/ClassVars
     @@connection = nil
 
-    def self.all(properties = {})
-      ArcGISClient.connection.query(0, properties)
+    def self.all(options = {})
+      ArcGISClient.connection.query(0, options)
     end
 
     def self.connection
@@ -22,8 +22,8 @@ module TestSites
       @@connection
     end
 
-    def self.first(properties = {})
-      all(properties).first
+    def self.first(options = {})
+      all(options).first
     end
 
     def initialize
