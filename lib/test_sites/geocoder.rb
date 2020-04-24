@@ -31,7 +31,7 @@ module TestSites
           TestSites.logger.debug "*** EXCEPTION for #{e.address}"
           a[:exceptions][e.address] = { class: e.class.to_s,
                                         message: e.message }
-          counters.excpetions += 1
+          counters.exceptions += 1
         end
       end.tap do
         TestSites.logger.debug '*** Gecoder Results'
