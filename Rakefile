@@ -29,7 +29,7 @@ end
 
 task :geocode do
   load 'lib/test_sites.rb' unless defined?(TestSites)
-  TestSites::Geocoder.new.process
+  TestSites::Geocoder.new.process(TestSites::Source.new)
 end
 
 desc 'Check that the hour listings in the source file all parse correctly'

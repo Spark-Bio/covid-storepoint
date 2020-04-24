@@ -7,33 +7,30 @@ require 'json'
 module TestSites
   # Utility class for geocoding location data.
   class Geocoder
-    def process
-      results = geocode
+    def process(locations)
+      results = geocode(locations)
       geocoder_results.update(results)
     end
 
     private
 
     # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
-    def geocode
-      TestSites.logger.debug "*** Geocoding #{source.size} listings"
+    def geocode(locations)
+      TestSites.logger.debug "*** Geocoding #{locations.size} listings"
 
       counters = Struct.new(:skipped, :successes, :exceptions).new(0, 0, 0)
       # rubocop:disable Style/MultilineBlockChain
-      source.each_with_object({ successes: {}, exceptions: {} }) do |entry, acc|
-        if entry.address.nil? ||
-           geocoder_results.already_geocoded?(entry.address)
-          next
-        end
+      locations.each_with_object({ successes: {}, exceptions: {} }) do |e, a|
+        next if e.address.nil? || geocoder_results.already_geocoded?(e.address)
 
         begin
-          TestSites.logger.debug "geocoding #{entry.address}"
-          acc[:successes][entry.address] = geocode_address(entry.address)
+          TestSites.logger.debug "geocoding #{e.address}"
+          a[:successes][e.address] = geocode_address(e.address)
           counters.successes += 1
         rescue StandardError => e
-          TestSites.logger.debug "*** EXCEPTION for #{entry.address}"
-          acc[:exceptions][entry.address] = { class: e.class.to_s,
-                                              message: e.message }
+          TestSites.logger.debug "*** EXCEPTION for #{e.address}"
+          a[:exceptions][e.address] = { class: e.class.to_s,
+                                        message: e.message }
           counters.excpetions += 1
         end
       end.tap do
@@ -52,10 +49,6 @@ module TestSites
 
     def geocode_address(address)
       geocoder.search(address)
-    end
-
-    def source
-      @source ||= TestSites::Source.new
     end
 
     def geocoder_results
