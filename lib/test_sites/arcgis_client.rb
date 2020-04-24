@@ -22,8 +22,12 @@ module TestSites
       @@connection
     end
 
-    def self.first(options = {})
-      all(options).first
+    def self.first_location(options = {})
+      locations(options).first
+    end
+
+    def self.locations(options = {})
+      all(options)['features']
     end
 
     def initialize
