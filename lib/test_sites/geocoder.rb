@@ -20,17 +20,17 @@ module TestSites
 
       counters = Struct.new(:skipped, :successes, :exceptions).new(0, 0, 0)
       # rubocop:disable Style/MultilineBlockChain
-      locations.each_with_object({ successes: {}, exceptions: {} }) do |e, a|
-        next if e.address.nil? || geocoder_results.already_geocoded?(e.address)
+      locations.each_with_object({ successes: {}, exceptions: {} }) do |l, a|
+        next if l.address.nil? || geocoder_results.already_geocoded?(l.address)
 
         begin
-          TestSites.logger.debug "geocoding #{e.address}"
-          a[:successes][e.address] = geocode_address(e.address)
+          TestSites.logger.debug "geocoding #{l.address}"
+          a[:successes][l.address] = geocode_address(l.address)
           counters.successes += 1
-        rescue StandardError => err
-          TestSites.logger.debug "*** EXCEPTION for #{e.address}"
-          a[:exceptions][e.address] = { class: err.class.to_s,
-                                        message: err.message }
+        rescue StandardError => e
+          TestSites.logger.debug "*** EXCEPTION for #{l.address}"
+          a[:exceptions][l.address] = { class: e.class.to_s,
+                                        message: e.message }
           counters.exceptions += 1
         end
       end.tap do
