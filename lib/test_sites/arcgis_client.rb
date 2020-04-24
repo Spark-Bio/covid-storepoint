@@ -13,6 +13,10 @@ module TestSites
     # rubocop:disable Style/ClassVars
     @@connection = nil
 
+    # Returns all results from the ArcGIS API.
+    #
+    # @param options [Hash] query parameters (ignored!)
+    # @return [Hash] all ArcGIS results
     def self.all(options = {})
       ArcGISClient.connection.query(0, options)
     end
@@ -22,10 +26,18 @@ module TestSites
       @@connection
     end
 
+    # Returns the first location from the ArcGIS API.
+    #
+    # @param options [Hash] query parameters (ignored!)
+    # @return [Hash] the first location's :attributes and :geometry
     def self.first_location(options = {})
       locations(options).first
     end
 
+    # Returns all locations from the ArcGIS API.
+    #
+    # @param options [Hash] query parameters (ignored!)
+    # @return [Array] :attributes and :geometry for all locations
     def self.locations(options = {})
       all(options)['features']
     end
