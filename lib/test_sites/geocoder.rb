@@ -27,10 +27,10 @@ module TestSites
           TestSites.logger.debug "geocoding #{e.address}"
           a[:successes][e.address] = geocode_address(e.address)
           counters.successes += 1
-        rescue StandardError => e
+        rescue StandardError => err
           TestSites.logger.debug "*** EXCEPTION for #{e.address}"
-          a[:exceptions][e.address] = { class: e.class.to_s,
-                                        message: e.message }
+          a[:exceptions][e.address] = { class: err.class.to_s,
+                                        message: err.message }
           counters.exceptions += 1
         end
       end.tap do
