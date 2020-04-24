@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/Spark-Bio/geoservices-ruby.git
-  revision: fe2d2c12867dbe7b15815020611fd96a808f4729
-  ref: fe2d2c
+  revision: d1ffff489626b0f795db4f3d4833d2768f0624e0
   specs:
     geoservices (0.0.13)
 
