@@ -32,6 +32,11 @@ task :geocode do
   TestSites::Geocoder.new.process(TestSites::Source.new)
 end
 
+task :geocode_cac_locations do
+  load 'lib/test_sites.rb' unless defined?(TestSites)
+  TestSites::Geocoder.new.process(CACLocation.all_from_api)
+end
+
 desc 'Check that the hour listings in the source file all parse correctly'
 task :check_hours do
   load 'lib/test_sites.rb' unless defined?(TestSites)

@@ -19,6 +19,10 @@ class RakeTest < TestSitesTestCase
                                   'test/fixtures/cac_comparison.csv')
   end
 
+  def test_geocode_cac_locations
+    Rake.application.invoke_task 'geocode_cac_locations'
+  end
+
   def test_update_storepoint
     Rake.application.invoke_task 'update_storepoint'
     assert FileUtils.compare_file('data/store_point.csv',
