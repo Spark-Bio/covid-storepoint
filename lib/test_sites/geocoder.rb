@@ -12,6 +12,8 @@ module TestSites
       geocoder_results.update(results)
     end
 
+    private
+
     # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     def geocode
       TestSites.logger.debug "*** Geocoding #{source.size} listings"
