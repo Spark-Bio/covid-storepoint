@@ -13,6 +13,8 @@ module TestSites
       gmaps.geocode(address)
     end
 
+    private
+
     def gmaps
       @gmaps ||= GoogleMapsService::Client.new(key: GOOGLE_API_KEY_COVID)
     end
