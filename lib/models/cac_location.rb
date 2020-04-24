@@ -68,8 +68,8 @@ class CACLocation
   end
 
   def address
-    [location_address_street, location_address_locality, location_address_region,
-     location_address_postal_code].join(' ')
+    [location_address_street, location_address_locality,
+     location_address_region, location_address_postal_code].join(' ')
   end
 
   def storepoint_country; end
