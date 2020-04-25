@@ -54,7 +54,7 @@ class CACLocation
   # @return [Array] all CACLocations from the API
   def self.all_from_api
     TestSites::CAC.cac_data.each_with_object([]) do |json, locations|
-      locations << CACLocation.new(json)
+      locations << CACLocation.new(json.permit(ATTRIBUTES))
     end
   end
 
