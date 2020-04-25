@@ -29,7 +29,7 @@ module TestSites
           counters.successes += 1
         rescue StandardError => e
           TestSites.logger.debug "*** EXCEPTION for #{l.address}"
-          a[:exceptions][l.address] = { class: e.class.to_s,
+          a[:exceptions][l.address] = { class_name: e.class.to_s,
                                         message: e.message }
           counters.exceptions += 1
         end
