@@ -13,7 +13,7 @@ class CACLocation
   include ActiveModel::Model
 
   ATTRIBUTES =
-    %i[additional_information_for_patients created_on
+    %i[arcgis_location additional_information_for_patients created_on
        data_source deleted_on external_location_id geojson
        is_collecting_samples is_collecting_samples_by_appointment_only
        is_collecting_samples_for_others is_collecting_samples_onsite
@@ -53,8 +53,11 @@ class CACLocation
   #
   # @return [Array] all CACLocations from the API
   def self.all_from_api
+    arcgis_locations = ArcGISClient.all_features
     TestSites::CAC.cac_data.map do |hash|
-      CACLocation.new(hash)
+      CACLocation.new(hash).tap do |location|
+        location.arcgis_location = arcgis_locations[location.esri_global_id]
+      end
     end
   end
 

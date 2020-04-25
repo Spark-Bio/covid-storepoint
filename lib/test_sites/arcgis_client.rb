@@ -13,6 +13,13 @@ module TestSites
     # rubocop:disable Style/ClassVars
     @@connection = nil
 
+    def self.all_features
+      all['features'].each_with_object({}) do |arcgis_location, acc|
+        mash = NoWarningMash.new(arcgis_location['attributes'])
+        acc[mash.GlobalID] = mash
+      end
+    end
+
     # Returns all results from the ArcGIS API.
     #
     # @param options [Hash] query parameters (ignored!)
