@@ -20,6 +20,8 @@ class RakeTest < TestSitesTestCase
   end
 
   def test_geocode_cac_locations
+    return if ENV['GITHUB_RUN_ID'] # skip integration test if running on github
+
     Rake.application.invoke_task 'geocode_cac_locations'
   end
 
