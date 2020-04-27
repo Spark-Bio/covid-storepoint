@@ -15,25 +15,25 @@ module TestSites
     end
 
     def city
-      @geocoder_result.city
+      @geocoder_result&.city
     end
 
     def state
-      @geocoder_result.state
+      @geocoder_result&.state
     end
 
     def zip
-      @geocoder_result.postcode
+      @geocoder_result&.postcode
     end
 
     private
 
     def street_addresss
-      if @geocoder_result.street_number && @geocoder_result.route
+      if @geocoder_result&.street_number && @geocoder_result&.route
         [
-          @geocoder_result.street_number,
-          @geocoder_result.route,
-          @geocoder_result.subpremise
+          @geocoder_result&.street_number,
+          @geocoder_result&.route,
+          @geocoder_result&.subpremise
         ].compact.join(' ')
       else
         street_address_fallback
@@ -41,11 +41,11 @@ module TestSites
     end
 
     def intersection
-      @geocoder_result.intersection
+      @geocoder_result&.intersection
     end
 
     def street_address_fallback
-      if @geocoder_result.formatted_address
+      if @geocoder_result&.formatted_address
         address = StreetAddress::US.parse(implicit_us_address)
         if address&.number && address&.street && address&.street_type
           "#{address.number} #{address.street} #{address.street_type}"
@@ -54,7 +54,7 @@ module TestSites
     end
 
     def implicit_us_address
-      @geocoder_result.formatted_address.gsub(/, USA?/, '')
+      @geocoder_result&.formatted_address.gsub(/, USA?/, '')
     end
   end
 end
