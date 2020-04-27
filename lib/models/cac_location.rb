@@ -53,6 +53,7 @@ class CACLocation
   # Returns an array of CACLocations from the API.
   #
   # @return [Array] all CACLocations from the API
+  # rubocop:disable Metrics/MethodLength
   def self.all_from_api
     geocoder_results = TestSites::GeocoderResults.new.filtered
     locations = []
@@ -61,7 +62,8 @@ class CACLocation
       location = CACLocation.new(json.to_hash)
       geocoder_result = geocoder_results[location.location_address_street]
       if geocoder_result
-        location.componentized_us_address = TestSites::ComponentizedUSAddress
+        location.componentized_us_address =
+          TestSites::ComponentizedUSAddress
           .new(geocoder_results[location.location_address_street])
       end
       locations << location
@@ -69,6 +71,7 @@ class CACLocation
 
     locations
   end
+  # rubocop:enable Metrics/MethodLength
 
   # Converts the specified array of CACLocations to an array of
   # StorepointLocations.
