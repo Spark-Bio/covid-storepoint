@@ -54,7 +54,7 @@ module TestSites
     end
 
     def implicit_us_address
-      @geocoder_result&.formatted_address.gsub(/, USA?/, '')
+      @geocoder_result&.formatted_address&.gsub(/, USA?/, '')
     end
   end
 end
