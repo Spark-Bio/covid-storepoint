@@ -35,8 +35,8 @@ class CACLocation
        updated_on].freeze
   CAC_TO_STOREPOINT_MAPPING = {
     location_name: :name, storepoint_description: :description,
-    location_address_street: :address, location_address_locality: :city,
-    location_address_region: :state, location_address_postal_code: :postcode,
+    street: :address, city: :city,
+    state: :state, zip: :postcode,
     storepoint_country: :country, location_contact_phone_covid: :phone,
     location_contact_url_main: :website, storepoint_email: :email,
     storepoint_mon: :monday, storepoint_tue: :tuesday,
@@ -48,14 +48,26 @@ class CACLocation
   }.freeze
 
   attr_accessor(*ATTRIBUTES)
+  attr_writer :componentized_us_address
 
   # Returns an array of CACLocations from the API.
   #
   # @return [Array] all CACLocations from the API
   def self.all_from_api
-    TestSites::CAC.cac_data.each_with_object([]) do |json, locations|
-      locations << CACLocation.new(json.permit(ATTRIBUTES))
+    geocoder_results = TestSites::GeocoderResults.new.filtered
+    locations = []
+
+    TestSites::CAC.cac_data.each do |json|
+      location = CACLocation.new(json.to_hash)
+      geocoder_result = geocoder_results[location.location_address_street]
+      if geocoder_result
+        location.componentized_us_address = TestSites::ComponentizedUSAddress
+          .new(geocoder_results[location.location_address_street])
+      end
+      locations << location
     end
+
+    locations
   end
 
   # Converts the specified array of CACLocations to an array of
@@ -67,9 +79,20 @@ class CACLocation
     locations.map(&:to_storepoint)
   end
 
-  def address
-    [location_address_street, location_address_locality,
-     location_address_region, location_address_postal_code].join(' ')
+  def street
+    @componentized_us_address&.street || location_address_street
+  end
+
+  def city
+    @componentized_us_address&.city || location_address_locality
+  end
+
+  def state
+    @componentized_us_address&.state || location_address_region
+  end
+
+  def zip
+    @componentized_us_address&.zip || location_address_postal_code
   end
 
   def storepoint_country; end
