@@ -56,20 +56,17 @@ class CACLocation
   # rubocop:disable Metrics/MethodLength
   def self.all_from_api
     geocoder_results = TestSites::GeocoderResults.new.filtered
-    locations = []
 
-    TestSites::CAC.cac_data.each do |json|
-      location = CACLocation.new(json.to_hash)
+    TestSites::CAC.cac_data.map do |mash|
+      location = CACLocation.new(mash)
       geocoder_result = geocoder_results[location.location_address_street]
       if geocoder_result
         location.componentized_us_address =
           TestSites::ComponentizedUSAddress
           .new(geocoder_results[location.location_address_street])
       end
-      locations << location
+      location
     end
-
-    locations
   end
   # rubocop:enable Metrics/MethodLength
 
