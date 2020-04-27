@@ -35,8 +35,8 @@ class CACLocation
        updated_on].freeze
   CAC_TO_STOREPOINT_MAPPING = {
     location_name: :name, storepoint_description: :description,
-    location_address_street: :address, location_address_locality: :city,
-    location_address_region: :state, location_address_postal_code: :postcode,
+    street: :address, city: :city,
+    state: :state, zip: :postcode,
     storepoint_country: :country, location_contact_phone_covid: :phone,
     location_contact_url_main: :website, storepoint_email: :email,
     storepoint_mon: :monday, storepoint_tue: :tuesday,
@@ -48,18 +48,27 @@ class CACLocation
   }.freeze
 
   attr_accessor(*ATTRIBUTES)
+  attr_writer :componentized_us_address
 
   # Returns an array of CACLocations from the API.
   #
   # @return [Array] all CACLocations from the API
+  # rubocop:disable Metrics/MethodLength
   def self.all_from_api
-    arcgis_locations = ArcGISClient.locations
-    TestSites::CAC.cac_data.map do |hash|
-      CACLocation.new(hash).tap do |location|
-        location.arcgis_location = arcgis_locations[location.arcgis_global_id]
+    geocoder_results = TestSites::GeocoderResults.new.filtered
+
+    TestSites::CAC.cac_data.map do |mash|
+      location = CACLocation.new(mash)
+      geocoder_result = geocoder_results[location.location_address_street]
+      if geocoder_result
+        location.componentized_us_address =
+          TestSites::ComponentizedUSAddress
+          .new(geocoder_results[location.location_address_street])
       end
+      location
     end
   end
+  # rubocop:enable Metrics/MethodLength
 
   # Converts the specified array of CACLocations to an array of
   # StorepointLocations.
@@ -70,9 +79,20 @@ class CACLocation
     locations.map(&:to_storepoint)
   end
 
-  def address
-    [location_address_street, location_address_locality,
-     location_address_region, location_address_postal_code].join(' ')
+  def street
+    @componentized_us_address&.street || location_address_street
+  end
+
+  def city
+    @componentized_us_address&.city || location_address_locality
+  end
+
+  def state
+    @componentized_us_address&.state || location_address_region
+  end
+
+  def zip
+    @componentized_us_address&.zip || location_address_postal_code
   end
 
   def storepoint_country; end
