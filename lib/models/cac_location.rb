@@ -56,7 +56,7 @@ class CACLocation
     arcgis_locations = ArcGISClient.all_features
     TestSites::CAC.cac_data.map do |hash|
       CACLocation.new(hash).tap do |location|
-        location.arcgis_location = arcgis_locations[location.esri_global_id]
+        location.arcgis_location = arcgis_locations[location.arcgis_global_id]
       end
     end
   end
@@ -94,8 +94,8 @@ class CACLocation
 
   def storepoint_wed; end
 
-  def esri_global_id
-    @esri_global_id ||=
+  def arcgis_global_id
+    @arcgis_global_id ||=
       if external_location_id.present?
         global_id =
           JSON.parse(external_location_id).compact.find do |id|

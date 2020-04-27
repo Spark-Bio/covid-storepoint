@@ -136,8 +136,8 @@ class CACLocationTest < TestSitesTestCase
   end
   # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
-  def test_esri_global_id
-    assert storepoint_esri.esri_global_id ==
+  def test_arcgis_global_id
+    assert storepoint_esri.arcgis_global_id ==
            '81e0292d-65fc-4fed-9cc8-5878719598e3'
   end
 
