@@ -13,7 +13,7 @@ class CACLocation
   include ActiveModel::Model
 
   ATTRIBUTES =
-    %i[additional_information_for_patients created_on
+    %i[arcgis_location additional_information_for_patients created_on
        data_source deleted_on external_location_id geojson
        is_collecting_samples is_collecting_samples_by_appointment_only
        is_collecting_samples_for_others is_collecting_samples_onsite
@@ -56,16 +56,19 @@ class CACLocation
   # rubocop:disable Metrics/MethodLength
   def self.all_from_api
     geocoder_results = TestSites::GeocoderResults.new.filtered
+    arcgis_locations = ArcGISClient.locations
 
     TestSites::CAC.cac_data.map do |mash|
-      location = CACLocation.new(mash)
-      geocoder_result = geocoder_results[location.location_address_street]
-      if geocoder_result
-        location.componentized_us_address =
-          TestSites::ComponentizedUSAddress
-          .new(geocoder_results[location.location_address_street])
+      CACLocation.new(mash).tap do |location|
+        location.arcgis_location = arcgis_locations[location.arcgis_global_id]
+
+        geocoder_result = geocoder_results[location.location_address_street]
+        if geocoder_result
+          location.componentized_us_address =
+            TestSites::ComponentizedUSAddress
+            .new(geocoder_results[location.location_address_street])
+        end
       end
-      location
     end
   end
   # rubocop:enable Metrics/MethodLength
@@ -123,8 +126,8 @@ class CACLocation
 
   def storepoint_wed; end
 
-  def esri_global_id
-    @esri_global_id ||=
+  def arcgis_global_id
+    @arcgis_global_id ||=
       if external_location_id.present?
         global_id =
           JSON.parse(external_location_id).compact.find do |id|

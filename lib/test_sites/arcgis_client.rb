@@ -26,20 +26,16 @@ module TestSites
       @@connection
     end
 
-    # Returns the first location from the ArcGIS API.
-    #
-    # @param options [Hash] query parameters (ignored!)
-    # @return [Hash] the first location's :attributes and :geometry
-    def self.first_location(options = {})
-      locations(options).first
-    end
-
     # Returns all locations from the ArcGIS API.
     #
     # @param options [Hash] query parameters (ignored!)
-    # @return [Array] :attributes and :geometry for all locations
+    # @return [Hash] keyed by ArcGIS ID, values contain attributes for the
+    # location.
     def self.locations(options = {})
-      all(options)['features']
+      all(options)['features'].each_with_object({}) do |arcgis_location, acc|
+        mash = NoWarningMash.new(arcgis_location['attributes'])
+        acc[mash.GlobalID] = mash
+      end
     end
 
     def initialize
