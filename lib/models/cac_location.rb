@@ -79,6 +79,10 @@ class CACLocation
     locations.map(&:to_storepoint)
   end
 
+  def address
+    location_address_street
+  end
+
   def street
     @componentized_us_address&.street || location_address_street
   end
