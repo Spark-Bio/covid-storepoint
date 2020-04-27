@@ -126,6 +126,17 @@ class CACLocation
 
   def storepoint_wed; end
 
+  def esri_global_id
+    @esri_global_id ||=
+      if external_location_id.present?
+        global_id =
+          JSON.parse(external_location_id).compact.find do |id|
+            id['kind'] == 'esriFieldTypeGlobalID'
+          end
+        global_id && global_id['value']
+      end
+  end
+
   # Returns a hash of attributes suitable for exporting to Storepoint.
   #
   # @return [Hash] this location's attributes in Storepoint format

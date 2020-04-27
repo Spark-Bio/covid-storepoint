@@ -3,6 +3,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'logger'
 require 'test_sites/api_client'
+require 'test_sites/arcgis_client'
 require 'test_sites/cac_client'
 require 'test_sites/cac'
 require 'test_sites/componentized_us_address'
