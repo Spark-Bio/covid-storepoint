@@ -53,7 +53,7 @@ class CACLocation
   #
   # @return [Array] all CACLocations from the API
   def self.all_from_api
-    arcgis_locations = ArcGISClient.all_features
+    arcgis_locations = ArcGISClient.locations
     TestSites::CAC.cac_data.map do |hash|
       CACLocation.new(hash).tap do |location|
         location.arcgis_location = arcgis_locations[location.arcgis_global_id]
