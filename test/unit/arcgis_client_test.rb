@@ -7,12 +7,7 @@ class ArcGISClientTest < TestSitesTestCase
     refute_empty TestSites::ArcGISClient.all
   end
 
-  def test_first_location
-    assert_equal TestSites::ArcGISClient.first_location.keys,
-                 %w[attributes geometry]
-  end
-
   def test_locations
-    assert_instance_of Array, TestSites::ArcGISClient.locations
+    assert_instance_of Hash, TestSites::ArcGISClient.locations
   end
 end
