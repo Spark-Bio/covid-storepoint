@@ -8,23 +8,33 @@ require 'jaro_winkler'
 module TestSites
   MILES_PER_METER = (1 / 1609.344)
   # Utility class for processing Coders Against Covid location data.
+  # rubocop:disable Metrics/ClassLength
   class CAC
     SEPARATOR = ', '
 
-    def self.all_hours
-      CAC.cac_data.map { |cac_entry| cac_entry['location_hours_of_operation'] }
+    def self.cac_data
+      CAC.new.all_data
     end
 
-    def self.cac_data
-      TestSites::CACClient.new.locations.filter_map do |location|
-        next if location.deleted_on.present?
+    def self.all_hours
+      CAC.new.all_hours
+    end
 
-        if location.location_address_region.blank?
-          address = StreetAddress::US.parse(location.location_address_street)
-          location.location_address_region = address&.state
+    def all_hours
+      all_data.map { |cac_entry| cac_entry['location_hours_of_operation'] }
+    end
+
+    def all_data
+      @all_data ||=
+        TestSites::CACClient.new.locations.filter_map do |location|
+          next if location.deleted_on.present?
+
+          if location.location_address_region.blank?
+            address = StreetAddress::US.parse(location.location_address_street)
+            location.location_address_region = address&.state
+          end
+          location
         end
-        location
-      end
     end
 
     def dump_matches
@@ -39,6 +49,36 @@ module TestSites
         end
       end
     end
+
+    # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+    def dump_unparsed_hours
+      cac = CAC.new
+      unparseable_hours =
+        TestSites::HourParser.new.unparseable_hours(cac.all_hours)
+      cac_ids_by_hours =
+        cac.all_data.each_with_object({}) do |location, acc|
+          hours = location.location_hours_of_operation
+          next unless unparseable_hours.include?(hours)
+
+          acc[hours] ||= []
+          acc[hours] << location.location_id
+        end
+
+      CSV.open(DataFile.path('cac_unparsed_hours.csv'),
+               'w',
+               write_headers: true,
+               headers: [
+                 'IDs', 'hours', 'reformatted hours', 'additional info'
+               ]) do |csv|
+        unparseable_hours.each do |hours|
+          csv << [
+            cac_ids_by_hours[hours].join(', '),
+            hours
+          ]
+        end
+      end
+    end
+    # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
     private
 
@@ -134,4 +174,5 @@ module TestSites
       distance.round(1)
     end
   end
+  # rubocop:enable Metrics/ClassLength
 end
