@@ -33,6 +33,7 @@ task :geocode do
 end
 
 task :geocode_cac_locations do
+  load 'lib/models.rb' unless defined?(TestSites)
   load 'lib/test_sites.rb' unless defined?(TestSites)
   TestSites::Geocoder.new.process(CACLocation.all_from_api)
 end
