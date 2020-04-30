@@ -34,16 +34,23 @@ module TestSites
     end
 
     # Filter out geocoder results
+    # rubocop:disable Metrics/MethodLength
     def filtered
       @filtered ||=
         Hashie::Mash.new(
           all_results.each_with_object({}) do |(address, geo_result_list), acc|
+            if geo_result_list.empty?
+              TestSites.logger.error "skipping bad address: #{address}"
+              next
+            end
+
             if geocoder_results_equal(geo_result_list)
               acc[address] = geo_result_list.first
             end
           end
         )
     end
+    # rubocop:enable Metrics/MethodLength
 
     def all_results
       @all_results ||=
