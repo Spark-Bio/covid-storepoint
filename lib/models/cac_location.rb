@@ -56,7 +56,7 @@ class CACLocation
   # @return [Array] all CACLocations from the API
   def self.all_from_api
     geocoder_results = TestSites::GeocoderResults.new.filtered
-    arcgis_locations = ArcGISClient.locations
+    arcgis_locations = TestSites::ArcGISClient.locations
 
     TestSites::CAC.cac_data.map do |mash|
       CACLocation.new(mash).tap do |location|
