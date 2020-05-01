@@ -38,7 +38,7 @@ class CACLocation
     location_name: :name, storepoint_description: :description,
     street: :address, city: :city,
     state: :state, zip: :postcode,
-    storepoint_country: :country, location_contact_phone_covid: :phone,
+    storepoint_country: :country, phone: :phone,
     location_contact_url_main: :website, storepoint_email: :email,
     storepoint_mon: :monday, storepoint_tue: :tuesday,
     storepoint_wed: :wednesday, storepoint_thu: :thursday,
