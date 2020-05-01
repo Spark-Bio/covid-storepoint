@@ -109,6 +109,11 @@ class CACLocation
     @componentized_us_address&.zip || location_address_postal_code
   end
 
+  def phone
+    [location_contact_phone_covid, location_contact_phone_appointments,
+     location_contact_phone_main].compact.find(&:present?)
+  end
+
   def storepoint_country; end
 
   def storepoint_description
