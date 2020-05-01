@@ -110,6 +110,18 @@ class CACLocationTest < TestSitesTestCase
     'updated_on': 'Fri, 24 Apr 2020 12:50:49 GMT'
   }.freeze
 
+  def test_phone
+    location = CACLocation
+               .new(location_contact_phone_covid: 'covid',
+                    location_contact_phone_appointments: 'appointments',
+                    location_contact_phone_main: 'main')
+    assert location.phone == 'covid'
+    location.location_contact_phone_covid = nil
+    assert location.phone == 'appointments'
+    location.location_contact_phone_appointments = ''
+    assert location.phone == 'main'
+  end
+
   # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def test_to_storepoint
     assert storepoint_attr.keys.map(&:to_s) == TestSites::StorePoint::HEADERS
