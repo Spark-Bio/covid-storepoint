@@ -9,6 +9,7 @@ require 'test_sites'
 #   location = CACLocation.new(location_name: 'Tisch Hospital',
 #                              location_address_street: '550 First Avenue')
 #     => #<CACLocation>
+# rubocop:disable Metrics/ClassLength
 class CACLocation
   include ActiveModel::Model
 
@@ -53,22 +54,31 @@ class CACLocation
   # Returns an array of CACLocations from the API.
   #
   # @return [Array] all CACLocations from the API
-  # rubocop:disable Metrics/MethodLength
   def self.all_from_api
     geocoder_results = TestSites::GeocoderResults.new.filtered
+    arcgis_locations = ArcGISClient.locations
 
     TestSites::CAC.cac_data.map do |mash|
-      location = CACLocation.new(mash)
-      geocoder_result = geocoder_results[location.location_address_street]
-      if geocoder_result
-        location.componentized_us_address =
-          TestSites::ComponentizedUSAddress
-          .new(geocoder_results[location.location_address_street])
+      CACLocation.new(mash).tap do |location|
+        add_arcgis_data_to_location(location, arcgis_locations)
+        add_address_to_location(location, geocoder_results)
       end
-      location
     end
   end
-  # rubocop:enable Metrics/MethodLength
+
+  def self.add_address_to_location(location, geocoder_results)
+    geocoder_result = geocoder_results[location.location_address_street]
+    return unless geocoder_result
+
+    location.componentized_us_address =
+      TestSites::ComponentizedUSAddress.new(
+        geocoder_results[location.location_address_street]
+      )
+  end
+
+  def self.add_arcgis_data_to_location(location, arcgis_locations)
+    location.arcgis_location = arcgis_locations[location.arcgis_global_id]
+  end
 
   # Converts the specified array of CACLocations to an array of
   # StorepointLocations.
@@ -130,7 +140,8 @@ class CACLocation
           JSON.parse(external_location_id).compact.find do |id|
             id['kind'] == 'esriFieldTypeGlobalID'
           end
-        global_id && global_id['value']
+        value = global_id && global_id['value']
+        value&.gsub(/[^[[:alnum:]]|-]/, '')&.downcase
       end
   end
 
@@ -146,3 +157,4 @@ class CACLocation
     end
   end
 end
+# rubocop:enable Metrics/ClassLength

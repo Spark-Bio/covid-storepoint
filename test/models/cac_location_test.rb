@@ -53,7 +53,7 @@ class CACLocationTest < TestSitesTestCase
     'updated_on': 'Fri, 03 Apr 2020 00:17:24 GMT'
   }.freeze
 
-  ATTRIBUTES_ESRI = {
+  ATTRIBUTES_GISCORP = {
     'additional_information_for_patients':
   'https://www.capecodhealth.org/medical-services/infectious-disease/coronavirus/covid-19-testing-process/',
     'created_on': 'Sat, 11 Apr 2020 17:49:16 GMT',
@@ -137,7 +137,7 @@ class CACLocationTest < TestSitesTestCase
   # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
   def test_arcgis_global_id
-    assert storepoint_esri.arcgis_global_id ==
+    assert storepoint_giscorps.arcgis_global_id ==
            '81e0292d-65fc-4fed-9cc8-5878719598e3'
   end
 
@@ -147,8 +147,8 @@ class CACLocationTest < TestSitesTestCase
     @storepoint_attr ||= CACLocation.new(ATTRIBUTES).to_storepoint
   end
 
-  def storepoint_esri
-    @storepoint_esri ||= CACLocation.new(ATTRIBUTES_ESRI)
+  def storepoint_giscorps
+    @storepoint_giscorps ||= CACLocation.new(ATTRIBUTES_GISCORP)
   end
 end
 # rubocop:enable Metrics/ClassLength
