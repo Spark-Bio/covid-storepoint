@@ -106,7 +106,7 @@ class CACLocation
   end
 
   def zip
-    @componentized_us_address&.zip || location_address_postal_code
+    "\"#{@componentized_us_address&.zip || location_address_postal_code}\""
   end
 
   def phone
