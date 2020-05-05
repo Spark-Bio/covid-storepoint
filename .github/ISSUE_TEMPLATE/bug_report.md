@@ -7,32 +7,31 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Stakeholders: TBD
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Description
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+1. Give as much background as you need to help the implementer understand the
+problem.
+2. Include any useful info such as screenshots and/or links to other issues or
+pull requests.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Steps to Reproduce
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+Don't forget to point out the difference between what *should* happen and what
+*does* happen. Here's an example:
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+1. Login as an admin.
+2. Go to /reports.
+3. Click on the "Billing Report" link.
+4. A 500 error page is displayed instead of a confirmation page.
 
-**Additional context**
-Add any other context about the problem here.
+## Questions
+
+* Is this bug reproducible by engineering?
+  - [ ] yes
+  - [ ] no
+
+* What's the impact?
+  * Which users are affected?
+  * Does it happen all the time?
