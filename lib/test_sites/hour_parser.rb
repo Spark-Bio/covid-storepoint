@@ -2,6 +2,7 @@
 
 require 'active_support'
 require 'active_support/core_ext/object/blank'
+require 'active_support/core_ext/string/filters'
 require 'csv'
 require 'hashie'
 require 'json'
@@ -63,6 +64,9 @@ module TestSites
 
     # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
     def parse(raw)
+      raw = raw.squish
+      raw = raw.scan(/^(.*)(;|,)$/).present? ? Regexp.last_match(1) : raw
+
       while_supplies_last = WHILE_SUPPLIES_LAST =~ raw
       raw = raw.gsub($LAST_MATCH_INFO[:phrase], '') if while_supplies_last
 
@@ -91,7 +95,7 @@ module TestSites
 
     # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
     def range(raw, while_supplies_last, by_appt_only)
-      s = raw&.downcase&.strip
+      s = raw&.downcase&.squish
       return nil if s.blank? && !by_appt_only
 
       s = s.gsub(/weekdays/i, 'Monday - Friday')
@@ -262,8 +266,7 @@ module TestSites
         TestSites.logger.debug "Hour specifiers that couldn't be parsed:"
         TestSites.logger.debug hours_left.map { |spec| "* #{spec}" }.join("\n")
       end
-      TestSites.logger
-               .debug
+      TestSites.logger.debug
       "Hour specifiers: parsed #{found.size} out of #{unique_hours.size}"
     end
     # rubocop:enable Metrics/AbcSize
