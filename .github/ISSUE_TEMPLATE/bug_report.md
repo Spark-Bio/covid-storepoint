@@ -1,55 +1,38 @@
------[FOR BUGS]-----
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
-Stakeholders: TBD
+---
 
-## Description
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-1. Give as much background as you need to help the implementer understand the
-problem.
-2. Include any useful info such as screenshots and/or links to other issues or
-pull requests.
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## Steps to Reproduce
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-Don't forget to point out the difference between what *should* happen and what
-*does* happen. Here's an example:
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-1. Login as an admin.
-2. Go to /reports.
-3. Click on the "Billing Report" link.
-4. A 500 error page is displayed instead of a confirmation page.
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-## Questions
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-* Is this bug reproducible by engineering?
-  - [ ] yes
-  - [ ] no
-
-* What's the impact?
-  * Which users are affected?
-  * Does it happen all the time?
-
-
------[FOR EVERYTHING ELSE]-----
-
-Stakeholders: TBD
-
-## Goal
-
-Explain the **goal** of this issue, focusing on the problem to solve—not on a
-particular solution. For example: "Make it easier for users to reset their
-passwords".
-
-## Description
-
-1. Give as much background as you need to help the implementer understand the
-problem.
-2. Include any useful info such as screenshots and/or links to other issues or
-pull requests.
-
-## Success Criteria
-
-How would a stakeholder test whether the issue has been resolved?
-
-Enter "TBD" here if we don't yet have enough info, but we should make every
-effort to define success criteria *before* starting on a ticket.
+**Additional context**
+Add any other context about the problem here.
