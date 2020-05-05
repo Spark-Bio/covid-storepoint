@@ -131,7 +131,7 @@ class CACLocationTest < TestSitesTestCase
     assert storepoint_attr[:address] == '550 First Avenue'
     assert storepoint_attr[:city] == 'New York'
     assert storepoint_attr[:state] == 'NY'
-    assert storepoint_attr[:postcode] == '"10016"'
+    assert storepoint_attr[:postcode] == '="10016"'
     assert storepoint_attr[:phone] == '347-377-3708'
     assert storepoint_attr[:website] ==
            'https://nyulangone.org/locations/tisch-hospital'
