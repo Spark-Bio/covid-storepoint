@@ -13,7 +13,6 @@ task default: :test
 
 task :diff_sources do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::SourceDiff.new.list
   end
 end
@@ -34,7 +33,6 @@ end
 
 task :geocode do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::Geocoder.new.process(TestSites::Source.new)
   end
 end
@@ -42,7 +40,6 @@ end
 task :geocode_cac_locations do |task|
   timestamp do
     load 'lib/models.rb' unless defined?(TestSites)
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::Geocoder.new.process(CACLocation.all_from_api)
   end
 end
@@ -50,7 +47,6 @@ end
 desc 'Check that the hour listings in the source file all parse correctly'
 task :check_hours do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::HourParser.new.check_all
   end
 end
@@ -58,7 +54,6 @@ end
 desc 'Check how many of the hour listings obtained from CAC parse correctly'
 task :check_cac_hours do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::HourParser.new.check_all(
       hours_to_check: TestSites::CAC.all_hours
     )
@@ -68,7 +63,6 @@ end
 desc 'List duplicate addresses in source file'
 task :list_dups do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     dups = TestSites::Source.new.dup_addresses
     logger.info dups.join("\n") unless dups.blank?
   end
@@ -87,14 +81,12 @@ end
 
 task :dump_additions do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::SourceDiff.new.dump_additions
   end
 end
 
 task :compare_cac do |task|
   timestamp do
-    load 'lib/test_sites.rb' unless defined?(TestSites)
     TestSites::CAC.new.dump_matches
   end
 end
