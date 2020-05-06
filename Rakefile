@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 load 'lib/test_sites.rb' unless defined?(TestSites)
-require 'logger'
 
 def self.timestamp
   TestSites.logger.info "Started at #{task.timestamp}..."
@@ -64,7 +63,7 @@ desc 'List duplicate addresses in source file'
 task :list_dups do
   timestamp do
     dups = TestSites::Source.new.dup_addresses
-    logger.info dups.join("\n") unless dups.blank?
+    TestSites.logger.info dups.join("\n") unless dups.blank?
   end
 end
 
@@ -75,7 +74,7 @@ task :update_storepoint do
     Rake::Task['check_hours'].execute
     Rake::Task['geocode'].execute
     TestSites::StorePoint.new.update
-    logger.info "*** Updated #{TestSites::StorePoint::OUTPUT_FILE}"
+    TestSites.logger.info "*** Updated #{TestSites::StorePoint::OUTPUT_FILE}"
   end
 end
 
