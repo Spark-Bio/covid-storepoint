@@ -281,10 +281,10 @@ module TestSites
         TestSites.logger.debug "Hour specifiers that couldn't be parsed:"
         TestSites.logger.debug hours_left.map { |spec| "* #{spec}" }.join("\n")
       end
-      puts "*** didnt' parse: "
-      puts hours_left.join("\n")
-      TestSites.logger.debug
-      "Hour specifiers: parsed #{found.size} out of #{unique_hours.size}"
+      TestSites.logger.debug "didn't parse:"
+      TestSites.logger.debug hours_left.join("\n")
+      TestSites.logger.debug "Hour specifiers: parsed #{found.size} out of "\
+                             "#{unique_hours.size}"
     end
     # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
