@@ -49,19 +49,22 @@ class CACLocation
   }.freeze
 
   attr_accessor(*ATTRIBUTES)
+  attr_accessor :hours_array
   attr_writer :componentized_us_address
 
   # Returns an array of CACLocations from the API.
   #
   # @return [Array] all CACLocations from the API
   def self.all_from_api
-    geocoder_results = TestSites::GeocoderResults.new.filtered
     arcgis_locations = TestSites::ArcGISClient.locations
+    geocoder_results = TestSites::GeocoderResults.new.filtered
+    hour_parser = TestSites::HourParser.new
 
     TestSites::CAC.cac_data.map do |mash|
       CACLocation.new(mash).tap do |location|
         add_arcgis_data_to_location(location, arcgis_locations)
         add_address_to_location(location, geocoder_results)
+        add_hours_by_day(location, hour_parser)
       end
     end
   end
@@ -78,6 +81,13 @@ class CACLocation
 
   def self.add_arcgis_data_to_location(location, arcgis_locations)
     location.arcgis_location = arcgis_locations[location.arcgis_global_id]
+  end
+
+  def self.add_hours_by_day(location, hour_parser)
+    location.hours_array =
+      hour_parser
+      .parse(location.location_hours_of_operation)&.to_array ||
+      TestSites::Listing::EMPTY_HOURS
   end
 
   # Converts the specified array of CACLocations to an array of
@@ -124,19 +134,33 @@ class CACLocation
 
   def storepoint_extra; end
 
-  def storepoint_fri; end
+  def storepoint_mon
+    hours_array[0]
+  end
 
-  def storepoint_mon; end
+  def storepoint_tue
+    hours_array[1]
+  end
 
-  def storepoint_sat; end
+  def storepoint_wed
+    hours_array[2]
+  end
 
-  def storepoint_sun; end
+  def storepoint_thu
+    hours_array[3]
+  end
 
-  def storepoint_thu; end
+  def storepoint_fri
+    hours_array[4]
+  end
 
-  def storepoint_tue; end
+  def storepoint_sat
+    hours_array[5]
+  end
 
-  def storepoint_wed; end
+  def storepoint_sun
+    hours_array[6]
+  end
 
   def arcgis_global_id
     @arcgis_global_id ||=
