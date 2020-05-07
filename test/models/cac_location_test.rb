@@ -113,6 +113,7 @@ class CACLocationTest < TestSitesTestCase
 
   def location
     return @location if @location
+
     @location = CACLocation.new(ATTRIBUTES)
     CACLocation.add_hours_by_day(@location, TestSites::HourParser.new)
     @location
