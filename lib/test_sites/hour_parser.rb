@@ -283,7 +283,7 @@ module TestSites
       end
       TestSites.logger.debug "didn't parse:"
       TestSites.logger.debug hours_left.join("\n")
-      TestSites.logger.debug "Hour specifiers: parsed #{found.size} out of "\
+      TestSites.logger.info "Hour specifiers: parsed #{found.size} out of "\
                              "#{unique_hours.size}"
     end
     # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
