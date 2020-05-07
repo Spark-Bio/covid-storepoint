@@ -40,7 +40,7 @@ module TestSites
         Hashie::Mash.new(
           all_results.each_with_object({}) do |(address, geo_result_list), acc|
             if geo_result_list.empty?
-              TestSites.logger.error "skipping bad address: #{address}"
+              TestSites.logger.warn "skipping bad address: #{address}"
               next
             end
 
