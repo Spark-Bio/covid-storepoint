@@ -27,8 +27,7 @@ module TestSites
   VERSION ||= '0.1.0'
 
   def self.logger
-    @logger ||= Logger.new(STDOUT)
-    @logger.level = ENV['LOG_LEVEL'].blank? ? Logger::ERROR : ENV['LOG_LEVEL']
+    @logger ||= Logger.new(STDOUT, level: ENV['LOG_LEVEL'] || 'info')
     @logger
   end
 end

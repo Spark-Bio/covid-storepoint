@@ -2,6 +2,7 @@
 
 require 'active_support'
 require 'active_support/core_ext/object/blank'
+require 'active_support/core_ext/string/filters'
 require 'csv'
 require 'hashie'
 require 'json'
@@ -29,6 +30,7 @@ module TestSites
       "(?<start_day>#{DAY_OF_WEEK})\\s*(-|–|through|thru|to|&)\\s*(?<end_day>"\
       "#{DAY_OF_WEEK})"
     DAY_TIME_RANGE = "#{DAY_RANGE}(:|,)?\\s*#{TIME_RANGE}"
+    TWENTY_FOUR_HOUR_RANGE = '(open )?(24 hours|24 hrs)'
     TIME_DAY_RANGE = "#{TIME_RANGE},?\\s*#{DAY_RANGE}"
 
     TWO_TIME_DAY_RANGE =
@@ -45,6 +47,12 @@ module TestSites
       "#{TIME_RANGE},?\\s*(?<days>((#{DAY_OF_WEEK})\\s*,?(\\s*and)?\\s*)+)"
     CERTAIN_DAYS_DAY_TIME =
       "(?<days>((#{DAY_OF_WEEK})\\s*,?(\\s*and)?\\s*)+):?\\s*#{TIME_RANGE}"
+    CERTAIN_DAYS_24_HRS =
+      "(?<days>((#{DAY_OF_WEEK})\\s*,?(\\s*and)?\\s*)+):?\\s*" \
+      "#{TWENTY_FOUR_HOUR_RANGE}"
+    TWENTY_FOUR_HRS_CERTAIN_DAYS =
+      "#{TWENTY_FOUR_HOUR_RANGE}:?\\s*(?<days>((#{DAY_OF_WEEK})" \
+      '\\s*,?(\\s*and)?\\s*)+)'
 
     START_TIME_DAYS = "#{START_TIME_ONLY}(:|,)?\\s*#{DAY_RANGE}"
     DAYS_START_TIME = "#{DAY_RANGE}(:|,)?\\s*#{START_TIME_ONLY}"
@@ -63,6 +71,11 @@ module TestSites
 
     # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
     def parse(raw)
+      return nil unless raw
+
+      raw = raw.squish
+      raw = raw.scan(/^(.*)(;|,)$/).present? ? Regexp.last_match(1) : raw
+
       while_supplies_last = WHILE_SUPPLIES_LAST =~ raw
       raw = raw.gsub($LAST_MATCH_INFO[:phrase], '') if while_supplies_last
 
@@ -91,7 +104,7 @@ module TestSites
 
     # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
     def range(raw, while_supplies_last, by_appt_only)
-      s = raw&.downcase&.strip
+      s = raw&.downcase&.squish
       return nil if s.blank? && !by_appt_only
 
       s = s.gsub(/weekdays/i, 'Monday - Friday')
@@ -102,12 +115,14 @@ module TestSites
         HS_CALL
       elsif ['check website'].include?(s)
         HS_CHECK_WEBSITE
-      elsif ['24/7', '24 hours', 'open 24 hours', 'open 24hrs', 'open 24 hrs']
+      elsif ['24/7', '24 hours', 'open 24 hours', 'open 24hrs',
+             'open 24 hrs']
             .include?(s)
         HS_24_7
       elsif ['not available', 'not specified at this time.',
              'not yet available', 'currently not accepting appointments.',
-             'currently closed.', 'temporarily closed'].include?(s)
+             'currently closed.', 'currently closed',
+             'temporarily closed'].include?(s)
         HS_NOT_YET_AVAILABLE
       elsif by_appt_only && s.blank?
         every_day_specifier('by appointment only')
@@ -121,6 +136,10 @@ module TestSites
                             by_appt_only)
       elsif s =~ re(TIME_DAY_RANGE) || s =~ re(DAY_TIME_RANGE)
         day_time_specifier($LAST_MATCH_INFO, by_appt_only)
+      elsif s =~ re(CERTAIN_DAYS_24_HRS) ||
+            s =~ re(TWENTY_FOUR_HRS_CERTAIN_DAYS)
+        days = normalize_day_list($LAST_MATCH_INFO)
+        create_spec(days, '24 hours')
       elsif s =~ re(CERTAIN_DAYS_TIME_DAY) || s =~ re(CERTAIN_DAYS_DAY_TIME)
         same_time_some_days($LAST_MATCH_INFO,
                             normalize_day_list($LAST_MATCH_INFO),
@@ -253,7 +272,7 @@ module TestSites
       while_supplies_last ? string + ' until supplies run out' : string
     end
 
-    # rubocop:disable Metrics/AbcSize
+    # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     def check_all(hours_to_check: all_hours)
       unique_hours = hours_to_check.compact.sort.uniq
       found = unique_hours.filter { |d| parse(d) }.compact
@@ -262,11 +281,12 @@ module TestSites
         TestSites.logger.debug "Hour specifiers that couldn't be parsed:"
         TestSites.logger.debug hours_left.map { |spec| "* #{spec}" }.join("\n")
       end
-      TestSites.logger
-               .debug
+      puts "*** didnt' parse: "
+      puts hours_left.join("\n")
+      TestSites.logger.debug
       "Hour specifiers: parsed #{found.size} out of #{unique_hours.size}"
     end
-    # rubocop:enable Metrics/AbcSize
+    # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
     def all_hours
       @all_hours ||= TestSites::Source.new.all_hours
