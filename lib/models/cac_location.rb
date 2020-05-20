@@ -165,12 +165,18 @@ class CACLocation
   def arcgis_global_id
     @arcgis_global_id ||=
       if external_location_id.present?
-        global_id =
-          JSON.parse(external_location_id).compact.find do |id|
-            id['kind'] == 'esriFieldTypeGlobalID'
-          end
-        value = global_id && global_id['value']
-        value&.gsub(/[^[[:alnum:]]|-]/, '')&.downcase
+        global_id = JSON.parse(external_location_id)
+
+        # RM: never runs; commenting for now in case they change the API again
+        # if global_id.is_a?(Array)
+        #   global_id = global_id.compact.find do |id|
+        #     id['kind'] == 'esriFieldTypeGlobalID'
+        #   end
+        #
+        #   global_id &&= global_id['value']
+        # end
+
+        global_id&.to_s&.gsub(/[^[[:alnum:]]|-]/, '')&.downcase
       end
   end
 

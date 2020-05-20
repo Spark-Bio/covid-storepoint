@@ -1,8 +1,6 @@
 # frozen_string_literal: false
 
 require 'test_helper'
-
-# rubocop:disable Metrics/ClassLength
 class CACLocationTest < TestSitesTestCase
   ATTRIBUTES = {
     'additional_information_for_patients':
@@ -10,14 +8,15 @@ class CACLocationTest < TestSitesTestCase
     'created_on': 'Fri, 03 Apr 2020 00:17:24 GMT',
     'data_source': 'crowdsource',
     'deleted_on': nil,
-    'external_location_id':
-      '[{"use": "primary", "kind": "esriFieldTypeOID", "alias": "OBJECTID", ' \
-       '"field": "OBJECTID", "value": "4086", "system": "Esri", ' \
-       '"assigner": "GISCorps"}' \
-       ', null, {"use": "other", "kind": "esriFieldTypeGlobalID", "alias": ' \
-        '"GlobalID", "field": "GlobalID", "value": ' \
-        '"81e0292d-65fc-4fed-9cc8-5878719598e3", "system": "Esri", ' \
-        '"assigner": "Esri"}]',
+    # RM: never runs; commenting for now in case they change the API again
+    # 'external_location_id':
+    #   '[{"use": "primary", "kind": "esriFieldTypeOID", "alias": "OBJECTID", '\
+    #    '"field": "OBJECTID", "value": "4086", "system": "Esri", '\
+    #    '"assigner": "GISCorps"}'\
+    #    ', null, {"use": "other", "kind": "esriFieldTypeGlobalID", "alias": '\
+    #     '"GlobalID", "field": "GlobalID", "value": '\
+    #     '"81e0292d-65fc-4fed-9cc8-5878719598e3", "system": "Esri", '\
+    #     '"assigner": "Esri"}]',
     'geojson': nil,
     'is_collecting_samples': true,
     'is_collecting_samples_by_appointment_only': true,
@@ -105,9 +104,10 @@ class CACLocationTest < TestSitesTestCase
   end
   # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
-  def test_arcgis_global_id
-    assert location.arcgis_global_id == '81e0292d-65fc-4fed-9cc8-5878719598e3'
-  end
+  # RM: never runs; commenting for now in case they change the API again
+  # def test_arcgis_global_id
+  #   assert location.arcgis_global_id == '81e0292d-65fc-4fed-9cc8-5878719598e3'
+  # end
 
   private
 
@@ -123,4 +123,3 @@ class CACLocationTest < TestSitesTestCase
     @storepoint_attr ||= location.to_storepoint
   end
 end
-# rubocop:enable Metrics/ClassLength
