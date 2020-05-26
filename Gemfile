@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.1'
 
 gem 'activemodel', '~> 6.0'
-gem 'activesupport', '~> 6.0', '>= 6.0.2.2'
+gem 'activesupport', '~> 6.0'
 gem 'faraday', '~> 1.0', '>= 1.0.1'
 gem 'faraday_middleware', '~> 1.0'
 gem 'geocoder', '~> 1.3', '>= 1.3.7'
