@@ -1,6 +1,6 @@
 # StorePoint COVID-19 Testing Sites
 
-[![Code Climate](https://codeclimate.com/github/Spark-Bio/covid-storepoint.png)](https://codeclimate.com/github/Spark-Bio/covid-storepoint)
+[![Code Climate](https://codeclimate.com/github/Spark-Bio/covid-storepoint.svg)](https://codeclimate.com/github/Spark-Bio/covid-storepoint)
 [![Inline docs](http://inch-ci.org/github/Spark-Bio/covid-storepoint.svg?branch=master)](http://inch-ci.org/github/Spark-Bio/covid-storepoint)
 [![Coverage Status](https://coveralls.io/repos/github/Spark-Bio/covid-storepoint/badge.svg?branch=master)](https://coveralls.io/github/Spark-Bio/covid-storepoint?branch=master)
 
